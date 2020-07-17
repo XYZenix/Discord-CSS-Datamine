@@ -4004,70 +4004,6 @@
     background-color: #7289da
 }
 
-.container-1HKDLE {
-    word-wrap: break-word
-}
-
-.content-2oypg3 {
-    padding-bottom: 20px
-}
-
-.header-2kr4wt {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden
-}
-
-.mobile-2Om1iQ {
-    width: 100%
-}
-
-.container-19QgOy {
-    word-wrap: break-word
-}
-
-.content-12abc_ {
-    padding-top: 20px;
-    padding-bottom: 20px
-}
-
-.title-25O2vg {
-    text-align: center
-}
-
-.minorContainer-Nij67K {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin-top: 8px;
-    margin-bottom: -10px;
-    width: 100%;
-    cursor: pointer
-}
-
-.minorAction-1nUYXw {
-    text-align: center;
-    opacity: .6
-}
-
-.minorAction-1nUYXw:hover {
-    text-decoration: underline
-}
-
-.body-2IyXXl {
-    text-align: center
-}
-
-.primaryButton-3oJYZH,.secondaryButton-15MkHs {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 45%;
-    flex: 1 1 45%
-}
-
-.gutter-1DquXM {
-    margin-left: 10px
-}
-
 .divider-3573oO {
     width: 100%;
     height: 1px;
@@ -4175,6 +4111,56 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column
+}
+
+.content-mK72R6 {
+    padding-bottom: 20px
+}
+
+.container-19QgOy {
+    word-wrap: break-word
+}
+
+.content-12abc_ {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.title-25O2vg {
+    text-align: center
+}
+
+.minorContainer-Nij67K {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-top: 8px;
+    margin-bottom: -10px;
+    width: 100%;
+    cursor: pointer
+}
+
+.minorAction-1nUYXw {
+    text-align: center;
+    opacity: .6
+}
+
+.minorAction-1nUYXw:hover {
+    text-decoration: underline
+}
+
+.body-2IyXXl {
+    text-align: center
+}
+
+.primaryButton-3oJYZH,.secondaryButton-15MkHs {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 45%;
+    flex: 1 1 45%
+}
+
+.gutter-1DquXM {
+    margin-left: 10px
 }
 
 .fullArt-2zAZvG {
@@ -5702,6 +5688,10 @@ img[alt] {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center
+}
+
+.mobile-1ryxso {
+    width: 100%
 }
 
 .transition-27fFQS {
@@ -18722,10 +18712,6 @@ html .progress-GjyFoQ {
     -webkit-filter: blur(44px);
     filter: blur(44px);
     pointer-events: none
-}
-
-.content-mK72R6 {
-    padding-bottom: 20px
 }
 
 @-webkit-keyframes ripple-N7-maz {
@@ -38093,26 +38079,26 @@ html .progress-GjyFoQ {
 
 .art-3wzoO6 {
     width: 100%;
-    height: 40%;
+    height: 35%;
     max-width: 400px;
-    max-height: 160px;
+    max-height: 134px;
     margin-bottom: 16px;
     background-position: 50%;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: contain
 }
 
-.title-3Fm_KG {
-    font-weight: 500;
+.header-2Zv56X {
     margin-bottom: 8px
 }
 
-.description-22pzKs,.title-3Fm_KG {
+.description-22pzKs,.header-2Zv56X {
     color: #fff;
-    text-align: center
+    text-align: center;
+    font-weight: 600
 }
 
 .description-22pzKs {
-    font-weight: 600;
     margin-bottom: 16px
 }
 
@@ -38632,6 +38618,39 @@ html .progress-GjyFoQ {
     pointer-events: none
 }
 
+.root-2VTZPJ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    color: #fff;
+    padding: 16px
+}
+
+.text-3FqTR4 {
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center
+}
+
+.buttonText-plGAfz {
+    padding: 0 8px
+}
+
+.art-2kj97y {
+    margin-bottom: 16px
+}
+
 .tile-ME82Od {
     height: 100%
 }
@@ -38707,6 +38726,10 @@ html .progress-GjyFoQ {
 
 .videoGrid-1khsrF {
     height: 100%
+}
+
+.hiddenParticipants-1JaHxS p {
+    margin: 0
 }
 
 .videoSizer-14ILv0 {
@@ -64368,4 +64391,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.993da4ad15ae4e71de00.css.map*/
+/*# sourceMappingURL=0.e5cee8a7f446da39741b.css.map*/
