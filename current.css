@@ -7123,137 +7123,137 @@ img[alt] {
     color: #f04747
 }
 
-.theme-light .select-1Pkeg4 {
+.theme-light .select-1Pkeg4,.theme-light.force-theme .select-1Pkeg4 {
     color: #4f545c
 }
 
-.theme-light .select-1Pkeg4:focus {
+.theme-light .select-1Pkeg4:focus,.theme-light.force-theme .select-1Pkeg4:focus {
     border-color: #7289da
 }
 
-.theme-light .placeholder-2zzSd_ {
+.theme-light .placeholder-2zzSd_,.theme-light.force-theme .placeholder-2zzSd_ {
     color: #b9bbbe
 }
 
-.theme-light .popout-2sKjHu {
+.theme-light .popout-2sKjHu,.theme-light.force-theme .popout-2sKjHu {
     border-color: #b9bbbe;
     background: #fff
 }
 
-.theme-light .optionNormal-12VR9V {
+.theme-light .optionNormal-12VR9V,.theme-light.force-theme .optionNormal-12VR9V {
     color: #4f545c
 }
 
-.theme-light .optionNormal-12VR9V:hover {
+.theme-light .optionNormal-12VR9V:hover,.theme-light.force-theme .optionNormal-12VR9V:hover {
     background-color: #f6f6f7
 }
 
-.theme-light .optionActive-KkAdqq {
+.theme-light .optionActive-KkAdqq,.theme-light.force-theme .optionActive-KkAdqq {
     background-color: #dcddde
 }
 
-.theme-light .optionFocused-8MflSE {
+.theme-light .optionFocused-8MflSE,.theme-light.force-theme .optionFocused-8MflSE {
     background-color: #f6f6f7
 }
 
-.theme-light .lookFilled-1h1y05.select-1Pkeg4 {
+.theme-light .lookFilled-1h1y05.select-1Pkeg4,.theme-light.force-theme .lookFilled-1h1y05.select-1Pkeg4 {
     background-color: rgba(79,84,92,.02);
     border-color: rgba(79,84,92,.3)
 }
 
-.theme-light .lookFilled-1h1y05.select-1Pkeg4:focus {
+.theme-light .lookFilled-1h1y05.select-1Pkeg4:focus,.theme-light.force-theme .lookFilled-1h1y05.select-1Pkeg4:focus {
     border-color: #7289da
 }
 
-.theme-light .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,.theme-light .lookFilled-1h1y05.selectOpen-hQuR6b {
+.theme-light .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,.theme-light .lookFilled-1h1y05.selectOpen-hQuR6b,.theme-light.force-theme .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,.theme-light.force-theme .lookFilled-1h1y05.selectOpen-hQuR6b {
     border-color: #7289da #7289da primary-dark-300
 }
 
-.theme-light .lookFilled-1h1y05.select-1Pkeg4:focus .arrow-2KJjTM,.theme-light .lookFilled-1h1y05.select-1Pkeg4:hover .arrow-2KJjTM,.theme-light .lookFilled-1h1y05.selectOpen-hQuR6b .arrow-2KJjTM {
+.theme-light .lookFilled-1h1y05.select-1Pkeg4:focus .arrow-2KJjTM,.theme-light .lookFilled-1h1y05.select-1Pkeg4:hover .arrow-2KJjTM,.theme-light .lookFilled-1h1y05.selectOpen-hQuR6b .arrow-2KJjTM,.theme-light.force-theme .lookFilled-1h1y05.select-1Pkeg4:focus .arrow-2KJjTM,.theme-light.force-theme .lookFilled-1h1y05.select-1Pkeg4:hover .arrow-2KJjTM,.theme-light.force-theme .lookFilled-1h1y05.selectOpen-hQuR6b .arrow-2KJjTM {
     color: #4f545c
 }
 
-.theme-light .lookFilled-1h1y05 .arrow-2KJjTM {
+.theme-light .lookFilled-1h1y05 .arrow-2KJjTM,.theme-light.force-theme .lookFilled-1h1y05 .arrow-2KJjTM {
     color: #dcddde
 }
 
-.theme-light .lookMinimal-2OMO3G.select-1Pkeg4 {
+.theme-light .lookMinimal-2OMO3G.select-1Pkeg4,.theme-light.force-theme .lookMinimal-2OMO3G.select-1Pkeg4 {
     background-color: transparent
 }
 
-.theme-light .lookMinimal-2OMO3G .arrow-2KJjTM {
+.theme-light .lookMinimal-2OMO3G .arrow-2KJjTM,.theme-light.force-theme .lookMinimal-2OMO3G .arrow-2KJjTM {
     color: #72767d
 }
 
-.theme-light .lookMinimal-2OMO3G.select-1Pkeg4:hover .arrow-2KJjTM {
+.theme-light .lookMinimal-2OMO3G.select-1Pkeg4:hover .arrow-2KJjTM,.theme-light.force-theme .lookMinimal-2OMO3G.select-1Pkeg4:hover .arrow-2KJjTM {
     color: #4f545c
 }
 
-.theme-dark .select-1Pkeg4 {
+.theme-dark .select-1Pkeg4,.theme-dark.force-theme .select-1Pkeg4 {
     color: #f6f6f7
 }
 
-.theme-dark .select-1Pkeg4:focus {
+.theme-dark .select-1Pkeg4:focus,.theme-dark.force-theme .select-1Pkeg4:focus {
     border-color: #7289da
 }
 
-.theme-dark .placeholder-2zzSd_ {
+.theme-dark .placeholder-2zzSd_,.theme-dark.force-theme .placeholder-2zzSd_ {
     color: #72767d
 }
 
-.theme-dark .popout-2sKjHu {
+.theme-dark .popout-2sKjHu,.theme-dark.force-theme .popout-2sKjHu {
     border-color: #202225;
     background: #303237
 }
 
-.theme-dark .optionNormal-12VR9V {
+.theme-dark .optionNormal-12VR9V,.theme-dark.force-theme .optionNormal-12VR9V {
     color: #f6f6f7
 }
 
-.theme-dark .optionNormal-12VR9V:hover {
+.theme-dark .optionNormal-12VR9V:hover,.theme-dark.force-theme .optionNormal-12VR9V:hover {
     background-color: rgba(0,0,0,.1)
 }
 
-.theme-dark .optionActive-KkAdqq {
+.theme-dark .optionActive-KkAdqq,.theme-dark.force-theme .optionActive-KkAdqq {
     color: #f6f6f7;
     background: rgba(0,0,0,.2)
 }
 
-.theme-dark .optionFocused-8MflSE {
+.theme-dark .optionFocused-8MflSE,.theme-dark.force-theme .optionFocused-8MflSE {
     color: #f6f6f7;
     background-color: rgba(0,0,0,.1)
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4 {
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4,.theme-dark.force-theme .lookFilled-1h1y05.select-1Pkeg4 {
     background-color: rgba(0,0,0,.1);
     border-color: rgba(0,0,0,.3)
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus {
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus,.theme-dark.force-theme .lookFilled-1h1y05.select-1Pkeg4:focus {
     border-color: #7289da
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,.theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,.theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b,.theme-dark.force-theme .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,.theme-dark.force-theme .lookFilled-1h1y05.selectOpen-hQuR6b {
     border-color: #7289da #7289da rgba(0,0,0,.3)
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus .arrow-2KJjTM,.theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover .arrow-2KJjTM,.theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b .arrow-2KJjTM {
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus .arrow-2KJjTM,.theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover .arrow-2KJjTM,.theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b .arrow-2KJjTM,.theme-dark.force-theme .lookFilled-1h1y05.select-1Pkeg4:focus .arrow-2KJjTM,.theme-dark.force-theme .lookFilled-1h1y05.select-1Pkeg4:hover .arrow-2KJjTM,.theme-dark.force-theme .lookFilled-1h1y05.selectOpen-hQuR6b .arrow-2KJjTM {
     color: #f6f6f7
 }
 
-.theme-dark .lookFilled-1h1y05 .arrow-2KJjTM {
+.theme-dark .lookFilled-1h1y05 .arrow-2KJjTM,.theme-dark.force-theme .lookFilled-1h1y05 .arrow-2KJjTM {
     color: #72767d
 }
 
-.theme-dark .lookMinimal-2OMO3G.select-1Pkeg4 {
+.theme-dark .lookMinimal-2OMO3G.select-1Pkeg4,.theme-dark.force-theme .lookMinimal-2OMO3G.select-1Pkeg4 {
     background-color: transparent
 }
 
-.theme-dark .lookMinimal-2OMO3G .arrow-2KJjTM {
+.theme-dark .lookMinimal-2OMO3G .arrow-2KJjTM,.theme-dark.force-theme .lookMinimal-2OMO3G .arrow-2KJjTM {
     color: #b9bbbe
 }
 
-.theme-dark .lookMinimal-2OMO3G.select-1Pkeg4:hover .arrow-2KJjTM {
+.theme-dark .lookMinimal-2OMO3G.select-1Pkeg4:hover .arrow-2KJjTM,.theme-dark.force-theme .lookMinimal-2OMO3G.select-1Pkeg4:hover .arrow-2KJjTM {
     color: #f6f6f7
 }
 
@@ -9958,6 +9958,43 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .errors-ArjaXz {
     color: #f04747
+}
+
+.content-46t2aA {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 16px
+}
+
+.logo-1fCFRd {
+    margin-top: 8px
+}
+
+.subtitle-3GEWod,.title-1dwyEy {
+    text-align: center;
+    margin-bottom: 8px
+}
+
+.birthdayInput-mhtWMG,.formItem-12_pgS {
+    margin-bottom: 16px
+}
+
+.warning-6H_PHd {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.img-2eIYKf {
+    margin-bottom: 16px;
+    width: 252px;
+    height: 168px
 }
 
 .container-347Bj6 {
@@ -14031,6 +14068,20 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     opacity: .6
 }
 
+.emoji {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 1.375em;
+    height: 1.375em;
+    vertical-align: bottom
+}
+
+.emoji.jumboable {
+    width: 3rem;
+    height: 3rem;
+    min-height: 3rem
+}
+
 .container-ZRw2kD {
     width: 288px;
     border-radius: 8px;
@@ -14116,6 +14167,12 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     -ms-user-select: text;
     user-select: text;
     background-color: var(--background-tertiary)
+}
+
+.primaryEmoji-3LinDq {
+    min-width: 3rem;
+    min-height: 3rem;
+    margin-top: 4px
 }
 
 .emojiName-27Bjxw {
@@ -64391,4 +64448,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e5cee8a7f446da39741b.css.map*/
+/*# sourceMappingURL=0.8a9b647dd44d0500ed76.css.map*/
