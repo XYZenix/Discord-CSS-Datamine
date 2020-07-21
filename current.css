@@ -3452,9 +3452,24 @@
     word-wrap: break-word
 }
 
-.content-dfabe7 {
+.form-26zE04 {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.modalContent-1T1Tix {
     padding-top: 20px;
     padding-bottom: 20px
+}
+
+.content-dfabe7 {
+    height: 100%
 }
 
 .title-18-Ds0 {
@@ -14073,7 +14088,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     background: #107c10
 }
 
-.headerPlaying-j0WQBV,.headerStreaming-2FjmGz {
+.headerPlaying-j0WQBV {
     background: #7289da
 }
 
@@ -64732,4 +64747,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.253f896c08725eb32e31.css.map*/
+/*# sourceMappingURL=0.a476173e2eedd9322a7f.css.map*/
