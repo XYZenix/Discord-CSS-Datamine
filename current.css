@@ -13948,6 +13948,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .iconButton-2K0woq {
     padding: 0;
+    line-height: 0;
     margin-left: 8px
 }
 
@@ -37169,6 +37170,16 @@ html .progress-GjyFoQ {
     .centerButton-3CaNcJ {
         padding:8px
     }
+
+    .contextMenuContainer-2HlOMK {
+        display: none
+    }
+}
+
+@media (min-width: 457px) {
+    .unmasked-35qKj5 {
+        display:none
+    }
 }
 
 .lineHeightReset-3dQm1W {
@@ -38795,9 +38806,9 @@ html .progress-GjyFoQ {
 }
 
 .status-254fhp {
-    width: 24px;
-    height: 24px;
-    padding: 4px;
+    width: 20px;
+    height: 20px;
+    padding: 6px;
     color: #fff;
     border-radius: 50%;
     margin-left: 8px;
@@ -39346,7 +39357,7 @@ html .progress-GjyFoQ {
     -webkit-app-region: no-drag
 }
 
-.comboIcon-2e1arG {
+.root-2eYTXR.comboIcon-2e1arG {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -56637,6 +56648,25 @@ html .invoiceCancelRow-3mYhFX {
     overflow: hidden
 }
 
+.root-O0V29j {
+    display: "flex";
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: "column";
+    flex-direction: "column";
+    -webkit-box-pack: "center";
+    -ms-flex-pack: "center";
+    justify-content: "center";
+    -webkit-box-align: "center";
+    -ms-flex-align: "center";
+    align-items: "center"
+}
+
+.body-1Ktrv0 {
+    text-align: center;
+    margin-bottom: 8px
+}
+
 .container-1giJp5 {
     color: var(--header-primary);
     font-size: 14px;
@@ -64747,4 +64777,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a476173e2eedd9322a7f.css.map*/
+/*# sourceMappingURL=0.fca305da50d5b15ba5a8.css.map*/
