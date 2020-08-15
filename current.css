@@ -26140,6 +26140,10 @@ html .progress-GjyFoQ {
     padding-left: 16px
 }
 
+.attachButton-2dnuIu {
+    margin-left: -16px
+}
+
 .textArea-12jD-V {
     background-color: transparent;
     resize: none;
@@ -45183,7 +45187,7 @@ strong {
     background-repeat: no-repeat;
     background-size: 12px 10px;
     display: inline-block;
-    margin: -3px 2px 0 17px;
+    margin: 0 2px 0 24px;
     width: 15px;
     height: 15px
 }
@@ -65938,4 +65942,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.85bdf3da9b0e8fb75d91.css.map*/
+/*# sourceMappingURL=0.f1cef2dc7c3a30eeb850.css.map*/
