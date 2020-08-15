@@ -12204,7 +12204,8 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .replyLink-nOQEG8 {
     color: var(--header-secondary);
-    cursor: pointer
+    cursor: pointer;
+    margin-right: .2rem
 }
 
 .replyLink-nOQEG8:hover {
@@ -12216,8 +12217,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     height: 20px;
     border-radius: 50%;
     vertical-align: middle;
-    margin-left: .2rem;
-    margin-right: .25rem;
+    margin-right: .2rem;
     margin-top: -3px
 }
 
@@ -21067,50 +21067,71 @@ html .progress-GjyFoQ {
     margin-bottom: 12px
 }
 
-.container-2nVybH {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    cursor: pointer
-}
-
-.container-2nVybH:before {
-    content: "";
-    width: 4px;
+.container-1iy2YY {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    background: var(--background-secondary);
+    color: var(--interactive-normal);
     border-radius: 4px;
-    background-color: var(--background-modifier-accent);
-    margin-right: 12px
+    padding: 8px;
+    margin: 4px 0;
+    max-width: 500px
 }
 
-.embeds-2-zeuI {
-    opacity: .6;
-    pointer-events: none
+.replyBadge-bDxE-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background: var(--background-tertiary);
+    border-radius: 50%;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    line-height: 0
 }
 
-.full-motion .embeds-2-zeuI {
+.replyIcon-18NxvM {
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+    margin-left: 2px
+}
+
+.content-2FB3dM {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    opacity: .5
+}
+
+.full-motion .content-2FB3dM {
     -webkit-transition: opacity .2s ease-out;
     transition: opacity .2s ease-out
 }
 
-.container-2nVybH:hover .embeds-2-zeuI {
+.container-1iy2YY:hover .content-2FB3dM {
     opacity: .8
 }
 
-.quote-3QxbJJ {
-    display: -webkit-box;
-    text-overflow: ellipsis;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    margin-right: 8px;
-    max-height: 54px;
-    overflow: hidden;
-    color: var(--header-secondary)
+.noTextContent-1R7pCM {
+    font-style: italic
 }
 
-.quote-3QxbJJ .emoji.jumboable {
-    width: 1.375em;
-    height: 1.375em;
-    min-height: 1.375em
+.contentIcon-2wa526 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px
 }
 
 .container-1sFeqf {
@@ -23016,12 +23037,12 @@ html .progress-GjyFoQ {
     background-color: var(--background-mentioned)
 }
 
-.localBot-GrCgVt {
+.localBot-GrCgVt,.replying-1x3H0T {
     position: relative;
     background-color: rgba(114,137,218,.05)
 }
 
-.localBot-GrCgVt:before,.mentioned-xhSam7:before {
+.localBot-GrCgVt:before,.mentioned-xhSam7:before,.replying-1x3H0T:before {
     content: "";
     position: absolute;
     display: block;
@@ -23036,7 +23057,7 @@ html .progress-GjyFoQ {
     background-color: #faa61a
 }
 
-.localBot-GrCgVt:before {
+.localBot-GrCgVt:before,.replying-1x3H0T:before {
     background-color: #7289da
 }
 
@@ -23066,7 +23087,7 @@ html .progress-GjyFoQ {
     background-color: var(--background-mentioned-hover)
 }
 
-.message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z,.mouse-mode.full-motion .localBot-GrCgVt:hover {
+.message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z,.message-2qnXI6.replying-1x3H0T.selected-2P5D_Z,.mouse-mode.full-motion .localBot-GrCgVt:hover,.mouse-mode.full-motion .replying-1x3H0T:hover {
     background-color: rgba(114,137,218,.1)
 }
 
@@ -26438,7 +26459,8 @@ html .progress-GjyFoQ {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    cursor: pointer
 }
 
 .text-3lJl1H {
@@ -40940,7 +40962,7 @@ html .progress-GjyFoQ {
     flex: 1
 }
 
-.reply-2N2Jm- {
+.messageItem-3FA7Uz,.reply-2N2Jm- {
     margin-top: 8px
 }
 
@@ -52594,6 +52616,27 @@ html .tabBadge-3smxHS {
     border-radius: 2px;
     background: var(--background-modifier-accent);
     pointer-events: none
+}
+
+.viewMoreWrapper-366_PK {
+    height: 24px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    overflow: visible;
+    position: relative;
+    cursor: pointer
+}
+
+.viewMore-1LQ96L {
+    color: var(--channels-default);
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 36px;
+    padding: 0 8px
+}
+
+.viewMoreWrapper-366_PK:hover .viewMore-1LQ96L {
+    text-decoration: underline
 }
 
 .container-35XQWE {
@@ -65895,4 +65938,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2b0a13efea9de321a8a3.css.map*/
+/*# sourceMappingURL=0.85bdf3da9b0e8fb75d91.css.map*/
