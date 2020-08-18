@@ -21287,9 +21287,7 @@ html .progress-GjyFoQ {
     align-items: center;
     cursor: pointer;
     color: var(--text-normal);
-    border-radius: 4px;
-    margin: 8px 0;
-    max-width: 500px;
+    margin: 4px 0;
     min-width: 0
 }
 
@@ -34433,7 +34431,7 @@ html .progress-GjyFoQ {
 
 .emptyStateImage-3B9eCS {
     width: 272px;
-    height: 93px;
+    height: 145px;
     margin-top: 32px;
     margin-bottom: 24px
 }
@@ -34497,8 +34495,8 @@ html .progress-GjyFoQ {
 }
 
 .emptyStateImage-1cmrRm {
-    width: 248px;
-    height: 88px;
+    width: 256px;
+    height: 72px;
     margin-bottom: -24px;
     z-index: 100
 }
@@ -34521,7 +34519,7 @@ html .progress-GjyFoQ {
 }
 
 .footerPlaceholder-3sjNqI {
-    padding-bottom: 126px
+    padding-bottom: 228px
 }
 
 .footerImage-4UrEF0 {
@@ -34529,11 +34527,18 @@ html .progress-GjyFoQ {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 186px;
-    background-image: url(/assets/363100986010f8b6b340e23ffcd54b14.svg);
-    background-size: 520px 186px;
+    height: 188px;
+    background-size: 660px 188px;
     background-position: 50%;
     background-repeat: no-repeat
+}
+
+.theme-dark .footerImage-4UrEF0 {
+    background-image: url(/assets/36d0e0bb009fa362c2533003c0af67b5.svg)
+}
+
+.theme-light .footerImage-4UrEF0 {
+    background-image: url(/assets/c9b2eb9473c66578a8e021e9fe46b74b.svg)
 }
 
 .platformIcon-3ewYVp {
@@ -34551,7 +34556,7 @@ html .progress-GjyFoQ {
 
 .emptyStateImage-3SXmVX {
     width: 272px;
-    height: 93px
+    height: 145px
 }
 
 .emptyStateButton-3AtrA7 {
@@ -45101,8 +45106,7 @@ strong {
     height: 16px;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin-right: 8px
+    flex: 0 0 auto
 }
 
 .chat-3bRxxu {
@@ -65560,4 +65564,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6dca8bc9a1ada7961330.css.map*/
+/*# sourceMappingURL=0.a8555be9314d5db71683.css.map*/
