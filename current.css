@@ -34315,18 +34315,31 @@ strong {
     top: 0;
     right: 0;
     z-index: 2000;
-    width: calc(100% - 226px);
+    width: 100%;
     background-color: #4e5d94
+}
+
+.settingsWrapper-2iONE6.osx-1StahX .backButton-1Nt8WU {
+    margin-left: 76px
+}
+
+.settingsWrapper-2iONE6.windows-KnfE1Y {
+    top: 22px
+}
+
+.settingsWrapper-2iONE6.windows-KnfE1Y .backButton-1Nt8WU {
+    margin-left: 0
 }
 
 .notice-1tZwqv {
     background-color: #4e5d94;
     color: #fff;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-align: center;
-    height: 40px
+    height: 40px;
+    padding: 0 8px
 }
 
 .notice-1tZwqv,.noticeContents-F1kZZo {
@@ -34347,29 +34360,26 @@ strong {
     justify-content: center
 }
 
-.button-3Ijpww,.noticeText-28B2fH {
-    font-weight: 600
+.noticeText-28B2fH {
+    font-weight: 600;
+    margin-right: 16px
 }
 
 .button-3Ijpww {
     font-size: 12px;
     line-height: 16px;
+    font-weight: 600;
     padding: 4px 8px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    margin-left: 20px
+    align-items: center
 }
 
 .button-3Ijpww:hover {
     background-color: #687dc6
-}
-
-.back-17eqPv {
-    margin-left: 8px
 }
 
 .buttonInner-3xzx0A {
@@ -40896,16 +40906,18 @@ strong {
     margin-right: 8px
 }
 
-.viewAsRole-1xJHoh {
-    cursor: pointer;
-    color: var(--text-link);
-    padding: 8px;
-    border-radius: 4px;
-    background-color: var(--background-tertiary)
+.viewAsRoleButton-1ZpPlO {
+    margin-top: 16px
 }
 
-.viewAsRole-1xJHoh:hover {
-    background-color: var(--background-secondary)
+.viewAsRoleButtonInner-1ESycl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.arrowIcon-nMKGTg {
+    margin-left: 4px
 }
 
 .theme-light .notAllowedIcon-3j9AKY {
@@ -50941,6 +50953,72 @@ html .invoiceCancelRow-1YYT42 {
     background-color: #18191c
 }
 
+.errorLabel-7OAe-A,.supportCallToAction-7lpXkq {
+    margin-top: 20px
+}
+
+.errorLabel-7OAe-A {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase
+}
+
+.errorDetails-qKU8eS {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 12px;
+    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    white-space: pre
+}
+
+.theme-dark .body-3AvtFJ {
+    color: #dcddde
+}
+
+.theme-dark .errorLabel-7OAe-A {
+    color: #b9bbbe
+}
+
+.theme-dark .errorDetails-qKU8eS {
+    background: #2f3136;
+    border-color: rgba(32,34,37,.3);
+    color: #fff
+}
+
+.theme-dark .closeLink-2MRAUp {
+    color: #fff
+}
+
+.theme-light .body-3AvtFJ {
+    color: #4f545c
+}
+
+.theme-light .errorLabel-7OAe-A {
+    color: #72767d
+}
+
+.theme-light .errorDetails-qKU8eS {
+    background: #f8f9f9;
+    border-color: rgba(227,229,232,.6);
+    color: #747f8d
+}
+
+.theme-light .closeLink-2MRAUp {
+    color: #7289da
+}
+
 .premiumIcon-2lve6h {
     position: relative;
     top: 6px;
@@ -51039,72 +51117,6 @@ html .invoiceCancelRow-1YYT42 {
 
 .ellipsis-AB-iKn {
     margin-left: 7px
-}
-
-.errorLabel-7OAe-A,.supportCallToAction-7lpXkq {
-    margin-top: 20px
-}
-
-.errorLabel-7OAe-A {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: .5px;
-    text-transform: uppercase
-}
-
-.errorDetails-qKU8eS {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 12px;
-    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
-    white-space: pre
-}
-
-.theme-dark .body-3AvtFJ {
-    color: #dcddde
-}
-
-.theme-dark .errorLabel-7OAe-A {
-    color: #b9bbbe
-}
-
-.theme-dark .errorDetails-qKU8eS {
-    background: #2f3136;
-    border-color: rgba(32,34,37,.3);
-    color: #fff
-}
-
-.theme-dark .closeLink-2MRAUp {
-    color: #fff
-}
-
-.theme-light .body-3AvtFJ {
-    color: #4f545c
-}
-
-.theme-light .errorLabel-7OAe-A {
-    color: #72767d
-}
-
-.theme-light .errorDetails-qKU8eS {
-    background: #f8f9f9;
-    border-color: rgba(227,229,232,.6);
-    color: #747f8d
-}
-
-.theme-light .closeLink-2MRAUp {
-    color: #7289da
 }
 
 .container-2QQFFz {
@@ -53692,6 +53704,20 @@ html .tabBadge-3smxHS {
     background-color: #7289da
 }
 
+.gearWithBadge-2IoJRv {
+    position: relative
+}
+
+.gearWithBadge-2IoJRv .badge-3lkhh2 {
+    position: absolute;
+    bottom: 5px;
+    right: 1px;
+    background-color: #f04747;
+    width: 7px;
+    height: 7px;
+    border-radius: 5px
+}
+
 .button-1w5pas {
     position: relative;
     top: 3px;
@@ -54986,7 +55012,9 @@ html .tabBadge-3smxHS {
     max-width: 280px;
     padding: 16px;
     background-color: #7289da;
-    border-radius: 4px
+    border-radius: 4px;
+    -webkit-box-shadow: var(--elevation-medium);
+    box-shadow: var(--elevation-medium)
 }
 
 .subscribeTooltipWrapper-32-Ce8:after {
@@ -54997,6 +55025,23 @@ html .tabBadge-3smxHS {
     margin-left: -8px;
     border: 8px solid transparent;
     border-bottom-color: #7289da
+}
+
+.varUpsellTooltip-i1ROK1 {
+    max-width: 220px
+}
+
+.varUpsell-jaa7a7 {
+    padding: 8px 0
+}
+
+.varUpsellTitle-3FyR7b {
+    font-weight: 700;
+    margin-bottom: 8px
+}
+
+.varUpsellBody-CaGAtr {
+    text-align: center
 }
 
 .wrapper-sa6paO {
@@ -67459,4 +67504,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2977d3032760e3877e60.css.map*/
+/*# sourceMappingURL=0.9c5a10b58cf78b42caca.css.map*/
