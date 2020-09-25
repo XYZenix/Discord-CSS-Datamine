@@ -53747,6 +53747,10 @@ html .tabBadge-3smxHS {
 }
 
 .modal-1xQWvU {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
     width: 480px
 }
 
@@ -53976,68 +53980,6 @@ html .tabBadge-3smxHS {
 
 .actionIcon-2Hi9ZG:active {
     color: var(--interactive-active)
-}
-
-.threadsPopout-2Dwsc0 {
-    background-color: var(--background-tertiary);
-    border-radius: 8px;
-    left: 16px;
-    padding: 8px 16px;
-    position: absolute;
-    top: 0;
-    max-width: 250px
-}
-
-.threadsPopoutTitle-37N3nW {
-    color: var(--header-secondary);
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase
-}
-
-.threadsPopoutRow-OiLS_w,.threadsPopoutTitle-37N3nW {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 32px
-}
-
-.threadsPopoutRow-OiLS_w {
-    color: var(--interactive-normal);
-    font-size: 16px
-}
-
-.threadsPopoutRow-OiLS_w:hover {
-    color: var(--interactive-hover);
-    cursor: pointer
-}
-
-.threadPopoutName-QFyQb5 {
-    margin-left: 8px;
-    max-width: 200px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap
-}
-
-.threadsPopoutMore-xQGk-Y {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color: var(--text-link);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 14px;
-    font-weight: 600;
-    height: 32px
-}
-
-.threadsPopoutMore-xQGk-Y:hover {
-    text-decoration: underline
 }
 
 .containerDefault-3GGEv_,.containerDragAfter-3TEhpe,.containerDragBefore-3Dzc5x,.containerUserOver-1Tcb7l {
@@ -67504,4 +67446,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9c5a10b58cf78b42caca.css.map*/
+/*# sourceMappingURL=0.a746592713becb6fb982.css.map*/
