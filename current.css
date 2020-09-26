@@ -38798,6 +38798,9 @@ strong {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
@@ -38808,6 +38811,10 @@ strong {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto
+}
+
+.submitButton-1m9JsH {
+    margin-left: 12px
 }
 
 .settingsSubtitle-3UBgkV {
@@ -67446,4 +67453,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a746592713becb6fb982.css.map*/
+/*# sourceMappingURL=0.c3b6bfa84a38f81d06b8.css.map*/
