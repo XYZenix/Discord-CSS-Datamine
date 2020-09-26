@@ -25456,7 +25456,8 @@ html .progress-GjyFoQ {
 }
 
 .mask-2TeiNB {
-    position: absolute
+    position: absolute;
+    z-index: -1
 }
 
 .stickerBackground-2PHeww {
@@ -67453,4 +67454,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c3b6bfa84a38f81d06b8.css.map*/
+/*# sourceMappingURL=0.f078909b8d90a790b5c6.css.map*/
