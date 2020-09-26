@@ -20823,13 +20823,13 @@ html .progress-GjyFoQ {
     background-color: var(--background-secondary-alt)
 }
 
-.medium-2-DE5M .richTag-1rBBz8 {
-    margin: 4px 0 4px 4px;
-    height: 24px;
-    line-height: 22px
+.medium-2-DE5M .richTag-1rBBz8,.medium-2-DE5M .richTagInput-1GjAv7 {
+    margin: 3px 0 3px 3px;
+    height: 26px;
+    line-height: 24px
 }
 
-.large-3dt_qC .richTag-1rBBz8 {
+.large-3dt_qC .richTag-1rBBz8,.large-3dt_qC .richTagInput-1GjAv7 {
     margin: 4px 0 4px 4px;
     height: 32px;
     line-height: 30px
@@ -60301,15 +60301,15 @@ html .invoiceCancelRow-3mYhFX {
     margin: 0 auto
 }
 
-.advancedModeDivider-2-yhbv {
+.advancedModeDivider-GJCGg1 {
     margin: 40px 0
 }
 
-.advancedTitle-3DqiOf {
+.advancedTitle-1CFkcU {
     cursor: pointer
 }
 
-.titleCaret-cxNVRt {
+.titleCaret-3b138P {
     vertical-align: bottom;
     margin-left: 14px
 }
@@ -60355,13 +60355,17 @@ html .invoiceCancelRow-3mYhFX {
 
 .cardFolder-28dwxo {
     background: var(--background-secondary);
-    padding: 20px 0;
+    padding-bottom: 4px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px
 }
 
+.adminWarning-3Ie8tf {
+    padding: 16px 16px 0
+}
+
 .folderHeader-3eAh2M {
-    padding: 0 16px
+    padding: 16px
 }
 
 .folderTitle-1J5dgw {
@@ -60374,7 +60378,6 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .roleMemberList-3aPmJW {
-    margin-top: 20px;
     max-height: 400px;
     padding: 0 16px
 }
@@ -67462,4 +67465,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.881a6040f24a9f167874.css.map*/
+/*# sourceMappingURL=0.1974960a708534dc5012.css.map*/
