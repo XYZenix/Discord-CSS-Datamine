@@ -58902,6 +58902,89 @@ html .invoiceCancelRow-3mYhFX {
     background-color: transparent
 }
 
+.container-1S6Mlq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px 2px;
+    background-color: var(--background-tertiary)
+}
+
+.keyboard-mode .container-1S6Mlq.inputFocused-2igDpC:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    bottom: 2px;
+    left: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
+    box-shadow: 0 0 0 4px var(--focus-primary);
+    pointer-events: none
+}
+
+.input-1lKksk {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 48px;
+    height: 20px;
+    padding: 2px 4px;
+    color: var(--text-normal);
+    background: transparent;
+    border: none;
+    resize: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px
+}
+
+.input-1lKksk::-webkit-input-placeholder {
+    color: var(--text-muted);
+    opacity: 1
+}
+
+.iconContainer-gnSl8w {
+    position: relative;
+    margin-right: 3px;
+    height: 18px;
+    width: 18px
+}
+
+.keyboard-mode .iconContainer-gnSl8w:focus:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    bottom: -3px;
+    left: -5px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
+    box-shadow: 0 0 0 4px var(--focus-primary);
+    pointer-events: none
+}
+
+.icon-1T3XuV {
+    width: 18px;
+    height: 18px
+}
+
+.iconClickable-3ZfMci {
+    cursor: pointer
+}
+
 .button-14-BFJ {
     line-height: 0;
     width: 32px;
@@ -67470,4 +67553,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.259918527a0669c52bbc.css.map*/
+/*# sourceMappingURL=0.cac532d03d28a9ee22c4.css.map*/
