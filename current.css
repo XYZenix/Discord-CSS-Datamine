@@ -27655,6 +27655,21 @@ html .progress-GjyFoQ {
     fill: var(--interactive-hover)
 }
 
+.button-18p_f6 {
+    color: var(--text-link);
+    margin-right: 8px;
+    padding: 6px;
+    border-radius: 4px
+}
+
+.button-18p_f6:hover {
+    background-color: var(--background-modifier-hover)
+}
+
+.buttonIcon-3PejT5 {
+    margin-right: 6px
+}
+
 .avatar-_-TGPX {
     -ms-flex-negative: 0;
     flex-shrink: 0
@@ -27808,7 +27823,7 @@ html .progress-GjyFoQ {
     color: var(--interactive-normal)
 }
 
-.editChannelButton-2A0Q4c {
+.channelSettingButtons-23CIRg {
     margin-top: 16px
 }
 
@@ -67432,4 +67447,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.783db65464402910225c.css.map*/
+/*# sourceMappingURL=0.aaa69677ce5d58ed1598.css.map*/
