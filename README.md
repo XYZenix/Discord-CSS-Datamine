@@ -1,6 +1,4 @@
 # Discord-CSS-Datamine
-yes
+inspired by DJScias/Discord-Datamining
 
-i made this because i like complaining every time discord moves something 1 pixel to the left
-
-but seriously, i thought this miiight be of some use, so idk
+this is manual so there might be a delay of several minutes or even hours if im asleep
