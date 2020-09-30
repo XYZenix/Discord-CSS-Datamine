@@ -38472,6 +38472,10 @@ strong {
     cursor: move
 }
 
+.dragIcon-2hiFfD {
+    color: var(--interactive-normal)
+}
+
 .divider-7b0snS {
     height: 1px;
     background-color: var(--background-modifier-accent);
@@ -67447,4 +67451,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.aaa69677ce5d58ed1598.css.map*/
+/*# sourceMappingURL=0.0d1444674f8163c1540d.css.map*/
