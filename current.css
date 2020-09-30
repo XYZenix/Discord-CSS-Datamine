@@ -20412,9 +20412,7 @@ html .progress-GjyFoQ {
 }
 
 .wrapper-1-Fsb8 {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    background-color: var(--background-secondary);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: -webkit-box;
@@ -20425,18 +20423,13 @@ html .progress-GjyFoQ {
     z-index: 1
 }
 
-.theme-dark .wrapper-1-Fsb8 {
-    background-color: rgba(47,49,54,.97)
-}
-
-.theme-light .wrapper-1-Fsb8 {
-    background-color: rgba(242,243,245,.97)
+.header-19cWci,.wrapper-1-Fsb8 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .header-19cWci {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     color: var(--header-secondary);
     cursor: pointer;
     display: grid;
@@ -67451,4 +67444,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6ddde679551a09a7ce88.css.map*/
+/*# sourceMappingURL=0.bd3ce4d5a54c004c0043.css.map*/
