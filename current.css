@@ -34559,6 +34559,9 @@ strong {
 }
 
 .iconContainer-1zobSR {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     height: 16px;
     width: 16px;
     border: 2px solid var(--interactive-normal);
@@ -67470,4 +67473,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.df67f2fcfd4a0eec42c6.css.map*/
+/*# sourceMappingURL=0.a3f7a13fc8be11503cf0.css.map*/
