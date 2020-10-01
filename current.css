@@ -18446,7 +18446,7 @@ html .progress-GjyFoQ {
     margin-right: 8px
 }
 
-.wrapper-312kvc {
+.assetWrapper-3GNt0z {
     position: relative;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -18462,20 +18462,14 @@ html .progress-GjyFoQ {
     width: 100%
 }
 
-.pngAnimation-17ExUo {
-    display: block
-}
-
-.wrapperLoading-36Vl9f {
-    background-repeat: no-repeat;
-    background-size: contain
+.pngImage-33yLRP,.roundedMask-3rB_-f {
+    display: block;
+    height: 100%;
+    width: 100%
 }
 
 .roundedMask-3rB_-f {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%
+    position: absolute
 }
 
 .errorContent-2z-hpw {
@@ -67429,4 +67423,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.33e899b3a765dc7ba6ca.css.map*/
+/*# sourceMappingURL=0.84fdabfcb097310fad0c.css.map*/
