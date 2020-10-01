@@ -18787,8 +18787,11 @@ html .progress-GjyFoQ {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    grid-gap: 8px;
     margin-top: 8px
+}
+
+.premiumButtonNitroWheel-27R34z {
+    margin-right: 4px
 }
 
 .premiumButton-28hSN6 {
@@ -18797,8 +18800,11 @@ html .progress-GjyFoQ {
     align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    grid-gap: 4px
+    display: flex
+}
+
+.premiumButtonWithViewPackButton-2ZugvV {
+    margin-bottom: 8px
 }
 
 .clickableSticker-3HmpgV {
@@ -67500,4 +67506,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b8f565bac68740f8e83b.css.map*/
+/*# sourceMappingURL=0.7d53f693f8b270217026.css.map*/
