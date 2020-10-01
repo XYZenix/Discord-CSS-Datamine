@@ -25421,6 +25421,14 @@ html .progress-GjyFoQ {
     padding: 4px
 }
 
+.stickerCategoryRecentDisabled-5KTYkf {
+    cursor: default
+}
+
+.stickerCategoryRecentDisabled-5KTYkf .stickerCategoryRecentIcon-16VgYU {
+    opacity: .6
+}
+
 .stickerCategorySelected-2uaMAG,.stickerCategorySelected-2uaMAG:hover {
     background-color: var(--background-primary)
 }
@@ -25452,7 +25460,7 @@ html .progress-GjyFoQ {
     background-color: var(--background-modifier-hover)
 }
 
-.stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B {
+.stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B,.stickerCategoryShopWrapperSelected-5VcHEr:hover .stickerCategoryShop-d5zC3B {
     background-color: var(--background-primary)
 }
 
@@ -67492,4 +67500,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e14abd933b1d234a58c7.css.map*/
+/*# sourceMappingURL=0.b8f565bac68740f8e83b.css.map*/
