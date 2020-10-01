@@ -21147,6 +21147,23 @@ html .progress-GjyFoQ {
     text-align: center
 }
 
+.sequencer-2asFtz {
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.centerContent-Sqht5i {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
 .closeButton-2infYq {
     position: absolute;
     top: 12px;
@@ -21159,7 +21176,7 @@ html .progress-GjyFoQ {
 }
 
 .header-7Lr3z- {
-    margin: 8px 0
+    margin: 16px 0 8px
 }
 
 .divider-39KqKR {
@@ -21193,6 +21210,15 @@ html .progress-GjyFoQ {
 
 .submitButton-fBDF_p {
     margin-left: 12px
+}
+
+.formItem-16P3wz {
+    text-align: initial;
+    margin-bottom: 24px
+}
+
+.resendButton-1uhCM3 {
+    margin: 24px auto
 }
 
 .container-2Uhd6d {
@@ -23597,6 +23623,141 @@ html .progress-GjyFoQ {
 
 .descriptionError-3gGZHy {
     color: #f04747
+}
+
+.headerGuildName-2Ur2UW {
+    color: var(--header-primary)
+}
+
+.headerGuildBadge-1qhaRY {
+    display: inline-block;
+    margin: 0 4px 0 2px
+}
+
+.flowerStar-1qlGEL {
+    display: block
+}
+
+.main-3auUui {
+    background: var(--background-primary);
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 16px;
+    width: 440px;
+    position: relative
+}
+
+.close-2do-tr {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 0;
+    height: 24px
+}
+
+.guildIcon-1F8t_p {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.header-QjU-Vz {
+    color: var(--header-secondary);
+    text-align: center
+}
+
+.guildDescription-GPbJqa {
+    margin-top: 8px;
+    text-align: center;
+    padding: 0 8px
+}
+
+.choiceHeader-3g-iq5 {
+    margin-top: 32px;
+    -ms-flex-item-align: start;
+    align-self: flex-start
+}
+
+.options-1VK2u9 {
+    width: 100%;
+    margin-top: 8px
+}
+
+.optionContainer-15srkc {
+    margin-top: 8px;
+    background: var(--background-secondary);
+    border-radius: 8px;
+    padding: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.optionContainer-15srkc:hover {
+    background: var(--background-secondary-alt);
+    cursor: pointer
+}
+
+.optionTextContainer-1WT7xh {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-left: 12px;
+    margin-right: 16px
+}
+
+.optionArrow-2L2fza {
+    color: var(--text-normal)
+}
+
+.channelIcon-g61PDh,.optionEmoji-4_u0Ds {
+    width: 24px;
+    height: 24px
+}
+
+.channelIcon-g61PDh {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: var(--background-tertiary);
+    color: var(--header-secondary);
+    border-radius: 4px;
+    padding: 4px
+}
+
+.channelDescription-1Vw6Lv {
+    color: var(--interactive-active);
+    font-weight: 600
+}
+
+.skip-1vOolA {
+    margin-top: 8px
+}
+
+.skipColor-3dV-gy {
+    color: var(--interactive-normal)
+}
+
+.skipColor-3dV-gy:hover {
+    color: var(--interactive-hover)
+}
+
+.skipColor-3dV-gy:active {
+    color: var(--interactive-active)
 }
 
 .content-2nLqo5 {
@@ -36309,141 +36470,6 @@ strong {
 .tooltip-2IG5MP {
     max-width: 150px;
     margin-bottom: 2px
-}
-
-.headerGuildName-2Ur2UW {
-    color: var(--header-primary)
-}
-
-.headerGuildBadge-1qhaRY {
-    display: inline-block;
-    margin: 0 4px 0 2px
-}
-
-.flowerStar-1qlGEL {
-    display: block
-}
-
-.main-3auUui {
-    background: var(--background-primary);
-    border-radius: 8px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding: 16px;
-    width: 440px;
-    position: relative
-}
-
-.close-2do-tr {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    padding: 0;
-    height: 24px
-}
-
-.guildIcon-1F8t_p {
-    margin-top: 16px;
-    margin-bottom: 16px
-}
-
-.header-QjU-Vz {
-    color: var(--header-secondary);
-    text-align: center
-}
-
-.guildDescription-GPbJqa {
-    margin-top: 8px;
-    text-align: center;
-    padding: 0 8px
-}
-
-.choiceHeader-3g-iq5 {
-    margin-top: 32px;
-    -ms-flex-item-align: start;
-    align-self: flex-start
-}
-
-.options-1VK2u9 {
-    width: 100%;
-    margin-top: 8px
-}
-
-.optionContainer-15srkc {
-    margin-top: 8px;
-    background: var(--background-secondary);
-    border-radius: 8px;
-    padding: 12px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.optionContainer-15srkc:hover {
-    background: var(--background-secondary-alt);
-    cursor: pointer
-}
-
-.optionTextContainer-1WT7xh {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-left: 12px;
-    margin-right: 16px
-}
-
-.optionArrow-2L2fza {
-    color: var(--text-normal)
-}
-
-.channelIcon-g61PDh,.optionEmoji-4_u0Ds {
-    width: 24px;
-    height: 24px
-}
-
-.channelIcon-g61PDh {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    background-color: var(--background-tertiary);
-    color: var(--header-secondary);
-    border-radius: 4px;
-    padding: 4px
-}
-
-.channelDescription-1Vw6Lv {
-    color: var(--interactive-active);
-    font-weight: 600
-}
-
-.skip-1vOolA {
-    margin-top: 8px
-}
-
-.skipColor-3dV-gy {
-    color: var(--interactive-normal)
-}
-
-.skipColor-3dV-gy:hover {
-    color: var(--interactive-hover)
-}
-
-.skipColor-3dV-gy:active {
-    color: var(--interactive-active)
 }
 
 .enableContainer-6E-puu {
@@ -67444,4 +67470,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.52876e317f9752b34322.css.map*/
+/*# sourceMappingURL=0.df67f2fcfd4a0eec42c6.css.map*/
