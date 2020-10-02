@@ -18565,18 +18565,74 @@ html .progress-GjyFoQ {
     height: 200px
 }
 
-.header-37O8hB {
-    min-height: 68px
+.headerWithImage-1eQiGL {
+    min-height: 100px;
+    overflow: visible;
+    padding: 0
 }
 
 .backgroundImage-3LwoVx {
+    border-radius: 5px 5px 0 0;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-size: 100%;
+    background-position: 50%;
+    background-size: cover;
     background-repeat: no-repeat
+}
+
+.closeButton-2c8U1E {
+    color: #fff;
+    height: 18px;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 18px
+}
+
+.closeButtonWithImage-d-Cnkt {
+    background: rgba(0,0,0,.6);
+    border-radius: 4px;
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transition: color .1s;
+    transition: color .1s;
+    top: 16px
+}
+
+.closeButtonWithImage-d-Cnkt:hover {
+    background: rgba(0,0,0,.8)
+}
+
+.sticker-1SXjyZ {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    padding: 4px;
+    position: absolute;
+    -webkit-transform: translate(-50%,75%);
+    transform: translate(-50%,75%);
+    height: 80px;
+    width: 80px
+}
+
+.stickerVisible-3URXhO {
+    opacity: 1;
+    -webkit-transform: translate(-50%,50%);
+    transform: translate(-50%,50%);
+    -webkit-transition: opacity .2s ease-in-out,-webkit-transform .2s cubic-bezier(.33,1.95,.83,.67);
+    transition: opacity .2s ease-in-out,-webkit-transform .2s cubic-bezier(.33,1.95,.83,.67);
+    transition: transform .2s cubic-bezier(.33,1.95,.83,.67),opacity .2s ease-in-out;
+    transition: transform .2s cubic-bezier(.33,1.95,.83,.67),opacity .2s ease-in-out,-webkit-transform .2s cubic-bezier(.33,1.95,.83,.67)
 }
 
 .listWrapper-21hRUc {
@@ -18736,8 +18792,14 @@ html .progress-GjyFoQ {
     margin-bottom: 8px
 }
 
+.confirmBodyHeaderWithHeaderImage-1HdQ5d {
+    margin-top: 42px
+}
+
 .confirmBodyContent-23r8Kk {
     color: var(--text-normal);
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 32px
 }
 
@@ -67964,4 +68026,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7338d23f8904434881ef.css.map*/
+/*# sourceMappingURL=0.407aa86223686708b4be.css.map*/
