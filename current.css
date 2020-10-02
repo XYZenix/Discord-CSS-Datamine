@@ -26620,6 +26620,11 @@ html .progress-GjyFoQ {
     height: 20px!important
 }
 
+.stickerButtonWithResult-1EqRLT {
+    padding-left: 0;
+    padding-right: 0
+}
+
 .fontSize12Padding-2x5wK2 {
     padding-bottom: 14px;
     padding-top: 14px
@@ -26677,12 +26682,6 @@ html .progress-GjyFoQ {
 
 .theme-brand .textArea-12jD-V::placeholder {
     color: hsla(0,0%,100%,.3)
-}
-
-.sticker-1T9_Bu {
-    margin-top: -4px;
-    margin-left: -4px;
-    margin-right: -4px
 }
 
 .emojiButton-3uL3Aw {
@@ -67965,4 +67964,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ae9a7ee56770b2342ebc.css.map*/
+/*# sourceMappingURL=0.7338d23f8904434881ef.css.map*/
