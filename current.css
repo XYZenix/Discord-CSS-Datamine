@@ -21029,6 +21029,7 @@ html .progress-GjyFoQ {
 }
 
 .formItem-1Ng9JM {
+    width: 100%;
     padding: 0;
     margin-bottom: 24px;
     background-color: var(--background-primary)
@@ -21039,15 +21040,16 @@ html .progress-GjyFoQ {
 }
 
 .settingsFormItem-116ZAN {
+    width: 100%;
     margin-bottom: 16px;
     border-radius: 8px;
     padding: 16px;
     background-color: var(--background-secondary)
 }
 
-.termsWrapperBase-10KqTN {
+.wrapperBase-1znUIT {
     border-radius: 4px;
-    padding: 0 16px
+    padding: 8px 12px
 }
 
 .termsWrapper-2M0XG6 {
@@ -21058,6 +21060,30 @@ html .progress-GjyFoQ {
     background-color: var(--background-secondary-alt)
 }
 
+.verificationWrapper-Oj1Ti_ {
+    background-color: var(--background-secondary)
+}
+
+.settingsVerificationWrapper-3LvcQ-,.verificationWrapper-Oj1Ti_ {
+    border: 1px solid var(--background-tertiary)
+}
+
+.settingsVerificationWrapper-3LvcQ- {
+    background-color: var(--background-secondary-alt)
+}
+
+.verificationIcon-4Cts87 {
+    color: var(--interactive-normal);
+    margin-right: 8px
+}
+
+.verificationCheckmark-mYyw8q {
+    color: #43b581;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px
+}
+
 .termsRow-2hdaeq {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21065,12 +21091,17 @@ html .progress-GjyFoQ {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    padding: 16px 0;
+    padding: 16px 4px;
     border-bottom: 1px solid var(--background-modifier-accent)
 }
 
+.termsRow-2hdaeq:first-child {
+    padding-top: 8px
+}
+
 .termsRow-2hdaeq:last-child {
-    border-bottom: none
+    border-bottom: none;
+    padding-bottom: 8px
 }
 
 .termsRowContent-28N_I3 {
@@ -39061,7 +39092,7 @@ strong {
 }
 
 .previewContainer-12Libf {
-    margin-right: -48px;
+    margin-right: -40px;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto
@@ -39084,7 +39115,7 @@ strong {
 }
 
 .editButtonsWrapper-Jj1cFn {
-    margin-left: 16px;
+    margin-left: 8px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -39106,6 +39137,14 @@ strong {
 
 .editButton-1MavoF:focus,.editButton-1MavoF:hover {
     color: var(--interactive-active)
+}
+
+.editButtonDisabled-1F2FLU {
+    cursor: default
+}
+
+.editButtonDisabled-1F2FLU,.editButtonDisabled-1F2FLU:focus,.editButtonDisabled-1F2FLU:hover {
+    color: var(--interactive-muted)
 }
 
 .getStartedWrapper-2AGgRZ {
@@ -67853,4 +67892,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.aa60feaa9e49b565cab5.css.map*/
+/*# sourceMappingURL=0.1e723028dd111d1fadea.css.map*/
