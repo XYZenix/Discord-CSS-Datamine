@@ -18584,7 +18584,6 @@ html .progress-GjyFoQ {
 }
 
 .closeButton-2c8U1E {
-    color: #fff;
     height: 18px;
     position: absolute;
     right: 16px;
@@ -18594,18 +18593,19 @@ html .progress-GjyFoQ {
     width: 18px
 }
 
-.closeButtonWithImage-d-Cnkt {
+.closeButton-2c8U1E.closeButtonWithImage-d-Cnkt {
+    color: #fff;
     background: rgba(0,0,0,.6);
     border-radius: 4px;
     opacity: 1;
     -webkit-transform: none;
     transform: none;
-    -webkit-transition: color .1s;
-    transition: color .1s;
+    -webkit-transition: background .1s;
+    transition: background .1s;
     top: 16px
 }
 
-.closeButtonWithImage-d-Cnkt:hover {
+.closeButton-2c8U1E.closeButtonWithImage-d-Cnkt:hover {
     background: rgba(0,0,0,.8)
 }
 
@@ -68026,4 +68026,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.407aa86223686708b4be.css.map*/
+/*# sourceMappingURL=0.f9094a054e76d37de942.css.map*/
