@@ -21413,23 +21413,15 @@ html .progress-GjyFoQ {
     padding: 8px 12px
 }
 
-.termsWrapper-2M0XG6 {
+.formFieldWrapper-3f0tXZ {
     background-color: var(--background-secondary)
 }
 
-.settingsTermsWrapper-12fmST {
-    background-color: var(--background-secondary-alt)
-}
-
-.verificationWrapper-Oj1Ti_ {
-    background-color: var(--background-secondary)
-}
-
-.settingsVerificationWrapper-3LvcQ-,.verificationWrapper-Oj1Ti_ {
+.formFieldWrapper-3f0tXZ,.settingsFormFieldWrapper-A5HJZE {
     border: 1px solid var(--background-tertiary)
 }
 
-.settingsVerificationWrapper-3LvcQ- {
+.settingsFormFieldWrapper-A5HJZE {
     background-color: var(--background-secondary-alt)
 }
 
@@ -21470,20 +21462,12 @@ html .progress-GjyFoQ {
 }
 
 .checkbox-BgcLuD {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
     margin-top: 16px;
     cursor: pointer
 }
 
 .checkboxText-3fqWzh {
-    font-weight: 600;
-    margin-left: -8px
+    font-weight: 600
 }
 
 .container-2hHzu5 {
@@ -21606,7 +21590,8 @@ html .progress-GjyFoQ {
 
 .divider-39KqKR {
     margin: 24px 0;
-    border-color: var(--background-modifier-accent)
+    border: none;
+    border-bottom: 1px solid var(--background-modifier-accent)
 }
 
 .verificationForm-XScQXl {
@@ -39087,6 +39072,11 @@ strong {
     z-index: 2
 }
 
+.modal-31fnEY {
+    min-height: unset;
+    max-height: 100%
+}
+
 .headerText-JnAiax {
     margin-bottom: 16px
 }
@@ -39142,13 +39132,14 @@ strong {
 }
 
 .rulesTextArea-1votGZ {
-    padding: 8px 24px
+    padding: 8px 8px 8px 32px;
+    margin-bottom: 4px
 }
 
 .clearButton-1WSzj8 {
     position: absolute;
     top: 12px;
-    left: 4px;
+    left: 8px;
     color: var(--interactive-normal);
     opacity: 0;
     -webkit-transition: opacity .2s ease-in-out;
@@ -39192,6 +39183,11 @@ strong {
     margin: 0 8px 8px 0
 }
 
+.exampleRule-1suWmC.disabled-QliidL {
+    cursor: not-allowed;
+    opacity: .8
+}
+
 .errorText-3U7lRq {
     margin-top: 8px
 }
@@ -39218,7 +39214,7 @@ strong {
 }
 
 .disabled-3rsGZ1 {
-    opacity: 1%
+    opacity: .2
 }
 
 .icon-1CGepy {
@@ -39294,7 +39290,8 @@ strong {
     background-color: var(--background-secondary);
     border-radius: 8px;
     padding: 24px 16px;
-    margin: 0
+    margin: 0;
+    text-align: center
 }
 
 .getStartedIcon-3v4RyG,.getStartedSubtitle-260-IP {
@@ -68034,4 +68031,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c382822c1923ac55e174.css.map*/
+/*# sourceMappingURL=0.10a0e8bfac913f0bd53c.css.map*/
