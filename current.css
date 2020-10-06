@@ -21348,7 +21348,8 @@ html .progress-GjyFoQ {
     -ms-flex-direction: row;
     flex-direction: row;
     width: 720px;
-    height: auto
+    height: auto;
+    border-radius: 8px
 }
 
 .guildSidebar-3LaS7_ {
@@ -36056,6 +36057,10 @@ html .progress-GjyFoQ {
     margin: 32px 0
 }
 
+.descriptionWrapper-1TMKDl {
+    margin-top: 32px
+}
+
 .introDescription-7Kp3QD {
     margin-bottom: 40px
 }
@@ -45329,6 +45334,10 @@ html .progress-GjyFoQ {
     align-self: stretch
 }
 
+.clickableChannelTextArea-390-mS {
+    cursor: pointer
+}
+
 .base-gE7OpD {
     position: absolute;
     bottom: 1px;
@@ -50826,32 +50835,71 @@ html .invoiceCancelRow-1YYT42 {
 }
 
 .notice-3uyY6c {
-    padding: 0
+    background-color: #4e5d94;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 8px
+}
+
+.button-gP4R86,.notice-3uyY6c {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .button-gP4R86 {
-    padding: 4px 8px
+    font-weight: 600;
+    padding: 4px 8px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content
+}
+
+.button-gP4R86:hover {
+    background-color: #687dc6
 }
 
 .header-2QVqxD {
     display: inline;
-    margin-right: 16px
-}
-
-.theme-light .notice-3uyY6c {
-    background-color: #ebedef
-}
-
-.theme-dark .notice-3uyY6c {
-    background-color: #18191c
+    margin-right: 16px;
+    color: #fff
 }
 
 .notice-2X5hT5 {
-    padding: 0
+    background-color: #4e5d94;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 8px
+}
+
+.button-2PWmas,.notice-2X5hT5 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .button-2PWmas {
-    padding: 4px 8px
+    font-weight: 600;
+    padding: 4px 8px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content
+}
+
+.button-2PWmas:hover {
+    background-color: #687dc6
 }
 
 .back-1Ess-_ {
@@ -50878,15 +50926,8 @@ html .invoiceCancelRow-1YYT42 {
 
 .header-1g25vm {
     display: inline;
-    margin-right: 16px
-}
-
-.theme-light .notice-2X5hT5 {
-    background-color: #ebedef
-}
-
-.theme-dark .notice-2X5hT5 {
-    background-color: #18191c
+    margin-right: 16px;
+    color: #fff
 }
 
 .errorLabel-7OAe-A,.supportCallToAction-7lpXkq {
@@ -67409,4 +67450,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.043a436f97846d46e371.css.map*/
+/*# sourceMappingURL=0.21e7d459664e179e67b0.css.map*/
