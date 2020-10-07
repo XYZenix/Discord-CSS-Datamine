@@ -18713,7 +18713,7 @@ html .progress-GjyFoQ {
     width: 100%
 }
 
-.packDetails-dhfjDU {
+.header-1jwfHp {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
@@ -18733,7 +18733,7 @@ html .progress-GjyFoQ {
     padding: 12px 4px
 }
 
-.packDetailsPrimary-24HHqY {
+.title-1R2vOK {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -18745,19 +18745,51 @@ html .progress-GjyFoQ {
     margin-bottom: 4px
 }
 
-.packDetailsHeading-XUm_Py {
+.heading-3FTJUH {
     font-size: 16px;
     line-height: 20px
 }
 
-.packDetailsSecondary-3PN67p {
+.count-ZZL8Ce {
     color: var(--header-secondary);
     font-size: 14px;
     line-height: 18px
 }
 
-.packDetailsTooltip-105q6u {
+.features-3yHAt3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.featuresTooltip-3r0QiF {
     max-width: 260px
+}
+
+.feature-3kpTdS {
+    color: var(--interactive-normal);
+    background-color: var(--background-modifier-accent);
+    border-radius: 10px
+}
+
+.feature-3kpTdS:not(:first-child) {
+    margin-left: 4px
+}
+
+.featureText-169iUC {
+    padding: 0 4px
+}
+
+.featureTextIcon-6keZHX {
+    position: relative;
+    top: 2px;
+    height: 12px;
+    width: 12px
+}
+
+.featureIcon-2pfUYw {
+    height: 16px;
+    width: 16px
 }
 
 .previewBody-2oRIh5 {
@@ -67435,4 +67467,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1fbafcd947ee39060b49.css.map*/
+/*# sourceMappingURL=0.80987560881cc8e0286c.css.map*/
