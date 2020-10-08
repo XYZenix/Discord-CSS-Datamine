@@ -33814,8 +33814,8 @@ html .progress-GjyFoQ {
 
 @-webkit-keyframes enable-3KjkIW {
     0% {
-        -webkit-transform: scale(.8);
-        transform: scale(.8);
+        -webkit-transform: scale(1);
+        transform: scale(1);
         background-color: var(--interactive-muted)
     }
 
@@ -33840,8 +33840,8 @@ html .progress-GjyFoQ {
 
 @keyframes enable-3KjkIW {
     0% {
-        -webkit-transform: scale(.8);
-        transform: scale(.8);
+        -webkit-transform: scale(1);
+        transform: scale(1);
         background-color: var(--interactive-muted)
     }
 
@@ -33864,48 +33864,6 @@ html .progress-GjyFoQ {
     }
 }
 
-@-webkit-keyframes disable-2du_9C {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        background-color: #43b581
-    }
-
-    60% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        -webkit-filter: brightness(90%);
-        filter: brightness(90%);
-        background-color: var(--interactive-muted)
-    }
-
-    to {
-        -webkit-transform: scale(1);
-        transform: scale(1)
-    }
-}
-
-@keyframes disable-2du_9C {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        background-color: #43b581
-    }
-
-    60% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        -webkit-filter: brightness(90%);
-        filter: brightness(90%);
-        background-color: var(--interactive-muted)
-    }
-
-    to {
-        -webkit-transform: scale(1);
-        transform: scale(1)
-    }
-}
-
 .activeCircle-1486wp {
     padding: 4px;
     background-color: #43b581;
@@ -33913,19 +33871,14 @@ html .progress-GjyFoQ {
 }
 
 .activeCircle-1486wp.animate-3_G5qN {
-    -webkit-animation: enable-3KjkIW .8s;
-    animation: enable-3KjkIW .8s
+    -webkit-animation: enable-3KjkIW .6s;
+    animation: enable-3KjkIW .6s
 }
 
 .editCircle-ityklj {
     padding: 5px;
     background-color: var(--interactive-muted);
     color: var(--interactive-normal)
-}
-
-.editCircle-ityklj.animate-3_G5qN {
-    -webkit-animation: disable-2du_9C .5s;
-    animation: disable-2du_9C .5s
 }
 
 .enableDescription-26mbbN {
@@ -36113,8 +36066,8 @@ html .progress-GjyFoQ {
 
 @-webkit-keyframes enable-3Hdl8Y {
     0% {
-        -webkit-transform: scale(.8);
-        transform: scale(.8);
+        -webkit-transform: scale(1);
+        transform: scale(1);
         background-color: var(--interactive-muted)
     }
 
@@ -36139,8 +36092,8 @@ html .progress-GjyFoQ {
 
 @keyframes enable-3Hdl8Y {
     0% {
-        -webkit-transform: scale(.8);
-        transform: scale(.8);
+        -webkit-transform: scale(1);
+        transform: scale(1);
         background-color: var(--interactive-muted)
     }
 
@@ -36163,48 +36116,6 @@ html .progress-GjyFoQ {
     }
 }
 
-@-webkit-keyframes disable-2PtEhJ {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        background-color: #43b581
-    }
-
-    60% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        -webkit-filter: brightness(90%);
-        filter: brightness(90%);
-        background-color: var(--interactive-muted)
-    }
-
-    to {
-        -webkit-transform: scale(1);
-        transform: scale(1)
-    }
-}
-
-@keyframes disable-2PtEhJ {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        background-color: #43b581
-    }
-
-    60% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        -webkit-filter: brightness(90%);
-        filter: brightness(90%);
-        background-color: var(--interactive-muted)
-    }
-
-    to {
-        -webkit-transform: scale(1);
-        transform: scale(1)
-    }
-}
-
 .activeCircle-nR0ENY {
     padding: 4px;
     background-color: #43b581;
@@ -36212,19 +36123,14 @@ html .progress-GjyFoQ {
 }
 
 .activeCircle-nR0ENY.animate-PvEAXv {
-    -webkit-animation: enable-3Hdl8Y .8s;
-    animation: enable-3Hdl8Y .8s
+    -webkit-animation: enable-3Hdl8Y .6s;
+    animation: enable-3Hdl8Y .6s
 }
 
 .editCircle-AYQFsy {
     padding: 5px;
     background-color: var(--interactive-muted);
     color: var(--interactive-normal)
-}
-
-.editCircle-AYQFsy.animate-PvEAXv {
-    -webkit-animation: disable-2PtEhJ .5s;
-    animation: disable-2PtEhJ .5s
 }
 
 .enableDescription-3mW0C_ {
@@ -67523,4 +67429,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5b80e1d235c93ecb4490.css.map*/
+/*# sourceMappingURL=0.ac2ab1e89f802d841622.css.map*/
