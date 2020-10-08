@@ -18984,7 +18984,8 @@ html .progress-GjyFoQ {
 
 .packName-1Cps_6 {
     font-size: 16px;
-    line-height: 20px
+    line-height: 20px;
+    cursor: pointer
 }
 
 .packDescription-3drkLS {
@@ -19000,22 +19001,26 @@ html .progress-GjyFoQ {
 }
 
 .stickersList-Q202uA {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 8px
 }
 
-.packActions-2i3SLO,.stickersList-Q202uA {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
+.stickerWrapper-16sTV0 {
+    cursor: pointer
 }
 
 .packActions-2i3SLO {
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -67429,4 +67434,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ac2ab1e89f802d841622.css.map*/
+/*# sourceMappingURL=0.97daca71d3f8e31a5444.css.map*/
