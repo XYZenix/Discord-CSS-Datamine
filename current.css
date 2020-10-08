@@ -19040,6 +19040,30 @@ html .progress-GjyFoQ {
     margin-bottom: 8px
 }
 
+.countdownContainer-3QTUg6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 12px
+}
+
+.countdownText-3tHeVw {
+    color: var(--interactive-normal);
+    background-color: var(--background-modifier-accent);
+    border-radius: 10px;
+    padding: 0 4px
+}
+
+.countdownTextIcon-29UNh3 {
+    position: relative;
+    top: 2px;
+    height: 12px;
+    width: 12px
+}
+
 .clickableSticker-3HmpgV {
     cursor: pointer
 }
@@ -25575,6 +25599,27 @@ html .progress-GjyFoQ {
     height: 1px;
     background: rgba(185,187,190,.3);
     z-index: 100
+}
+
+.tooltip-1jydGM {
+    max-width: 280px
+}
+
+.tooltipContent-2opL_O {
+    padding: 16px
+}
+
+.title-2IIJok {
+    color: #fff
+}
+
+.blurb-3ZWyr9,.title-2IIJok {
+    text-align: center
+}
+
+.blurb-3ZWyr9 {
+    margin-top: 4px;
+    margin-bottom: 16px
 }
 
 .categoryList-xW5xXr {
@@ -67479,4 +67524,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.236a38f67d8d670b485b.css.map*/
+/*# sourceMappingURL=0.22f4e2cb3df25b2e319d.css.map*/
