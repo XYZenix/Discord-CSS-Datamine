@@ -25983,7 +25983,8 @@ html .progress-GjyFoQ {
     display: inline-block;
     background-color: var(--background-floating);
     border-radius: 4px;
-    padding: 0 4px
+    padding: 0 4px;
+    font-weight: 400
 }
 
 .inline-3vqbcF {
@@ -26066,7 +26067,7 @@ html .progress-GjyFoQ {
 }
 
 .title-38hYfV {
-    font-weight: 600
+    font-weight: 500
 }
 
 .description-QP9Ktn {
@@ -67437,4 +67438,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ed70eb5d22a4f715c3ca.css.map*/
+/*# sourceMappingURL=0.a68b619580f89a92cc7c.css.map*/
