@@ -56247,7 +56247,9 @@ html .tabBadge-3smxHS {
 }
 
 .accountList-33MS45 {
-    padding: 20px 20px 12px
+    padding: 20px 20px 12px;
+    background-color: var(--background-secondary-alt);
+    border-radius: 8px
 }
 
 .accountBtn-2Nozo3 {
@@ -56268,31 +56270,28 @@ html .tabBadge-3smxHS {
     background-color: var(--background-modifier-hover)
 }
 
+.connectionList-3pzR-1 {
+    display: grid;
+    grid-gap: 24px
+}
+
 .connection-1fbD7X {
+    background-color: var(--background-secondary);
     width: 100%;
-    border-radius: 5px
+    border-radius: 8px
 }
 
 .connectionHeader-2MDqhu {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     padding: 20px;
-    background: rgba(0,0,0,.1);
-    border-bottom: 1px solid rgba(0,0,0,.15);
-    border-radius: 5px 5px 0 0
+    background: var(--background-secondary-alt);
+    border-radius: 8px 8px 0 0
 }
 
 .connectionHeader-2MDqhu .connectionAccountValue-3VdBGs {
-    color: #fff;
+    color: var(--header-primary);
     margin-left: 20px
 }
 
@@ -56300,7 +56299,7 @@ html .tabBadge-3smxHS {
     margin-left: 20px;
     font-size: 12px;
     line-height: 14px;
-    opacity: .6
+    color: var(--header-secondary)
 }
 
 .connectionIcon-2ElzVe {
@@ -56309,7 +56308,7 @@ html .tabBadge-3smxHS {
 }
 
 .connectionOptionsWrapper-3KIj1Z {
-    padding: 0 10px
+    padding: 20px 10px 0
 }
 
 .connectionOptionsWrapper-3KIj1Z .connectionOptionSwitch-3KNn-E h3 {
@@ -56340,15 +56339,13 @@ html .tabBadge-3smxHS {
 }
 
 .integrationsWrapper-VkM_zO a {
-    color: #fff;
-    text-decoration: underline
+    color: var(--text-normal)
 }
 
 .integration-3kMeY4 {
-    border-radius: 5px;
-    border: 1px solid rgba(0,0,0,.3);
-    background: rgba(0,0,0,.1);
-    padding: 10px;
+    border-radius: 8px;
+    background: var(--background-secondary-alt);
+    padding: 16px 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -56376,13 +56373,12 @@ html .tabBadge-3smxHS {
 }
 
 .integrationInner-3SUFBs .channelLink-2TxEu3 {
-    color: hsla(0,0%,100%,.3);
-    font-size: 12px;
-    text-decoration: none
+    color: var(--header-secondary);
+    font-size: 12px
 }
 
 .integrationInner-3SUFBs .integrationName-2tSCoY {
-    color: #fff
+    color: var(--header-primary)
 }
 
 .warning-1XxEC9 {
@@ -56398,39 +56394,14 @@ html .tabBadge-3smxHS {
 }
 
 .connectionDelete-2Odoln {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 32px;
-    height: 32px;
-    border: 1px solid hsla(0,0%,100%,.3);
-    border-radius: 3px;
     cursor: pointer;
-    overflow: hidden;
-    color: transparent
+    color: var(--interactive-normal);
+    -ms-flex-item-align: center;
+    align-self: center
 }
 
-.connectionDelete-2Odoln:after,.connectionDelete-2Odoln:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    background-color: #fff;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg)
-}
-
-.connectionDelete-2Odoln:before {
-    top: 7px;
-    left: 14px;
-    width: 2px
-}
-
-.connectionDelete-2Odoln:after {
-    top: 14px;
-    left: 7px;
-    height: 2px
+.connectionDelete-2Odoln:hover {
+    color: var(--interactive-hover)
 }
 
 .connectedAccountSeparator-2EgLhW {
@@ -56440,7 +56411,7 @@ html .tabBadge-3smxHS {
 }
 
 .subEnabledTitle-2ElRo_ {
-    color: #fff
+    color: var(--text-normal)
 }
 
 .item-3q5jTx {
@@ -67466,4 +67437,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.010963a19f13524ebd2f.css.map*/
+/*# sourceMappingURL=0.ed70eb5d22a4f715c3ca.css.map*/
