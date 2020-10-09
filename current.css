@@ -18866,6 +18866,10 @@ html .progress-GjyFoQ {
     line-height: 18px
 }
 
+.monospace-2wHjP3 {
+    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace
+}
+
 .features-3yHAt3 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -18898,8 +18902,17 @@ html .progress-GjyFoQ {
 }
 
 .featureIcon-2pfUYw {
-    height: 16px;
-    width: 16px
+    height: 12px;
+    width: 12px;
+    padding: 2px
+}
+
+.theme-dark .timerIcon-3FpAHP {
+    color: #fbb848
+}
+
+.theme-light .timerIcon-3FpAHP {
+    color: #ff8a00
 }
 
 .previewBody-2oRIh5 {
@@ -19058,15 +19071,24 @@ html .progress-GjyFoQ {
 .countdownText-3tHeVw {
     color: var(--interactive-normal);
     background-color: var(--background-modifier-accent);
+    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
     border-radius: 10px;
     padding: 0 4px
 }
 
-.countdownTextIcon-29UNh3 {
+.countdownIcon-B3jzQN {
     position: relative;
     top: 2px;
     height: 12px;
     width: 12px
+}
+
+.theme-dark .countdownIcon-B3jzQN {
+    color: #fbb848
+}
+
+.theme-light .countdownIcon-B3jzQN {
+    color: #ff8a00
 }
 
 .clickableSticker-3HmpgV {
@@ -67444,4 +67466,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d6094bea8deaf8867201.css.map*/
+/*# sourceMappingURL=0.010963a19f13524ebd2f.css.map*/
