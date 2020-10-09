@@ -21501,6 +21501,10 @@ html .progress-GjyFoQ {
     font-weight: 600
 }
 
+.formItemDescription-1uHpm2 {
+    margin-bottom: 8px
+}
+
 .container-2hHzu5 {
     padding: 0;
     display: -webkit-box;
@@ -50829,7 +50833,9 @@ html .invoiceCancelRow-1YYT42 {
     -ms-flex-pack: center;
     justify-content: center;
     height: 40px;
-    padding: 0 8px
+    padding: 0 8px;
+    -webkit-box-shadow: none;
+    box-shadow: none
 }
 
 .button-gP4R86,.notice-3uyY6c {
@@ -67438,4 +67444,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f8c5bc05c1b618a4ac9c.css.map*/
+/*# sourceMappingURL=0.d6094bea8deaf8867201.css.map*/
