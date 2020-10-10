@@ -9203,6 +9203,30 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     background: #e3e5e8
 }
 
+.upsellFooter-3coAfO {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    color: var(--text-normal);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 16px;
+    padding: 8px
+}
+
+.upsellFooterIcon-wRsqlH {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 8px;
+    height: 24px;
+    width: 24px
+}
+
 .bodyText-2BAgX2 {
     color: var(--text-normal);
     font-size: 16px;
@@ -9311,7 +9335,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     margin-top: 8px
 }
 
-.existingSlotNotice-1KvWSb,.upsellFooter-6EgwMe {
+.existingSlotNotice-1KvWSb {
     background-color: var(--background-secondary);
     border-radius: 8px;
     color: var(--text-normal);
@@ -9324,14 +9348,11 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     font-size: 14px;
     line-height: 18px;
     margin-top: 16px;
-    padding: 8px
-}
-
-.existingSlotNotice-1KvWSb {
+    padding: 8px;
     margin-bottom: 16px
 }
 
-.existingSlotIcon-zCzuDM,.upsellFooterIcon-2105bD {
+.existingSlotIcon-zCzuDM {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin-right: 8px;
@@ -25783,6 +25804,14 @@ html .progress-GjyFoQ {
 .header-WclrWC {
     margin-top: 16px;
     margin-bottom: 8px
+}
+
+.subtitle-oTdNF- {
+    white-space: pre-line
+}
+
+.browseLink-36JjWs {
+    margin-top: 14px
 }
 
 .wrapper-OxgYJ1 {
@@ -67281,4 +67310,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9b7df9b36b94c1f34cc6.css.map*/
+/*# sourceMappingURL=0.01e031b0c241f288b016.css.map*/
