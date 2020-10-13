@@ -18662,7 +18662,7 @@ html .progress-GjyFoQ {
     column-gap: 12px
 }
 
-.packAction-3Q40tV,.packActions-2175d0 {
+.packActions-2175d0,.packActionShinyButton-3RJvCM {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -18671,7 +18671,7 @@ html .progress-GjyFoQ {
     display: flex
 }
 
-.packAction-3Q40tV {
+.packActionShinyButton-3RJvCM {
     -webkit-column-gap: 2px;
     -moz-column-gap: 2px;
     column-gap: 2px
@@ -18850,9 +18850,6 @@ html .progress-GjyFoQ {
     align-items: flex-start;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     height: 66px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -18864,6 +18861,12 @@ html .progress-GjyFoQ {
     padding: 12px 4px
 }
 
+.header-1jwfHp,.title-1R2vOK {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
 .title-1R2vOK {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -18871,14 +18874,23 @@ html .progress-GjyFoQ {
     -webkit-column-gap: 4px;
     -moz-column-gap: 4px;
     column-gap: 4px;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    margin-bottom: 4px
+    margin-bottom: 4px;
+    max-width: 100%;
+    white-space: nowrap
+}
+
+.heading-3FTJUH,.title-1R2vOK {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
 }
 
 .heading-3FTJUH {
     font-size: 16px;
-    line-height: 20px
+    line-height: 20px;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis
 }
 
 .count-ZZL8Ce {
@@ -18894,7 +18906,10 @@ html .progress-GjyFoQ {
 .features-3yHAt3 {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto
 }
 
 .featuresTooltip-3r0QiF {
@@ -25834,16 +25849,35 @@ html .progress-GjyFoQ {
     margin: 0 20px
 }
 
-.packHeaderShop-1qN3eZ {
+.packHeaderShopWrapper-2OtJtX {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-column-gap: 12px;
     -moz-column-gap: 12px;
-    column-gap: 12px;
-    display: grid;
-    grid-template-columns: 1fr auto
+    column-gap: 12px
+}
+
+.packHeaderShop-1qN3eZ {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden
+}
+
+.packHeaderShopActions-pPMTPj {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto
 }
 
 .sticker-3HpuRA {
     cursor: pointer
+}
+
+.footerPurchaseActions-3ttWV- {
+    height: 32px;
+    margin-top: 12px
 }
 
 .wrapper-3ir_7D {
@@ -67310,4 +67344,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.01e031b0c241f288b016.css.map*/
+/*# sourceMappingURL=0.5124bfaeec88255b7bf8.css.map*/
