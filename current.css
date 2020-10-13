@@ -44333,6 +44333,19 @@ html .progress-GjyFoQ {
     margin-top: 16px
 }
 
+.headerSubtitle-2pkm7y {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end
+}
+
+.headerSubtitleIcon-35rx5e {
+    padding-right: 4px
+}
+
 .content-3JiERV {
     overflow: hidden;
     display: -webkit-box;
@@ -60226,6 +60239,13 @@ html .invoiceCancelRow-3mYhFX {
     margin-top: 16px
 }
 
+.label-1M1EWS {
+    margin: 0 10px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
 .easyModeContainer-27mxag {
     padding: 60px 40px
 }
@@ -67344,4 +67364,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a872211877c1f49f10a9.css.map*/
+/*# sourceMappingURL=0.9794baacf582e88f1409.css.map*/
