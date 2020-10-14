@@ -18919,10 +18919,7 @@ html .progress-GjyFoQ {
 .feature-3kpTdS {
     color: var(--interactive-normal);
     background-color: var(--background-modifier-accent);
-    border-radius: 10px
-}
-
-.feature-3kpTdS:not(:first-child) {
+    border-radius: 10px;
     margin-left: 4px
 }
 
@@ -67364,4 +67361,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2e8f7fe700467b1ef7e2.css.map*/
+/*# sourceMappingURL=0.cf36dd8ec9c25aad0349.css.map*/
