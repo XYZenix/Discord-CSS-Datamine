@@ -2670,7 +2670,8 @@
 }
 
 .focusLock-Ns3yie {
-    min-height: 0
+    min-height: 0;
+    max-width: 100%
 }
 
 .focusLock-Ns3yie,.root-1gCeng {
@@ -39337,10 +39338,10 @@ html .progress-GjyFoQ {
 }
 
 .header-2DNSXx {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: relative;
-    height: 360px;
-    background: -webkit-gradient(linear,left bottom,left top,color-stop(-.45%,#5984ff),color-stop(71.18%,#2a5ee8));
-    background: linear-gradient(0deg,#5984ff -.45%,#2a5ee8 71.18%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -39348,69 +39349,76 @@ html .progress-GjyFoQ {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    overflow: hidden;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
-    justify-content: flex-start;
-    overflow: hidden
+    justify-content: flex-start
 }
 
 @media (min-width: 768px) {
     .header-2DNSXx {
-        height:240px;
-        -webkit-box-pack: center;
+        -webkit-box-pack:center;
         -ms-flex-pack: center;
         justify-content: center
     }
 }
 
+.headerGraphic-2iKD27 {
+    min-width: 650px;
+    width: 100%
+}
+
+.headerGraphic-2iKD27:after {
+    background: url(/assets/f3406f9daf47b7e260971de90b01edbb.png) 50%/contain no-repeat;
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 33.43465%
+}
+
+.headerContent-2ePP2Q {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+
 .headerText-ZVZ4bX {
-    font-weight: 700;
-    color: #fff;
-    position: relative;
-    margin-top: 80px
+    font-weight: 700
 }
 
-@media (min-width: 768px) {
-    .headerText-ZVZ4bX {
-        margin-top:0
-    }
-}
-
-.dateText-DM8xBj {
-    margin-top: 2px;
-    font-style: italic;
+.dateText-DM8xBj,.headerText-ZVZ4bX {
     color: #fff;
     position: relative
 }
 
+.dateText-DM8xBj {
+    margin-top: 2px;
+    font-style: italic
+}
+
 .headerLeftImage-3O0NaS {
-    position: absolute;
     left: 0;
-    bottom: 0;
-    width: 357px;
-    height: 172px;
-    background: url(/assets/25827bddb7c9639625ed5b2be4d729ec.svg) no-repeat;
-    background-size: contain;
+    background: url(/assets/df8ac223535f4aaca900e0dfd4c06516.png) 50%/contain no-repeat;
     border-bottom-left-radius: 8px
 }
 
-.headerRightImage-2PAuBe {
+.headerLeftImage-3O0NaS,.headerRightImage-2PAuBe {
     position: absolute;
-    right: 0;
     bottom: 0;
-    width: 327px;
-    height: 231px;
-    background: url(/assets/2eeb95d09a8714441aae7675ea1a505f.svg) no-repeat;
-    background-size: contain;
+    width: 180px;
+    height: 220px
+}
+
+.headerRightImage-2PAuBe {
+    right: 0;
+    background: url(/assets/7257dc66059fff2be1bc43c379edefda.png) 50%/contain no-repeat;
     border-bottom-right-radius: 8px
 }
 
 .footer-1lnhms {
-    background: var(--background-floating) url(/assets/0443f6aac40f937c2ebd13244809186a.svg) no-repeat bottom 32px center;
-    background-size: 408px 113px;
+    background: var(--background-floating) url(/assets/6812ba2237fb14b9fe6eb53134874f5c.png) no-repeat bottom/343px 78px;
     margin: 32px 16px 16px;
     padding: 16px 16px 142px;
     border-radius: 9px;
@@ -39434,8 +39442,7 @@ html .progress-GjyFoQ {
 
 @media (min-width: 768px) {
     .footer-1lnhms {
-        background:var(--background-floating) url(/assets/3d297edce71f61b41d8f6656b3e4798d.svg) no-repeat 100%;
-        background-size: 251px 221px;
+        background:var(--background-floating) url(/assets/ef3f462cc3c68b5b86ae1c296799370f.png) no-repeat 100% 100%/238px 220px;
         min-height: 208px;
         margin: 32px 28px 16px;
         padding: 16px;
@@ -39446,7 +39453,7 @@ html .progress-GjyFoQ {
     }
 }
 
-.footerCTAFallbackText-3fRBqA,.footerCTAFallbackText-3fRBqA a {
+.copyButton-IOQPbV .ctaAnchor-3-8I3v,.footerCTAFallbackText-3fRBqA,.footerCTAFallbackText-3fRBqA a {
     color: var(--text-normal)
 }
 
@@ -67368,4 +67375,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.32e281724d81489ec26b.css.map*/
+/*# sourceMappingURL=0.6dfcf865bdad95cd542b.css.map*/
