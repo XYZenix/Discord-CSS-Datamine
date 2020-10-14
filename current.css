@@ -27116,7 +27116,7 @@ html .progress-GjyFoQ {
     animation: pulseIcon-2wem_X .6s ease
 }
 
-.pulseButton-37U3Qe {
+.pulseButton-37U3Qe .buttonWrapper-1ZmCpA {
     -webkit-animation: pulseButton-37U3Qe .6s ease;
     animation: pulseButton-37U3Qe .6s ease
 }
@@ -27146,7 +27146,7 @@ html .progress-GjyFoQ {
     animation-delay: .5s
 }
 
-.active-23Nm0T .icon-3D60ES,.buttonWrapper-1ZmCpA:hover .icon-3D60ES {
+.active-23Nm0T .buttonWrapper-1ZmCpA .icon-3D60ES,.buttonWrapper-1ZmCpA:hover .icon-3D60ES {
     color: var(--interactive-active)
 }
 
@@ -67368,4 +67368,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ad0b74cbf40357bd30f5.css.map*/
+/*# sourceMappingURL=0.5b20c8e309cde07fde06.css.map*/
