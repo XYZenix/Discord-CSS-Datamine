@@ -9044,13 +9044,51 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     }
 }
 
+.perkRow-4H5Kvz {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid var(--channeltextarea-background);
+    margin: 0 16px;
+    padding: 16px 0
+}
+
+.perkRow-4H5Kvz:last-child {
+    border-bottom: none
+}
+
+.perkIconContainer-Pf29_D {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 16px
+}
+
+.perkIcon-XjImOD,.perkIconContainer-Pf29_D {
+    height: 24px;
+    width: 24px
+}
+
+.perkDescription-2-1vIq {
+    color: var(--interactive-active);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px
+}
+
 .content-1tUOTl {
     padding-top: 32px
 }
 
 .closeButton-27-8oX {
     position: absolute;
-    right: 12px;
+    right: 4px;
     top: 12px
 }
 
@@ -9075,37 +9113,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     margin: 16px 0
 }
 
-.perkRow-2dYUqs {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-bottom: 1px solid var(--channeltextarea-background);
-    margin: 0 16px;
-    padding: 16px 0
-}
-
-.perkRow-2dYUqs:last-child {
-    border-bottom: none
-}
-
-.perkIconContainer-2O1j7e {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-right: 16px
-}
-
-.perkIcon-1WtoWV,.perkIconContainer-2O1j7e {
-    height: 24px;
-    width: 24px
-}
-
 .perkIconGuild-KLNhuR {
     color: #ff80f4
 }
@@ -9120,13 +9127,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .perkIconChatPerks-BnKNFh {
     color: #8ea1e1
-}
-
-.perkDescription-26E8uL {
-    color: var(--interactive-active);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px
 }
 
 .backStep-vJugKI {
@@ -18953,6 +18953,64 @@ html .progress-GjyFoQ {
     height: 308px
 }
 
+.wrapper-2I_xdo {
+    padding: 32px 8px 20px 16px
+}
+
+.heroImage-2DDtvQ {
+    display: block;
+    margin: 0 auto 47px;
+    width: 250px
+}
+
+.closeButton-3-o1fy {
+    position: absolute;
+    right: 4px;
+    top: 12px
+}
+
+.heading-1T1JUo {
+    margin-bottom: 16px
+}
+
+.perks-38PVEp {
+    background-color: var(--background-secondary);
+    border-radius: 8px
+}
+
+.icon-2so9Ic {
+    height: 20px;
+    width: 20px
+}
+
+.iconColorLightBlue-zbxJUe {
+    color: #aec7ff
+}
+
+.iconColorGreen-c9b11Y {
+    color: #a2fed3
+}
+
+.iconColorOrange-ow96zv {
+    color: #ff9a15
+}
+
+.iconColorYellow-2xDXGJ {
+    color: #fed648
+}
+
+.iconColorPink-1dhBIv {
+    color: #ff73fa
+}
+
+.iconColorDarkBlue-6qQpJf {
+    color: #3e70dd
+}
+
+.iconColorBlue-2PYTWd {
+    color: #80a6ff
+}
+
 .bodyContentWrapper-mY7Mw3 {
     padding-top: 16px
 }
@@ -19000,12 +19058,7 @@ html .progress-GjyFoQ {
     margin-bottom: 8px
 }
 
-.skuPreviewModalContent-3IkwuK {
-    overflow: hidden!important;
-    padding: 0
-}
-
-.skuPreviewFooter-3y9Yq5 {
+.footer-3aq6Id {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -19018,11 +19071,55 @@ html .progress-GjyFoQ {
     flex-direction: row
 }
 
+.upsellFooter-3KAS47 {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.skuPreviewModalContent-3IkwuK {
+    overflow: hidden!important;
+    padding: 0
+}
+
 .skuPreviewFooterCloseButton-l952Td {
     color: var(--interactive-active);
     font-size: 14px;
     font-weight: 600;
     line-height: 18px
+}
+
+.upsellModalContent-1rwrNE {
+    padding: 0
+}
+
+.upsellContinue-3VLXSW {
+    color: var(--interactive-normal)
+}
+
+.upsellContinue-3VLXSW:hover {
+    color: var(--interactive-hover);
+    text-decoration: none
+}
+
+.modalContentForm-1volcU {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 0
+}
+
+.continueToPurchaseButton-37vWA5 {
+    margin-right: 16px;
+    padding-left: 0;
+    padding-right: 0
 }
 
 .popoutContent-1rAJey {
@@ -67375,4 +67472,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6dfcf865bdad95cd542b.css.map*/
+/*# sourceMappingURL=0.7fa00054af208f2961de.css.map*/
