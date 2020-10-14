@@ -25724,11 +25724,17 @@ html .progress-GjyFoQ {
 }
 
 .stickerCategoryRecentDisabled-5KTYkf {
-    cursor: default
+    cursor: default;
+    color: var(--interactive-muted)
 }
 
 .stickerCategoryRecentDisabled-5KTYkf .stickerCategoryRecentIcon-16VgYU {
     opacity: .6
+}
+
+.stickerCategoryRecentDisabled-5KTYkf.stickerCategory-3Yz7vN:hover {
+    background-color: transparent;
+    color: var(--interactive-muted)
 }
 
 .stickerCategorySelected-2uaMAG,.stickerCategorySelected-2uaMAG:hover {
@@ -67362,4 +67368,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6d4193cb49c041251778.css.map*/
+/*# sourceMappingURL=0.ad0b74cbf40357bd30f5.css.map*/
