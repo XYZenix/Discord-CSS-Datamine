@@ -19115,6 +19115,7 @@ html .progress-GjyFoQ {
 }
 
 .popoutContent-1rAJey {
+    background-color: #fff;
     padding: 16px
 }
 
@@ -19208,6 +19209,12 @@ html .progress-GjyFoQ {
 
 .theme-dark .countdownIcon-B3jzQN {
     color: #fbb848
+}
+
+.theme-light .popoutContent-1rAJey {
+    background-color: var(--background-floating);
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high)
 }
 
 .theme-light .countdownIcon-B3jzQN {
@@ -67875,4 +67882,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.04636107e41c2184e826.css.map*/
+/*# sourceMappingURL=0.bcac6305b998df6d373f.css.map*/
