@@ -18657,12 +18657,6 @@ html .progress-GjyFoQ {
     color: #f04747
 }
 
-.packActions-2175d0 {
-    -webkit-column-gap: 12px;
-    -moz-column-gap: 12px;
-    column-gap: 12px
-}
-
 .packActions-2175d0,.packActionShinyButton-3RJvCM {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -18672,17 +18666,15 @@ html .progress-GjyFoQ {
     display: flex
 }
 
-.packActionShinyButton-3RJvCM {
-    -webkit-column-gap: 2px;
-    -moz-column-gap: 2px;
-    column-gap: 2px
-}
-
 .packActionIcon-3coxAH {
     display: block;
     height: 16px;
     margin-right: 4px;
     width: 16px
+}
+
+.packAction-3Q40tV+.packAction-3Q40tV {
+    margin-left: 12px
 }
 
 .loadingIndicator-tk-VI6 {
@@ -67883,4 +67875,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a51da328b8babd0910fc.css.map*/
+/*# sourceMappingURL=0.04636107e41c2184e826.css.map*/
