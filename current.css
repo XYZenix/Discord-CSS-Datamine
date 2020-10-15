@@ -19115,7 +19115,6 @@ html .progress-GjyFoQ {
 }
 
 .popoutContent-1rAJey {
-    background-color: #fff;
     padding: 16px
 }
 
@@ -19211,7 +19210,7 @@ html .progress-GjyFoQ {
     color: #fbb848
 }
 
-.theme-light .popoutContent-1rAJey {
+.theme-light .popoutContent-1rAJey,.theme-light .popoutLoader-2HV5kI {
     background-color: var(--background-floating);
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high)
@@ -67882,4 +67881,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.bcac6305b998df6d373f.css.map*/
+/*# sourceMappingURL=0.cd84f9b7d78ce9c30908.css.map*/
