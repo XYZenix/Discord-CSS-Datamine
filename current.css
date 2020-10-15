@@ -44461,9 +44461,9 @@ html .progress-GjyFoQ {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: end
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .headerSubtitleIcon-35rx5e {
@@ -44499,11 +44499,7 @@ html .progress-GjyFoQ {
     border-radius: 4px
 }
 
-.addMemberRow-3-w-9X:hover {
-    background-color: var(--background-modifier-hover)
-}
-
-.addMemberRow-3-w-9X.selectedRow-1QP7qb {
+.addMemberRow-3-w-9X.selectedRow-1QP7qb,.addMemberRow-3-w-9X:hover {
     background-color: var(--background-modifier-selected)
 }
 
@@ -68090,4 +68086,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.58fb90aa1df3535584e9.css.map*/
+/*# sourceMappingURL=0.b81f92e2b9972ed711e2.css.map*/
