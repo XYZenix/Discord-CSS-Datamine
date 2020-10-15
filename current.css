@@ -18867,21 +18867,23 @@ html .progress-GjyFoQ {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
     -webkit-column-gap: 4px;
     -moz-column-gap: 4px;
     column-gap: 4px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
     margin-bottom: 4px;
     max-width: 100%;
     white-space: nowrap
 }
 
-.heading-3FTJUH,.title-1R2vOK {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto
-}
-
 .heading-3FTJUH {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
     font-size: 16px;
     line-height: 20px;
     min-width: 0;
@@ -18903,9 +18905,9 @@ html .progress-GjyFoQ {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto
 }
 
 .featuresTooltip-3r0QiF {
@@ -18917,6 +18919,10 @@ html .progress-GjyFoQ {
     background-color: var(--background-modifier-accent);
     border-radius: 10px;
     margin-left: 4px
+}
+
+.featureFlushRight-2-VxWs {
+    margin-left: auto
 }
 
 .featureText-169iUC {
@@ -68094,4 +68100,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.24ee62ea71fbbabd1309.css.map*/
+/*# sourceMappingURL=0.6570624de6dc9fda7081.css.map*/
