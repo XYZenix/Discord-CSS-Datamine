@@ -21005,9 +21005,6 @@ html .progress-GjyFoQ {
     background-color: var(--background-secondary);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     height: 32px;
     padding: 0 4px;
     z-index: 1
@@ -21016,36 +21013,47 @@ html .progress-GjyFoQ {
 .header-19cWci,.wrapper-1-Fsb8 {
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
 }
 
 .header-19cWci {
     color: var(--header-secondary);
-    cursor: pointer;
-    display: grid;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     font-size: 12px;
     font-weight: 600;
-    grid-column-gap: 8px;
-    grid-template-columns: 16px auto 16px;
-    max-width: 100%;
     -webkit-transition: color .125s;
     transition: color .125s
 }
 
-.header-19cWci:hover {
+.interactive-BzuinF:hover {
+    cursor: pointer
+}
+
+.interactive-BzuinF:hover:hover {
     color: var(--interactive-active)
 }
 
 .headerIcon-1qrXTN {
     display: contents;
-    height: 100%
+    height: 100%;
+    margin-right: 8px
 }
 
 .headerLabel-3dG4M- {
     overflow: hidden;
     text-overflow: ellipsis;
     text-transform: uppercase;
-    white-space: nowrap
+    white-space: nowrap;
+    margin-right: 8px
+}
+
+.headerIcon-1qrXTN+.headerLabel-3dG4M- {
+    margin-left: 8px
 }
 
 .headerCollapseIcon-ymwSPR {
@@ -27144,6 +27152,12 @@ html .progress-GjyFoQ {
     scrollbar-width: none
 }
 
+.sticker-1T9_Bu {
+    display: block;
+    padding-left: 6px;
+    padding-right: 6px
+}
+
 .background-opacity-low .scrollableContainer-2NUZem {
     background-color: rgba(79,84,92,.5)
 }
@@ -27340,8 +27354,10 @@ html .progress-GjyFoQ {
 }
 
 .stickerButtonWithResult-1EqRLT {
-    padding-left: 0;
-    padding-right: 0
+    padding: 0;
+    height: 44px;
+    margin-left: 2px;
+    margin-right: 2px
 }
 
 .fontSize12Padding-2x5wK2 {
@@ -68192,4 +68208,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8e487b8df8df25547798.css.map*/
+/*# sourceMappingURL=0.d520a0a1d17b16e6f39c.css.map*/
