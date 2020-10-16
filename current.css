@@ -31021,8 +31021,8 @@ html .progress-GjyFoQ {
 .image-1npAv8 {
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover
+    -o-object-fit: contain;
+    object-fit: contain
 }
 
 .emptyPreviewContainer-1KOcxV {
@@ -68101,4 +68101,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.29f0a27c270214a8bb39.css.map*/
+/*# sourceMappingURL=0.e37680e689feb1f34328.css.map*/
