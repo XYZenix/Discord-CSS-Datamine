@@ -42424,12 +42424,20 @@ html .progress-GjyFoQ {
     align-items: center
 }
 
-.videoWrapper-3VC0Ax {
+.videoFrame-3JeHRb {
+    -ms-flex: 1;
+    flex: 1
+}
+
+.videoFrame-3JeHRb,.videoWrapper-3VC0Ax {
     -webkit-box-flex: 1;
+    position: relative
+}
+
+.videoWrapper-3VC0Ax {
     -ms-flex: 1 1 100%;
     flex: 1 1 100%;
-    margin: 0 auto;
-    position: relative
+    margin: 0 auto
 }
 
 .videoWrapperAnimated-3SL9U6 {
@@ -68093,4 +68101,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b04e27ff40ee93a96bf4.css.map*/
+/*# sourceMappingURL=0.29f0a27c270214a8bb39.css.map*/
