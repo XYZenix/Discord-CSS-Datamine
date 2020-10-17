@@ -18671,6 +18671,8 @@ html .progress-GjyFoQ {
 
 .packActionIcon-3coxAH {
     display: block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
     height: 16px;
     margin-right: 4px;
     width: 16px
@@ -68208,4 +68210,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d520a0a1d17b16e6f39c.css.map*/
+/*# sourceMappingURL=0.b5177a17b3c765c3c5df.css.map*/
