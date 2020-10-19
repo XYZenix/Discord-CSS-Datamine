@@ -1,29 +1,23 @@
-.focusable-1YV_-H {
-    position: relative
+.ring-13rgEW {
+    position: absolute;
+    display: none;
+    pointer-events: none;
+    background: none;
+    --__adaptive-radius:4px;border-radius: var(--__adaptive-radius);
+    --__adaptive-focus-color:var(--focus-primary);-webkit-box-shadow: 0 0 0 1px var(--focus-primary),0 0 0 4px var(--__adaptive-focus-color);
+    box-shadow: 0 0 0 1px var(--focus-primary),0 0 0 4px var(--__adaptive-focus-color)
 }
 
-.keyboard-mode .focusable-1YV_-H:focus:after {
-    content: "";
+.keyboard-mode .ring-13rgEW {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
+    background: none;
+    margin: 0;
+    padding: 0
 }
 
 .anchor-3Z-8Bb {
     color: var(--text-link);
     text-decoration: none
-}
-
-.keyboard-mode .anchor-3Z-8Bb:focus {
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .anchorUnderlineOnHover-2ESHQB:hover {
@@ -440,11 +434,6 @@
 .button-38aScr:disabled {
     cursor: not-allowed;
     opacity: .5
-}
-
-.keyboard-mode .button-38aScr:not(.noFocus-2C7BQj):focus {
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
@@ -2426,6 +2415,10 @@
 
 .fade-2kXiP2:hover::-webkit-scrollbar-thumb,.fade-2kXiP2:hover::-webkit-scrollbar-track {
     visibility: visible
+}
+
+.content-3YMskv {
+    position: relative
 }
 
 .scrolling-1Cdwk- .content-3YMskv {
@@ -10306,7 +10299,8 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     cursor: not-allowed
 }
 
-.keyboard-mode .slider-1PF9SW:focus .grabber-3mFHz2 {
+.grabberFocusRing-328xYp {
+    border-radius: 50%;
     -webkit-box-shadow: 0 0 0 3px var(--focus-primary);
     box-shadow: 0 0 0 3px var(--focus-primary)
 }
@@ -11843,7 +11837,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     text-indent: 0
 }
 
-.zalgo-jN1Ica.compact-T3H92H .contents-2mQqc9 {
+.zalgo-jN1Ica.compact-T3H92H .messageContent-2qWWxC {
     overflow: hidden
 }
 
@@ -12750,6 +12744,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 }
 
 .root-3-B5F3 {
+    position: relative;
     margin-top: 2px
 }
 
@@ -12763,11 +12758,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     height: 22px;
     margin: 0 4px 4px 0;
     padding: 4px
-}
-
-.keyboard-mode .role-2irmRk:focus-within {
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .roleCircle-3xAZ1j {
@@ -12784,7 +12774,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     height: 10px
 }
 
-.role-2irmRk:hover .roleRemoveIcon-2-TeGW,.keyboard-mode .role-2irmRk:focus-within .roleRemoveIcon-2-TeGW {
+.role-2irmRk:hover .roleRemoveIcon-2-TeGW,.roleRemoveIconFocused-2ynLxl {
     display: block
 }
 
@@ -15661,27 +15651,11 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
     display: block;
     position: relative
 }
 
-.keyboard-mode .barButtonMain-3K-jeJ:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    bottom: 4px;
-    left: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
-}
-
-.span-1mKrMp {
+.barButtonMain-3K-jeJ,.span-1mKrMp {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden
@@ -15693,19 +15667,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     flex: 0 0 auto;
     font-weight: 600;
     position: relative
-}
-
-.keyboard-mode .barButtonAlt-mYL1lj:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    bottom: 4px;
-    left: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .loadingMore-FEpq89 {
@@ -16102,19 +16063,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     color: #7289da;
     background: rgba(114,137,218,.1);
     position: relative
-}
-
-.keyboard-mode .wrapper-3WhCwL:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .interactive {
@@ -17944,20 +17892,6 @@ html .progress-GjyFoQ {
     right: 0;
     bottom: 0;
     left: 0
-}
-
-.keyboard-mode .mainContent-ENyL1r:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    bottom: 4px;
-    left: -4px;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
 }
 
 .name-3_Dsmg {
@@ -24146,20 +24080,6 @@ html .progress-GjyFoQ {
     background-color: #7289da
 }
 
-.keyboard-mode .message-2qnXI6:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 4px;
-    bottom: 0;
-    left: 4px;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
-}
-
 .message-2qnXI6 {
     padding-right: 48px!important
 }
@@ -27140,9 +27060,13 @@ html .progress-GjyFoQ {
     border-radius: 8px
 }
 
-.channelTextArea-2VhZ6z.highlighted-2eSV1B,.keyboard-mode .channelTextArea-2VhZ6z.focused-PMHa7m {
+.channelTextArea-2VhZ6z.highlighted-2eSV1B {
     -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
     box-shadow: 0 0 0 4px var(--focus-primary)
+}
+
+.focusRing-2NImfT {
+    border-radius: 8px
 }
 
 .scrollableContainer-2NUZem {
@@ -27335,19 +27259,6 @@ html .progress-GjyFoQ {
 }
 
 .emojiButton-pET4wH {
-}
-
-.keyboard-mode .emojiButton-pET4wH:focus-within:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 0;
-    bottom: 4px;
-    left: 0;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .stickerIcon-3TP7EM {
@@ -27545,19 +27456,6 @@ html .progress-GjyFoQ {
 
 .buttonWrapper-1ZmCpA {
     cursor: pointer
-}
-
-.keyboard-mode .buttonWrapper-1ZmCpA:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 0;
-    bottom: 4px;
-    left: 0;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .button-3AYNKb {
@@ -29325,11 +29223,6 @@ html .progress-GjyFoQ {
     background-color: var(--background-tertiary)
 }
 
-.keyboard-mode .searchBar-3dMhjb:focus-within {
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
-}
-
 .searchBar-3dMhjb .icon-38sknP {
     width: 24px;
     height: 24px
@@ -29846,20 +29739,6 @@ html .progress-GjyFoQ {
     margin-left: -4px;
     padding-top: 12px;
     padding-bottom: 12px
-}
-
-.keyboard-mode .messageGroupCozy-2iY6cT:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    bottom: 4px;
-    left: 8px;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
 }
 
 .scrollingFooterWrap-3FDlMn {
@@ -33472,6 +33351,18 @@ html .progress-GjyFoQ {
 
 .scroller-1J_F7B {
     height: 100%
+}
+
+.content-FNlD6K {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 60px
 }
 
 .avatar-gPqiLm {
@@ -43491,20 +43382,6 @@ html .progress-GjyFoQ {
     margin-right: 0
 }
 
-.keyboard-mode .tab-2j5AEF:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 0;
-    bottom: 4px;
-    left: 0;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
-}
-
 .totalResults--dyAxF {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
@@ -43611,20 +43488,6 @@ html .progress-GjyFoQ {
     cursor: auto
 }
 
-.keyboard-mode .searchResult-9tQ1uo:focus-within .searchResultMessage-1fxgXh.hit-1fVM9e:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    bottom: 4px;
-    left: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
-}
-
 .searchResultMessage-1fxgXh {
     position: relative;
     overflow: hidden;
@@ -43632,6 +43495,11 @@ html .progress-GjyFoQ {
     background-color: transparent;
     display: none;
     z-index: 0
+}
+
+.searchResultFocusRing-1AN8lp {
+    border-radius: 2px;
+    z-index: 2
 }
 
 .expanded-w_LCGl .searchResultMessage-1fxgXh {
@@ -43746,11 +43614,6 @@ html .progress-GjyFoQ {
     color: var(--interactive-active);
     -webkit-transform: translate3d(0,1px,0);
     transform: translate3d(0,1px,0)
-}
-
-.keyboard-mode .jumpButton-JkYoYK:focus {
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .searchResult-9tQ1uo:focus-within .jumpButton-JkYoYK,.searchResult-9tQ1uo:hover .jumpButton-JkYoYK {
@@ -43983,21 +43846,6 @@ html .progress-GjyFoQ {
     height: 44px;
     padding: 10px 16px;
     top: 0
-}
-
-.keyboard-mode .attachButton-2WznTc:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    bottom: 4px;
-    left: 4px;
-    border-radius: 4px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .attachButtonInner-PQjIyk {
@@ -44527,17 +44375,8 @@ html .progress-GjyFoQ {
     transition: -webkit-box-shadow .1s ease-out;
     transition: box-shadow .1s ease-out;
     transition: box-shadow .1s ease-out,-webkit-box-shadow .1s ease-out;
-    position: relative
-}
-
-.wrapper-2aW0bm :first-child {
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px
-}
-
-.wrapper-2aW0bm :last-child {
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px
+    position: relative;
+    overflow: hidden
 }
 
 .full-motion .wrapper-2aW0bm:hover {
@@ -44564,19 +44403,6 @@ html .progress-GjyFoQ {
     color: var(--interactive-normal);
     cursor: pointer;
     position: relative
-}
-
-.keyboard-mode .button-1ZiXG9:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary)
 }
 
 .button-1ZiXG9:hover {
@@ -46850,20 +46676,6 @@ strong {
     position: relative;
     max-width: 224px;
     margin-left: 8px
-}
-
-.keyboard-mode .member-3-YXUe:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 2px;
-    right: 4px;
-    bottom: 2px;
-    left: 0;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
 }
 
 .offline-3nJYBR {
@@ -51585,20 +51397,6 @@ html .invoiceCancelRow-1YYT42 {
     margin-left: 8px
 }
 
-.keyboard-mode .channel-2QD9_O:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 4px;
-    bottom: 0;
-    left: 0;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
-}
-
 .channel-2QD9_O:hover .closeButton-2GCmT5 {
     display: block
 }
@@ -54166,20 +53964,6 @@ html .tabBadge-3smxHS {
     left: 0
 }
 
-.keyboard-mode .mainContent-2gfK59:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 4px;
-    bottom: 0;
-    left: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
-}
-
 .icon-WnO6o2 {
     position: absolute;
     left: 2px;
@@ -54264,21 +54048,6 @@ html .tabBadge-3smxHS {
 .iconItem-1-bXkn:focus,.iconItem-1-bXkn:focus-within {
     display: block;
     position: relative
-}
-
-.keyboard-mode .iconItem-1-bXkn:focus-within:after,.keyboard-mode .iconItem-1-bXkn:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: -4px;
-    right: -4px;
-    bottom: -4px;
-    left: -4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none;
-    z-index: 2
 }
 
 .disableClick-2A2elC {
@@ -54384,21 +54153,6 @@ html .tabBadge-3smxHS {
 .addButton-1BORro:focus,.addButton-1BORro:focus-within {
     display: block;
     position: relative
-}
-
-.keyboard-mode .addButton-1BORro:focus-within:after,.keyboard-mode .addButton-1BORro:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: -4px;
-    right: -4px;
-    bottom: -4px;
-    left: -4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none;
-    z-index: 2
 }
 
 .addButtonIcon-3u-3Hu:hover {
@@ -54724,20 +54478,6 @@ html .tabBadge-3smxHS {
 
 .clickable-2ap7je {
     cursor: pointer
-}
-
-.keyboard-mode .clickable-2ap7je:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    bottom: 4px;
-    left: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
 }
 
 .animatedContainer-1pJv5C {
@@ -58845,12 +58585,6 @@ html .tabBadge-3smxHS {
     border: 2px solid #f04747
 }
 
-.keyboard-mode .wrapper-3jrx9n.hasFocus-2ksn_h {
-    -webkit-box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
-    box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
-    border-color: transparent
-}
-
 .option-n0icdO {
     position: absolute;
     width: 24%;
@@ -59782,20 +59516,6 @@ html .invoiceCancelRow-3mYhFX {
     background-color: var(--background-tertiary)
 }
 
-.keyboard-mode .container-1S6Mlq.inputFocused-2igDpC:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 2px;
-    right: 4px;
-    bottom: 2px;
-    left: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
-}
-
 .input-1lKksk {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -59824,28 +59544,12 @@ html .invoiceCancelRow-3mYhFX {
 
 .iconContainer-gnSl8w {
     position: relative;
-    margin-right: 3px;
+    margin-right: 3px
+}
+
+.icon-1T3XuV,.iconContainer-gnSl8w {
     height: 18px;
     width: 18px
-}
-
-.keyboard-mode .iconContainer-gnSl8w:focus:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: -3px;
-    right: -5px;
-    bottom: -3px;
-    left: -5px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 4px var(--focus-primary);
-    box-shadow: 0 0 0 4px var(--focus-primary);
-    pointer-events: none
-}
-
-.icon-1T3XuV {
-    width: 18px;
-    height: 18px
 }
 
 .iconClickable-3ZfMci {
@@ -68210,4 +67914,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5e9b26fc5b1f60ec2bbe.css.map*/
+/*# sourceMappingURL=0.d099c337e039021f0fc5.css.map*/
