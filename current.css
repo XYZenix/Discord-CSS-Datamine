@@ -53442,37 +53442,38 @@ html .tabBadge-3smxHS {
 }
 
 .container-2zflaQ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     cursor: pointer;
     -webkit-transition: opacity .2s ease-in;
     transition: opacity .2s ease-in
 }
 
-.container-2zflaQ,.content-1BENPf {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
 .content-1BENPf {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: baseline;
     -ms-flex-align: baseline;
-    align-items: baseline
+    align-items: baseline;
+    height: 135px
 }
 
-.header-17VJwP {
+.content-1BENPf,.header-17VJwP {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.header-17VJwP {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start
 }
 
 .splashContainer-1rUZiJ {
@@ -53496,15 +53497,19 @@ html .tabBadge-3smxHS {
 
 .avatar-1izvHm {
     width: 100%;
-    height: 100%
-}
-
-.avatar-1izvHm,.name-2S4ebg {
+    height: 100%;
     cursor: pointer
 }
 
-.name-2S4ebg {
-    margin-left: 8px
+.headerName-2_tRB0 {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 8px
 }
 
 .hover-5Ebo7F .splashImage-37Y0AL {
@@ -53513,7 +53518,7 @@ html .tabBadge-3smxHS {
 }
 
 .guildBadge-3eWG1R {
-    margin-left: 4px
+    margin-right: 4px
 }
 
 .description-2gqdJO {
@@ -53521,10 +53526,7 @@ html .tabBadge-3smxHS {
 }
 
 .memberInfo-1YVMA9 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin-top: 8px
+    margin-top: auto
 }
 
 .memberCount-3waKfJ,.memberInfo-1YVMA9 {
@@ -53549,22 +53551,6 @@ html .tabBadge-3smxHS {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     background-color: var(--interactive-muted)
-}
-
-.emojiContainer-1u-_sQ {
-    background-color: var(--background-secondary);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 0 4px;
-    border-radius: 8px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.emoji-3YFVtv {
-    margin: 4px
 }
 
 .separator-2xbLUz {
@@ -67914,4 +67900,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d099c337e039021f0fc5.css.map*/
+/*# sourceMappingURL=0.d22ff0f2a11e7fee389c.css.map*/
