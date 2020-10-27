@@ -27792,16 +27792,16 @@ html .progress-GjyFoQ {
     pointer-events: auto
 }
 
-.avatarUploaderInner-3UNxY3:hover {
+.avatarUploaderInner-3UNxY3:focus-within,.avatarUploaderInner-3UNxY3:hover {
     -webkit-box-shadow: inset 0 0 120px rgba(0,0,0,.75);
     box-shadow: inset 0 0 120px rgba(0,0,0,.75)
 }
 
-.avatarUploaderInner-3UNxY3:hover .avatarUploaderAcronym-3SioMc {
+.avatarUploaderInner-3UNxY3:focus-within .avatarUploaderAcronym-3SioMc,.avatarUploaderInner-3UNxY3:hover .avatarUploaderAcronym-3SioMc {
     visibility: hidden
 }
 
-.avatarUploaderInner-3UNxY3:hover .avatarUploaderHint-3SN212 {
+.avatarUploaderInner-3UNxY3:focus-within .avatarUploaderHint-3SN212,.avatarUploaderInner-3UNxY3:hover .avatarUploaderHint-3SN212 {
     visibility: visible
 }
 
@@ -30230,13 +30230,13 @@ html .progress-GjyFoQ {
 }
 
 .jumpButton-2F6EMx {
-    display: none;
     right: 16px;
-    top: 19px
+    top: 19px;
+    opacity: 0
 }
 
-.messageContainer-gbhlwo:hover .jumpButton-2F6EMx {
-    display: block
+.messageContainer-gbhlwo:focus-within .jumpButton-2F6EMx,.messageContainer-gbhlwo:hover .jumpButton-2F6EMx {
+    opacity: 1
 }
 
 .message-2DieIs {
@@ -30573,11 +30573,11 @@ html .progress-GjyFoQ {
 }
 
 .jumpButton-3vBz5U {
-    display: none
+    opacity: 0
 }
 
-.messageContainer-1ei2zM:hover .jumpButton-3vBz5U {
-    display: block
+.messageContainer-1ei2zM:focus-within .jumpButton-3vBz5U,.messageContainer-1ei2zM:hover .jumpButton-3vBz5U {
+    opacity: 1
 }
 
 .message-2g38UB {
@@ -33450,6 +33450,12 @@ html .progress-GjyFoQ {
 
 .bannedUser-1IalTM {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 8px 0;
     -webkit-transition: -webkit-box-shadow .1s ease;
     transition: -webkit-box-shadow .1s ease;
@@ -33463,6 +33469,9 @@ html .progress-GjyFoQ {
 }
 
 .bannedUser-1IalTM .username-1b3MVI {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100px;
+    flex: 1 1 100px;
     padding-left: 10px
 }
 
@@ -33553,7 +33562,7 @@ html .progress-GjyFoQ {
     transition: opacity .1s ease
 }
 
-.card-FDVird.active-nvdKfC:before,.card-FDVird:hover:before {
+.card-FDVird.active-nvdKfC:before,.card-FDVird:focus-within:before,.card-FDVird:hover:before {
     opacity: 1
 }
 
@@ -35340,7 +35349,11 @@ html .progress-GjyFoQ {
     overflow: hidden
 }
 
-.emojiRow-zIc7ZX:hover .emojiAliasInput-1y-NBz .emojiInput-1aLNse,.emojiRow-zIc7ZX:hover .emojiRemove-1k6MlJ {
+.emojiRow-zIc7ZX:focus-within .emojiAliasInput-1y-NBz .emojiInput-1aLNse,.emojiRow-zIc7ZX:hover .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+    opacity: 1
+}
+
+.emojiRow-zIc7ZX:focus-within .emojiRemove-1k6MlJ,.emojiRow-zIc7ZX:hover .emojiRemove-1k6MlJ {
     opacity: 1
 }
 
@@ -38407,6 +38420,15 @@ html .progress-GjyFoQ {
 
 .sidebarHeader-UbSI9z:hover,.sidebarHeader-UbSI9z:hover .addRoleIcon-3YjErH {
     opacity: 1
+}
+
+.addRoleButton-3Y-nzm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
 }
 
 .addRoleIcon-3YjErH {
@@ -57282,7 +57304,7 @@ html .tabBadge-3smxHS {
     opacity: 0
 }
 
-.game-1ipmAa:hover .overlayStatusText-L2IACa,.game-1ipmAa:hover .overlayWarningIcon-3fZsZE,.game-1ipmAa:hover .removeGame-2JFGPn {
+.game-1ipmAa:focus-within .overlayStatusText-L2IACa,.game-1ipmAa:focus-within .overlayWarningIcon-3fZsZE,.game-1ipmAa:focus-within .removeGame-2JFGPn,.game-1ipmAa:hover .overlayStatusText-L2IACa,.game-1ipmAa:hover .overlayWarningIcon-3fZsZE,.game-1ipmAa:hover .removeGame-2JFGPn {
     opacity: 1
 }
 
@@ -57297,7 +57319,7 @@ html .tabBadge-3smxHS {
     opacity: 0
 }
 
-.activeGame-14JI7o:hover .removeGame-2JFGPn {
+.activeGame-14JI7o:focus-within .removeGame-2JFGPn,.activeGame-14JI7o:hover .removeGame-2JFGPn {
     opacity: 1
 }
 
@@ -67972,4 +67994,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1d9e242ff3d476390b0b.css.map*/
+/*# sourceMappingURL=0.88dcb123a22b650f483c.css.map*/
