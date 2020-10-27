@@ -4,8 +4,8 @@
     pointer-events: none;
     background: none;
     --__adaptive-radius:4px;border-radius: var(--__adaptive-radius);
-    --__adaptive-focus-color:var(--focus-primary);-webkit-box-shadow: 0 0 0 1px var(--focus-primary),0 0 0 4px var(--__adaptive-focus-color);
-    box-shadow: 0 0 0 1px var(--focus-primary),0 0 0 4px var(--__adaptive-focus-color)
+    --__adaptive-focus-color:var(--focus-primary);-webkit-box-shadow: 0 0 0 4px var(--__adaptive-focus-color);
+    box-shadow: 0 0 0 4px var(--__adaptive-focus-color)
 }
 
 .keyboard-mode .ring-13rgEW {
@@ -14447,12 +14447,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .imageWrapper-2p5ogY img {
     position: absolute
-}
-
-.imageWrapper-2p5ogY:focus {
-    outline: var(--text-link) auto 5px;
-    -webkit-transition: outline 0s ease .15s;
-    transition: outline 0s ease .15s
 }
 
 .imageWrapperBackground-E_M6Nu {
@@ -32373,7 +32367,6 @@ html .progress-GjyFoQ {
 
 .contentRegion-3nDuYy {
     position: relative;
-    z-index: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -32441,8 +32434,7 @@ html .progress-GjyFoQ {
     left: 0;
     right: 71px;
     max-width: 740px;
-    padding: 0 20px 20px;
-    z-index: 2
+    padding: 0 20px 20px
 }
 
 .toolsContainer-1edPuj {
@@ -67994,4 +67986,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.88dcb123a22b650f483c.css.map*/
+/*# sourceMappingURL=0.f744649956b499230659.css.map*/
