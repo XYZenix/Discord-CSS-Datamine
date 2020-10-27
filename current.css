@@ -34176,7 +34176,7 @@ html .progress-GjyFoQ {
 }
 
 .divider-27Sb2- {
-    margin: 32px 16px
+    margin: 32px 0
 }
 
 .addChannelButton-3j20Ox {
@@ -34218,8 +34218,11 @@ html .progress-GjyFoQ {
 .channelIcon-1eKmlw {
     background-color: var(--background-tertiary);
     color: var(--header-secondary);
-    border-radius: 4px;
     padding: 4px
+}
+
+.channelIcon-1eKmlw,.warningIcon-2dFY7P {
+    border-radius: 4px
 }
 
 .channelDescriptionWrapper-ml5lTn {
@@ -34231,6 +34234,14 @@ html .progress-GjyFoQ {
 
 .channelDescription-3C1p1m {
     font-weight: 600
+}
+
+.theme-dark .channelWarning-3e1Pz4,.theme-dark .warningIcon-2dFY7P {
+    color: #faa61a
+}
+
+.theme-light .channelWarning-3e1Pz4,.theme-light .warningIcon-2dFY7P {
+    color: #f04747
 }
 
 .welcomeDescription-16dYOx {
@@ -67900,4 +67911,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d22ff0f2a11e7fee389c.css.map*/
+/*# sourceMappingURL=0.212f7769afa45abcca83.css.map*/
