@@ -20691,10 +20691,6 @@ html .progress-GjyFoQ {
     width: 24px
 }
 
-.categoryItemDefaultCategory-aBZ6nJ:first-child {
-    margin-bottom: 8px
-}
-
 .categoryItemDefaultCategory-aBZ6nJ:last-child {
     margin-bottom: 0
 }
@@ -20705,6 +20701,10 @@ html .progress-GjyFoQ {
 
 .categoryItemDefaultCategory-aBZ6nJ:hover .categoryIcon-1SvUHG {
     color: var(--interactive-hover)
+}
+
+.categoryItemRecentEmoji-IRN6zY {
+    margin-bottom: 8px
 }
 
 .categoryItemDefaultCategorySelected-_HCKoz,.categoryItemDefaultCategorySelected-_HCKoz:hover {
@@ -20872,6 +20872,11 @@ html .progress-GjyFoQ {
     color: var(--interactive-normal)
 }
 
+.favorite-2Om6aP {
+    margin-right: 3px;
+    margin-bottom: -1px
+}
+
 .emoji-AAbs8r {
     height: 100%;
     -o-object-fit: contain;
@@ -21031,9 +21036,37 @@ html .progress-GjyFoQ {
     pointer-events: none
 }
 
+@-webkit-keyframes ripple-2PE2Cc {
+    0% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8);
+        opacity: 1
+    }
+
+    to {
+        -webkit-transform: scale(1.6);
+        transform: scale(1.6);
+        opacity: 0
+    }
+}
+
+@keyframes ripple-2PE2Cc {
+    0% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8);
+        opacity: 1
+    }
+
+    to {
+        -webkit-transform: scale(1.6);
+        transform: scale(1.6);
+        opacity: 0
+    }
+}
+
 .emojiListRow-m_GHp0 {
     display: grid;
-    overflow: hidden
+    grid-auto-flow: column
 }
 
 .emojiListRowLargeSize-3QTDek {
@@ -21048,14 +21081,42 @@ html .progress-GjyFoQ {
 
 .emojiItem-14v6tW {
     border-radius: 4px;
-    contain: strict;
     cursor: pointer;
-    outline: none;
-    padding: 4px
+    padding: 4px;
+    position: relative
+}
+
+.emojiItem-14v6tW,.emojiItem-14v6tW:focus {
+    outline: none
 }
 
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
     background-color: var(--background-accent)
+}
+
+.emojiItem-14v6tW:after {
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #faa61a;
+    border-radius: 100%;
+    pointer-events: none
+}
+
+.emojiItem-14v6tW.showPulse-nkOA_h:after {
+    -webkit-animation: ripple-2PE2Cc .25s ease-out 1;
+    animation: ripple-2PE2Cc .25s ease-out 1
 }
 
 .emojiItemLarge-sa0X3P {
@@ -67911,4 +67972,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.212f7769afa45abcca83.css.map*/
+/*# sourceMappingURL=0.1d9e242ff3d476390b0b.css.map*/
