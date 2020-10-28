@@ -27580,7 +27580,6 @@ html .progress-GjyFoQ {
 
 .container-2fRDfG {
     background: var(--background-secondary);
-    padding: 8px 16px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     display: -webkit-box;
@@ -27598,11 +27597,46 @@ html .progress-GjyFoQ {
     flex: 1 1 auto;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
+    margin-left: 16px
 }
 
 .name-hpTFiv {
     font-weight: 600
+}
+
+.actions-NlfMQc {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto
+}
+
+.actions-NlfMQc,.mentionButton-3710-W {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.mentionButton-3710-W {
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 12px
+}
+
+.mentionIcon-1UYeiz {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px
+}
+
+.separator-ju-9xl {
+    width: 1px;
+    height: 20px;
+    background-color: var(--background-modifier-accent)
 }
 
 .closeButton-37O8QC {
@@ -27611,14 +27645,15 @@ html .progress-GjyFoQ {
     flex: 0 0 auto;
     cursor: pointer;
     color: var(--interactive-normal);
-    line-height: 0
+    line-height: 0;
+    padding: 8px 12px
 }
 
 .closeButton-37O8QC:hover {
     color: var(--interactive-hover)
 }
 
-.close-xGEa0W {
+.closeIcon-HLoKft {
     width: 16px;
     height: 16px
 }
@@ -67978,4 +68013,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.717ac38b8bff1254b63d.css.map*/
+/*# sourceMappingURL=0.da7e3250820f8af4c37c.css.map*/
