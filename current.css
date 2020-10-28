@@ -44587,18 +44587,6 @@ html .progress-GjyFoQ {
     color: #9099a4
 }
 
-.button-2OOM0p {
-    display: inline-block;
-    padding: 0;
-    margin-top: 12px;
-    color: var(--text-link)
-}
-
-.button-2OOM0p:hover {
-    -webkit-text-decoration-line: underline;
-    text-decoration-line: underline
-}
-
 .container-3RCQyg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -44710,7 +44698,7 @@ html .progress-GjyFoQ {
     border-radius: 4px
 }
 
-.addMemberRow-3-w-9X.selectedRow-1QP7qb,.addMemberRow-3-w-9X:hover {
+.addMemberRow-3-w-9X.selectedRow-1QP7qb {
     background-color: var(--background-modifier-selected)
 }
 
@@ -44951,6 +44939,10 @@ html .progress-GjyFoQ {
 
 .channelSettingButtons-23CIRg {
     margin-top: 16px
+}
+
+.buttonContainer-2GVjL_ {
+    margin-top: 8px
 }
 
 .container-3zqIcM {
@@ -67986,4 +67978,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f744649956b499230659.css.map*/
+/*# sourceMappingURL=0.717ac38b8bff1254b63d.css.map*/
