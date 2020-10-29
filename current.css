@@ -21676,6 +21676,20 @@ html .progress-GjyFoQ {
     padding: 8px
 }
 
+.card-3veb4J,.spacing-1QIWht {
+}
+
+.card-3veb4J {
+    padding: 10px
+}
+
+.error-3C5PHt {
+}
+
+.warning-1WIX3i {
+    color: #fff
+}
+
 .spacer-2b8O1V {
     width: 8px
 }
@@ -55923,20 +55937,6 @@ html .tabBadge-3smxHS {
     fill: #fff
 }
 
-.card-3veb4J,.spacing-1QIWht {
-}
-
-.card-3veb4J {
-    padding: 10px
-}
-
-.error-3C5PHt {
-}
-
-.warning-1WIX3i {
-    color: #fff
-}
-
 .description-31A0cy {
     margin-bottom: 16px
 }
@@ -56389,9 +56389,19 @@ html .tabBadge-3smxHS {
     margin-bottom: 4px
 }
 
+.fieldButtonList-16Wn0S {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
 .fieldButton-27bJrp {
     margin-top: auto;
     margin-bottom: auto
+}
+
+.removeButton-3vophT {
+    margin-right: 8px
 }
 
 .menu-319q29,.uploadButton-3kjtMm {
@@ -68013,4 +68023,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6c02431bd9d84d21233a.css.map*/
+/*# sourceMappingURL=0.a77dd55173389dfba700.css.map*/
