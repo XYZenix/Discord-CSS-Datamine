@@ -36070,7 +36070,7 @@ html .progress-GjyFoQ {
     margin-bottom: 19px
 }
 
-.inviteSettingsInviteRow-3p2O-N:hover .revokeInvite-28N8uj {
+.inviteSettingsInviteRow-3p2O-N:focus-within .revokeInvite-28N8uj,.inviteSettingsInviteRow-3p2O-N:hover .revokeInvite-28N8uj {
     opacity: 1
 }
 
@@ -56881,7 +56881,7 @@ html .tabBadge-3smxHS {
     padding: 20px
 }
 
-.authedApp-mj2Hmd:hover .deleteApp-dtfZIe {
+.authedApp-mj2Hmd:focus-within .deleteApp-dtfZIe,.authedApp-mj2Hmd:hover .deleteApp-dtfZIe {
     opacity: 1
 }
 
@@ -68013,4 +68013,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.824f33c4a99d7aae6605.css.map*/
+/*# sourceMappingURL=0.c782a4567b14daa9e75a.css.map*/
