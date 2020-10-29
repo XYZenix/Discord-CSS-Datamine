@@ -22160,7 +22160,7 @@ html .progress-GjyFoQ {
     border-bottom-left-radius: 8px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: var(--background-secondary-alt);
+    background-color: var(--background-secondary);
     padding: 24px;
     width: 256px;
     -ms-flex-negative: 0;
@@ -22168,7 +22168,8 @@ html .progress-GjyFoQ {
 }
 
 .guildIcon-3XTt-X {
-    border-radius: 8px
+    border-radius: 8px;
+    background-color: var(--background-primary)
 }
 
 .guildName-30VKwV {
@@ -22301,6 +22302,12 @@ html .progress-GjyFoQ {
 
 .resendButton-1uhCM3 {
     margin: 24px auto
+}
+
+.theme-dark .footer-3A5D0p,.theme-light .footer-3A5D0p {
+    background-color: var(--background-primary);
+    -webkit-box-shadow: inset 0 1px 0 var(--background-modifier-accent);
+    box-shadow: inset 0 1px 0 var(--background-modifier-accent)
 }
 
 .container-2Uhd6d {
@@ -68023,4 +68030,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a77dd55173389dfba700.css.map*/
+/*# sourceMappingURL=0.8094e6d75c0868f34a0a.css.map*/
