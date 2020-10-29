@@ -54084,6 +54084,81 @@ html .tabBadge-3smxHS {
     color: var(--interactive-hover)
 }
 
+.containerDefault-3GGEv_,.containerDragAfter-3TEhpe,.containerDragBefore-3Dzc5x,.containerUserOver-1Tcb7l {
+    position: relative;
+    padding-top: 16px
+}
+
+.containerDefault-3GGEv_:active,.containerDragAfter-3TEhpe:active,.containerDragBefore-3Dzc5x:active,.containerUserOver-1Tcb7l:active {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+.containerDragAfter-3TEhpe:before,.containerDragBefore-3Dzc5x:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 8px;
+    right: 0;
+    height: 4px;
+    background-color: #43b581;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.4);
+    box-shadow: 0 0 3px rgba(0,0,0,.4)
+}
+
+.containerDragBefore-3Dzc5x:before {
+    top: -2px
+}
+
+.containerDragAfter-3TEhpe:before {
+    bottom: -2px
+}
+
+.containerUserOver-1Tcb7l:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 8px;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: rgba(67,181,129,.1);
+    border: 2px solid rgba(67,181,129,.5)
+}
+
+.disableClick-3_3MLG {
+    pointer-events: none
+}
+
+.addButton-1BORro {
+    width: 18px;
+    height: 18px;
+    display: none
+}
+
+.addButton-1BORro.forceVisible-3iHxvH,.iconVisibility-1yaA_k:hover .addButton-1BORro {
+    display: block
+}
+
+.addButton-1BORro:focus,.addButton-1BORro:focus-within {
+    display: block;
+    position: relative
+}
+
+.addButtonIcon-3u-3Hu:hover {
+    color: var(--interactive-hover)
+}
+
+.addButtonIcon-3u-3Hu:active {
+    -webkit-transform: translateY(.5px);
+    transform: translateY(.5px);
+    color: var(--interactive-active)
+}
+
 .containerDefault-1ZnADq,.containerDragAfter-1F4fgZ,.containerDragBefore-31UGCO,.containerUserOver-1U5YnL {
     position: relative;
     -webkit-transition: opacity .2s ease-in-out;
@@ -54186,81 +54261,6 @@ html .tabBadge-3smxHS {
 }
 
 .actionIcon-2Hi9ZG:active {
-    color: var(--interactive-active)
-}
-
-.containerDefault-3GGEv_,.containerDragAfter-3TEhpe,.containerDragBefore-3Dzc5x,.containerUserOver-1Tcb7l {
-    position: relative;
-    padding-top: 16px
-}
-
-.containerDefault-3GGEv_:active,.containerDragAfter-3TEhpe:active,.containerDragBefore-3Dzc5x:active,.containerUserOver-1Tcb7l:active {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0)
-}
-
-.containerDragAfter-3TEhpe:before,.containerDragBefore-3Dzc5x:before {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 8px;
-    right: 0;
-    height: 4px;
-    background-color: #43b581;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.4);
-    box-shadow: 0 0 3px rgba(0,0,0,.4)
-}
-
-.containerDragBefore-3Dzc5x:before {
-    top: -2px
-}
-
-.containerDragAfter-3TEhpe:before {
-    bottom: -2px
-}
-
-.containerUserOver-1Tcb7l:after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 8px;
-    border-radius: 4px;
-    z-index: 1;
-    background-color: rgba(67,181,129,.1);
-    border: 2px solid rgba(67,181,129,.5)
-}
-
-.disableClick-3_3MLG {
-    pointer-events: none
-}
-
-.addButton-1BORro {
-    width: 18px;
-    height: 18px;
-    display: none
-}
-
-.addButton-1BORro.forceVisible-3iHxvH,.iconVisibility-1yaA_k:hover .addButton-1BORro {
-    display: block
-}
-
-.addButton-1BORro:focus,.addButton-1BORro:focus-within {
-    display: block;
-    position: relative
-}
-
-.addButtonIcon-3u-3Hu:hover {
-    color: var(--interactive-hover)
-}
-
-.addButtonIcon-3u-3Hu:active {
-    -webkit-transform: translateY(.5px);
-    transform: translateY(.5px);
     color: var(--interactive-active)
 }
 
@@ -68013,4 +68013,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0946721086a1222705e9.css.map*/
+/*# sourceMappingURL=0.824f33c4a99d7aae6605.css.map*/
