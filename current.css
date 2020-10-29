@@ -19720,7 +19720,7 @@ html .progress-GjyFoQ {
     transition: filter .1s ease,-webkit-filter .1s ease
 }
 
-.localBotMessage-3cUzun {
+.localBotMessage-1EBRE0 {
     margin-top: 8px;
     font-size: 10px;
     font-weight: 400;
@@ -19728,7 +19728,7 @@ html .progress-GjyFoQ {
 }
 
 @media (-webkit-max-device-pixel-ratio: 1) {
-    .theme-light .localBotMessage-3cUzun {
+    .theme-light .localBotMessage-1EBRE0 {
         font-weight:500
     }
 }
@@ -24111,7 +24111,7 @@ html .progress-GjyFoQ {
     background-color: var(--background-mentioned)
 }
 
-.localBot-GrCgVt,.replying-1x3H0T {
+.ephemeral-1PsL1r,.replying-1x3H0T {
     position: relative;
     background-color: rgba(114,137,218,.05)
 }
@@ -68013,4 +68013,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c782a4567b14daa9e75a.css.map*/
+/*# sourceMappingURL=0.6c02431bd9d84d21233a.css.map*/
