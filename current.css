@@ -26981,6 +26981,16 @@ html .progress-GjyFoQ {
     margin-left: 2px
 }
 
+.autocompleteLayer-1ANxTe {
+    position: absolute;
+    max-width: 55ch;
+    pointer-events: all
+}
+
+.autocompleteLayer-1ANxTe .autocomplete-3l_oCd {
+    position: static
+}
+
 .userTooltip-7qZaHD {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -36238,7 +36248,7 @@ html .progress-GjyFoQ {
 
 .rulesInputNumber-2_I0eH {
     position: absolute;
-    top: 8px;
+    top: 11px;
     left: 8px;
     line-height: 24px;
     -webkit-transition: opacity .2s ease-in-out;
@@ -36246,8 +36256,14 @@ html .progress-GjyFoQ {
 }
 
 .rulesTextArea-1votGZ {
-    padding: 8px 8px 8px 32px;
-    margin-bottom: 4px
+    margin-bottom: 8px
+}
+
+.rulesTextAreaInput-31QXJC {
+    padding-left: 16px;
+    border-radius: 4px;
+    background-color: var(--background-secondary-alt);
+    border: 1px solid var(--background-tertiary)
 }
 
 .clearButton-1WSzj8 {
@@ -36414,6 +36430,10 @@ html .progress-GjyFoQ {
 
 .getStartedTitle-2nDca2 {
     margin-bottom: 8px
+}
+
+.errorBanner-1EY3-l {
+    margin-bottom: 16px
 }
 
 .settingsSubtitle-3UBgkV {
@@ -68078,4 +68098,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9c19fc4aee71a83bfa1b.css.map*/
+/*# sourceMappingURL=0.d5afafb6ec79dffc660b.css.map*/
