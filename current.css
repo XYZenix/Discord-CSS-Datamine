@@ -38862,7 +38862,13 @@ html .progress-GjyFoQ {
     margin-left: -10px
 }
 
-.sidebarHeader-UbSI9z {
+.addRoleButton-3Y-nzm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     cursor: pointer;
     opacity: .85;
     -webkit-transition: opacity .2s ease;
@@ -38870,17 +38876,8 @@ html .progress-GjyFoQ {
     color: var(--interactive-normal)
 }
 
-.sidebarHeader-UbSI9z:hover,.sidebarHeader-UbSI9z:hover .addRoleIcon-3YjErH {
+.addRoleButton-3Y-nzm:hover,.addRoleButton-3Y-nzm:hover .addRoleIcon-3YjErH {
     opacity: 1
-}
-
-.addRoleButton-3Y-nzm {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between
 }
 
 .addRoleIcon-3YjErH {
@@ -67978,4 +67975,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7989fb83ea781f14cacc.css.map*/
+/*# sourceMappingURL=0.f4ec11b102d5468c4c05.css.map*/
