@@ -37619,72 +37619,6 @@ html .progress-GjyFoQ {
     right: -8px
 }
 
-.container-jSV3OF {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-radius: 4px;
-    font-weight: 500;
-    padding: 8px;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-.fontSize14-1tusjs {
-    font-size: 14px;
-    line-height: 18px
-}
-
-.fontSize16-2ItDSF {
-    font-size: 16px;
-    line-height: 20px
-}
-
-.icon-1jlFSw {
-    width: 24px;
-    height: 24px;
-    -ms-flex-negative: 0;
-    flex-shrink: 0
-}
-
-.text-2J5crT {
-    margin-left: 10px;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    -ms-flex-item-align: center;
-    align-self: center
-}
-
-.text-2J5crT p {
-    margin: 0
-}
-
-.text-2J5crT p~p {
-    margin-top: 8px
-}
-
-.warning-3C2pOH {
-    background: var(--background-help-warning);
-    border: 1px solid #faa61a;
-    color: var(--interactive-active)
-}
-
-.warning-3C2pOH .icon-1jlFSw {
-    color: #faa61a
-}
-
-.info-1rdF5A {
-    background: var(--background-help-info);
-    border: 1px solid var(--text-link);
-    color: var(--interactive-active)
-}
-
-.info-1rdF5A .icon-1jlFSw {
-    color: var(--text-link)
-}
-
 .container-3Z2Sia {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -37803,6 +37737,72 @@ html .progress-GjyFoQ {
     bottom: 0;
     width: 100%;
     height: 100%
+}
+
+.container-jSV3OF {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 8px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.fontSize14-1tusjs {
+    font-size: 14px;
+    line-height: 18px
+}
+
+.fontSize16-2ItDSF {
+    font-size: 16px;
+    line-height: 20px
+}
+
+.icon-1jlFSw {
+    width: 24px;
+    height: 24px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.text-2J5crT {
+    margin-left: 10px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-item-align: center;
+    align-self: center
+}
+
+.text-2J5crT p {
+    margin: 0
+}
+
+.text-2J5crT p~p {
+    margin-top: 8px
+}
+
+.warning-3C2pOH {
+    background: var(--background-help-warning);
+    border: 1px solid #faa61a;
+    color: var(--interactive-active)
+}
+
+.warning-3C2pOH .icon-1jlFSw {
+    color: #faa61a
+}
+
+.info-1rdF5A {
+    background: var(--background-help-info);
+    border: 1px solid var(--text-link);
+    color: var(--interactive-active)
+}
+
+.info-1rdF5A .icon-1jlFSw {
+    color: var(--text-link)
 }
 
 .animation-10BpnT {
@@ -67952,4 +67952,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.07fc316e8e4ad5c57f4b.css.map*/
+/*# sourceMappingURL=0.f2f57ac5832e8dade190.css.map*/
