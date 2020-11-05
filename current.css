@@ -9131,6 +9131,51 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     width: 100%
 }
 
+.header-3bB_GQ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px
+}
+
+.title-2HFmAi {
+    font-weight: 700
+}
+
+.subtitle-8DQCLU,.title-2HFmAi {
+    text-align: center
+}
+
+.subtitle-8DQCLU {
+    margin-top: 8px
+}
+
+.modalCloseButton-nA1JXv {
+    position: absolute;
+    top: 16px;
+    right: 16px
+}
+
+.content-2Cyhe6 {
+    padding-bottom: 16px
+}
+
+.password-3REpJO {
+    margin-top: 16px
+}
+
+.cancel-204y04 {
+    margin-right: 8px
+}
+
 .message-3rf57R {
     margin-top: 20px;
     margin-bottom: 20px
@@ -56249,51 +56294,6 @@ html .tabBadge-3smxHS {
     background-image: url(/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg)
 }
 
-.header-3bB_GQ {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px
-}
-
-.title-2HFmAi {
-    font-weight: 700
-}
-
-.subtitle-8DQCLU,.title-2HFmAi {
-    text-align: center
-}
-
-.subtitle-8DQCLU {
-    margin-top: 8px
-}
-
-.modalCloseButton-nA1JXv {
-    position: absolute;
-    top: 16px;
-    right: 16px
-}
-
-.content-2Cyhe6 {
-    padding-bottom: 16px
-}
-
-.password-3REpJO {
-    margin-top: 16px
-}
-
-.cancel-204y04 {
-    margin-right: 8px
-}
-
 .header-3ydO_m {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -56725,206 +56725,6 @@ html .tabBadge-3smxHS {
 
 .theme-dark .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy {
     color: #dcddde
-}
-
-.btn-1rdLX7 {
-    padding: 10px 20px;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 500;
-    -webkit-transition: background-color .2s ease;
-    transition: background-color .2s ease;
-    position: relative;
-    text-align: center;
-    cursor: pointer
-}
-
-.btn-1rdLX7+.btn-1rdLX7 {
-    margin-left: 8px
-}
-
-.btn-1rdLX7:disabled {
-    cursor: not-allowed;
-    opacity: .3
-}
-
-.btn-1rdLX7.btnPrimary-_ybUjc {
-    color: #fff;
-    background-color: #7289da;
-    border-radius: 3px;
-    padding: 8px 16px
-}
-
-.btn-1rdLX7.btnPrimary-_ybUjc:hover:not(:disabled) {
-    background-color: #4e5d94
-}
-
-.userSettingsAccount-3wUMIP .userInfoViewingButton-2GlDif {
-    position: absolute;
-    top: 20px;
-    right: 20px
-}
-
-.userSettingsAccount-3wUMIP .userInfoEditing-3lpMt2,.userSettingsAccount-3wUMIP .userInfoViewing-3djV5v {
-    padding: 20px
-}
-
-.userSettingsAccount-3wUMIP .danger-1XffYh {
-    border-color: #f04747;
-    -webkit-box-shadow: 0 0 6px rgba(240,71,71,.3);
-    box-shadow: 0 0 6px rgba(240,71,71,.3)
-}
-
-.userSettingsAccount-3wUMIP .warning-3_sV2c {
-    border-color: #faa61a;
-    -webkit-box-shadow: 0 0 6px rgba(250,166,26,.3);
-    box-shadow: 0 0 6px rgba(250,166,26,.3)
-}
-
-.userSettingsAccount-3wUMIP .avatarColumn-QPOvE2 {
-    margin-right: 10px;
-    max-width: 170px;
-    text-align: center
-}
-
-.userSettingsAccount-3wUMIP .avatarUploaderInner-2hcI73 {
-    width: 100px;
-    height: 100px
-}
-
-.userSettingsSecurityImage-2_okeh {
-    width: 100%;
-    opacity: 1;
-    -webkit-transition: opacity .3s ease;
-    transition: opacity .3s ease
-}
-
-@media (max-width: 840px) {
-    .userSettingsSecurityImage-2_okeh {
-        opacity:0
-    }
-}
-
-.userSettingsSecurity-2WQWqX .isEnabled-1uQQER {
-    color: #43b581
-}
-
-.userSettingsSecurity-2WQWqX .lockIcon-118kgP {
-    margin-right: 4px;
-    width: 10px;
-    height: 14px;
-    position: relative;
-    top: 2px
-}
-
-.userSettingsSecurity-2WQWqX .checkboxGroup-2y-7m0 .code-1JDPSG {
-    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
-    font-size: 14px;
-    line-height: 28px;
-    cursor: text
-}
-
-.multiInput-2nMYZu {
-}
-
-.multiInputFirst-2EjMJf {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1
-}
-
-.multiInputField-3Mx3_s {
-    border: none
-}
-
-.multiInputLast-113cbm input {
-    width: 100px;
-    padding-left: 32px;
-    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace
-}
-
-.multiInputLast-113cbm:before {
-    width: 1px;
-    height: 30px;
-    content: "";
-    position: absolute;
-    margin-top: 5px;
-    border-width: 1px;
-    border-right-style: solid;
-    opacity: .1
-}
-
-.questionMark-1E01_r {
-    width: 32px;
-    height: 32px;
-    border-radius: 2px;
-    margin-right: 4px;
-    padding: 0;
-    min-width: 0;
-    min-height: 0
-}
-
-.questionMark-1E01_r .icon-3OA7an {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    -webkit-app-region: no-drag;
-    color: #f6f6f7
-}
-
-.phoneRevealer-2QyQVY {
-    margin-left: 4px
-}
-
-.usernameDiscriminatorErrorMessage-2qcj_L {
-    margin-top: 8px;
-    font-size: 14px;
-    line-height: 20px;
-    color: #f04747
-}
-
-.theme-light .userSettingsAccount-3wUMIP .viewBody-1l56Sd,.theme-light .userSettingsSecurity-2WQWqX .codeCheckbox-2VC-8N {
-    color: #4f545c
-}
-
-.theme-light .questionMark-1E01_r {
-    background-color: #7289da
-}
-
-.theme-light .questionMark-1E01_r:hover {
-    background-color: #8ea1e1
-}
-
-.theme-light .questionMark-1E01_r:hover .icon-3OA7an {
-    color: #f6f6f7
-}
-
-.theme-light .multiInputLast-113cbm:before {
-    border-right-color: #72767d
-}
-
-.theme-dark .userSettingsAccount-3wUMIP .viewBody-1l56Sd {
-    color: #b9bbbe
-}
-
-.theme-dark .userSettingsSecurity-2WQWqX .codeCheckbox-2VC-8N {
-    color: #dcddde
-}
-
-.theme-dark .questionMark-1E01_r {
-    background-color: #7289da
-}
-
-.theme-dark .questionMark-1E01_r:hover {
-    background-color: #8ea1e1
-}
-
-.theme-dark .multiInputLast-113cbm:before {
-    border-right-color: #fff
 }
 
 .modalContent-Kx1eDz {
@@ -68152,4 +67952,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.073883f01260eab5cfe1.css.map*/
+/*# sourceMappingURL=0.07fc316e8e4ad5c57f4b.css.map*/
