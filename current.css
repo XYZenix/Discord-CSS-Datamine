@@ -36577,23 +36577,23 @@ html .progress-GjyFoQ {
     margin-bottom: 16px
 }
 
-.settingsSubtitle-3UBgkV {
+.settingsSubtitle-14oNNx {
     color: var(--header-secondary)
 }
 
-.enableContainer-UQMw4z {
+.enableContainer-2DIT9Q {
     margin-top: 32px;
     padding: 16px;
     background-color: var(--background-secondary-alt);
     border-radius: 4px
 }
 
-.iconCircle-1nIWpZ {
+.iconCircle-JEgPhb {
     margin-right: 16px;
     border-radius: 50%
 }
 
-@-webkit-keyframes enable-3Hdl8Y {
+@-webkit-keyframes enable-QfV0hb {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -36619,7 +36619,7 @@ html .progress-GjyFoQ {
     }
 }
 
-@keyframes enable-3Hdl8Y {
+@keyframes enable-QfV0hb {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -36645,38 +36645,38 @@ html .progress-GjyFoQ {
     }
 }
 
-.activeCircle-nR0ENY {
+.activeCircle-15Lt-Q {
     padding: 4px;
     background-color: #43b581;
     color: #fff
 }
 
-.activeCircle-nR0ENY.animate-PvEAXv {
-    -webkit-animation: enable-3Hdl8Y .6s;
-    animation: enable-3Hdl8Y .6s
+.activeCircle-15Lt-Q.animate-1KSSuz {
+    -webkit-animation: enable-QfV0hb .6s;
+    animation: enable-QfV0hb .6s
 }
 
-.editCircle-AYQFsy {
+.editCircle-y9c7xP {
     padding: 5px;
     background-color: var(--interactive-muted);
     color: var(--interactive-normal)
 }
 
-.enableDescription-3mW0C_ {
+.enableDescription-32NG7M {
     margin: 0 8px 0 0
 }
 
-.previewButton-139--a {
+.previewButton-1IdhSk {
     margin-right: 8px
 }
 
-.divider-y1j07J {
+.divider-1luoRp {
     height: 1px;
     background: var(--background-modifier-accent);
     margin: 32px 0
 }
 
-.descriptionWrapper-1TMKDl {
+.descriptionWrapper-3AsAaj {
     margin-top: 32px
 }
 
@@ -36765,6 +36765,28 @@ html .progress-GjyFoQ {
     height: 1px;
     width: 100%;
     background-color: var(--background-modifier-accent)
+}
+
+.tabs-32WVB0 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid var(--background-modifier-accent);
+    margin-bottom: 32px
+}
+
+.tab-10jOFd {
+    padding: 16px 0;
+    cursor: pointer
+}
+
+.tab-10jOFd.selected-3Zukt8 {
+    border-bottom: 1px solid #7289da;
+    font-weight: 600
+}
+
+.spacer-3ZUFq- {
+    margin-right: 32px
 }
 
 .spacing-10gZNy {
@@ -67986,4 +68008,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5d8e45f5135269531ab3.css.map*/
+/*# sourceMappingURL=0.e28f3552c71bfbc3a569.css.map*/
