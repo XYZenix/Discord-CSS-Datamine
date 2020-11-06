@@ -36523,6 +36523,24 @@ html .progress-GjyFoQ {
     visibility: visible
 }
 
+.dragging-3XbwTj {
+    opacity: .5
+}
+
+.draggableWrapper-1MSRt5 {
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.draggableWrapper-1MSRt5 * {
+    cursor: move
+}
+
 .editButtonsWrapper-Jj1cFn {
     margin-left: 8px;
     display: -webkit-box;
@@ -68008,4 +68026,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e28f3552c71bfbc3a569.css.map*/
+/*# sourceMappingURL=0.54ebb8f5f953007c4c54.css.map*/
