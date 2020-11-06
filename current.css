@@ -36598,7 +36598,7 @@ html .progress-GjyFoQ {
     padding: 16px
 }
 
-.addRuleButton-2Pp1aS {
+.addItemButton-1lC30o {
     margin-top: 8px
 }
 
@@ -36606,7 +36606,7 @@ html .progress-GjyFoQ {
     opacity: .6
 }
 
-.rulesInputContainer-3SV5S4 {
+.draggableInputContainer-2IHkcW {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -36625,7 +36625,8 @@ html .progress-GjyFoQ {
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
-    position: relative
+    position: relative;
+    margin-bottom: 12px
 }
 
 .inputWrapper-2a6F8U:hover .clearButton-2akzBa {
@@ -36643,10 +36644,6 @@ html .progress-GjyFoQ {
     line-height: 24px;
     -webkit-transition: opacity .2s ease-in-out;
     transition: opacity .2s ease-in-out
-}
-
-.rulesTextArea-3GzGpl {
-    margin-bottom: 8px
 }
 
 .rulesTextAreaInput-2aGfKB {
@@ -36723,22 +36720,6 @@ html .progress-GjyFoQ {
 
 .spacedItem-350nB_ {
     margin-bottom: 16px
-}
-
-.linkButtonContent-2T8-QO {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color: var(--text-link);
-    font-size: 16px
-}
-
-.linkButtonIcon-38GFPm {
-    margin-right: 8px;
-    margin-left: -3px
 }
 
 .addFieldButtonsContainer-2ecRcx {
@@ -68005,4 +67986,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.18182caff6df375af25b.css.map*/
+/*# sourceMappingURL=0.88e701d71184644acf8d.css.map*/
