@@ -4698,6 +4698,11 @@ img[alt] {
 }
 
 .childContainer-1wxZNh {
+    position: absolute;
+    top: -.05px;
+    left: .05px;
+    right: 0;
+    bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4707,12 +4712,7 @@ img[alt] {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    pointer-events: none;
-    position: absolute;
-    top: -.05px;
-    left: .05px;
-    right: 0;
-    bottom: 0
+    pointer-events: none
 }
 
 .tooltip-2QfLtc {
@@ -42515,8 +42515,8 @@ html .progress-GjyFoQ {
 }
 
 .selectedIcon-1Ihli9 {
-    width: 32;
-    height: 32;
+    width: 32px;
+    height: 32px;
     color: #fff
 }
 
@@ -53976,6 +53976,8 @@ html .tabBadge-3smxHS {
 
 .dragRegion-1CaXN- {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100px
 }
@@ -65596,7 +65598,6 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .resizeIcon-2xSgbl {
-    position: relative;
     position: absolute;
     right: -4px;
     bottom: -4px;
@@ -68026,4 +68027,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.54ebb8f5f953007c4c54.css.map*/
+/*# sourceMappingURL=0.27765e157a7b1664d529.css.map*/
