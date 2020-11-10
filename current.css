@@ -48891,7 +48891,7 @@ html .invoiceCancelRow-1YYT42 {
     height: 100%
 }
 
-.tier1-1ttHRY.canceled-nz3kfr .image-S2twTr,.tier1-1ttHRY.pastDue-3JKEFl .image-S2twTr {
+.tier1-1ttHRY.canceled-nz3kfr .image-S2twTr,.tier1-1ttHRY.failedPayment-31_H4y .image-S2twTr {
     background-image: url(/assets/38b74213be1746737de58cc497333709.svg)
 }
 
@@ -48910,7 +48910,7 @@ html .invoiceCancelRow-1YYT42 {
     height: 32px
 }
 
-.tier2-3hSil0.canceled-nz3kfr .image-S2twTr,.tier2-3hSil0.pastDue-3JKEFl .image-S2twTr {
+.tier2-3hSil0.canceled-nz3kfr .image-S2twTr,.tier2-3hSil0.failedPayment-31_H4y .image-S2twTr {
     background-image: url(/assets/86d242e991560f6cd1f9d2c453d622e8.svg)
 }
 
@@ -48919,7 +48919,7 @@ html .invoiceCancelRow-1YYT42 {
     background-image: linear-gradient(90deg,#f18623,#f6a12a 56%,#fab930)
 }
 
-.pastDue-3JKEFl.banner-3Kac2g {
+.failedPayment-31_H4y.banner-3Kac2g {
     background-image: -webkit-gradient(linear,left top,right top,from(#f25a5d),color-stop(77%,#f14e76),to(#f04a7f));
     background-image: linear-gradient(90deg,#f25a5d,#f14e76 77%,#f04a7f)
 }
@@ -49129,16 +49129,16 @@ html .invoiceCancelRow-1YYT42 {
     background-image: url(/assets/985fa38ded6c8b4030cb8f7c814a333b.svg)
 }
 
-.premiumGuildSubscriptionRowPastDue-3OelsB {
+.premiumGuildSubscriptionRowFailedPayment-2jUagX {
     background-image: -webkit-gradient(linear,left top,right top,from(#f25a5d),color-stop(77%,#f14e76),to(#f04a7f));
     background-image: linear-gradient(90deg,#f25a5d,#f14e76 77%,#f04a7f)
 }
 
-.premiumGuildSubscriptionRowPastDue-3OelsB .premiumGuildSubscriptionRowBackground-1prHMc {
+.premiumGuildSubscriptionRowFailedPayment-2jUagX .premiumGuildSubscriptionRowBackground-1prHMc {
     background-image: url(/assets/d74ea2377c663a5d74789b87e07c657b.svg)
 }
 
-.premiumGuildSubscriptionRowPastDue-3OelsB .premiumGuildImage-ead1A0 {
+.premiumGuildSubscriptionRowFailedPayment-2jUagX .premiumGuildImage-ead1A0 {
     background-image: url(/assets/2ec655685c2de6476c4a05ac51878429.svg)
 }
 
@@ -68096,4 +68096,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c465e017dc84cc5f6e24.css.map*/
+/*# sourceMappingURL=0.6f7226b63e60ef8a3fa3.css.map*/
