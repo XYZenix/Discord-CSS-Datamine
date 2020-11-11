@@ -19273,6 +19273,26 @@ html .progress-GjyFoQ {
     padding: 2px
 }
 
+.newTag-38ErDv {
+    background-color: #f04747;
+    color: #fff;
+    font-size: 9px;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 16px;
+    border-radius: 16px;
+    margin-right: 4px;
+    padding: 0 6px
+}
+
 .theme-dark .timerIcon-3FpAHP {
     color: #fbb848
 }
@@ -26529,6 +26549,22 @@ html .progress-GjyFoQ {
     z-index: 100
 }
 
+.wrapper-232cHJ {
+    display: inline-block;
+    border-radius: 3px;
+    background-clip: padding-box;
+    background-color: #f04747;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25),inset 0 1px 0 hsla(0,0%,100%,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.25),inset 0 1px 0 hsla(0,0%,100%,.15);
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    padding: 3px 6px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.25);
+    text-transform: uppercase
+}
+
 .tooltip-1jydGM {
     max-width: 280px
 }
@@ -26652,6 +26688,130 @@ html .progress-GjyFoQ {
     display: block;
     height: 100%;
     width: 100%
+}
+
+.shopIconMask-26ZT9n {
+    display: block;
+    height: 20px;
+    width: 20px
+}
+
+.stickerCategoryShopBadge-1_oCG0 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    padding: 0;
+    position: relative;
+    top: -9px;
+    left: 11px
+}
+
+.sparklingEffectContainer-G74wOW {
+    position: relative
+}
+
+.sparklingEffectStar-2Hie-F {
+    position: absolute;
+    pointer-events: none
+}
+
+@-webkit-keyframes sparkle-animation-26NXlS {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0
+    }
+
+    20% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+
+    30% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+
+    50% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0
+    }
+}
+
+@keyframes sparkle-animation-26NXlS {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0
+    }
+
+    20% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+
+    30% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+
+    50% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0
+    }
+}
+
+.star1-Tj1LHc {
+    height: 12px;
+    width: 12px;
+    left: 19px;
+    top: -10px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-animation: sparkle-animation-26NXlS 2.5s infinite;
+    animation: sparkle-animation-26NXlS 2.5s infinite
+}
+
+.star2-3RGbAR {
+    left: 25px;
+    top: 5px;
+    -webkit-animation: sparkle-animation-26NXlS 2.5s infinite;
+    animation: sparkle-animation-26NXlS 2.5s infinite;
+    -webkit-animation-delay: .25s;
+    animation-delay: .25s
+}
+
+.star2-3RGbAR,.star3-2f7rlR {
+    height: 7px;
+    width: 7px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0
+}
+
+.star3-2f7rlR {
+    left: -10px;
+    top: 15px;
+    -webkit-animation: sparkle-animation-26NXlS 2.5s infinite;
+    animation: sparkle-animation-26NXlS 2.5s infinite;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s
 }
 
 .tooltip-__cTmz {
@@ -26907,6 +27067,32 @@ html .progress-GjyFoQ {
 
 .introductionTooltipContent-2CVaCn {
     padding: 16px
+}
+
+.stickersNavItem-g1SJ0f {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.stickersNavItem-g1SJ0f,.stickersUnseenBadge-3f2c9o {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.stickersUnseenBadge-3f2c9o {
+    height: 16px;
+    border-radius: 8px;
+    min-width: 16px;
+    padding: 0;
+    margin-left: 4px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
 }
 
 .bar-AokMp3 {
@@ -27320,9 +27506,23 @@ html .progress-GjyFoQ {
 .emojiButton-pET4wH {
 }
 
+.stickerButtonContent-1QaWH9 {
+    position: relative
+}
+
+.stickerButtonContentWithBadge-3rfagu {
+    top: -1px
+}
+
 .stickerIcon-3TP7EM {
     width: 20px!important;
     height: 20px!important
+}
+
+.stickerIconMask-2z9qNS {
+    display: block;
+    height: 20px;
+    width: 20px
 }
 
 .stickerButtonWithResult-1EqRLT {
@@ -27365,6 +27565,18 @@ html .progress-GjyFoQ {
 .fontSize24Padding-2Tz8jD {
     padding-bottom: 6px;
     padding-top: 5px
+}
+
+.notificationDot-3he13k {
+    background-color: #f04747;
+    border-radius: 100%;
+    bottom: 0;
+    height: 7px;
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate(30%,30%);
+    transform: translate(30%,30%);
+    width: 7px
 }
 
 .theme-brand .inner-MADQqc {
@@ -39846,22 +40058,6 @@ strong {
 
 .jumpButton-2dvRSC:hover .text-3KVtey {
     color: var(--interactive-hover)
-}
-
-.wrapper-232cHJ {
-    display: inline-block;
-    border-radius: 3px;
-    background-clip: padding-box;
-    background-color: #f04747;
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25),inset 0 1px 0 hsla(0,0%,100%,.15);
-    box-shadow: 0 1px 0 rgba(0,0,0,.25),inset 0 1px 0 hsla(0,0%,100%,.15);
-    color: #fff;
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: 500;
-    padding: 3px 6px;
-    text-shadow: 0 1px 0 rgba(0,0,0,.25);
-    text-transform: uppercase
 }
 
 .channelHeader-3Gd2xq {
@@ -68096,4 +68292,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.845acf7ace4c99b79e4e.css.map*/
+/*# sourceMappingURL=0.006f72546ac19f2cc59d.css.map*/
