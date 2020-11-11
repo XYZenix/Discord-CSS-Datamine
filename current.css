@@ -8678,7 +8678,8 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .item-26Dhrx {
     cursor: pointer;
-    border-radius: 3px
+    border-radius: 3px;
+    display: block
 }
 
 .item-26Dhrx:last-child {
@@ -68292,4 +68293,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.006f72546ac19f2cc59d.css.map*/
+/*# sourceMappingURL=0.d010c02563aba2191104.css.map*/
