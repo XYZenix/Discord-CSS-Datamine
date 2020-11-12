@@ -26712,6 +26712,9 @@ html .progress-GjyFoQ {
     border-radius: 8px;
     padding: 0;
     position: relative;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
     top: -9px;
     left: 11px
 }
@@ -27088,6 +27091,9 @@ html .progress-GjyFoQ {
     min-width: 16px;
     padding: 0;
     margin-left: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -68293,4 +68299,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d010c02563aba2191104.css.map*/
+/*# sourceMappingURL=0.df1c67ba086cda520ffd.css.map*/
