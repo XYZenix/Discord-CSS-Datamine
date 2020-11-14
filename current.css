@@ -46448,6 +46448,33 @@ strong {
     border-color: #dcddde
 }
 
+.menu-1NyPgn {
+    min-width: 200px;
+    max-width: none
+}
+
+.optionLabel-gOA3fK {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    font-size: 12px
+}
+
+.optionIcon-1HDcpY {
+    width: 24px;
+    height: 24px
+}
+
+.optionName-uM5yH- {
+    margin-left: 8px
+}
+
 .attachWrapper-2TRKBi {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -68297,4 +68324,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f365cb675d39e09ba0cb.css.map*/
+/*# sourceMappingURL=0.7fa45bb51759e00da07c.css.map*/
