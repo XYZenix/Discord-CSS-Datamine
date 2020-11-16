@@ -22239,7 +22239,7 @@ html .progress-GjyFoQ {
     align-self: stretch
 }
 
-.container-2hHzu5 {
+.container-19nk2r {
     padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -22253,7 +22253,7 @@ html .progress-GjyFoQ {
     border-radius: 8px
 }
 
-.guildSidebar-3LaS7_ {
+.guildSidebar-2OCzWB {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     -webkit-box-sizing: border-box;
@@ -22265,16 +22265,16 @@ html .progress-GjyFoQ {
     flex-shrink: 0
 }
 
-.guildIcon-3XTt-X {
+.guildIcon-38Zs0M {
     border-radius: 8px;
     background-color: var(--background-primary)
 }
 
-.guildName-30VKwV {
+.guildName-2TIjNT {
     margin: 16px 0
 }
 
-.emojisContainer-3URDym {
+.emojisContainer-19mZ0z {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -22285,50 +22285,43 @@ html .progress-GjyFoQ {
     align-items: center
 }
 
-.emoji-2Zt7gj {
+.emoji-3C344l {
     margin-right: 8px
 }
 
-.emoji-2Zt7gj,.onlineCount-1IoKKA {
+.emoji-3C344l,.onlineCount-27XuPk {
     margin-bottom: 8px
 }
 
-.dot-voi8yN {
+.dot-14Jva_ {
     border-radius: 50%;
     width: 8px;
     height: 8px;
     margin-right: 8px
 }
 
-.dotOnline-ij7hId {
+.dotOnline-2wEpt_ {
     background-color: #43b581
 }
 
-.dotMembers-1xXEXJ {
+.dotMembers-1XEUE5 {
     background-color: var(--text-muted)
 }
 
-.modal-3d0wAF {
+.divider-2FB3wK {
+    margin: 24px 0;
+    border: none;
+    border-bottom: 1px solid var(--background-modifier-accent)
+}
+
+.modal-f02hVt {
     overflow-x: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     background-color: var(--background-primary)
 }
 
-.content-IbWJSe {
-    padding: 24px 8px;
-    text-align: center
-}
-
-.sequencer-2asFtz {
-    min-height: 100%;
+.modal-f02hVt,.sequencer-GH6NxK {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -22338,38 +22331,41 @@ html .progress-GjyFoQ {
     flex-direction: column
 }
 
-.centerContent-Sqht5i {
+.sequencer-GH6NxK {
+    min-height: 100%
+}
+
+.content-3wJ8G6 {
+    padding: 24px 8px;
+    text-align: center
+}
+
+.centerContent-3pbrOl {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center
 }
 
-.closeButton-2infYq {
+.closeButton-1aXUE8 {
     position: absolute;
     top: 12px;
     right: 0;
     z-index: 2
 }
 
-.applicationIcon-33jVjX {
+.applicationIcon-1_YMdt {
     width: 88px
 }
 
-.header-7Lr3z- {
+.header-3WG5kX {
     margin: 16px 0 8px
 }
 
-.divider-39KqKR {
-    margin: 24px 0;
-    border: none;
-    border-bottom: 1px solid var(--background-modifier-accent)
-}
-
-.verificationForm-XScQXl {
+.verificationForm-lhyAxu {
     text-align: initial
 }
 
-.footer-3A5D0p {
+.footer-1JuRYY {
     background-color: var(--background-secondary);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -22389,20 +22385,20 @@ html .progress-GjyFoQ {
     flex: 0 0 auto
 }
 
-.submitButton-fBDF_p {
+.submitButton-YEItfy {
     margin-left: 12px
 }
 
-.formItem-16P3wz {
+.formItem-LXNO4Q {
     text-align: initial;
     margin-bottom: 24px
 }
 
-.resendButton-1uhCM3 {
+.resendButton-3WkctP {
     margin: 24px auto
 }
 
-.theme-dark .footer-3A5D0p,.theme-light .footer-3A5D0p {
+.theme-dark .footer-1JuRYY,.theme-light .footer-1JuRYY {
     background-color: var(--background-primary);
     -webkit-box-shadow: inset 0 1px 0 var(--background-modifier-accent);
     box-shadow: inset 0 1px 0 var(--background-modifier-accent)
@@ -25442,6 +25438,47 @@ html .progress-GjyFoQ {
 
 .cancelButton-3F-H2t {
     margin-right: 20px
+}
+
+.page-10_ecs {
+    background-color: var(--background-floating);
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.contentWrapper-29ZPQM,.page-10_ecs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.contentWrapper-29ZPQM {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    max-width: 720px;
+    max-height: 640px;
+    border-radius: 4px;
+    background-color: var(--background-primary)
+}
+
+.platform-osx .dragRegion-1qH1bf {
+    -webkit-app-region: drag
+}
+
+.dragRegion-1qH1bf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px
 }
 
 .container-2gEa-S {
@@ -68324,4 +68361,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7fa45bb51759e00da07c.css.map*/
+/*# sourceMappingURL=0.f464fbefcf47506c89dd.css.map*/
