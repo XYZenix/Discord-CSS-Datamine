@@ -62023,22 +62023,22 @@ html .invoiceCancelRow-3mYhFX {
     justify-content: space-between
 }
 
-.idle-70Gg3H .videoControls-38i4kP {
+.idle-70Gg3H:not(:focus-within) .videoControls-38i4kP {
     opacity: 0
 }
 
-.idle-70Gg3H .topControls-1PHLxx {
+.idle-70Gg3H:not(:focus-within) .topControls-1PHLxx {
     -webkit-transform: translate3d(0,-8px,0);
     transform: translate3d(0,-8px,0)
 }
 
-.idle-70Gg3H .bottomControls-2f_UqT {
+.idle-70Gg3H:not(:focus-within) .bottomControls-2f_UqT {
     -webkit-transform: translate3d(0,8px,0);
     transform: translate3d(0,8px,0)
 }
 
 .backButton-3c6fw4 {
-    margin-right: 1px;
+    margin-right: 2px;
     color: #b9bbbe
 }
 
@@ -62052,13 +62052,21 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .headerTitle-1Y0ywV {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     color: #fff;
     border-bottom: 1px solid transparent;
     margin: 0;
-    width: 100%;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
     line-height: 20px
 }
 
@@ -68379,4 +68387,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.90ebcf0747155c6ced81.css.map*/
+/*# sourceMappingURL=0.be7dbef009d156ef705b.css.map*/
