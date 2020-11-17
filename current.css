@@ -41386,6 +41386,10 @@ strong {
     margin-bottom: 8px
 }
 
+.wrapper-3Rixsz:focus {
+    background-color: var(--background-modifier-hover)
+}
+
 .enabled-1t_Gxm:hover {
     cursor: pointer
 }
@@ -41449,8 +41453,21 @@ strong {
     margin-top: 16px
 }
 
+.memberListItem-31QoHj {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
 .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
     cursor: pointer
+}
+
+.memberListItem-31QoHj:focus {
+    background-color: var(--background-modifier-hover)
 }
 
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
@@ -68449,4 +68466,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4fbb9f813ba3219ce3b2.css.map*/
+/*# sourceMappingURL=0.f231f66fc59807544ae9.css.map*/
