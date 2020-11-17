@@ -20142,15 +20142,24 @@ html .progress-GjyFoQ {
     transition: filter .1s ease,-webkit-filter .1s ease
 }
 
-.localBotMessage-1EBRE0 {
+.ephemeralMessage-1fEWtQ {
     margin-top: 8px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     color: var(--text-muted)
 }
 
+.ephemeralMessage-1fEWtQ a {
+    color: #7289da
+}
+
+.icon-2ZUv7M {
+    margin-right: 4px;
+    vertical-align: text-bottom
+}
+
 @media (-webkit-max-device-pixel-ratio: 1) {
-    .theme-light .localBotMessage-1EBRE0 {
+    .theme-light .ephemeralMessage-1fEWtQ {
         font-weight:500
     }
 }
@@ -24221,17 +24230,22 @@ html .progress-GjyFoQ {
     visibility: hidden
 }
 
+.ephemeral-1PsL1r {
+    position: relative;
+    background-color: rgba(114,137,218,.05)
+}
+
 .mentioned-xhSam7 {
     position: relative;
     background-color: var(--background-mentioned)
 }
 
-.ephemeral-1PsL1r,.replying-1x3H0T {
+.replying-1x3H0T {
     position: relative;
     background-color: rgba(114,137,218,.05)
 }
 
-.localBot-GrCgVt:before,.mentioned-xhSam7:before,.replying-1x3H0T:before {
+.ephemeral-1PsL1r:before,.mentioned-xhSam7:before,.replying-1x3H0T:before {
     content: "";
     position: absolute;
     display: block;
@@ -24242,11 +24256,15 @@ html .progress-GjyFoQ {
     width: 2px
 }
 
+.ephemeral-1PsL1r:before {
+    background-color: #7289da
+}
+
 .mentioned-xhSam7:before {
     background-color: #faa61a
 }
 
-.localBot-GrCgVt:before,.replying-1x3H0T:before {
+.replying-1x3H0T:before {
     background-color: #7289da
 }
 
@@ -24262,7 +24280,7 @@ html .progress-GjyFoQ {
     background-color: var(--background-mentioned-hover)
 }
 
-.message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z,.message-2qnXI6.replying-1x3H0T.selected-2P5D_Z,.mouse-mode.full-motion .localBot-GrCgVt:hover,.mouse-mode.full-motion .replying-1x3H0T:hover {
+.message-2qnXI6.ephemeral-1PsL1r.selected-2P5D_Z,.message-2qnXI6.replying-1x3H0T.selected-2P5D_Z,.mouse-mode.full-motion .ephemeral-1PsL1r:hover,.mouse-mode.full-motion .replying-1x3H0T:hover {
     background-color: rgba(114,137,218,.1)
 }
 
@@ -68361,4 +68379,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f464fbefcf47506c89dd.css.map*/
+/*# sourceMappingURL=0.90ebcf0747155c6ced81.css.map*/
