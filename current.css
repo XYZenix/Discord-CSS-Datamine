@@ -27211,6 +27211,7 @@ html .progress-GjyFoQ {
 
 .placeholder-37qJjk {
     left: 0;
+    white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     position: absolute;
@@ -27218,8 +27219,7 @@ html .progress-GjyFoQ {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
-    white-space: nowrap
+    user-select: none
 }
 
 .placeholder-37qJjk,.slateTextArea-1Mkdgw {
@@ -48773,7 +48773,6 @@ strong {
     height: 32px;
     padding: 0 6px;
     border: none;
-    white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: pre;
@@ -68628,4 +68627,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3afb5adcf444b1e8a18f.css.map*/
+/*# sourceMappingURL=0.6c37924a577426e79976.css.map*/
