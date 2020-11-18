@@ -30636,40 +30636,38 @@ strong {
     margin-top: 32px
 }
 
-.introDescription-388hn_ {
-    margin-bottom: 40px
-}
-
-.description-1wEhe7 {
-    margin-bottom: 16px
-}
-
-.exampleContainer-1ZAhKD {
+.exampleContainer-3ekFIr {
     position: relative;
+    background-image: url(/assets/84cb0186fea403acdab164cf005461d1.svg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: 0 0;
     background-size: cover;
-    width: 640px;
-    height: 560px;
+    width: 100%;
+    height: auto;
     background-color: var(--background-floating);
-    border-radius: 8px
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
 }
 
-.exampleContainerLight-1PI_iw {
-    background-image: url(/assets/bfb83512ed1aa3c2a1da5808d08db9f2.png)
+.exampleModal-2oh58d {
+    -webkit-transform: scale(.75);
+    transform: scale(.75);
+    width: 720px;
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto
 }
 
-.exampleContainerDark-3ypRDj {
-    background-image: url(/assets/579d8c1aa51bd06391c5ac19c654cb5e.png)
-}
-
-.exampleModal-fK35Lw {
-    max-width: 440px;
-    margin: 57px 80px 57px 120px;
-    border-radius: 8px
-}
-
-.exampleWumpus-19vyHD {
+.exampleWumpus-3QIhvG {
     position: absolute;
     top: -30px;
     right: -20px;
@@ -30681,12 +30679,12 @@ strong {
     align-items: center
 }
 
-.wumpus-38otPG {
+.wumpus-3Q6pSF {
     -webkit-filter: drop-shadow(var(--elevation-high));
     filter: drop-shadow(var(--elevation-high))
 }
 
-.tooltip-qctOBd {
+.tooltip-3oByQd {
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
     background-color: #000;
@@ -30698,29 +30696,92 @@ strong {
     padding: 8px 12px
 }
 
-.tooltipPointer-3IqmPW {
+.tooltipPointer-22Q7m0 {
     width: 0;
     height: 0;
     border: 5px solid transparent;
     border-right-color: #000
 }
 
-.guildInfo-3BktyN {
-    background-color: var(--background-secondary-alt);
-    padding: 24px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px
-}
-
-.guildName-1XIg6M {
-    margin-bottom: 16px
-}
-
-.divider-1wSviH {
+.divider-WtgBDD {
     margin: 16px 0;
-    height: 1px;
     width: 100%;
-    background-color: var(--background-modifier-accent)
+    border: none;
+    border-bottom: 1px solid var(--background-modifier-accent)
+}
+
+.guildSidebar-339BqP {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: var(--background-secondary);
+    padding: 24px;
+    max-width: 256px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.guildInfo-3Co_-d {
+    width: 100%
+}
+
+.content-BMIBeK {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--background-primary);
+    padding: 16px 16px 16px 8px;
+    text-align: center
+}
+
+.formItem-3RbGCz {
+    text-align: left;
+    margin-bottom: 12px
+}
+
+.exampleTextSingleLine-1kvErc {
+    background-color: var(--background-accent);
+    height: 8px
+}
+
+.spacedSingleLine-284nsO {
+    margin-bottom: 8px
+}
+
+.rule-BF256F {
+    margin-left: 8px
+}
+
+.checkbox-2nFD7p {
+    margin-top: 16px;
+    cursor: default
+}
+
+.fakeButton-kGEmb3 {
+    background-color: #7289da;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 12px
+}
+
+.introDescription-388hn_ {
+    margin-bottom: 40px
+}
+
+.description-1wEhe7 {
+    margin-bottom: 16px
 }
 
 .tabs-3gkT2D {
@@ -68466,4 +68527,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f231f66fc59807544ae9.css.map*/
+/*# sourceMappingURL=0.3f94989df8107870d98b.css.map*/
