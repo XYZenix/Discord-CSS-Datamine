@@ -47505,6 +47505,24 @@ strong {
     margin-top: 8px
 }
 
+.videoWrapper-3YdgHH {
+    background-color: #000;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.video-2aTfcg {
+    display: block;
+    width: 660px;
+    height: 370px
+}
+
+.video-3s2nhU {
+    height: 100%;
+    width: 100%;
+    position: absolute
+}
+
 .container-3zqIcM {
     padding: 16px 16px 0
 }
@@ -47579,6 +47597,29 @@ strong {
     min-height: 40px;
     background-size: contain;
     background-repeat: no-repeat
+}
+
+.playCircleWrapper-2wNttI {
+    background-color: #7289da;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 6px 5px 6px 7px;
+    margin: 2px
+}
+
+.playCircleIcon-274lgc {
+    width: 26px;
+    height: 26px
 }
 
 .cardHeader-2Wz67Q {
@@ -57825,18 +57866,6 @@ html .tabBadge-3smxHS {
     margin-right: 20px;
     -ms-flex-negative: 0;
     flex-shrink: 0
-}
-
-.videoWrapper-3YdgHH {
-    background-color: #000;
-    border-radius: 5px;
-    overflow: hidden
-}
-
-.video-2aTfcg {
-    display: block;
-    width: 660px;
-    height: 370px
 }
 
 .features-2npk2D {
@@ -68599,4 +68628,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a1f14b7260f91369a490.css.map*/
+/*# sourceMappingURL=0.3afb5adcf444b1e8a18f.css.map*/
