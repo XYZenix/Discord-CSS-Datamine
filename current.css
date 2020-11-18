@@ -62197,7 +62197,10 @@ html .invoiceCancelRow-3mYhFX {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
-    line-height: 20px
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
 }
 
 .headerTitle-1Y0ywV:hover {
@@ -68517,4 +68520,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.025fcc2364a67ab7f0c6.css.map*/
+/*# sourceMappingURL=0.c4c9275c2fd0c6452fb9.css.map*/
