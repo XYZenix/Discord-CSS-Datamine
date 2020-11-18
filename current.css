@@ -36125,8 +36125,8 @@ strong {
     margin-bottom: 0!important
 }
 
-.role-3wi9Tf:hover .roleOverflow-1zjC9k {
-    opacity: 1
+.role-3wi9Tf:focus-within .roleOverflow-1zjC9k,.role-3wi9Tf:hover .roleOverflow-1zjC9k {
+    visibility: visible
 }
 
 .roleInner-1C_Scc {
@@ -36142,12 +36142,12 @@ strong {
     flex-shrink: 0;
     margin-left: 8px;
     color: var(--interactive-normal);
-    opacity: 0;
+    visibility: hidden;
     cursor: pointer
 }
 
 .roleOverflow-1zjC9k.open-1HQpYy {
-    opacity: 1
+    visibility: visible
 }
 
 .lock-2Nag5p {
@@ -68517,4 +68517,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.695bff2dc6bce4e41b9b.css.map*/
+/*# sourceMappingURL=0.7ca8fa49058a2d6995e4.css.map*/
