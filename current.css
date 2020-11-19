@@ -12945,14 +12945,15 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .list-1xE9GQ {
     list-style: none;
-    height: 100%
+    height: 100%;
+    margin-top: 8px
 }
 
 .item-2J2GlB {
     font-weight: 500;
     border-radius: 4px;
     padding: 10px 8px;
-    margin-top: 4px;
+    margin-bottom: 4px;
     color: var(--interactive-normal);
     cursor: pointer;
     -webkit-box-align: center;
@@ -12982,6 +12983,15 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     text-align: center;
     display: grid;
     grid-gap: 12px
+}
+
+.disabled-w6MDKJ {
+    opacity: .3;
+    cursor: not-allowed
+}
+
+.selected-2114Fj {
+    background-color: var(--background-modifier-selected)
 }
 
 .container-3XJ8ns {
@@ -29633,7 +29643,7 @@ strong {
 
 .container-3LUQwT {
     margin-top: 4px;
-    padding-top: 8px;
+    padding: 8px 8px 4px;
     background-color: var(--background-floating);
     border-radius: 4px;
     overflow: hidden;
@@ -68495,4 +68505,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7e62057370d1c3a2aa31.css.map*/
+/*# sourceMappingURL=0.a5184466cedee967628a.css.map*/
