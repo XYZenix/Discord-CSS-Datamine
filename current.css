@@ -49539,6 +49539,31 @@ html .invoiceCancelRow-1YYT42 {
     color: var(--text-muted)
 }
 
+.banner-1oXqOF {
+    padding: 20px 16px;
+    border: 1px solid var(--background-tertiary);
+    background: var(--background-secondary-alt);
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.description-oDQ3YB {
+    margin-top: 6px
+}
+
+.content-22ZY1S {
+    width: 60%
+}
+
+.button-10CIAO {
+    margin-left: auto;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 auto;
+    flex: 0 auto
+}
+
 .banner-WELp4M {
     background-color: var(--background-secondary);
     border-radius: 4px;
@@ -50472,12 +50497,12 @@ html .invoiceCancelRow-1YYT42 {
     margin-bottom: 24px
 }
 
-.theme-light .sectionAccountCredit-1uNhnJ,.theme-light .subscriptionDetails-1dUmjl {
-    border-color: rgba(185,187,190,.3)
+.blackFriday2020Banner-3A9lBO {
+    margin-bottom: 32px
 }
 
-.theme-light .background-3NP2Rg {
-    background-image: url(/assets/ec594c6768af37f96532258288f443b6.svg)
+.theme-light .sectionAccountCredit-1uNhnJ,.theme-light .subscriptionDetails-1dUmjl {
+    border-color: rgba(185,187,190,.3)
 }
 
 .theme-light .tier1Banner-1BTgv0 {
@@ -50488,10 +50513,6 @@ html .invoiceCancelRow-1YYT42 {
 
 .theme-dark .sectionAccountCredit-1uNhnJ,.theme-dark .subscriptionDetails-1dUmjl {
     border-color: rgba(114,118,125,.3)
-}
-
-.theme-dark .background-3NP2Rg {
-    background-image: url(/assets/00be7f6ca68f1915a80ae01f061718e5.svg)
 }
 
 .theme-dark .tier1Banner-1BTgv0 {
@@ -68849,4 +68870,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.deb0b0b03a8e69229846.css.map*/
+/*# sourceMappingURL=0.a117566bd0fde6184973.css.map*/
