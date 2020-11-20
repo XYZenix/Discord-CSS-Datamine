@@ -23790,10 +23790,18 @@ html .progress-GjyFoQ {
 }
 
 .header-2oHmnr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     color: var(--header-primary)
+}
+
+.username-mkom4A:hover {
+    cursor: pointer;
+    text-decoration: underline
 }
 
 .command-2EsN1V {
@@ -68858,4 +68866,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f7d6789f75455ff7d450.css.map*/
+/*# sourceMappingURL=0.10bd1d52b92c8b63cb81.css.map*/
