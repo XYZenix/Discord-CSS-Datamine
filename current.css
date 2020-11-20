@@ -22019,6 +22019,7 @@ html .progress-GjyFoQ {
 }
 
 .modal-f02hVt {
+    width: 100%;
     overflow-x: hidden;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -22037,6 +22038,14 @@ html .progress-GjyFoQ {
 
 .sequencer-GH6NxK {
     min-height: 100%
+}
+
+.modalContent-1iyOR2::-webkit-scrollbar-track-piece:start {
+    margin-top: 4px
+}
+
+.modalContent-1iyOR2::-webkit-scrollbar-track-piece:end {
+    margin-bottom: 4px
 }
 
 .content-3wJ8G6 {
@@ -68847,4 +68856,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8e8a5a156d0e77d820fc.css.map*/
+/*# sourceMappingURL=0.a31bd248c5f7003bf842.css.map*/
