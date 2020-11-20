@@ -19455,7 +19455,9 @@ html .progress-GjyFoQ {
 }
 
 .embedImage-2W1cML,.embedThumbnail-2Y84-K,.embedVideo-3nf0O9 {
-    display: block
+    display: block;
+    -o-object-fit: fill;
+    object-fit: fill
 }
 
 .embedImage-2W1cML img,.embedImage-2W1cML video,.embedThumbnail-2Y84-K img,.embedThumbnail-2Y84-K video,.embedVideo-3nf0O9 img,.embedVideo-3nf0O9 video {
@@ -68856,4 +68858,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a31bd248c5f7003bf842.css.map*/
+/*# sourceMappingURL=0.f7d6789f75455ff7d450.css.map*/
