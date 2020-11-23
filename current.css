@@ -21765,6 +21765,10 @@ html .progress-GjyFoQ {
     padding: 8px
 }
 
+.settingsLink-uq19Vg {
+    margin-top: 8px
+}
+
 .card-3veb4J,.spacing-1QIWht {
 }
 
@@ -30504,7 +30508,6 @@ strong {
 }
 
 .enableContainer-2DIT9Q {
-    margin-top: 32px;
     padding: 16px;
     background-color: var(--background-secondary-alt);
     border-radius: 4px
@@ -30748,6 +30751,10 @@ strong {
 
 .description-1wEhe7 {
     margin-bottom: 16px
+}
+
+.descriptionSpaced-2gwhpd {
+    margin-bottom: 32px
 }
 
 .tabs-3gkT2D {
@@ -68865,4 +68872,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7eea14650b0a627b7ace.css.map*/
+/*# sourceMappingURL=0.f6f202ba2e205066c3fa.css.map*/
