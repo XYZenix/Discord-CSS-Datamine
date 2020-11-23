@@ -15435,6 +15435,23 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     margin-right: 4px
 }
 
+.volumeButton-2XwKVs {
+    position: relative
+}
+
+.volumeButtonSlider-3U2qy1 {
+    position: absolute;
+    bottom: calc(100% + 16px);
+    left: -78px;
+    right: 0;
+    display: none;
+    -webkit-app-region: no-drag
+}
+
+.volumeButtonSlider-3U2qy1.sliderVisible-2GQ2wC {
+    display: initial
+}
+
 .wrapper-2TxpI8 {
     position: relative;
     overflow: hidden;
@@ -15502,7 +15519,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     display: block;
     width: 24px;
     height: 24px;
-    margin: 4px;
+    padding: 4px;
     cursor: pointer;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -15519,46 +15536,9 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     transform: translateY(1px)
 }
 
-.opaque-224-yN {
-    opacity: 1
-}
-
-.hidden-3leZhk {
-    visibility: hidden
-}
-
-.videoVolumeWrapper-3syuC- {
-    -webkit-transform: translateY(-60px);
-    transform: translateY(-60px);
-    position: absolute;
-    right: 0;
-    bottom: 0
-}
-
-.audioVolumeWrapper-2t9juP {
-    -webkit-transform: translate(28px,-52px);
-    transform: translate(28px,-52px);
-    position: absolute;
-    right: 0;
-    bottom: 0
-}
-
-.audioSoundBar-i0hfo6 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    -webkit-transform: rotate(-90deg) translate(78px,35px);
-    transform: rotate(-90deg) translate(78px,35px);
-    background-color: rgba(0,0,0,.7);
-    height: 14px;
-    border-radius: 8px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
+.volumeSliderWrapper-1A8mUw {
+    margin-bottom: 4px;
+    margin-left: -4px
 }
 
 .durationTimeWrapper-OugPFt {
@@ -45742,22 +45722,6 @@ strong {
     transform: rotate(-180deg)
 }
 
-.volumeButton-2XwKVs {
-    position: relative
-}
-
-.volumeButton-2XwKVs:hover .volumeButtonSlider-3U2qy1 {
-    display: initial
-}
-
-.volumeButtonSlider-3U2qy1 {
-    position: absolute;
-    bottom: calc(100% + 16px);
-    left: -78px;
-    display: none;
-    -webkit-app-region: no-drag
-}
-
 .root-2eYTXR.comboIcon-2e1arG {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -66897,12 +66861,38 @@ html .invoiceCancelRow-3mYhFX {
     border-radius: 3px!important
 }
 
-.colorPickerCustom-2CWBn2 {
+.container-3sNMIc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.custom-2SJn4n,.default-cS_caM {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0
+}
+
+.preset-10Y8Fc {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -ms-flex-direction: vertical;
+    flex-direction: vertical
+}
+
+.colorPickerCustom-2CWBn2,.preset-10Y8Fc {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
+    -webkit-box-direction: normal
+}
+
+.colorPickerCustom-2CWBn2 {
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 10px;
@@ -66915,13 +66905,18 @@ html .invoiceCancelRow-3mYhFX {
     height: 24px
 }
 
-.colorPickerRow-1LgLnl:nth-child(odd) {
-    margin-bottom: 10px
-}
-
 .colorPickerRow-1LgLnl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     height: 20px;
     overflow: hidden
+}
+
+.colorPickerRow-1LgLnl:nth-child(odd) {
+    margin-bottom: 10px
 }
 
 .colorPickerSwatch-5GX3Ve {
@@ -68870,4 +68865,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.db2b9b2205bf400d5934.css.map*/
+/*# sourceMappingURL=0.7ee43edb2a7ee3fc3950.css.map*/
