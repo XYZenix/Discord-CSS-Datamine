@@ -9260,6 +9260,36 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     }
 }
 
+.content-qYTYBI {
+    padding: 24px 16px
+}
+
+.description-2baWWS,.header-25-1RT {
+    text-align: center
+}
+
+.description-2baWWS {
+    margin-top: 16px
+}
+
+.bodyWrapper-3JHArU {
+    position: relative
+}
+
+.premiumSubscribeButton-2XIqzG {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.buttonText-i2cTTj {
+    max-width: 140px;
+    text-overflow: ellipsis
+}
+
 .animationContainer-cNePAf,.container-2mdxGH {
     position: relative;
     z-index: 0
@@ -68872,4 +68902,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f6f202ba2e205066c3fa.css.map*/
+/*# sourceMappingURL=0.3a7366da85c79c275666.css.map*/
