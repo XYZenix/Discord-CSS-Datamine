@@ -4553,7 +4553,7 @@ html:lang(zh-HK) ::placeholder,html:lang(zh-HK) body,html:lang(zh-HK) button,htm
     font-family: Whitney,Microsoft JhengHei,å¾®è»Ÿæ­£é»‘é«”,Microsoft JhengHei UI,Microsoft YaHei,å¾®è»Ÿé›…é»‘,å®‹ä½“,SimSun,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
-a,button,div,input,select,span,strong,textarea {
+a,button,div,input,label,select,span,strong,textarea {
     outline: 0
 }
 
@@ -58954,75 +58954,48 @@ html .tabBadge-3smxHS {
     user-select: none
 }
 
-.notificationsSound-27jFSh {
-    cursor: pointer;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: var(--text-normal);
-    -webkit-box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
-    box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between
-}
-
-.notificationsSound-27jFSh,.soundLabel-wUmcnl {
+.notificationSound-3D6eyn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
 }
 
-.soundLabel-wUmcnl {
-    pointer-events: none;
-    -webkit-transform: translateX(-26px);
-    transform: translateX(-26px);
-    -webkit-transition: -webkit-transform .2s ease-out;
-    transition: -webkit-transform .2s ease-out;
-    transition: transform .2s ease-out;
-    transition: transform .2s ease-out,-webkit-transform .2s ease-out
+.soundName-23hgAT {
+    margin-right: 8px
 }
 
-.notificationsSound-27jFSh:hover .soundLabel-wUmcnl {
-    -webkit-transform: translateX(0);
-    transform: translateX(0)
-}
-
-.icon-GiGwrE {
-    display: block;
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    opacity: 0;
-    -webkit-transition: opacity .2s linear;
-    transition: opacity .2s linear
-}
-
-.notificationsSound-27jFSh:hover .icon-GiGwrE {
-    opacity: .6
-}
-
-.notificationsSound-27jFSh:active .icon-GiGwrE {
-    opacity: 1
-}
-
-.sound-2QlACh {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    font-size: 16px;
-    line-height: 20px
-}
-
-.switch-2ckjoa {
+.soundIcon-2ketvd,.soundName-23hgAT {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto
+}
+
+.soundIcon-2ketvd {
+    opacity: 0;
+    height: 24px;
+    padding: 4px;
+    margin-top: -1px;
+    -webkit-transition: opacity .1s linear;
+    transition: opacity .1s linear
+}
+
+.soundIcon-2ketvd:active {
+    opacity: 1
+}
+
+.soundRow-7krrdT:focus-within .soundIcon-2ketvd,.soundRow-7krrdT:hover .soundIcon-2ketvd {
+    opacity: .6
+}
+
+.icon-GiGwrE {
+    width: 16px;
+    height: 16px
 }
 
 .wrapper-3jrx9n {
@@ -68903,4 +68876,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.68bbad9f9ca779e32c6d.css.map*/
+/*# sourceMappingURL=0.b825265c89a86e0bb9ad.css.map*/
