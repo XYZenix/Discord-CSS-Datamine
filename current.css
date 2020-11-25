@@ -19329,6 +19329,7 @@ html .progress-GjyFoQ {
 }
 
 .grid-1nZz7S {
+    overflow: hidden;
     padding: .5rem 1rem 1rem .75rem;
     display: inline-grid;
     grid-template-columns: auto;
@@ -38165,10 +38166,12 @@ strong {
 }
 
 .keybindShortcut-1BD6Z1 span {
+    background-color: var(--background-accent);
+    border: 1px solid var(--background-primary);
     display: block;
     padding: 3px 6px 4px;
     margin-right: 3px;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: default;
     min-width: 14px;
     min-height: 14px;
@@ -38245,24 +38248,24 @@ strong {
 }
 
 .theme-light .keybindShortcut-1BD6Z1 {
-    color: #4f545c
+    color: #fff
 }
 
 .theme-light .keybindShortcut-1BD6Z1 span {
     border: 1px solid #95989d;
-    -webkit-box-shadow: inset 0 -4px 0 #caccce;
-    box-shadow: inset 0 -4px 0 #caccce
+    -webkit-box-shadow: inset 0 -4px 0 #2e3338;
+    box-shadow: inset 0 -4px 0 #2e3338
 }
 
 .theme-light .keybindShortcut-1BD6Z1 span:active {
-    -webkit-box-shadow: inset 0 -2px 0 #caccce;
-    box-shadow: inset 0 -2px 0 #caccce;
-    border: 1px solid #000;
-    color: #000
+    -webkit-box-shadow: inset 0 -2px 0 #4f5660;
+    box-shadow: inset 0 -2px 0 #4f5660;
+    border: 1px solid #2e3338;
+    color: #adadad
 }
 
 .theme-light .keybindShortcut-1BD6Z1 span:active g {
-    fill: #000
+    fill: #adadad
 }
 
 .theme-light .dim-1l4L4y span {
@@ -38284,8 +38287,8 @@ strong {
 
 .theme-light .dark-2P8byF span {
     color: #95989d;
-    -webkit-box-shadow: inset 0 -4px 0 rgba(35,39,42,.6);
-    box-shadow: inset 0 -4px 0 rgba(35,39,42,.6);
+    -webkit-box-shadow: inset 0 -4px 0 #202225;
+    box-shadow: inset 0 -4px 0 #202225;
     border-color: #202225;
     background-color: #4f545c
 }
@@ -38314,10 +38317,8 @@ strong {
 
 .theme-dark .keybindShortcut-1BD6Z1 span {
     color: #f6f6f7;
-    -webkit-box-shadow: inset 0 -4px 0 rgba(35,39,42,.6);
-    box-shadow: inset 0 -4px 0 rgba(35,39,42,.6);
-    border: 1px solid #202225;
-    background-color: #72767d
+    -webkit-box-shadow: inset 0 -4px 0 #202225;
+    box-shadow: inset 0 -4px 0 #202225
 }
 
 .theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g {
@@ -38325,14 +38326,14 @@ strong {
 }
 
 .theme-dark .keybindShortcut-1BD6Z1 span:active {
-    color: #c5c5c6;
-    -webkit-box-shadow: inset 0 -2px 0 #242629;
-    box-shadow: inset 0 -2px 0 #242629;
-    border: 1px solid #000
+    color: #b9bbbe;
+    -webkit-box-shadow: inset 0 -2px 0 #36393f;
+    box-shadow: inset 0 -2px 0 #36393f;
+    border: 1px solid #202225
 }
 
 .theme-dark .keybindShortcut-1BD6Z1 span:active .bindArrow-2X3Aom g {
-    fill: #c5c5c6
+    fill: #b9bbbe
 }
 
 .theme-dark .dim-1l4L4y span {
@@ -58956,6 +58957,37 @@ html .tabBadge-3smxHS {
     opacity: 1
 }
 
+.defaultKeybind-2coG8W {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 14px 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 500;
+    height: 80px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.defaultKeybindGroup-X6nhBr {
+    margin: 40px 0 24px
+}
+
+.defaultKeybindShortcutGroup-gWLCis {
+    display: grid;
+    grid-gap: 4px
+}
+
+.defaultKeybindGroupHeader-3fMhcS {
+    text-transform: uppercase;
+    margin-bottom: 24px
+}
+
+.defaultKeybindShortcut-14Z6f4 {
+    margin: 0
+}
+
 .theme-light .row-2okwlC {
     -webkit-box-shadow: inset 0 -1px 0 rgba(185,187,190,.3);
     box-shadow: inset 0 -1px 0 rgba(185,187,190,.3)
@@ -68924,4 +68956,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f53d3bec01e91022029c.css.map*/
+/*# sourceMappingURL=0.577b0a9ba4470bb0b404.css.map*/
