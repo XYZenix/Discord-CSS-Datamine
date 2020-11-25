@@ -62465,16 +62465,16 @@ html .invoiceCancelRow-3mYhFX {
     justify-content: space-between
 }
 
-.idle-70Gg3H:not(:focus-within) .videoControls-38i4kP {
+.idle-70Gg3H .videoControls-38i4kP {
     opacity: 0
 }
 
-.idle-70Gg3H:not(:focus-within) .topControls-1PHLxx {
+.idle-70Gg3H .topControls-1PHLxx {
     -webkit-transform: translate3d(0,-8px,0);
     transform: translate3d(0,-8px,0)
 }
 
-.idle-70Gg3H:not(:focus-within) .bottomControls-2f_UqT {
+.idle-70Gg3H .bottomControls-2f_UqT {
     -webkit-transform: translate3d(0,8px,0);
     transform: translate3d(0,8px,0)
 }
@@ -68924,4 +68924,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.40cbe1ab2f3ea7a239fa.css.map*/
+/*# sourceMappingURL=0.f53d3bec01e91022029c.css.map*/
