@@ -61833,16 +61833,11 @@ html .invoiceCancelRow-3mYhFX {
 
 .cardFolder-28dwxo {
     background: var(--background-secondary);
-    padding-bottom: 4px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px
 }
 
-.adminWarning-3Ie8tf {
-    padding: 16px 16px 0
-}
-
-.folderHeader-3eAh2M {
+.adminWarning-3Ie8tf,.folderHeader-3eAh2M {
     padding: 16px
 }
 
@@ -61857,7 +61852,7 @@ html .invoiceCancelRow-3mYhFX {
 
 .roleMemberList-3aPmJW {
     max-height: 400px;
-    padding: 0 16px
+    padding: 0 16px 8px
 }
 
 .divider-1O4dNT {
@@ -68876,4 +68871,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b825265c89a86e0bb9ad.css.map*/
+/*# sourceMappingURL=0.7c4ed8a338a1a9d628ea.css.map*/
