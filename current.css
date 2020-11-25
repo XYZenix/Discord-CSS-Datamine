@@ -47549,6 +47549,59 @@ strong {
     margin-top: 16px
 }
 
+.rulesWrapper-1zzoan {
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    max-width: 640px;
+    margin: 16px 0 0
+}
+
+.rule-2ueNeZ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 16px;
+    border-bottom: 1px solid var(--background-modifier-accent)
+}
+
+.rule-2ueNeZ:last-child {
+    border-bottom: none
+}
+
+.ruleContent-3kRtNk {
+    margin-left: 12px
+}
+
+.iconWrapper-2JyIpA {
+    width: 64px;
+    height: 64px;
+    margin-top: 16px;
+    border-radius: 50%;
+    background-color: var(--background-tertiary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.icon-2IcVOj {
+    color: var(--interactive-normal)
+}
+
+.editLink-unuyd- {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600
+}
+
 .buttonContainer-2GVjL_ {
     margin-top: 8px
 }
@@ -68871,4 +68924,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7c4ed8a338a1a9d628ea.css.map*/
+/*# sourceMappingURL=0.40cbe1ab2f3ea7a239fa.css.map*/
