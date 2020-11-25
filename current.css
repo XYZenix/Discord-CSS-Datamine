@@ -61109,19 +61109,26 @@ html .invoiceCancelRow-3mYhFX {
     justify-content: space-between
 }
 
+.actionButtons-14eAc_>* {
+    margin: 0 4px
+}
+
+.actionButtons-14eAc_>:last-child {
+    margin-right: 0
+}
+
+.actionButtons-14eAc_>:first-child {
+    margin-left: 0
+}
+
 .button-1YfofB {
-    margin-right: 8px;
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 50%;
-    flex: 1 1 50%
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
 }
 
 .button-1YfofB.disabled-158sUq {
     width: 100%
-}
-
-.button-1YfofB:last-child {
-    margin-right: 0
 }
 
 .button-1YfofB.buttonColor-7qQbGO,.button-1YfofB .buttonColor-7qQbGO {
@@ -68956,4 +68963,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ebde37a3d4c4918e9adf.css.map*/
+/*# sourceMappingURL=0.f89438ada672dd7de34d.css.map*/
