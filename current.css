@@ -49827,6 +49827,19 @@ html .invoiceCancelRow-1YYT42 {
     margin-top: 16px
 }
 
+.premiumSubscribeButton-1MsYSH {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.premiumIcon-57y-Kw {
+    margin-right: 4px
+}
+
 .header-3o3ylc {
     color: #060607
 }
@@ -69178,4 +69191,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.710de81f686bac959a98.css.map*/
+/*# sourceMappingURL=0.304d83aa0dd474fbd159.css.map*/
