@@ -9290,6 +9290,14 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     text-overflow: ellipsis
 }
 
+.modalHeader-3BOnYH {
+    background-size: cover;
+    height: 109px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
 .animationContainer-cNePAf,.container-2mdxGH {
     position: relative;
     z-index: 0
@@ -25660,11 +25668,11 @@ html .progress-GjyFoQ {
     color: rgba(114,118,125,.6)
 }
 
-.mask-3iBXYS {
+.mask-2xtthE {
     display: block
 }
 
-.icon-2VCx8O {
+.icon-3Rn_DX {
     width: 32px;
     height: 32px
 }
@@ -25681,7 +25689,50 @@ html .progress-GjyFoQ {
 
 .section-Kprrfe {
     cursor: pointer;
+    border-radius: 4px;
     margin-bottom: 8px
+}
+
+.section-Kprrfe:last-child {
+    margin-bottom: 0
+}
+
+.sectionIcon-fzHLd- {
+    color: var(--interactive-normal)
+}
+
+.sectionIconWrapper-2iM-zL {
+    padding: 6px;
+    width: 20px;
+    height: 20px;
+    -webkit-transition: background-color .1s ease-in-out;
+    transition: background-color .1s ease-in-out
+}
+
+.sectionIconWrapper-2iM-zL:hover {
+    background-color: var(--background-modifier-hover)
+}
+
+.sectionIconWrapper-2iM-zL:hover .sectionIcon-fzHLd- {
+    color: var(--interactive-hover)
+}
+
+.builtInSeparator-1ku6s5 {
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid var(--background-modifier-accent)
+}
+
+.selectedIcon-ZaNGJ2,.selectedIcon-ZaNGJ2:hover {
+    background-color: var(--background-primary)
+}
+
+.selectedIcon-ZaNGJ2 .sectionIcon-fzHLd-,.selectedIcon-ZaNGJ2:hover .sectionIcon-fzHLd- {
+    color: var(--interactive-active)
+}
+
+.theme-light .selectedIcon-ZaNGJ2 .sectionIcon-fzHLd-,.theme-light .selectedIcon-ZaNGJ2:hover .sectionIcon-fzHLd- {
+    color: #4f5660
 }
 
 .wrapper-VQ4BER {
@@ -26946,6 +26997,137 @@ html .progress-GjyFoQ {
     justify-content: center
 }
 
+.container-Qj4uIL {
+    border-radius: 8px;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 4px;
+    min-height: 16px;
+    position: absolute;
+    width: 232px;
+    -webkit-transition: opacity .125s ease-in-out,-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
+    transition: opacity .125s ease-in-out,-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
+    transition: opacity .125s ease-in-out,transform .125s cubic-bezier(.48,1.93,1,.68);
+    transition: opacity .125s ease-in-out,transform .125s cubic-bezier(.48,1.93,1,.68),-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
+    opacity: 1;
+    will-change: opacity,transform
+}
+
+.container-Qj4uIL.hidden-D-aYti {
+    -webkit-transform: translateY(12px);
+    transform: translateY(12px);
+    opacity: 0;
+    pointer-events: none
+}
+
+.stickerResults-1zGNA5 {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fill,48px);
+    padding: 8px
+}
+
+.emojiResults-jAeuVN {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fill,16px);
+    padding: 8px;
+    position: relative
+}
+
+.stickerResults-1zGNA5+.emojiResults-jAeuVN {
+    margin-top: 1px
+}
+
+.stickerResults-1zGNA5+.emojiResults-jAeuVN:before {
+    background-color: var(--text-muted);
+    content: "";
+    height: 1px;
+    left: 8px;
+    opacity: .5;
+    position: absolute;
+    right: 8px;
+    top: -1px
+}
+
+.emoji-3BQi27 {
+    display: block;
+    height: 16px;
+    position: relative;
+    z-index: 1;
+    width: 16px
+}
+
+.suggestedExpression-37U4Ze {
+    cursor: pointer;
+    position: relative
+}
+
+.unownedStickerLockContainer-1xYgxz {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--background-modifier-accent);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: var(--background-accent);
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.unownedStickerLockIcon-1jTdXf {
+    color: var(--interactive-normal)
+}
+
+.mask-2EX8rq {
+    bottom: -2px;
+    opacity: 0;
+    left: -2px;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    -webkit-transition: opacity .08s ease-in-out;
+    transition: opacity .08s ease-in-out;
+    z-index: 0
+}
+
+.suggestedExpression-37U4Ze:focus .mask-2EX8rq,.suggestedExpression-37U4Ze:hover .mask-2EX8rq,.suggestedExpressionFocused-1TowpS .mask-2EX8rq {
+    opacity: 1
+}
+
+.container-Qj4uIL:hover .suggestedExpressionFocused-1TowpS:not(:hover) .mask-2EX8rq {
+    opacity: 0
+}
+
+.maskBackground-1WpXoP {
+    background-color: var(--background-accent);
+    height: 100%;
+    width: 100%
+}
+
+.theme-light .container-Qj4uIL {
+    background-color: var(--background-floating);
+    border: 1px solid var(--background-modifier-selected);
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high)
+}
+
+.theme-light .unownedStickerLockIcon-1jTdXf {
+    color: var(--background-secondary)
+}
+
+.theme-dark .container-Qj4uIL {
+    background-color: rgba(24,25,28,.95)
+}
+
 .bar-AokMp3 {
     padding: 8px 16px;
     background: var(--background-secondary-alt);
@@ -27355,6 +27537,33 @@ html .progress-GjyFoQ {
 }
 
 .emojiButton-pET4wH {
+}
+
+.emojiButtonTurkey-1o8Jsj {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.emojiButtonTurkeyEmoji-37IjLw {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform .1s cubic-bezier(.56,.33,.565,2.5);
+    transition: -webkit-transform .1s cubic-bezier(.56,.33,.565,2.5);
+    transition: transform .1s cubic-bezier(.56,.33,.565,2.5);
+    transition: transform .1s cubic-bezier(.56,.33,.565,2.5),-webkit-transform .1s cubic-bezier(.56,.33,.565,2.5)
+}
+
+.emojiButtonTurkey-1o8Jsj:hover .emojiButtonTurkeyEmoji-37IjLw,.emojiButtonTurkeyActive-31o_sX .emojiButtonTurkeyEmoji-37IjLw {
+    -webkit-transform: scale(1.18);
+    transform: scale(1.18)
 }
 
 .stickerIcon-3TP7EM {
@@ -47598,9 +47807,7 @@ strong {
 }
 
 .editLink-unuyd- {
-    margin-top: 8px;
-    font-size: 14px;
-    font-weight: 600
+    margin-top: 12px
 }
 
 .buttonContainer-2GVjL_ {
@@ -49600,24 +49807,29 @@ html .invoiceCancelRow-1YYT42 {
     border: 1px solid var(--background-tertiary);
     background: var(--background-secondary-alt);
     border-radius: 8px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 .description-oDQ3YB {
-    margin-top: 6px
+    margin-top: 6px;
+    color: #4f5660
 }
 
 .content-22ZY1S {
-    width: 60%
+    max-width: 360px
 }
 
 .button-10CIAO {
-    margin-left: auto;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 auto;
-    flex: 0 auto
+    margin-top: 16px
+}
+
+.header-3o3ylc {
+    color: #060607
+}
+
+.details-etF8xu {
+    color: #0067e0
 }
 
 .banner-WELp4M {
@@ -68963,4 +69175,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f89438ada672dd7de34d.css.map*/
+/*# sourceMappingURL=0.329b6b5d69d7dc359d51.css.map*/
