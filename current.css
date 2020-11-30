@@ -33768,7 +33768,6 @@ strong {
     cursor: pointer;
     width: 24px;
     height: 24px;
-    background-image: url(/assets/9b1b76abb59b5c8a41daea1342f2138a.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -33783,28 +33782,53 @@ strong {
     transform: translateY(1px)
 }
 
+.default-3oAQTF {
+    background-image: url(/assets/9b1b76abb59b5c8a41daea1342f2138a.svg)
+}
+
+.filled-1iCBCZ {
+    background-image: url(/assets/eb69ec9fdd30653a3ade1ab501a7cd3d.svg);
+    background-color: #f04747
+}
+
+.filled-1iCBCZ:hover {
+    background-color: #f15454
+}
+
 .theme-light .button-2CgfFz {
-    background-color: #fff;
     -webkit-box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 1px 5px rgba(0,0,0,.2);
     box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 1px 5px rgba(0,0,0,.2)
 }
 
 .theme-light .button-2CgfFz:hover {
-    background-color: #f5f5f5;
     -webkit-box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1);
     box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1)
 }
 
+.theme-light .default-3oAQTF {
+    background-color: #fff
+}
+
+.theme-light .default-3oAQTF:hover {
+    background-color: #f5f5f5
+}
+
 .theme-dark .button-2CgfFz {
-    background-color: #36393f;
     -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 1px 5px 0 rgba(0,0,0,.3);
     box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 1px 5px 0 rgba(0,0,0,.3)
 }
 
 .theme-dark .button-2CgfFz:hover {
-    background-color: #44474c;
     -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
     box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2)
+}
+
+.theme-dark .default-3oAQTF {
+    background-color: #36393f
+}
+
+.theme-dark .default-3oAQTF:hover {
+    background-color: #44474c
 }
 
 .emojiAliasPlaceholder-3H_iZA {
@@ -58991,11 +59015,11 @@ html .tabBadge-3smxHS {
     width: 34px
 }
 
-.container-CpszHS.hasValue-3pdcdm:not(.disabled-29eJ21):hover .button-34kXw5 {
+.container-CpszHS.hasValue-3pdcdm:not(.disabled-29eJ21):focus-within .button-34kXw5,.container-CpszHS.hasValue-3pdcdm:not(.disabled-29eJ21):hover .button-34kXw5 {
     width: 128px
 }
 
-.container-CpszHS:not(.disabled-29eJ21):hover {
+.container-CpszHS:not(.disabled-29eJ21):focus-within,.container-CpszHS:not(.disabled-29eJ21):hover {
     border-color: rgba(240,71,71,.3)
 }
 
@@ -59082,7 +59106,7 @@ html .tabBadge-3smxHS {
     transform: translateZ(0)
 }
 
-.hasValue-3pdcdm:not(.disabled-29eJ21):hover .editIcon-13gaox {
+.hasValue-3pdcdm:not(.disabled-29eJ21):focus-within .editIcon-13gaox,.hasValue-3pdcdm:not(.disabled-29eJ21):hover .editIcon-13gaox {
     opacity: 0;
     -webkit-transform: translate3d(-200%,0,0);
     transform: translate3d(-200%,0,0)
@@ -59102,7 +59126,7 @@ html .tabBadge-3smxHS {
     transform: translate3d(200%,0,0)
 }
 
-.hasValue-3pdcdm:not(.disabled-29eJ21):hover .text-2sI5Sd {
+.hasValue-3pdcdm:not(.disabled-29eJ21):focus-within .text-2sI5Sd,.hasValue-3pdcdm:not(.disabled-29eJ21):hover .text-2sI5Sd {
     opacity: 1;
     -webkit-transform: translateZ(0);
     transform: translateZ(0)
@@ -59155,16 +59179,18 @@ html .tabBadge-3smxHS {
 }
 
 .ghostPill-2-KUPM {
-    color: #faa61a;
-    background-color: rgba(250,166,26,.1);
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    display: inline-block;
+    color: #060607;
+    background-color: #feedd1;
+    border: 1px solid #faa61a;
+    display: inline-grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    padding: 10px;
+    grid-gap: 10px;
     font-size: 14px;
-    line-height: 20px;
-    padding: 6px 16px;
-    border-radius: 16px
+    border-radius: 4px
 }
 
 .removeKeybind-39dSFj {
@@ -59182,6 +59208,10 @@ html .tabBadge-3smxHS {
 }
 
 .keybindGroup-JQs9x_:hover .removeKeybind-39dSFj {
+    opacity: 1
+}
+
+.keyboard-mode .keybindGroup-JQs9x_:focus-within .removeKeybind-39dSFj {
     opacity: 1
 }
 
@@ -69191,4 +69221,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c1e12af580a807712a78.css.map*/
+/*# sourceMappingURL=0.624afc327f872272f00b.css.map*/
