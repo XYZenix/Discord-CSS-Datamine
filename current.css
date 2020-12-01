@@ -23814,6 +23814,8 @@ html .progress-GjyFoQ {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     color: var(--header-primary)
 }
 
@@ -69206,4 +69208,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5594faab8cbdf18adf5e.css.map*/
+/*# sourceMappingURL=0.2c9d1e776e65251f170d.css.map*/
