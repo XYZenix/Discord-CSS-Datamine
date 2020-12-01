@@ -12274,7 +12274,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: var(--text-normal);
+    color: var(--header-secondary);
     font-size: 0.875rem;
     line-height: 1.125rem;
     position: relative;
@@ -12368,7 +12368,8 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 .repliedMessage-VokQwo .username-1A8OIy {
     font-size: inherit;
     line-height: inherit;
-    margin-right: .25rem
+    margin-right: .25rem;
+    opacity: .64
 }
 
 .repliedMessage-VokQwo .botTag-1un5a6 {
@@ -12380,13 +12381,12 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
     overflow: hidden;
-    text-overflow: ellipsis;
-    opacity: .64
+    text-overflow: ellipsis
 }
 
 .full-motion .repliedTextPreview-2NBljf {
-    -webkit-transition: opacity .1s ease-out;
-    transition: opacity .1s ease-out
+    -webkit-transition: color .1s ease-out;
+    transition: color .1s ease-out
 }
 
 .repliedTextPreview-2NBljf.clickable-1bVtEA {
@@ -12394,10 +12394,11 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 }
 
 .repliedTextPreview-2NBljf.clickable-1bVtEA:hover {
-    opacity: .8
+    color: var(--header-primary)
 }
 
 .repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK {
+    color: inherit;
     font-size: inherit;
     line-height: inherit;
     white-space: pre;
@@ -69191,4 +69192,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0836906d506ca626318f.css.map*/
+/*# sourceMappingURL=0.9c2700792285eaba162b.css.map*/
