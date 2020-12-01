@@ -45811,6 +45811,18 @@ strong {
     background-color: rgba(79,84,92,.16)
 }
 
+@media (max-width: 456px) {
+    .textButton-3MS7qa {
+        display:none
+    }
+}
+
+@media (min-width: 457px) {
+    .iconButton-u_X73A {
+        display:none
+    }
+}
+
 .root-217Brm {
     height: 100%;
     width: 100%;
@@ -61210,8 +61222,8 @@ html .invoiceCancelRow-3mYhFX {
     position: absolute;
     top: 0;
     left: 50%;
-    -webkit-transform: translateY(-70%) translateX(-50%);
-    transform: translateY(-70%) translateX(-50%);
+    -webkit-transform: translateY(-65%) translateX(-50%);
+    transform: translateY(-65%) translateX(-50%);
     width: 259px;
     height: 126px;
     background-image: url(/assets/03215f27cd3a3729613eb34d14aa5bbf.svg)
@@ -61219,18 +61231,17 @@ html .invoiceCancelRow-3mYhFX {
 
 .headerText-3gIyzb {
     color: #fff;
-    font-weight: 500;
-    font-size: 16px;
-    margin-top: 14px
+    font-weight: 600;
+    margin-top: 24px
 }
 
 .bodyText-Qx99aN {
     color: #fff;
-    font-size: 14px
+    margin-top: 4px
 }
 
 .button-1ojJ0N {
-    margin-top: 14px;
+    margin-top: 16px;
     height: 32px
 }
 
@@ -61355,7 +61366,8 @@ html .invoiceCancelRow-3mYhFX {
 .button-1YfofB {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
-    flex: 1 1 auto
+    flex: 1 1 auto;
+    min-width: auto
 }
 
 .button-1YfofB.disabled-158sUq {
@@ -69194,4 +69206,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.cef72af5f4e784b71126.css.map*/
+/*# sourceMappingURL=0.5594faab8cbdf18adf5e.css.map*/
