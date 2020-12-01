@@ -6537,12 +6537,15 @@ img[alt] {
     color: #fff
 }
 
-.errorCloseIcon-3y2VHJ {
-    width: 16px;
-    height: 16px;
+.errorClose-19Dwss {
     cursor: pointer;
     -ms-flex-item-align: flex-center;
     align-self: flex-center
+}
+
+.errorClose-19Dwss,.errorCloseIcon-3y2VHJ {
+    width: 16px;
+    height: 16px
 }
 
 .backgroundTertiary-3PbXb3 {
@@ -38205,6 +38208,11 @@ strong {
     color: var(--interactive-hover)
 }
 
+.closeIcon-2eaC4U {
+    width: 18px;
+    height: 18px
+}
+
 .message-3SOT5P {
     font-size: 14px;
     line-height: 18px;
@@ -38239,6 +38247,11 @@ strong {
 
 .close-jnIfru:hover {
     color: var(--interactive-hover)
+}
+
+.closeIcon-1zVtdw {
+    width: 18px;
+    height: 18px
 }
 
 .message-39hdqk {
@@ -38283,6 +38296,11 @@ strong {
 
 .close-ZKR0Rw:hover {
     color: var(--interactive-hover)
+}
+
+.closeIcon-yoh58h {
+    width: 18px;
+    height: 18px
 }
 
 .message-Gpd3zh {
@@ -38565,7 +38583,7 @@ strong {
     background-color: var(--background-secondary-alt)
 }
 
-.container-1i59-c:hover .dismiss-SxmMd_ {
+.container-1i59-c:focus-within .dismiss-SxmMd_,.container-1i59-c:hover .dismiss-SxmMd_ {
     opacity: 1
 }
 
@@ -38581,13 +38599,18 @@ strong {
     height: 16px;
     cursor: pointer;
     color: var(--interactive-muted);
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: opacity .1s ease-in;
     transition: opacity .1s ease-in
 }
 
-.dismiss-SxmMd_:hover {
+.dismiss-SxmMd_:focus-within,.dismiss-SxmMd_:hover {
     color: var(--interactive-hover)
+}
+
+.dismissIcon-1MhmFW {
+    width: 16px;
+    height: 16px
 }
 
 .progressContainer-1gEwYE {
@@ -69168,4 +69191,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2e97df4c9ad0aad86794.css.map*/
+/*# sourceMappingURL=0.d32d1e537ee9b4110218.css.map*/
