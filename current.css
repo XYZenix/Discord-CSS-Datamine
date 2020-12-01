@@ -27013,10 +27013,10 @@ html .progress-GjyFoQ {
     min-height: 16px;
     position: absolute;
     width: 232px;
-    -webkit-transition: opacity .125s ease-in-out,-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
-    transition: opacity .125s ease-in-out,-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
-    transition: opacity .125s ease-in-out,transform .125s cubic-bezier(.48,1.93,1,.68);
-    transition: opacity .125s ease-in-out,transform .125s cubic-bezier(.48,1.93,1,.68),-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
+    -webkit-transition: opacity .125s ease-in,-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
+    transition: opacity .125s ease-in,-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
+    transition: opacity .125s ease-in,transform .125s cubic-bezier(.48,1.93,1,.68);
+    transition: opacity .125s ease-in,transform .125s cubic-bezier(.48,1.93,1,.68),-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
     opacity: 1;
     will-change: opacity,transform
 }
@@ -27033,37 +27033,6 @@ html .progress-GjyFoQ {
     grid-gap: 8px;
     grid-template-columns: repeat(auto-fill,48px);
     padding: 8px
-}
-
-.emojiResults-jAeuVN {
-    display: grid;
-    grid-gap: 12px;
-    grid-template-columns: repeat(auto-fill,16px);
-    padding: 8px;
-    position: relative
-}
-
-.stickerResults-1zGNA5+.emojiResults-jAeuVN {
-    margin-top: 1px
-}
-
-.stickerResults-1zGNA5+.emojiResults-jAeuVN:before {
-    background-color: var(--text-muted);
-    content: "";
-    height: 1px;
-    left: 8px;
-    opacity: .5;
-    position: absolute;
-    right: 8px;
-    top: -1px
-}
-
-.emoji-3BQi27 {
-    display: block;
-    height: 16px;
-    position: relative;
-    z-index: 1;
-    width: 16px
 }
 
 .suggestedExpression-37U4Ze {
@@ -69199,4 +69168,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5325463bd95d01e225ae.css.map*/
+/*# sourceMappingURL=0.2e97df4c9ad0aad86794.css.map*/
