@@ -11780,13 +11780,14 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 }
 
 .createGuild-23lWNm {
-    margin: 24px 0;
+    margin: 20px 0;
     -webkit-box-flex: 0;
     -ms-flex-positive: 0;
     flex-grow: 0
 }
 
 .uploadIcon-2IFzZU {
+    padding-top: 4px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11801,7 +11802,8 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 }
 
 .guidelines-1NSoht {
-    margin-top: 8px
+    margin-top: 8px;
+    padding-bottom: 4px
 }
 
 .creationIntentCheckbox-1rWz6L {
@@ -69192,4 +69194,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9c2700792285eaba162b.css.map*/
+/*# sourceMappingURL=0.5d7125a40cf227c7c1e7.css.map*/
