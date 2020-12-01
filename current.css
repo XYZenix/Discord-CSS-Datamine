@@ -8623,9 +8623,14 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     display: block
 }
 
-.item-26Dhrx:hover {
+.item-26Dhrx:hover:not([aria-checked=true]) {
     background-color: var(--background-modifier-hover);
     color: var(--interactive-hover)
+}
+
+.item-26Dhrx:active:not([aria-checked=true]) {
+    background-color: var(--background-modifier-active);
+    color: var(--interactive-active)
 }
 
 .tooltipWrapper-3VcaN6 {
@@ -69221,4 +69226,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.624afc327f872272f00b.css.map*/
+/*# sourceMappingURL=0.d25885ccc478c8e53a99.css.map*/
