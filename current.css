@@ -27547,33 +27547,6 @@ html .progress-GjyFoQ {
 .emojiButton-pET4wH {
 }
 
-.emojiButtonTurkey-1o8Jsj {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
-}
-
-.emojiButtonTurkeyEmoji-37IjLw {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: -webkit-transform .1s cubic-bezier(.56,.33,.565,2.5);
-    transition: -webkit-transform .1s cubic-bezier(.56,.33,.565,2.5);
-    transition: transform .1s cubic-bezier(.56,.33,.565,2.5);
-    transition: transform .1s cubic-bezier(.56,.33,.565,2.5),-webkit-transform .1s cubic-bezier(.56,.33,.565,2.5)
-}
-
-.emojiButtonTurkey-1o8Jsj:hover .emojiButtonTurkeyEmoji-37IjLw,.emojiButtonTurkeyActive-31o_sX .emojiButtonTurkeyEmoji-37IjLw {
-    -webkit-transform: scale(1.18);
-    transform: scale(1.18)
-}
-
 .stickerIcon-3TP7EM {
     width: 20px!important;
     height: 20px!important
@@ -69226,4 +69199,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d25885ccc478c8e53a99.css.map*/
+/*# sourceMappingURL=0.5325463bd95d01e225ae.css.map*/
