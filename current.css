@@ -63854,16 +63854,18 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .emailVerificationModal-3cfLjL .title-38uBel {
-    font-weight: 500;
-    font-size: 20px;
-    margin-top: 100px
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 100px;
+    color: var(--header-primary)
 }
 
 .emailVerificationModal-3cfLjL .body-1_Foxn {
     font-size: 16px;
+    line-height: 20px;
     text-align: center;
-    letter-spacing: .35px;
-    line-height: 20px
+    color: var(--header-secondary)
 }
 
 .emailVerificationModal-3cfLjL .container-2GVxK3 {
@@ -63873,30 +63875,6 @@ html .invoiceCancelRow-3mYhFX {
 
 .emailVerificationModal-3cfLjL .fullWidthButton-1JDY-- {
     width: 100%
-}
-
-.theme-light .emailVerificationModal-3cfLjL .title-38uBel {
-    color: #4f545c
-}
-
-.theme-light .emailVerificationModal-3cfLjL .body-1_Foxn {
-    color: #72767d
-}
-
-.theme-light .emailVerificationModal-3cfLjL .body-1_Foxn.error-MUeDOy {
-    color: #f04747
-}
-
-.theme-dark .emailVerificationModal-3cfLjL .title-38uBel {
-    color: #f6f6f7
-}
-
-.theme-dark .emailVerificationModal-3cfLjL .body-1_Foxn {
-    color: #72767d
-}
-
-.theme-dark .emailVerificationModal-3cfLjL .body-1_Foxn.error-MUeDOy {
-    color: #f04747
 }
 
 .wrapper-21YAQM {
@@ -69208,4 +69186,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2c9d1e776e65251f170d.css.map*/
+/*# sourceMappingURL=0.39447b4f4c8c9ecc864b.css.map*/
