@@ -9652,44 +9652,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     background-image: url(/assets/a83463d9763516332570b37731572733.svg)
 }
 
-.content-qYTYBI {
-    padding: 24px 16px
-}
-
-.description-2baWWS,.header-25-1RT {
-    text-align: center
-}
-
-.description-2baWWS {
-    margin-top: 16px
-}
-
-.bodyWrapper-3JHArU {
-    position: relative
-}
-
-.premiumSubscribeButton-2XIqzG {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.buttonText-i2cTTj {
-    max-width: 140px;
-    text-overflow: ellipsis
-}
-
-.modalHeader-3BOnYH {
-    background-size: cover;
-    height: 109px;
-    background-repeat: no-repeat;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px
-}
-
 .perkRow-4H5Kvz {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -49841,49 +49803,6 @@ html .invoiceCancelRow-1YYT42 {
     color: var(--text-muted)
 }
 
-.banner-1oXqOF {
-    padding: 20px 16px;
-    border: 1px solid var(--background-tertiary);
-    background: var(--background-secondary-alt);
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    background-size: cover
-}
-
-.description-oDQ3YB {
-    margin-top: 6px;
-    color: #4f5660
-}
-
-.content-22ZY1S {
-    max-width: 360px
-}
-
-.button-10CIAO {
-    margin-top: 16px
-}
-
-.premiumSubscribeButton-1MsYSH {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.premiumIcon-57y-Kw {
-    margin-right: 4px
-}
-
-.header-3o3ylc {
-    color: #060607
-}
-
-.details-etF8xu {
-    color: #0067e0
-}
-
 .banner-WELp4M {
     background-color: var(--background-secondary);
     border-radius: 4px;
@@ -50815,10 +50734,6 @@ html .invoiceCancelRow-1YYT42 {
 .promotionBanner-1fCSab {
     margin-top: 24px;
     margin-bottom: 24px
-}
-
-.blackFriday2020Banner-3A9lBO {
-    margin-bottom: 32px
 }
 
 .theme-light .sectionAccountCredit-1uNhnJ,.theme-light .subscriptionDetails-1dUmjl {
@@ -69216,4 +69131,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e76b3a2d4c9b2c1282a0.css.map*/
+/*# sourceMappingURL=0.43c9ebfb5b308cecff45.css.map*/
