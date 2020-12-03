@@ -18676,15 +18676,38 @@ html .progress-GjyFoQ {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     cursor: default;
-    display: block;
+    display: block
+}
+
+.error-3sSo0R,.shape-2kfO2v {
     width: 100%;
     height: 100%;
     background-color: var(--background-modifier-active)
 }
 
 .error-3sSo0R {
-    padding: 20%;
-    color: #f04747
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.errorIcon-16FWDW {
+    color: var(--header-secondary)
+}
+
+.errorText-2KbYvF {
+    margin-top: 4px
 }
 
 .packActions-2175d0,.packActionShinyButton-3RJvCM {
@@ -69183,4 +69206,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7c98dbef61e44440f7a5.css.map*/
+/*# sourceMappingURL=0.abb7fe080564b81245dc.css.map*/
