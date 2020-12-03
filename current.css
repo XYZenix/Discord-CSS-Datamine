@@ -31496,6 +31496,11 @@ strong {
     cursor: default
 }
 
+.quickSelectPopoutOption-opKBx9:focus {
+    background-color: var(--background-modifier-hover);
+    color: var(--interactive-hover)
+}
+
 .theme-light .quickSelectArrow-1QublR {
     background: url(/assets/8b86f90154cbe38507a14fdd34367f17.svg) 50% no-repeat
 }
@@ -69211,4 +69216,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9aa37337aae810111708.css.map*/
+/*# sourceMappingURL=0.e76b3a2d4c9b2c1282a0.css.map*/
