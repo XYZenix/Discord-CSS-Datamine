@@ -6030,6 +6030,33 @@ img[alt] {
     }
 }
 
+.spacer-2b8O1V {
+    width: 8px
+}
+
+.input-3yHnCz {
+    width: 44px;
+    height: 44px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 4px
+}
+
+.theme-light .input-3yHnCz {
+    background-color: #e3e5e8;
+    color: #36393f
+}
+
+.theme-dark .input-3yHnCz {
+    background-color: #4f545c;
+    color: #f6f6f7
+}
+
 .flowerStarContainer-3zDVtj {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6767,6 +6794,28 @@ img[alt] {
 .description-3iuMrd {
     margin-top: 8px;
     font-size: 12px
+}
+
+.error-36J3A_ {
+    margin-top: 8px;
+    color: #f04747
+}
+
+.subTitle-1-bIFL {
+    margin-bottom: 24px
+}
+
+.button-3xPjNA {
+    margin-top: 24px
+}
+
+.theme-dark .codeInput-2cYD0k,.theme-light .codeInput-2cYD0k {
+    background-color: var(--deprecated-text-input-bg);
+    border: 1px solid var(--deprecated-text-input-border)
+}
+
+.theme-dark .codeInput-2cYD0k:focus,.theme-light .codeInput-2cYD0k:focus {
+    border: 1px solid #7289da
 }
 
 .avatar-1Mj8bY,.guildIcon-1k02sK {
@@ -22060,33 +22109,6 @@ html .progress-GjyFoQ {
 
 .warning-1WIX3i {
     color: #fff
-}
-
-.spacer-2b8O1V {
-    width: 8px
-}
-
-.input-3yHnCz {
-    width: 44px;
-    height: 44px;
-    border-radius: 5px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: none;
-    font-size: 17px;
-    text-align: center;
-    margin-left: 4px;
-    margin-right: 4px
-}
-
-.theme-light .input-3yHnCz {
-    background-color: #e3e5e8;
-    color: #36393f
-}
-
-.theme-dark .input-3yHnCz {
-    background-color: #4f545c;
-    color: #f6f6f7
 }
 
 .phoneField-38N1bJ {
@@ -69167,4 +69189,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.cc4aef3b4e9e5c5eb428.css.map*/
+/*# sourceMappingURL=0.156a83a6a564f682bc14.css.map*/
