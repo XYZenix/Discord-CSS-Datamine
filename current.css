@@ -25572,7 +25572,7 @@ html .progress-GjyFoQ {
 
 .option-1B5ZV8 {
     display: inline-block;
-    background-color: var(--background-floating);
+    background-color: var(--interactive-muted);
     border-radius: 4px;
     padding: 0 4px;
     font-weight: 400
@@ -25591,7 +25591,8 @@ html .progress-GjyFoQ {
 }
 
 .active-2awTSY {
-    background-color: #7289da
+    background-color: #7289da;
+    color: #fff
 }
 
 .clickable-198KJD {
@@ -26110,7 +26111,8 @@ html .progress-GjyFoQ {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding: 0 8px
+    padding: 0 8px;
+    background-color: transparent
 }
 
 .categoryHeaderIcon-16JDXb {
@@ -69159,4 +69161,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.125a4e8e83d0fc6e316b.css.map*/
+/*# sourceMappingURL=0.6e327a7cd2cac7b27e8f.css.map*/
