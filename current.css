@@ -59236,6 +59236,11 @@ html .tabBadge-3smxHS {
     margin: 0
 }
 
+.browserNotice-cefwll a {
+    color: inherit;
+    text-decoration: underline
+}
+
 .theme-light .row-2okwlC {
     -webkit-box-shadow: inset 0 -1px 0 rgba(185,187,190,.3);
     box-shadow: inset 0 -1px 0 rgba(185,187,190,.3)
@@ -69189,4 +69194,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.156a83a6a564f682bc14.css.map*/
+/*# sourceMappingURL=0.dda74a2eaf8a53b2a402.css.map*/
