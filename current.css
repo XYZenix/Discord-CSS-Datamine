@@ -61191,6 +61191,10 @@ html .invoiceCancelRow-3mYhFX {
     overflow: hidden
 }
 
+.menu-1O51-Y {
+    width: 184px
+}
+
 .activityItem-1pRGhE {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -61198,9 +61202,9 @@ html .invoiceCancelRow-3mYhFX {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 12px;
     cursor: pointer;
-    padding: 8px
+    padding: 8px;
+    margin: 2px 0
 }
 
 .activityItem-1pRGhE:hover {
@@ -61224,21 +61228,20 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .beta-1zTBai {
-    margin-top: 12px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 8px
+    padding: 8px;
+    margin-bottom: 2px
 }
 
 .betaTag-F_ncuo {
     color: #fff;
-    font-weight: 600;
     background: #7289da;
-    padding: 0 6px;
+    padding: 0 4px;
     border-radius: 16px;
     margin-right: 10px;
     text-transform: uppercase
@@ -69225,4 +69228,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e4c06c703c4f9ed0dcfe.css.map*/
+/*# sourceMappingURL=0.a0b3cd520ae7286bd0ae.css.map*/
