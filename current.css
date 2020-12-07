@@ -18973,7 +18973,23 @@ html .progress-GjyFoQ {
     margin-top: 4px
 }
 
-.packActions-2175d0,.packActionShinyButton-3RJvCM {
+.packActions-2175d0 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.packActionsStacked-zeQen2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.packActionShinyButton-3RJvCM {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -18993,6 +19009,11 @@ html .progress-GjyFoQ {
 
 .packAction-3Q40tV+.packAction-3Q40tV {
     margin-left: 12px
+}
+
+.packActionStacked-3aS6HJ+.packActionStacked-3aS6HJ {
+    margin-top: 8px;
+    margin-left: 0
 }
 
 .loadingIndicator-tk-VI6 {
@@ -27066,10 +27087,6 @@ html .progress-GjyFoQ {
 
 .sticker-3HpuRA {
     cursor: pointer
-}
-
-.footerPurchaseActions-3ttWV- {
-    height: 32px
 }
 
 .wrapper-3ir_7D {
@@ -69208,4 +69225,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3e5822827d25059f5861.css.map*/
+/*# sourceMappingURL=0.e4c06c703c4f9ed0dcfe.css.map*/
