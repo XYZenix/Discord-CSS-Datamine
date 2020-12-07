@@ -59234,6 +59234,14 @@ html .tabBadge-3smxHS {
     margin-bottom: 24px
 }
 
+.defaultKeybindGroupWithDescription-3YceEh {
+    margin-bottom: 4px
+}
+
+.defaultKeybindGroupDescription-1bMdWe {
+    margin-bottom: 20px
+}
+
 .defaultKeybindShortcut-14Z6f4 {
     margin: 0
 }
@@ -63561,22 +63569,21 @@ html .invoiceCancelRow-3mYhFX {
     background-image: url(/assets/02435ae88c6d1605bfd3a0fa6620ab1d.svg)
 }
 
+.keybindGroupDescription-3vhN3p,.keybindGroupDivider-1t_8zX {
+    margin: 8px 0
+}
+
 .keyboardShortcutList-13cQ-8 {
     padding: 40px 20px 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    height: 670px
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 12px;
+    -moz-column-gap: 12px;
+    column-gap: 12px
 }
 
 .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w {
-    width: 33.3333%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0 20px 8px;
@@ -63593,6 +63600,11 @@ html .invoiceCancelRow-3mYhFX {
     line-height: 18px;
     text-transform: uppercase;
     margin-bottom: 4px
+}
+
+.keyboardShortcutListGroup-1jHSlZ {
+    padding: 8px;
+    margin: 8px 0
 }
 
 .theme-dark .keyboardShortcutsModal-3piNz7 {
@@ -69196,4 +69208,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.17fab2cd36edd660beb6.css.map*/
+/*# sourceMappingURL=0.3e5822827d25059f5861.css.map*/
