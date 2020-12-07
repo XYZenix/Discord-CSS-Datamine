@@ -47832,12 +47832,14 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    padding: 16px;
-    border-bottom: 1px solid var(--background-modifier-accent)
+    padding: 16px
 }
 
-.rule-2ueNeZ:last-child {
-    border-bottom: none
+.separator-3Vi8sV {
+    background-color: var(--background-modifier-accent);
+    height: 1px;
+    border: none;
+    margin: 0 16px
 }
 
 .ruleContent-3kRtNk {
@@ -47849,7 +47851,7 @@ a.ctaAnchor-3-8I3v:hover {
     height: 64px;
     margin-top: 16px;
     border-radius: 50%;
-    background-color: var(--background-tertiary);
+    background-color: var(--background-accent);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -47862,7 +47864,7 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .icon-2IcVOj {
-    color: var(--interactive-normal)
+    color: var(--interactive-active)
 }
 
 .editLink-unuyd- {
@@ -69194,4 +69196,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.16577e82e3af9589c51e.css.map*/
+/*# sourceMappingURL=0.17fab2cd36edd660beb6.css.map*/
