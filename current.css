@@ -19075,7 +19075,8 @@ html .progress-GjyFoQ {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 18px
+    width: 18px;
+    line-height: 0
 }
 
 .closeButton-2c8U1E.closeButtonWithImage-d-Cnkt {
@@ -69267,4 +69268,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f9e1ae7af869772bebd0.css.map*/
+/*# sourceMappingURL=0.eece5883d60b7ac6f386.css.map*/
