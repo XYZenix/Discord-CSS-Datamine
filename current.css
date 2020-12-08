@@ -4862,6 +4862,34 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     font-weight: 500
 }
 
+.searchable-1Zl-ns {
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+
+.searchInput-5YMkDH {
+    cursor: pointer;
+    background: inherit;
+    color: inherit;
+    border: none;
+    font-size: 16px;
+    padding: 0;
+    font-weight: 500
+}
+
+.editing-p4oIUO {
+    font-weight: 400
+}
+
+.label-2lO3Xi {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 16px;
+    left: 12px
+}
+
 .open-kZ53_U {
     border-radius: 4px 4px 0 0;
     border-bottom-color: transparent
@@ -4915,10 +4943,12 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-weight: 500
+    font-weight: 500;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
 }
 
-.option-3KoAJB:focus,.option-3KoAJB:hover {
+.option-3KoAJB.focused-1T6PE5,.option-3KoAJB:focus,.option-3KoAJB:hover {
     background-color: var(--background-secondary-alt);
     color: var(--interactive-hover)
 }
@@ -69229,4 +69259,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.29a407b2d575c8f4b1e4.css.map*/
+/*# sourceMappingURL=0.ee8647e6766cff047ad7.css.map*/
