@@ -24103,7 +24103,13 @@ html .progress-GjyFoQ {
 }
 
 .messageIconContainer-ATaEy6 {
+    padding-top: 0;
     margin-right: .75rem
+}
+
+.messageIconContainer-ATaEy6 svg {
+    width: 1.25rem;
+    height: 1.25rem
 }
 
 .header-2oHmnr {
@@ -24173,6 +24179,8 @@ html .progress-GjyFoQ {
 }
 
 .compact-38pFhv .messageIconContainer-ATaEy6 {
+    top: 0;
+    left: .1rem;
     padding-top: 0;
     margin-right: .25rem
 }
@@ -69259,4 +69267,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f573025497390f78c069.css.map*/
+/*# sourceMappingURL=0.dc9cd184731cef1773aa.css.map*/
