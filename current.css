@@ -25661,7 +25661,8 @@ html .progress-GjyFoQ {
 }
 
 .inline-3vqbcF {
-    margin-right: 4px
+    margin-right: 4px;
+    padding-bottom: 1px
 }
 
 .set-2Zx-DA {
@@ -25669,7 +25670,7 @@ html .progress-GjyFoQ {
 }
 
 .error-1NcCbc {
-    background-color: #f04747
+    color: #f04747
 }
 
 .active-2awTSY {
@@ -25778,15 +25779,13 @@ html .progress-GjyFoQ {
 }
 
 .optionalHeader-mLQoIx {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
     text-transform: uppercase;
     margin-left: 8px;
     border-left: 1px solid var(--background-modifier-accent);
     padding-left: 8px;
     color: var(--text-muted)
-}
-
-.muted-2ZCTpx {
-    opacity: .3
 }
 
 .autocomplete-1vrmpx {
@@ -27489,6 +27488,56 @@ html .progress-GjyFoQ {
 
 .discriminator-17tNDS {
     opacity: .5
+}
+
+.commandBlock-38NGGm {
+    display: inline-block
+}
+
+.commandBlock-38NGGm br {
+    display: none
+}
+
+.commandBlock-38NGGm>span:last-of-type {
+    margin-right: 8px
+}
+
+.pill-2pQByF {
+    height: 21px;
+    background-color: var(--background-floating);
+    border-radius: 4px;
+    padding: 0 4px;
+    font-size: 16px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone
+}
+
+.pill-2pQByF .mention {
+    background: none!important
+}
+
+.pill-2pQByF .emoji {
+    max-height: 21px;
+    max-width: 21px
+}
+
+.completePill-1I5maV .optionKey-3jd4Vt {
+    margin-right: 4px
+}
+
+.erroredPill-3HF4Sc {
+    color: #f04747
+}
+
+.tabButton-1n4gNP {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 1%;
+    vertical-align: text-bottom;
+    color: #fff;
+    margin-bottom: -1px
 }
 
 .syntaxAfter-hcA4AH,.syntaxBefore-1YQ9lW {
@@ -69268,4 +69317,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.eece5883d60b7ac6f386.css.map*/
+/*# sourceMappingURL=0.d48a6806ff722a251d5b.css.map*/
