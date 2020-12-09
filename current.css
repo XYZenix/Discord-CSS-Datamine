@@ -27313,19 +27313,18 @@ html .progress-GjyFoQ {
 }
 
 .container-Qj4uIL {
-    border-radius: 8px;
     bottom: 100%;
-    left: 0;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
     min-height: 16px;
     position: absolute;
-    width: 232px;
     -webkit-transition: opacity .125s ease-in,-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
     transition: opacity .125s ease-in,-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
     transition: opacity .125s ease-in,transform .125s cubic-bezier(.48,1.93,1,.68);
     transition: opacity .125s ease-in,transform .125s cubic-bezier(.48,1.93,1,.68),-webkit-transform .125s cubic-bezier(.48,1.93,1,.68);
     opacity: 1;
-    will-change: opacity,transform
+    will-change: opacity,transform;
+    left: auto;
+    right: 40px
 }
 
 .container-Qj4uIL.hidden-D-aYti {
@@ -27335,11 +27334,70 @@ html .progress-GjyFoQ {
     pointer-events: none
 }
 
+.container-Qj4uIL:after {
+    border: 7px solid transparent;
+    border-top: 7px solid var(--background-floating);
+    content: "";
+    height: 0;
+    margin-top: -1px;
+    position: absolute;
+    right: 14px;
+    width: 0
+}
+
+.containerBackground-3PNziK {
+    background-color: var(--background-floating);
+    border: 1px solid var(--background-modifier-selected);
+    border-radius: 8px;
+    bottom: 0;
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+    left: 0;
+    min-height: 16px;
+    opacity: .95;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0
+}
+
+.bottomInformationTextContainer-1-VGP3 {
+    z-index: 1;
+    position: relative;
+    padding: 0 8px 10px;
+    height: 24px
+}
+
+.textDivider-3xvtb- {
+    height: 1px;
+    margin: 0 0 4px;
+    background-color: var(--background-modifier-accent)
+}
+
+.descriptionText-2VjsTt {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
 .stickerResults-1zGNA5 {
     display: grid;
     grid-gap: 8px;
-    grid-template-columns: repeat(auto-fill,48px);
-    padding: 8px
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit,48px);
+    padding: 8px;
+    position: relative;
+    z-index: 1
+}
+
+.keybind-2rsP3G {
+    margin: 0;
+    display: inline-block
+}
+
+.theme-dark .keybind-2rsP3G span,.theme-light .keybind-2rsP3G span {
+    -webkit-box-shadow: inset 0 -4px 0 rgba(32,34,37,.6);
+    box-shadow: inset 0 -4px 0 rgba(32,34,37,.6)
 }
 
 .suggestedExpression-37U4Ze {
@@ -27383,12 +27441,8 @@ html .progress-GjyFoQ {
     z-index: 0
 }
 
-.suggestedExpression-37U4Ze:focus .mask-2EX8rq,.suggestedExpression-37U4Ze:hover .mask-2EX8rq,.suggestedExpressionFocused-1TowpS .mask-2EX8rq {
+.suggestedExpression-37U4Ze:focus .mask-2EX8rq,.suggestedExpressionFocused-1TowpS .mask-2EX8rq {
     opacity: 1
-}
-
-.container-Qj4uIL:hover .suggestedExpressionFocused-1TowpS:not(:hover) .mask-2EX8rq {
-    opacity: 0
 }
 
 .maskBackground-1WpXoP {
@@ -27397,19 +27451,17 @@ html .progress-GjyFoQ {
     width: 100%
 }
 
-.theme-light .container-Qj4uIL {
-    background-color: var(--background-floating);
-    border: 1px solid var(--background-modifier-selected);
-    -webkit-box-shadow: var(--elevation-high);
-    box-shadow: var(--elevation-high)
+.reduce-motion .container-Qj4uIL,.reduce-motion .mask-2EX8rq {
+    -webkit-transition: none;
+    transition: none
 }
 
 .theme-light .unownedStickerLockIcon-1jTdXf {
     color: var(--background-secondary)
 }
 
-.theme-dark .container-Qj4uIL {
-    background-color: rgba(24,25,28,.95)
+.theme-dark .containerBackground-3PNziK {
+    opacity: .95
 }
 
 .bar-AokMp3 {
@@ -27878,17 +27930,26 @@ html .progress-GjyFoQ {
     height: 20px!important
 }
 
-.stickerButtonWithResult-1EqRLT {
-    padding: 0;
-    height: 44px;
-    margin-left: 2px;
-    margin-right: 2px
+.stickerButton-3OEgwj {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s,-webkit-transform .2s
 }
 
 .stickerButtonWithNotification-ESXiw0 {
     margin-top: 1px;
     padding-left: 2px;
     padding-right: 2px
+}
+
+.stickerButtonTilted-2R4_UZ {
+    -webkit-transform: rotate(12deg) scale(1.05);
+    transform: rotate(12deg) scale(1.05);
+    -webkit-transition: -webkit-transform .15s;
+    transition: -webkit-transform .15s;
+    transition: transform .15s;
+    transition: transform .15s,-webkit-transform .15s
 }
 
 .fontSize12Padding-2x5wK2 {
@@ -69311,4 +69372,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0e41b80e0badd9163564.css.map*/
+/*# sourceMappingURL=0.8e4abba561c5704f2305.css.map*/
