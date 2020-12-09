@@ -25986,6 +25986,10 @@ html .progress-GjyFoQ {
     color: #f6f6f7
 }
 
+.theme-dark .icon-3ZzoN7 {
+    color: #72767d
+}
+
 .theme-dark .iconForeground-1w5n7R {
     fill: #72767d
 }
@@ -26020,6 +26024,10 @@ html .progress-GjyFoQ {
 
 .theme-brand .content-Qb0rXO {
     color: #36393f
+}
+
+.theme-brand .icon-3ZzoN7 {
+    color: #72767d
 }
 
 .theme-brand .iconForeground-1w5n7R {
@@ -27583,7 +27591,7 @@ html .progress-GjyFoQ {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    opacity: 1%;
+    opacity: .5;
     vertical-align: text-bottom;
     color: #fff;
     margin-bottom: -1px
@@ -69375,4 +69383,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.cd34a8f8e0cecae359f0.css.map*/
+/*# sourceMappingURL=0.b90bc21b2bc53068df66.css.map*/
