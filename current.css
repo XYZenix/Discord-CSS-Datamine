@@ -24105,7 +24105,8 @@ html .progress-GjyFoQ {
 
 .messageIconContainer-ATaEy6 {
     padding-top: 0;
-    margin-right: .75rem
+    margin: 0 auto;
+    width: 72px
 }
 
 .messageIconContainer-ATaEy6 svg {
@@ -24150,14 +24151,18 @@ html .progress-GjyFoQ {
 }
 
 .spine-1UneWn {
-    position: absolute;
-    left: 1rem;
-    top: 2rem;
-    width: 1.875rem;
-    height: 1rem;
-    background-repeat: no-repeat;
-    background-size: 1.875rem 1rem;
-    background-image: url(/assets/80d8d271b01cde0ea7d7bb930057c57b.svg)
+    --gutter-height:1.5rem;--gutter-width:72px;--spine-padding:2px;--spine-width:2px;position: absolute;
+    width: calc(var(--gutter-width) - var(--spine-width) - var(--spine-padding));
+    height: var(--gutter-height);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    bottom: calc(-1*var(--gutter-height) - var(--spine-padding));
+    left: calc(var(--gutter-width) - var(--spine-width));
+    border-left: var(--spine-width) solid var(--background-accent);
+    border-bottom: var(--spine-width) solid var(--background-accent);
+    border-right: 0 solid var(--background-accent);
+    border-top: 0 solid var(--background-accent);
+    border-bottom-left-radius: 6px
 }
 
 .content-2Kddbs {
@@ -24181,9 +24186,10 @@ html .progress-GjyFoQ {
 
 .compact-38pFhv .messageIconContainer-ATaEy6 {
     top: 0;
-    left: .1rem;
+    right: 0;
+    margin: 0;
     padding-top: 0;
-    margin-right: .25rem
+    width: 3.75rem
 }
 
 .compact-38pFhv .content-2Kddbs {
@@ -24191,10 +24197,7 @@ html .progress-GjyFoQ {
 }
 
 .compact-38pFhv .spine-1UneWn {
-    left: 1.5rem;
-    top: 1.25rem;
-    height: 1rem;
-    background-size: 1.875rem 1rem
+    --gutter-width:100%;--gutter-height:1rem;margin-left: calc(-1*var(--spine-width))
 }
 
 .channelNameChange-1wTsWB {
@@ -69372,4 +69375,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ad96833ccf0af0e707d2.css.map*/
+/*# sourceMappingURL=0.cd34a8f8e0cecae359f0.css.map*/
