@@ -19721,7 +19721,7 @@ html .progress-GjyFoQ {
     color: var(--interactive-normal)
 }
 
-.embed-IeVjo6:hover .embedSuppressButton-1FonMn {
+.embed-IeVjo6:focus-within .embedSuppressButton-1FonMn,.embed-IeVjo6:hover .embedSuppressButton-1FonMn {
     opacity: 1
 }
 
@@ -69409,4 +69409,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.75338250fe486d887a95.css.map*/
+/*# sourceMappingURL=0.f26db55f09644434baa7.css.map*/
