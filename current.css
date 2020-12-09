@@ -24152,12 +24152,12 @@ html .progress-GjyFoQ {
 
 .spine-1UneWn {
     --gutter-height:1.5rem;--gutter-width:72px;--spine-padding:2px;--spine-width:2px;position: absolute;
-    width: calc(var(--gutter-width) - var(--spine-width) - var(--spine-padding));
+    width: calc(-1*var(--spine-width)/2 + -1*var(--spine-padding) + var(--gutter-width)/2);
     height: var(--gutter-height);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     bottom: calc(-1*var(--gutter-height) - var(--spine-padding));
-    left: calc(var(--gutter-width) - var(--spine-width));
+    left: calc((-1*var(--spine-width) + var(--gutter-width))/2);
     border-left: var(--spine-width) solid var(--background-accent);
     border-bottom: var(--spine-width) solid var(--background-accent);
     border-right: 0 solid var(--background-accent);
@@ -69383,4 +69383,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b90bc21b2bc53068df66.css.map*/
+/*# sourceMappingURL=0.3d821a4ec11608f88965.css.map*/
