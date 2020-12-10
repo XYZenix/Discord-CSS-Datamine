@@ -64444,7 +64444,8 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .largeSpacing-304iPU {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    margin-top: 8px
 }
 
 .lighten-kLb06a {
@@ -64522,7 +64523,7 @@ html .invoiceCancelRow-3mYhFX {
     transition: background-color .1s ease-in-out
 }
 
-.override-2YgiXd:hover .removeOverride-2sdvVX,.overrideHighlight-YPcBxt:hover .removeOverride-2sdvVX {
+.override-2YgiXd:focus-within .removeOverride-2sdvVX,.override-2YgiXd:hover .removeOverride-2sdvVX,.overrideHighlight-YPcBxt:focus-within .removeOverride-2sdvVX,.overrideHighlight-YPcBxt:hover .removeOverride-2sdvVX {
     opacity: 1
 }
 
@@ -69414,4 +69415,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f63b2712ae0c6a901934.css.map*/
+/*# sourceMappingURL=0.b2c07a61fd6632ac88dc.css.map*/
