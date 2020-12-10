@@ -19152,10 +19152,35 @@ html .progress-GjyFoQ {
     height: 100%
 }
 
+.unownedStickerLockContainer-1awnDf {
+    border-radius: 100%;
+    border: 1px solid var(--background-modifier-accent);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: var(--background-accent);
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.unownedStickerLockIcon-3vTNpx {
+    color: var(--interactive-normal)
+}
+
 .row-2psonc {
     display: grid;
     margin-bottom: 12px;
-    overflow: hidden;
+    overflow: hidden
+}
+
+.row-2psonc,.sticker-2cpdZp {
     position: relative
 }
 
@@ -19183,7 +19208,7 @@ html .progress-GjyFoQ {
 }
 
 .stickerPlaceholder-Upqhje {
-    cursor: defualt
+    cursor: default
 }
 
 .viewAll-2RLt-n {
@@ -27158,6 +27183,16 @@ html .progress-GjyFoQ {
     cursor: pointer
 }
 
+.divider-1OSL6X {
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
 .wrapper-3ir_7D {
     padding: 0 12px 12px 16px
 }
@@ -27440,30 +27475,6 @@ html .progress-GjyFoQ {
 .suggestedExpression-37U4Ze {
     cursor: pointer;
     position: relative
-}
-
-.unownedStickerLockContainer-1xYgxz {
-    width: 12px;
-    height: 12px;
-    border-radius: 6px;
-    border: 1px solid var(--background-modifier-accent);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-color: var(--background-accent);
-    position: absolute;
-    right: 0;
-    bottom: 0
-}
-
-.unownedStickerLockIcon-1jTdXf {
-    color: var(--interactive-normal)
 }
 
 .mask-2EX8rq {
@@ -69403,4 +69414,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.25e50dd1c1378eecb401.css.map*/
+/*# sourceMappingURL=0.f63b2712ae0c6a901934.css.map*/
