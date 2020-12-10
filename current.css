@@ -48072,24 +48072,6 @@ a.ctaAnchor-3-8I3v:hover {
     margin-top: 8px
 }
 
-.videoWrapper-3YdgHH {
-    background-color: #000;
-    border-radius: 5px;
-    overflow: hidden
-}
-
-.video-2aTfcg {
-    display: block;
-    width: 660px;
-    height: 370px
-}
-
-.video-3s2nhU {
-    height: 100%;
-    width: 100%;
-    position: absolute
-}
-
 .container-3zqIcM {
     padding: 16px 16px 0
 }
@@ -58429,6 +58411,18 @@ html .tabBadge-3smxHS {
     margin-right: 20px;
     -ms-flex-negative: 0;
     flex-shrink: 0
+}
+
+.videoWrapper-3YdgHH {
+    background-color: #000;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.video-2aTfcg {
+    display: block;
+    width: 660px;
+    height: 370px
 }
 
 .features-2npk2D {
@@ -69409,4 +69403,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f26db55f09644434baa7.css.map*/
+/*# sourceMappingURL=0.72fc5a6fc8ca3641fd21.css.map*/
