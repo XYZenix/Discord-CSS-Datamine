@@ -27406,17 +27406,6 @@ html .progress-GjyFoQ {
     pointer-events: none
 }
 
-.container-Qj4uIL:after {
-    border: 7px solid transparent;
-    border-top: 7px solid var(--background-floating);
-    content: "";
-    height: 0;
-    margin-top: -1px;
-    position: absolute;
-    right: 14px;
-    width: 0
-}
-
 .containerBackground-3PNziK {
     background-color: var(--background-floating);
     border: 1px solid var(--background-modifier-selected);
@@ -27431,6 +27420,18 @@ html .progress-GjyFoQ {
     right: 0;
     top: 0;
     z-index: 0
+}
+
+.containerBackground-3PNziK:after {
+    border: 7px solid transparent;
+    border-top: 7px solid var(--background-floating);
+    content: "";
+    height: 0;
+    margin-top: -1px;
+    position: absolute;
+    right: 14px;
+    top: 100%;
+    width: 0
 }
 
 .bottomInformationTextContainer-1-VGP3 {
@@ -69415,4 +69416,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b2c07a61fd6632ac88dc.css.map*/
+/*# sourceMappingURL=0.a135c12f837573348a87.css.map*/
