@@ -26255,7 +26255,7 @@ html .progress-GjyFoQ {
     position: sticky;
     top: 0;
     padding: 0 8px;
-    background-color: transparent
+    background-color: #2f3136
 }
 
 .categorySection-231RiR {
@@ -26268,6 +26268,10 @@ html .progress-GjyFoQ {
 
 .itemWrapper-14KrHY {
     padding: 0
+}
+
+.theme-light .categoryHeader-O1zU94 {
+    background-color: #f8f9f9
 }
 
 .container-3Fb-hU {
@@ -69412,4 +69416,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5a068ac68a171154567d.css.map*/
+/*# sourceMappingURL=0.8ce7e29c81d183a3b14f.css.map*/
