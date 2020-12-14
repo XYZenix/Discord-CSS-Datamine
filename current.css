@@ -19103,32 +19103,6 @@ html .progress-GjyFoQ {
     background: rgba(0,0,0,.8)
 }
 
-.sticker-1SXjyZ {
-    background-color: var(--background-primary);
-    border-radius: 8px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    bottom: 0;
-    left: 50%;
-    opacity: 0;
-    padding: 4px;
-    position: absolute;
-    -webkit-transform: translate(-50%,75%);
-    transform: translate(-50%,75%);
-    height: 80px;
-    width: 80px
-}
-
-.stickerVisible-3URXhO {
-    opacity: 1;
-    -webkit-transform: translate(-50%,50%);
-    transform: translate(-50%,50%);
-    -webkit-transition: opacity .2s ease-in-out,-webkit-transform .2s cubic-bezier(.33,1.95,.83,.67);
-    transition: opacity .2s ease-in-out,-webkit-transform .2s cubic-bezier(.33,1.95,.83,.67);
-    transition: transform .2s cubic-bezier(.33,1.95,.83,.67),opacity .2s ease-in-out;
-    transition: transform .2s cubic-bezier(.33,1.95,.83,.67),opacity .2s ease-in-out,-webkit-transform .2s cubic-bezier(.33,1.95,.83,.67)
-}
-
 .listWrapper-21hRUc {
     overflow-x: hidden;
     overflow-y: scroll;
@@ -19453,7 +19427,7 @@ html .progress-GjyFoQ {
 }
 
 .confirmBodyHeaderWithHeaderImage-1HdQ5d {
-    margin-top: 42px
+    margin-top: 32px
 }
 
 .confirmBodyContent-23r8Kk {
@@ -69433,4 +69407,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.db39f3d46bea6767e38e.css.map*/
+/*# sourceMappingURL=0.f5cb7385d02b030c80b7.css.map*/
