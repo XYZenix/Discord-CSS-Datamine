@@ -27849,9 +27849,7 @@ html .progress-GjyFoQ {
 }
 
 .sticker-1T9_Bu {
-    display: block;
-    padding-left: 4px;
-    padding-right: 4px
+    display: block
 }
 
 .background-opacity-low .scrollableContainer-2NUZem {
@@ -28041,6 +28039,13 @@ html .progress-GjyFoQ {
     transition: -webkit-transform .2s;
     transition: transform .2s;
     transition: transform .2s,-webkit-transform .2s
+}
+
+.stickerButtonWithResult-1EqRLT {
+    padding: 0;
+    height: 44px;
+    margin-left: 4px;
+    margin-right: 4px
 }
 
 .stickerButtonWithNotification-ESXiw0 {
@@ -69830,4 +69835,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.71359732655b2d96ac97.css.map*/
+/*# sourceMappingURL=0.af3b288605617936e8a0.css.map*/
