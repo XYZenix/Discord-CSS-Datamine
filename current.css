@@ -66253,15 +66253,28 @@ html .invoiceCancelRow-3mYhFX {
 
 .lottieStickerTest-1hKOyj {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    overflow: hidden
+    overflow: scroll
 }
 
-.lists-v2EVz_,.lottieStickerTest-1hKOyj {
+.actions-1Z2JKm,.lottieStickerTest-1hKOyj {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.actionUpload-3jLwSx {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-right: 8px
+}
+
+.lists-v2EVz_ {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
@@ -69817,4 +69830,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.56f610798c4c6d412065.css.map*/
+/*# sourceMappingURL=0.47cf291f54dbdc9f482e.css.map*/
