@@ -19478,10 +19478,13 @@ html .progress-GjyFoQ {
     flex-direction: row
 }
 
-.upsellFooter-3KAS47 {
+.footerEnd-30Yn44,.upsellFooter-3KAS47 {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end
+}
+
+.upsellFooter-3KAS47 {
 }
 
 .skuPreviewModalContent-3IkwuK {
@@ -69702,4 +69705,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.717a53b6322ac6f0d1b0.css.map*/
+/*# sourceMappingURL=0.06612e3c572a468fa4b0.css.map*/
