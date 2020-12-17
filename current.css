@@ -19536,6 +19536,19 @@ html .progress-GjyFoQ {
     color: var(--text-normal)
 }
 
+.fullModalSpinnerWrapper-2q8B_o {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 200px
+}
+
 .popoutContent-1rAJey {
     padding: 16px
 }
@@ -49331,6 +49344,34 @@ a.ctaAnchor-3-8I3v:hover {
     padding-bottom: 20px
 }
 
+.chatHeaderBar-4vZS1x {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--background-secondary-alt);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8px 16px
+}
+
+.narrow-1f-G-z {
+    padding: 12px 16px
+}
+
+.chatHeaderBarText-1_O_1M {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.chatHeaderBarButton-UiIh3z {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: 16px
+}
+
 .chat-1iumcD {
     min-width: 0;
     min-height: 0;
@@ -49365,21 +49406,6 @@ a.ctaAnchor-3-8I3v:hover {
     box-shadow: var(--elevation-low);
     z-index: 1;
     pointer-events: none
-}
-
-.chatHeaderBar-3Z_6NG {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: var(--background-secondary-alt);
-    padding: 16px
-}
-
-.chatHeaderBarButton-3AsI6X {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin-left: 16px
 }
 
 .container-2Pjhx- {
@@ -69835,4 +69861,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.af3b288605617936e8a0.css.map*/
+/*# sourceMappingURL=0.fafb4d10e78b619d1ec5.css.map*/
