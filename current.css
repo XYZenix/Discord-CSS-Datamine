@@ -47277,14 +47277,11 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    margin: 16px 16px 0
-}
-
-.hasDivider-20M1le {
     border-width: 0;
     border-bottom: 1px solid;
     border-color: var(--background-modifier-accent);
-    padding-bottom: 16px
+    padding-bottom: 16px;
+    margin: 16px
 }
 
 .header-3uLluP {
@@ -48406,8 +48403,12 @@ a.ctaAnchor-3-8I3v:hover {
 
 .subtitle-2UIIw0 {
     margin-top: 8px;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     text-align: center
+}
+
+.subtitle-2UIIw0.noChildren-1pQQQE {
+    margin-bottom: 0
 }
 
 .cardWrapper-2R6-SX {
@@ -48550,10 +48551,6 @@ a.ctaAnchor-3-8I3v:hover {
     color: var(--interactive-normal)
 }
 
-.emptyMessage-3ggYEG {
-    width: 100%
-}
-
 .messagesWrapper-1sRNjr {
     position: relative;
     -webkit-box-flex: 1;
@@ -48613,6 +48610,10 @@ a.ctaAnchor-3-8I3v:hover {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     pointer-events: none
+}
+
+.scrollerSpacer-avRLaA.empty-6MGttt {
+    height: 16px
 }
 
 .navigationDescription-3hiGKr {
@@ -69812,4 +69813,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c4bdfdfdbb5d7aabd44e.css.map*/
+/*# sourceMappingURL=0.d4796b042a2ec5f53a1b.css.map*/
