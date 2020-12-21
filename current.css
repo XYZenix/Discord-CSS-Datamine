@@ -57790,7 +57790,14 @@ html .tabBadge-3smxHS {
     flex-direction: column;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 16px
+    margin-left: 16px;
+    overflow: hidden
+}
+
+.detailsInner-1VPlWl {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--header-primary)
 }
 
 .username-1fQw19 {
@@ -57867,6 +57874,27 @@ html .tabBadge-3smxHS {
 
 .avatarError-10Cg1R {
     margin-top: 8px
+}
+
+.constrainedRow-2GB6Ki {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+    margin-right: 16px
+}
+
+.usernameRow-2Lu_-c {
+    overflow: hidden
+}
+
+.usernameInnerRow-ZlFnET {
+    overflow: hidden;
+    color: var(--header-primary);
+    text-overflow: ellipsis
 }
 
 .header-2xfEYR {
@@ -69819,4 +69847,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.168d7cc793b47b15bf51.css.map*/
+/*# sourceMappingURL=0.d1592d9637e744781e68.css.map*/
