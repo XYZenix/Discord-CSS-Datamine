@@ -15398,7 +15398,8 @@ img[alt] {
 .overflow-WK9Ogt {
     white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden
+    overflow: hidden;
+    position: relative
 }
 
 .gifTag-31zFY8 {
@@ -69980,4 +69981,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2eaa28ded8bcde01f014.css.map*/
+/*# sourceMappingURL=0.472c5a2df0e9a81d308b.css.map*/
