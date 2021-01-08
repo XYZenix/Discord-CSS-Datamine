@@ -46104,6 +46104,16 @@ a.ctaAnchor-3-8I3v:hover {
     pointer-events: none
 }
 
+.toggleMute-1HX2aa {
+    opacity: 1;
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+
+.hidden-3rERt0 {
+    opacity: 0
+}
+
 .selectedIcon-1Ihli9 {
     width: 32px;
     height: 32px;
@@ -69999,4 +70009,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.48ab1b99cf18f8379a36.css.map*/
+/*# sourceMappingURL=0.47d5abbc41994adf9181.css.map*/
