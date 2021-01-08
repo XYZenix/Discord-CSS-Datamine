@@ -6369,11 +6369,20 @@ img[alt] {
 .theme-dark .tooltip-2QfLtc,.theme-light .tooltip-2QfLtc {
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
-    color: #dcddde
+    color: var(--text-normal)
+}
+
+.theme-dark .tooltipPrimary-1d1ph4,.theme-light .tooltipPrimary-1d1ph4 {
+    background-color: var(--background-floating)
+}
+
+.theme-dark .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK,.theme-light .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
+    border-top-color: var(--background-floating)
 }
 
 .theme-dark .tooltipBlack-PPG47z,.theme-light .tooltipBlack-PPG47z {
-    background-color: #000
+    background-color: #000;
+    color: #dcddde
 }
 
 .theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK,.theme-light .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
@@ -21284,7 +21293,7 @@ html .progress-GjyFoQ {
 }
 
 .theme-dark .listItemTooltip-CDcY8J,.theme-light .listItemTooltip-CDcY8J {
-    color: #fff
+    color: var(--text-normal)
 }
 
 .row-2OVM4t {
@@ -21319,6 +21328,7 @@ html .progress-GjyFoQ {
 
 .guildNameText-74xXQn {
     word-wrap: break-word;
+    color: var(--text-normal);
     min-width: 0
 }
 
@@ -69985,4 +69995,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.718ffbc86678b12a06df.css.map*/
+/*# sourceMappingURL=0.9d7caabc827d825e73b7.css.map*/
