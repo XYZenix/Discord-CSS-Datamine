@@ -48261,6 +48261,19 @@ a.ctaAnchor-3-8I3v:hover {
     margin-right: 8px
 }
 
+.mutualGuilds-3ESEpu {
+    cursor: pointer;
+    color: var(--interactive-normal)
+}
+
+.mutualGuilds-3ESEpu:hover {
+    color: var(--interactive-hover)
+}
+
+.mutualGuilds-3ESEpu:active {
+    color: var(--interactive-active)
+}
+
 .searchBar-1FaHXw {
     background-color: var(--background-secondary);
     border: 1px solid var(--background-tertiary);
@@ -70009,4 +70022,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b938a96cc17be4481a6f.css.map*/
+/*# sourceMappingURL=0.1aea25bf050ba69f02a2.css.map*/
