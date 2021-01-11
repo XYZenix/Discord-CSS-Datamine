@@ -22575,7 +22575,11 @@ html .progress-GjyFoQ {
 }
 
 .emoji-3C344l {
-    margin-right: 8px
+    margin-right: 8px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    background-position: 50%;
+    background-repeat: no-repeat
 }
 
 .emoji-3C344l,.onlineCount-27XuPk {
@@ -31286,6 +31290,12 @@ strong {
 
 .spacedItem-350nB_ {
     margin-bottom: 16px
+}
+
+.characterCount-39ID2T {
+    font-size: 12px;
+    right: 12px;
+    height: 32px
 }
 
 .addFieldButtonsContainer-2ecRcx {
@@ -70022,4 +70032,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1aea25bf050ba69f02a2.css.map*/
+/*# sourceMappingURL=0.d824c8e91370e7a19e3f.css.map*/
