@@ -4646,8 +4646,33 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     max-width: 100%
 }
 
+.checkboxWrapper-SkhIWG.row-3QHy4I {
+    background-color: var(--background-secondary);
+    padding: 10px;
+    border-radius: 3px
+}
+
+.checkboxWrapper-SkhIWG.row-3QHy4I.checked-3_4uQ9 {
+    background-color: var(--background-tertiary);
+    color: var(--interactive-active)
+}
+
+.checkboxWrapper-SkhIWG.row-3QHy4I:hover:not(.checked-3_4uQ9) {
+    background-color: var(--background-modifier-hover);
+    color: var(--interactive-hover)
+}
+
+.checkboxWrapper-SkhIWG.row-3QHy4I:active:not(.checked-3_4uQ9) {
+    background-color: var(--background-modifier-active);
+    color: var(--interactive-active)
+}
+
 .checkboxWrapperDisabled-36r8NK {
     opacity: .6
+}
+
+.checkboxWrapperDisabled-36r8NK.row-3QHy4I {
+    opacity: .3
 }
 
 .alignTop-1ntJ4- {
@@ -33260,7 +33285,7 @@ strong {
     justify-content: space-between
 }
 
-.radioOption-1GtmEV {
+.checkboxOption-2KqgnR {
     margin-top: 16px;
     white-space: pre-line
 }
@@ -70206,4 +70231,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b3afdbfa9e1890cf5f77.css.map*/
+/*# sourceMappingURL=0.4aa7e3e8a5d4e7ce82cd.css.map*/
