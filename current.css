@@ -41016,18 +41016,14 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: var(--background-secondary);
+    background-color: var(--background-tertiary);
     border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     font-weight: 500;
-    height: 16px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 2px 8px;
+    height: 24px;
+    padding: 4px;
     position: absolute;
     right: 0;
     text-align: center;
@@ -41040,11 +41036,15 @@ strong {
 }
 
 .jumpButton-2dvRSC .text-3KVtey {
-    color: var(--interactive-normal)
+    color: var(--header-secondary)
 }
 
 .jumpButton-2dvRSC:hover .text-3KVtey {
     color: var(--interactive-hover)
+}
+
+.jumpButton-2dvRSC:active .text-3KVtey {
+    color: var(--interactive-active)
 }
 
 .channelHeader-3Gd2xq {
@@ -70239,4 +70239,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.bd6f90fc1ec8b5bb12ed.css.map*/
+/*# sourceMappingURL=0.b7be2843b56eaa3f4bab.css.map*/
