@@ -4765,7 +4765,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     border-color: #b9bbbe
 }
 
-.theme-light .checked-3_4uQ9 {
+.theme-light.checked-3_4uQ9 {
     background: #fff
 }
 
@@ -4773,7 +4773,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     border-color: #72767d
 }
 
-.theme-dark .checked-3_4uQ9 {
+.theme-dark.checked-3_4uQ9 {
     border-color: #fff;
     background-color: #fff
 }
@@ -70248,4 +70248,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.15e92192c496b89dedb1.css.map*/
+/*# sourceMappingURL=0.76dd5bc677542c47b180.css.map*/
