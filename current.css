@@ -27540,6 +27540,7 @@ html .progress-GjyFoQ {
 .wrapper-OxgYJ1 {
     display: grid;
     grid-template-rows: 1fr auto;
+    height: 100%;
     position: absolute;
     top: 0;
     right: 0;
@@ -70251,4 +70252,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.81bcc2f4ac0441ebdbdf.css.map*/
+/*# sourceMappingURL=0.3c962a59ef477efaa1d7.css.map*/
