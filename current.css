@@ -19504,9 +19504,9 @@ html .progress-GjyFoQ {
 
 .featureTextIcon-6keZHX {
     position: relative;
-    top: 2px;
-    height: 12px;
-    width: 12px
+    top: 1px;
+    height: 10px;
+    width: 10px
 }
 
 .featureIcon-2pfUYw {
@@ -19811,6 +19811,9 @@ html .progress-GjyFoQ {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -19827,9 +19830,9 @@ html .progress-GjyFoQ {
 
 .countdownIcon-B3jzQN {
     position: relative;
-    top: 2px;
-    height: 12px;
-    width: 12px
+    top: 1px;
+    height: 10px;
+    width: 10px
 }
 
 .theme-dark .countdownIcon-B3jzQN {
@@ -70248,4 +70251,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b4bd65602efe70d888d1.css.map*/
+/*# sourceMappingURL=0.81bcc2f4ac0441ebdbdf.css.map*/
