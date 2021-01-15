@@ -34875,7 +34875,8 @@ strong {
 
 .emojiAliasInput-1y-NBz {
     position: relative;
-    z-index: 1
+    z-index: 1;
+    width: 200px
 }
 
 .emojiAliasOffset-3y9w1z {
@@ -44738,7 +44739,8 @@ a.ctaAnchor-3-8I3v:hover {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    width: 100%
 }
 
 .channelName-3_Vb6f {
@@ -44883,6 +44885,10 @@ a.ctaAnchor-3-8I3v:hover {
 .channelInfoWrapper-1DPrpu {
     overflow: hidden;
     margin-right: 0
+}
+
+.channelTitleWrapper-UW6lQz {
+    min-width: 0
 }
 
 .card-2Mz_4z {
@@ -70260,4 +70266,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1d32ba8776be8cd5cc54.css.map*/
+/*# sourceMappingURL=0.90064599edc9a1f5f784.css.map*/
