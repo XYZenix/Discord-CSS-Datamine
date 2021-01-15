@@ -22538,7 +22538,10 @@ html .progress-GjyFoQ {
 }
 
 .termsRowContent-24S2LO {
-    margin-left: 12px
+    padding-left: 12px;
+    white-space: pre-wrap;
+    width: calc(100% - 12px);
+    overflow-wrap: break-word
 }
 
 .checkbox-BXy2rz {
@@ -22703,6 +22706,10 @@ html .progress-GjyFoQ {
     width: 256px;
     -ms-flex-negative: 0;
     flex-shrink: 0
+}
+
+.guildDescription-122n1Y {
+    white-space: pre-wrap
 }
 
 .guildIcon-38Zs0M {
@@ -31478,7 +31485,8 @@ strong {
     padding-left: 16px;
     border-radius: 4px;
     background-color: var(--background-secondary-alt);
-    border: 1px solid var(--background-tertiary)
+    border: 1px solid var(--background-tertiary);
+    white-space: pre-wrap
 }
 
 .clearButton-2akzBa {
@@ -70252,4 +70260,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.82f2c9e53051edf333e5.css.map*/
+/*# sourceMappingURL=0.150eef55b3cbfee7bad2.css.map*/
