@@ -21700,25 +21700,38 @@ html .progress-GjyFoQ {
 }
 
 .wrapper-1-Fsb8 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     background-color: var(--background-secondary);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     height: 32px;
     padding: 0 4px;
     z-index: 1
 }
 
-.header-19cWci,.wrapper-1-Fsb8 {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
+.wrapper-1-Fsb8:after {
+    content: "";
+    background-color: inherit;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: -2px
 }
 
 .header-19cWci {
     color: var(--header-secondary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
@@ -70266,4 +70279,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.90064599edc9a1f5f784.css.map*/
+/*# sourceMappingURL=0.c1e4acee6f44b4f2cb7f.css.map*/
