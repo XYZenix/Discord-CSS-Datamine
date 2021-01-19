@@ -49141,6 +49141,24 @@ a.ctaAnchor-3-8I3v:hover {
     align-self: flex-end
 }
 
+.animation-10aT2_ {
+    height: 50px;
+    width: 50px;
+    margin-top: 4px;
+    margin-left: -8px;
+    margin-right: 4px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
 .text-2yjo70 {
     max-height: 40px
 }
@@ -70279,4 +70297,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c1e4acee6f44b4f2cb7f.css.map*/
+/*# sourceMappingURL=0.6d2c80592667d72a4b08.css.map*/
