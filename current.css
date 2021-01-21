@@ -38319,7 +38319,8 @@ strong {
 }
 
 .content-1x5b-n:active {
-    contain: paint
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
 }
 
 .mainContent-u_9PKf {
@@ -38347,9 +38348,9 @@ strong {
     content: "";
     display: block;
     position: absolute;
-    top: 0;
+    top: -1px;
     right: 0;
-    bottom: 0;
+    bottom: -1px;
     left: 0
 }
 
@@ -70485,4 +70486,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.865a18a99b17aba1b738.css.map*/
+/*# sourceMappingURL=0.88f6a6ab6adfa7792c50.css.map*/
