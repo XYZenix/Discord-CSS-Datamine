@@ -22833,12 +22833,46 @@ html .progress-GjyFoQ {
     width: 88px
 }
 
-.verificationStateIcon-1BrDQj {
-    width: 56px
+.animationAndSparklesContainer-MGS9s5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 80px
+}
+
+.sparkleIcon-2uxoYp {
+    height: 12px;
+    width: 12px
+}
+
+.sparkleTop-qBeDaK {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-right: auto
+}
+
+.sparkleBottom-1AUcMi {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin-left: auto
+}
+
+.animation-vamXOL {
+    height: 56px;
+    width: 56px;
+    margin-left: 4px;
+    margin-top: 12px
 }
 
 .header-3WG5kX {
-    margin: 16px 0 8px
+    margin: 8px 0
 }
 
 .verificationForm-lhyAxu {
@@ -31480,6 +31514,58 @@ strong {
 
 .search-3VWz2t {
     margin-bottom: 16px
+}
+
+.emptyContainer-yF7VLv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.emptyContainer-yF7VLv,.emptyIcon-1-fUj8 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.emptyIcon-1-fUj8 {
+    height: 90px;
+    margin-top: 84px;
+    margin-bottom: 24px
+}
+
+.checkmark-2JmSeu {
+    background-color: var(--background-tertiary);
+    color: var(--interactive-normal);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 16px;
+    -ms-flex-item-align: center;
+    align-self: center
+}
+
+.star-eymo6_ {
+    color: #ffd01a;
+    width: 12px;
+    height: 12px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin: 0 2px
+}
+
+.plus-1EbKzu {
+    color: #5ae6dc;
+    width: 20px;
+    height: 20px
+}
+
+.emptyBody-GDvh5u {
+    margin-top: 8px
 }
 
 .spacedButton-a-GPe4 {
@@ -70399,4 +70485,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d037618ccd1c73c3aa2c.css.map*/
+/*# sourceMappingURL=0.865a18a99b17aba1b738.css.map*/
