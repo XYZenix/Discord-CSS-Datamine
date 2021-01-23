@@ -64349,18 +64349,18 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .ragingDemon-bDcoXE {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     color: #fff
 }
 
-.ragingDemon-bDcoXE,.symbol-3ffeCr {
+.symbol-3ffeCr {
     position: absolute;
     top: 0;
-    left: 0
-}
-
-.symbol-3ffeCr {
+    left: 0;
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -70484,4 +70484,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6da03ec23e3ca0c69fdf.css.map*/
+/*# sourceMappingURL=0.c3cd85d852104487cab7.css.map*/
