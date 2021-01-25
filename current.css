@@ -7131,8 +7131,6 @@ img[alt] {
 }
 
 .container-cMG81i {
-    -ms-flex-negative: 1 1 auto;
-    flex-shrink: 1 1 auto;
     border-radius: 4px;
     overflow: hidden;
     background-color: var(--background-tertiary)
@@ -7143,14 +7141,14 @@ img[alt] {
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
 }
 
 .inner-2P4tQO {
     position: relative;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -70490,4 +70488,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2a8361915518c2f2795c.css.map*/
+/*# sourceMappingURL=0.802a6dcf811de4df2830.css.map*/
