@@ -13449,7 +13449,9 @@ img[alt] {
     display: inline;
     vertical-align: baseline;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
 }
 
 .compact-T3H92H .headerText-3Uvj1Y,.cozy-3raOZG .headerText-3Uvj1Y {
@@ -70488,4 +70490,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.802a6dcf811de4df2830.css.map*/
+/*# sourceMappingURL=0.fc5121a902be9d46c09f.css.map*/
