@@ -38272,8 +38272,9 @@ strong {
     position: relative
 }
 
-.typeThread-3ESTm- {
-    margin-left: 24px
+.typeThread-3ESTm- .content-1x5b-n {
+    margin-left: 36px;
+    padding: 0 6px
 }
 
 .wrapper-2jXpOf.modeSelected-346R90 {
@@ -38351,17 +38352,6 @@ strong {
     right: 0;
     bottom: -1px;
     left: 0
-}
-
-.threadMainContent-2fGYIG:after {
-    background-color: var(--background-accent);
-    border-radius: 2px;
-    content: "";
-    height: 2px;
-    left: -8px;
-    position: absolute;
-    top: 15px;
-    width: 10px
 }
 
 .name-23GUGE {
@@ -38443,14 +38433,11 @@ strong {
     position: relative
 }
 
-.container-3JKcAb:before {
-    background-color: var(--background-accent);
-    bottom: 17px;
-    content: "";
-    left: 24px;
+.spine--Wla_O {
+    color: var(--background-accent);
+    left: 22px;
     position: absolute;
-    top: 0;
-    width: 2px
+    top: 8px
 }
 
 .popout-APcvZm {
@@ -70490,4 +70477,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.fc5121a902be9d46c09f.css.map*/
+/*# sourceMappingURL=0.acea371c73f8fc110cfc.css.map*/
