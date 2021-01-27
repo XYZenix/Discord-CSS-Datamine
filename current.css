@@ -26460,10 +26460,17 @@ html .progress-GjyFoQ {
 
 .option-1B5ZV8 {
     display: inline-block;
-    background-color: var(--interactive-muted);
     border-radius: 4px;
     padding: 0 4px;
     font-weight: 400
+}
+
+.theme-light .option-1B5ZV8 {
+    background-color: #c7ccd1
+}
+
+.theme-dark .option-1B5ZV8 {
+    background-color: #18191c
 }
 
 .inline-3vqbcF {
@@ -26472,7 +26479,7 @@ html .progress-GjyFoQ {
 }
 
 .set-2Zx-DA {
-    background-color: #747f8d
+    opacity: .5
 }
 
 .error-1NcCbc {
@@ -26480,7 +26487,7 @@ html .progress-GjyFoQ {
 }
 
 .active-2awTSY {
-    background-color: #7289da;
+    background-color: #7289da!important;
     color: #fff
 }
 
@@ -26615,12 +26622,6 @@ html .progress-GjyFoQ {
 
 .error-2_oAXi {
     color: #f04747
-}
-
-.optionals-yC7FfY {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
 }
 
 .optionalHeader-mLQoIx {
@@ -28297,7 +28298,6 @@ html .progress-GjyFoQ {
 
 .pill-2pQByF {
     height: 21px;
-    background-color: var(--background-floating);
     border-radius: 4px;
     padding: 0 4px;
     font-size: 16px
@@ -28310,6 +28310,14 @@ html .progress-GjyFoQ {
 .pill-2pQByF .emoji {
     max-height: 21px;
     max-width: 21px
+}
+
+.theme-light .pill-2pQByF {
+    background-color: #c7ccd1
+}
+
+.theme-dark .pill-2pQByF {
+    background-color: #18191c
 }
 
 .completePill-1I5maV .optionKey-3jd4Vt {
@@ -70413,4 +70421,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6de92c1a97b527fd8372.css.map*/
+/*# sourceMappingURL=0.b19e73ea57544af7d632.css.map*/
