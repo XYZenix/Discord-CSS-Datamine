@@ -26684,10 +26684,6 @@ html .progress-GjyFoQ {
     margin-right: 8px
 }
 
-.autocompleteRowHeading-3WOd1z {
-    font-weight: 600
-}
-
 .autocompleteRowSubheading-WqMMIl {
     margin-top: 2px
 }
@@ -31412,14 +31408,19 @@ strong {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 16px 0;
+    padding: 16px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    border-bottom: 1px solid var(--background-modifier-accent)
+    border-bottom: 1px solid var(--background-modifier-accent);
+    cursor: pointer
+}
+
+.guildJoinRequestRow-35c262:hover {
+    background-color: var(--background-secondary)
 }
 
 .guildJoinRequestRow-35c262:last-of-type {
@@ -31445,14 +31446,21 @@ strong {
     border-radius: 8px
 }
 
+.status-M_uKgm.approved-1ruTYe {
+    background-color: #43b581
+}
+
+.status-M_uKgm.rejected-pJ_kU_ {
+    background-color: #f04747
+}
+
 .caret-2lmaKa {
     background-color: var(--background-tertiary);
     padding: 8px;
     border-radius: 50%;
     width: 32px;
     height: 32px;
-    color: var(--header-secondary);
-    cursor: pointer
+    color: var(--header-secondary)
 }
 
 .search-3VWz2t {
@@ -70421,4 +70429,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b19e73ea57544af7d632.css.map*/
+/*# sourceMappingURL=0.bc3e295fef13669ca0bc.css.map*/
