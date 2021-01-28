@@ -31710,11 +31710,13 @@ strong {
 .previewContainer-12Libf {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
-    flex: 1 1 auto
+    flex: 1 1 auto;
+    width: 508px
 }
 
 .editableFieldsContainer-1LYE1s {
-    margin-right: -40px
+    margin-right: -40px;
+    width: 508px
 }
 
 .formPreview-JBqQAX {
@@ -31744,7 +31746,8 @@ strong {
     display: flex;
     -webkit-box-flex: 1;
     -ms-flex: 1;
-    flex: 1
+    flex: 1;
+    overflow: hidden
 }
 
 .draggableWrapper-1MSRt5 * {
@@ -31803,6 +31806,30 @@ strong {
 
 .errorBanner-1EY3-l {
     margin-bottom: 16px
+}
+
+.autoApprovalNotice-3f2MDa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 16px
+}
+
+.autoApprovalTitle-3Suv0U {
+    text-transform: uppercase;
+    padding: 8px;
+    background-color: #43b581;
+    border-radius: 8px 8px 0 0
+}
+
+.autoApprovalBody-7bg-ys {
+    padding: 8px;
+    background-color: var(--background-secondary);
+    border-radius: 0 0 8px 8px
 }
 
 .settingsSubtitle-14oNNx {
@@ -31917,6 +31944,17 @@ strong {
 
 .descriptionSpaced-3KimHl {
     margin-bottom: 32px
+}
+
+.switchField-3-keGE {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.switch-2rfDZ3 {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
 }
 
 .exampleContainer-3ekFIr {
@@ -70426,4 +70464,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.47049765306cc9d1d17e.css.map*/
+/*# sourceMappingURL=0.c02525f4838339e9f29e.css.map*/
