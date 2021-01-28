@@ -3403,6 +3403,38 @@
     margin: 0
 }
 
+.closeButton-3oHzMa {
+    position: absolute;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    top: 12px;
+    right: 4px
+}
+
+.content-2TX59W {
+    text-align: center
+}
+
+.image-2568Gg {
+    margin-top: 24px;
+    height: 90px;
+    width: auto
+}
+
+.title-1X2dN- {
+    margin-top: 16px;
+    font-weight: 700
+}
+
+.subtitle-2ljJ8H {
+    margin-top: 8px;
+    margin-bottom: 32px
+}
+
+.button-2rjtHF {
+    width: 100%
+}
+
 .select-2TCrqx.error-3S-7y9 .errorMessage-1Y9q-X {
     font-size: 14px;
     line-height: 20px;
@@ -4364,38 +4396,6 @@
 
 .theme-light .disabledButtonOverride-3Ntxjs {
     background-color: #c7ccd1!important
-}
-
-.closeButton-3oHzMa {
-    position: absolute;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-    top: 12px;
-    right: 4px
-}
-
-.content-2TX59W {
-    text-align: center
-}
-
-.image-2568Gg {
-    margin-top: 24px;
-    height: 90px;
-    width: auto
-}
-
-.title-1X2dN- {
-    margin-top: 16px;
-    font-weight: 700
-}
-
-.subtitle-2ljJ8H {
-    margin-top: 8px;
-    margin-bottom: 32px
-}
-
-.button-2rjtHF {
-    width: 100%
 }
 
 .title-3KTIjF {
@@ -70426,4 +70426,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0d72c9a9c7be857f759b.css.map*/
+/*# sourceMappingURL=0.47049765306cc9d1d17e.css.map*/
