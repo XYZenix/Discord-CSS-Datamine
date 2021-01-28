@@ -48240,14 +48240,14 @@ a.ctaAnchor-3-8I3v:hover {
     -ms-flex-direction: row;
     flex-direction: row;
     overflow: hidden;
+    width: 500px;
+    height: 440px
+}
+
+.container-1If-HZ,.scroller-1-nKid {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto
-}
-
-.size-2kUz0R {
-    height: 440px;
-    width: 500px
 }
 
 .scroller-1-nKid {
@@ -48255,13 +48255,10 @@ a.ctaAnchor-3-8I3v:hover {
     width: 90px
 }
 
-.reactors-Blmlhw,.scroller-1-nKid {
+.reactors-Blmlhw {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
-    flex: 0 0 auto
-}
-
-.reactors-Blmlhw {
+    flex: 0 0 auto;
     width: 410px
 }
 
@@ -70464,4 +70461,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c02525f4838339e9f29e.css.map*/
+/*# sourceMappingURL=0.dfbff82c24fe828b9abf.css.map*/
