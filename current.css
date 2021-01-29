@@ -13100,21 +13100,29 @@ img[alt] {
 
 .repliedMessage-VokQwo {
     --reply-spacing: 4px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     color: var(--header-secondary);
-    font-size: 0.875rem;
-    line-height: 1.125rem;
     position: relative;
     white-space: pre;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
+}
+
+.repliedMessage-VokQwo,.threadMessageAccessory-1pYyA- {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 0.875rem;
+    line-height: 1.125rem
+}
+
+.threadMessageAccessory-1pYyA- {
+    min-width: 0;
+    padding-right: 4px
 }
 
 .repliedMessage-VokQwo.latin12CompactTimeStamp-38a8OU {
@@ -13177,7 +13185,7 @@ img[alt] {
     border-top-left-radius: 6px
 }
 
-.replyAvatar-1K9Wmr,.replyBadge-r1su3o {
+.replyAvatar-1K9Wmr,.replyBadge-r1su3o,.threadMessageAccessoryAvatar-2XWCxw {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -13189,6 +13197,10 @@ img[alt] {
     -ms-user-select: none;
     user-select: none;
     margin-right: .25rem
+}
+
+.threadMessageAccessoryAvatar-2XWCxw {
+    margin-right: 8px
 }
 
 .replyBadge-r1su3o {
@@ -13210,18 +13222,20 @@ img[alt] {
     height: 7.2px
 }
 
-.repliedMessage-VokQwo .username-1A8OIy {
+.repliedMessage-VokQwo .username-1A8OIy,.threadMessageAccessory-1pYyA- .username-1A8OIy {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
     font-size: inherit;
     line-height: inherit;
     margin-right: .25rem;
     opacity: .64
 }
 
-.repliedMessage-VokQwo .botTag-1un5a6 {
+.repliedMessage-VokQwo .botTag-1un5a6,.threadMessageAccessory-1pYyA- .botTag-1un5a6 {
     top: 0
 }
 
-.repliedTextPreview-2NBljf {
+.repliedTextPreview-2NBljf,.threadMessageAccessoryPreview-1uSsue {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
@@ -13237,7 +13251,7 @@ img[alt] {
     color: var(--header-primary)
 }
 
-.repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK {
+.repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK,.threadMessageAccessory-1pYyA- .threadMessageAccessoryPreview-1uSsue .threadMessageAccessoryContent-1LHM39 {
     color: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -13250,15 +13264,15 @@ img[alt] {
     user-select: none
 }
 
-.repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK code {
+.repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK code,.threadMessageAccessory-1pYyA- .threadMessageAccessoryPreview-1uSsue .threadMessageAccessoryContent-1LHM39 code {
     white-space: pre
 }
 
-.repliedTextPlaceholder-dmN7D1 {
+.repliedTextPlaceholder-dmN7D1,.threadMessageAccessoryPlaceholder-2pTLxK {
     font-style: italic
 }
 
-.repliedTextContentIcon-1ivTae {
+.repliedTextContentIcon-1ivTae,.threadMessageAccessoryContentIcon-1QAVEG {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -19887,7 +19901,8 @@ html .progress-GjyFoQ {
 
 .container-3hZ-gs {
     cursor: pointer;
-    max-width: 460px
+    min-width: 0;
+    width: 100%
 }
 
 .iconWrapper-jpIswi,.topLine-1hV9bl {
@@ -19935,7 +19950,23 @@ html .progress-GjyFoQ {
 }
 
 .bottomLine-2qB7L6 {
-    padding-left: 24px
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 24px;
+    margin-top: 2px
+}
+
+.bottomLine-2qB7L6.hasMessage-Bnk1Xr {
+    padding-left: 0
+}
+
+.timestamp-1Kyoes {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
 }
 
 .embed-IeVjo6 {
@@ -70519,4 +70550,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.18df2c0a80541973673b.css.map*/
+/*# sourceMappingURL=0.12117d5a9faa1f189d8d.css.map*/
