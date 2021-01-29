@@ -26910,7 +26910,19 @@ html .progress-GjyFoQ {
     cursor: pointer
 }
 
+.dividerContainer-3Gjj3b .base-1pYU8j {
+    padding-bottom: 0;
+    padding-top: 0
+}
+
 .divider-23swzi {
+    padding: 8px
+}
+
+.divider-23swzi:after {
+    background-color: var(--background-modifier-accent);
+    content: "";
+    display: block;
     height: 1px;
     width: 100%
 }
@@ -26937,7 +26949,13 @@ html .progress-GjyFoQ {
     fill: var(--interactive-normal)
 }
 
-.rawEmoji-y8E0FG {
+.emojiImage-1_XFkC {
+    width: 20px;
+    height: 20px
+}
+
+.emojiRaw-3DHlrS {
+    display: block;
     font-size: 20px
 }
 
@@ -26945,7 +26963,7 @@ html .progress-GjyFoQ {
     opacity: .6
 }
 
-.stickerAutocompleteRow-1uiRPB .base-1pYU8j {
+.autocompleteRowVerticalSmall-1bvn6e .base-1pYU8j {
     padding: 4px 8px
 }
 
@@ -26953,7 +26971,7 @@ html .progress-GjyFoQ {
     background-color: #f8f9f9
 }
 
-.theme-light .divider-23swzi,.theme-light .selected-1Tbx07 {
+.theme-light .selected-1Tbx07 {
     background-color: #dcddde
 }
 
@@ -26967,10 +26985,6 @@ html .progress-GjyFoQ {
 
 .theme-dark .selected-1Tbx07 {
     background-color: #36393f
-}
-
-.theme-dark .divider-23swzi {
-    background-color: rgba(79,84,92,.6)
 }
 
 .theme-dark .contentTitle-2tG_sM strong {
@@ -28637,6 +28651,14 @@ html .progress-GjyFoQ {
 
 .autocompleteLayer-1ANxTe .autocomplete-3l_oCd {
     position: static
+}
+
+.stickersHeaderWithEmojiResults-gCnYVk {
+    padding-top: 0
+}
+
+.emojiStickersDivider-3Q5Opa.emojiStickersDivider-3Q5Opa {
+    padding-bottom: 0
 }
 
 .userTooltip-7qZaHD {
@@ -70497,4 +70519,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3dcded4b0ad2fdc51ce2.css.map*/
+/*# sourceMappingURL=0.18df2c0a80541973673b.css.map*/
