@@ -26981,6 +26981,8 @@ html .progress-GjyFoQ {
 }
 
 .emojiImage-1_XFkC {
+    -o-object-fit: contain;
+    object-fit: contain;
     width: 20px;
     height: 20px
 }
@@ -70550,4 +70552,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6c3072429ad87acf7391.css.map*/
+/*# sourceMappingURL=0.699790e8b44461dc88c7.css.map*/
