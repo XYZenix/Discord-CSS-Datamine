@@ -2622,8 +2622,7 @@
     -webkit-transition: opacity .4s ease;
     transition: opacity .4s ease;
     opacity: 1;
-    pointer-events: none;
-    z-index: -1
+    pointer-events: none
 }
 
 .embedded-19g94k {
@@ -37948,6 +37947,350 @@ strong {
     fill: #fff
 }
 
+.button-1-5Aqk {
+    border-radius: 32px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 32px;
+    min-height: 32px;
+    padding: 8px;
+    width: 32px;
+    min-width: 32px
+}
+
+.secondary-dIudih {
+    background-color: var(--background-secondary);
+    color: var(--header-secondary)
+}
+
+.secondary-dIudih:hover:not(.disabled-3Njyym) {
+    background-color: var(--background-primary);
+    color: var(--interactive-active)
+}
+
+.tertiary-aMXF0g {
+    background-color: var(--background-tertiary);
+    color: var(--interactive-normal)
+}
+
+.tertiary-aMXF0g:hover:not(.disabled-3Njyym) {
+    background-color: var(--background-floating);
+    color: var(--interactive-active)
+}
+
+.disabled-3Njyym {
+    opacity: .3;
+    pointer-events: none
+}
+
+.description-2lbkbS {
+    margin-bottom: 32px
+}
+
+.container-_phMUq {
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    padding: 24px 24px 24px 16px;
+    cursor: pointer
+}
+
+.container-_phMUq,.icon-3_8HGa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.icon-3_8HGa {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--background-primary);
+    color: var(--interactive-normal);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.description-3A8idy {
+    margin-left: 16px
+}
+
+.label-2gpUAV {
+    font-weight: 700;
+    margin-bottom: 4px
+}
+
+.arrow-2aE8q8 {
+    margin-left: auto;
+    color: var(--interactive-normal)
+}
+
+.everyone-drW42i {
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    padding: 24px 24px 24px 16px
+}
+
+.everyone-drW42i,.everyoneIcon-1-3rKl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.everyoneIcon-1-3rKl {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--background-primary);
+    color: var(--interactive-normal);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.everyoneDescription-12fEYp {
+    margin-left: 16px
+}
+
+.everyoneLabel-WNXtk9 {
+    font-weight: 700;
+    margin-bottom: 4px
+}
+
+.everyoneArrow-2d1dYP {
+    margin-left: auto;
+    color: var(--interactive-normal)
+}
+
+.helpText-2stV3Z,.rolesList-1mhLwq {
+    margin-top: 32px
+}
+
+.searchContainer-383_ld {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.createButton-3hBiU4 {
+    margin-left: 16px;
+    height: 34px
+}
+
+.rolesTable-3622Dd {
+    margin-top: 32px
+}
+
+.tableHeader-3x_1oD {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 8px
+}
+
+.tableTitle-36-jum {
+    font-size: 12px;
+    color: var(--header-secondary);
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.dragSpacing-3xep_M {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 36px;
+    flex: 0 0 36px
+}
+
+.roleNameSpacing-XtjbtV {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 273px;
+    flex: 0 1 273px
+}
+
+.memberSpacing-1zJbKJ {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 112px;
+    flex: 0 0 112px;
+    margin-left: 16px;
+    text-align: right
+}
+
+.buttonsSpacing-3twfdv {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 96px;
+    flex: 1 0 96px;
+    margin-left: 16px
+}
+
+.divider-3qBwSB {
+    margin-left: 8px;
+    margin-right: 8px;
+    border-bottom: 1px solid var(--background-modifier-accent)
+}
+
+.emptyRoles-23F3oy {
+    color: var(--text-muted)
+}
+
+.emptyRolesText-gurxgN {
+    margin-left: 8px;
+    font-weight: 600
+}
+
+.emptyRoles-23F3oy,.roleRow-30TwGe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 60px
+}
+
+.roleRow-30TwGe {
+    position: relative;
+    border-radius: 4px
+}
+
+.roleRowDragging-3mvS_Z {
+    background-color: var(--background-modifier-hover)
+}
+
+.dragIcon-I74byJ {
+    padding: 8px 12px 8px 8px;
+    cursor: -webkit-grab;
+    cursor: grab;
+    color: var(--interactive-normal);
+    visibility: hidden
+}
+
+.dragIcon-I74byJ:hover {
+    color: var(--interactive-hover)
+}
+
+.dragIcon-I74byJ:active {
+    cursor: -webkit-grabbing;
+    cursor: grabbing
+}
+
+.roleNameContainer-2o4-eI {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.shield-1-PEa- {
+    margin-right: 10px
+}
+
+.lock-XkLDU9,.shield-1-PEa- {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.lock-XkLDU9 {
+    margin-right: 4px;
+    color: var(--text-muted)
+}
+
+.roleName-1vjSQR {
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.memberCountContainer-1BJFU2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.memberCount-1dJD4s,.person-36TQaZ {
+    color: var(--interactive-normal)
+}
+
+.person-36TQaZ {
+    margin-left: 4px
+}
+
+.buttonsContainer-bgP7-t {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-right: 8px
+}
+
+.circleButton-3RB01i {
+    height: 36px;
+    width: 36px
+}
+
+.circleButton-3RB01i+.circleButton-3RB01i {
+    margin-left: 16px
+}
+
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) {
+    background-color: var(--background-modifier-hover)
+}
+
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .dragIcon-I74byJ:not(.dragIconHidden-2HNIJ_) {
+    visibility: visible
+}
+
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i {
+    background-color: var(--background-tertiary)
+}
+
+.containerDragAfter-1PIDLd:after,.containerDragBefore-s8CG6h:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 8px;
+    right: 8px;
+    height: 4px;
+    background-color: #43b581;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.4);
+    box-shadow: 0 0 3px rgba(0,0,0,.4)
+}
+
+.containerDragBefore-s8CG6h:before {
+    top: -2px
+}
+
+.containerDragAfter-1PIDLd:after {
+    bottom: -2px
+}
+
 .sidebarScrollable-1qPI87 {
     position: absolute;
     top: 0;
@@ -41553,40 +41896,6 @@ strong {
 }
 
 .closeIcon-2Yg8TD:active {
-    color: var(--interactive-active)
-}
-
-.button-1-5Aqk {
-    border-radius: 32px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    cursor: pointer;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    height: 32px;
-    min-height: 32px;
-    padding: 8px;
-    width: 32px;
-    min-width: 32px
-}
-
-.secondary-dIudih {
-    background-color: var(--background-secondary);
-    color: var(--header-secondary)
-}
-
-.secondary-dIudih:hover {
-    background-color: var(--background-primary);
-    color: var(--interactive-active)
-}
-
-.tertiary-aMXF0g {
-    background-color: var(--background-tertiary);
-    color: var(--interactive-normal)
-}
-
-.tertiary-aMXF0g:hover {
-    background-color: var(--background-floating);
     color: var(--interactive-active)
 }
 
@@ -70556,4 +70865,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.909e22a92986798d26bf.css.map*/
+/*# sourceMappingURL=0.1dc057b54e2265cb1d2e.css.map*/
