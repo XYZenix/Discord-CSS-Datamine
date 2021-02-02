@@ -38129,8 +38129,8 @@ strong {
 
 .buttonsSpacing-3twfdv {
     -webkit-box-flex: 1;
-    -ms-flex: 1 0 96px;
-    flex: 1 0 96px;
+    -ms-flex: 1 0 100px;
+    flex: 1 0 100px;
     margin-left: 16px
 }
 
@@ -38156,7 +38156,8 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    height: 60px
+    height: 60px;
+    cursor: pointer
 }
 
 .roleRow-30TwGe {
@@ -38246,16 +38247,20 @@ strong {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    padding-right: 8px
+    margin-right: 8px
+}
+
+.editButton-1V012_ {
+    visibility: hidden;
+    color: var(--text-link);
+    -ms-flex-negative: 0;
+    flex-shrink: 0
 }
 
 .circleButton-3RB01i {
+    margin-left: 16px;
     height: 36px;
     width: 36px
-}
-
-.circleButton-3RB01i+.circleButton-3RB01i {
-    margin-left: 16px
 }
 
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) {
@@ -38268,6 +38273,10 @@ strong {
 
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i {
     background-color: var(--background-tertiary)
+}
+
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .editButton-1V012_ {
+    visibility: visible
 }
 
 .containerDragAfter-1PIDLd:after,.containerDragBefore-s8CG6h:before {
@@ -70865,4 +70874,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0bb2b46f7ad4079cadc1.css.map*/
+/*# sourceMappingURL=0.79dfa24bdbcc7298db82.css.map*/
