@@ -50002,13 +50002,6 @@ a.ctaAnchor-3-8I3v:hover {
     overflow: hidden
 }
 
-.noChannel-Z1DQK7 {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    position: relative
-}
-
 .editPartyIcon-1GA5r3 {
     margin-right: 4px;
     cursor: pointer;
@@ -50696,6 +50689,13 @@ a.ctaAnchor-3-8I3v:hover {
 .splashHeader-ehL7gZ,.splashText-3jk87t {
     width: 580px;
     text-align: center
+}
+
+.noChannel-3LgMRp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    position: relative
 }
 
 .strikethrough-3Wiitd {
@@ -70556,4 +70556,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8283f1fb5daabdc87fcb.css.map*/
+/*# sourceMappingURL=0.909e22a92986798d26bf.css.map*/
