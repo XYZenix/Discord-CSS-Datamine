@@ -22602,7 +22602,7 @@ html .progress-GjyFoQ {
 }
 
 .checkboxText-20IXco {
-    font-weight: 600
+    font-weight: 500
 }
 
 .formItemDescription-1RUg6B {
@@ -22618,6 +22618,10 @@ html .progress-GjyFoQ {
 
 .settingsLink-uq19Vg {
     margin-top: 8px
+}
+
+.radioItem-1lWDqB {
+    border: 1px solid var(--background-modifier-accent)
 }
 
 .card-3veb4J,.spacing-1QIWht {
@@ -70552,4 +70556,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.108b598a2325f4ed0cee.css.map*/
+/*# sourceMappingURL=0.8283f1fb5daabdc87fcb.css.map*/
