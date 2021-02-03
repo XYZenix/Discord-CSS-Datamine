@@ -2939,39 +2939,6 @@
     color: var(--interactive-normal)
 }
 
-.modal-1630pA {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 400px;
-    padding: 24px;
-    overflow: visible
-}
-
-.header-2cDml2 {
-    margin-bottom: 16px
-}
-
-.button-32WdHP {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 50%;
-    flex: 1 1 50%
-}
-
-.button-32WdHP:first-child {
-    margin-left: 8px
-}
-
 .title-3sZWYQ {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -3176,6 +3143,39 @@
 
 .gutter-15v0rO {
     margin-left: 10px
+}
+
+.modal-1630pA {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 24px;
+    overflow: visible
+}
+
+.header-2cDml2 {
+    margin-bottom: 16px
+}
+
+.button-32WdHP {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%
+}
+
+.button-32WdHP:first-child {
+    margin-left: 8px
 }
 
 .keybindShortcut-1BD6Z1 {
@@ -70965,4 +70965,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3dc884a0d960c19f46b6.css.map*/
+/*# sourceMappingURL=0.1ee13b665a1df10b814f.css.map*/
