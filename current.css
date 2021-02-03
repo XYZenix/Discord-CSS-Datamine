@@ -37232,6 +37232,16 @@ strong {
     color: var(--text-link)
 }
 
+.error-c-8XMu {
+    background: rgba(240,71,71,.1);
+    border: 1px solid #f04747;
+    color: var(--interactive-active)
+}
+
+.error-c-8XMu .icon-1jlFSw {
+    color: #f04747
+}
+
 .animation-10BpnT {
     position: relative
 }
@@ -38842,7 +38852,8 @@ strong {
     flex-direction: column;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
-    flex-grow: 1
+    flex-grow: 1;
+    height: 100%
 }
 
 .searchBox-2U8-yR {
@@ -65905,7 +65916,8 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .header-3nFfBB {
-    margin-top: 16px
+    margin-top: 16px;
+    margin-bottom: 16px
 }
 
 .headerSubtitle-KRA6bs {
@@ -65925,6 +65937,10 @@ html .invoiceCancelRow-3mYhFX {
     position: absolute;
     top: -4px;
     right: 8px
+}
+
+.modalTitle-1Ymoer {
+    font-weight: 700
 }
 
 .sectionTitle-39SH0_ {
@@ -65992,6 +66008,21 @@ html .invoiceCancelRow-3mYhFX {
 
 .owner-2uUH68 {
     margin-top: 8px
+}
+
+.addMembersContainer-8K9nhE {
+    height: 380px;
+    overflow: hidden;
+    padding: 0 0 0 8px
+}
+
+.addMemberError-1Rvepg {
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.createError-1820x- {
+    margin: 16px
 }
 
 .theme-dark .cloneInfo-1OC_Ee strong,.theme-dark .subtitle-3csUrC {
@@ -70874,4 +70905,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.79dfa24bdbcc7298db82.css.map*/
+/*# sourceMappingURL=0.3522ebe3dd875986751f.css.map*/
