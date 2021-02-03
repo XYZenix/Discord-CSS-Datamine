@@ -37957,6 +37957,70 @@ strong {
     fill: #fff
 }
 
+.description-2lbkbS {
+    margin-bottom: 32px
+}
+
+.row-3GRgeK {
+    height: 34px
+}
+
+.titleContainer-lnaGKJ {
+    margin-top: -2px;
+    margin-bottom: 18px
+}
+
+.backButton-3um-nd,.titleContainer-lnaGKJ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.backButton-3um-nd {
+    color: var(--header-secondary);
+    cursor: pointer
+}
+
+.titleText-1-eGpS {
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.titleCaret-2GymT8 {
+    margin-left: 8px;
+    color: var(--interactive-muted)
+}
+
+.roleOptionContainer-2fVhsP {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.roleOptionShield-24nrVu {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px
+}
+
+.container-HnGszW {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative
+}
+
+.sidebar-3Wgas9 {
+    width: 195px
+}
+
 .button-1-5Aqk {
     border-radius: 32px;
     -webkit-box-sizing: border-box;
@@ -37994,10 +38058,6 @@ strong {
 .disabled-3Njyym {
     opacity: .3;
     pointer-events: none
-}
-
-.description-2lbkbS {
-    margin-bottom: 32px
 }
 
 .container-_phMUq {
@@ -38044,7 +38104,8 @@ strong {
 .everyone-drW42i {
     background-color: var(--background-secondary);
     border-radius: 4px;
-    padding: 24px 24px 24px 16px
+    padding: 24px 24px 24px 16px;
+    cursor: pointer
 }
 
 .everyone-drW42i,.everyoneIcon-1-3rKl {
@@ -70905,4 +70966,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3522ebe3dd875986751f.css.map*/
+/*# sourceMappingURL=0.cc954d168b180a4bc592.css.map*/
