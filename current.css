@@ -37960,8 +37960,68 @@ strong {
     margin-bottom: 32px
 }
 
+.container-23jqbX {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-height: 100%
+}
+
+.list-I3aHXn,.title-3GS0Tf {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0
+}
+
+.list-I3aHXn {
+    min-height: 0;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    border: 1px solid var(--background-modifier-accent);
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 12px
+}
+
 .row-3GRgeK {
-    height: 34px
+    height: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px
+}
+
+.row-3GRgeK:hover:not(.rowSelected-1AHq2T) {
+    background-color: var(--background-modifier-hover)
+}
+
+.rowSelected-1AHq2T {
+    background-color: var(--background-modifier-selected)
+}
+
+.roleDot-ZwSovK {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.roleName-2IkRdr {
+    margin-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
 }
 
 .titleContainer-lnaGKJ {
@@ -37994,26 +38054,14 @@ strong {
     color: var(--interactive-muted)
 }
 
-.roleOptionContainer-2fVhsP {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.roleOptionShield-24nrVu {
-    margin-right: 8px;
-    width: 16px;
-    height: 16px
-}
-
 .container-HnGszW {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-height: 0;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    position: relative
+    display: flex
 }
 
 .sidebar-3Wgas9 {
@@ -70965,4 +71013,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1ee13b665a1df10b814f.css.map*/
+/*# sourceMappingURL=0.fd2b8548f294f3ff6eeb.css.map*/
