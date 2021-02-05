@@ -48078,7 +48078,15 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .button-1xaXFt {
+    margin-left: 0
+}
+
+.button-1xaXFt,.divider-T9ghJP {
     margin-right: 16px
+}
+
+.divider-T9ghJP {
+    background: #202225
 }
 
 .speaker-13nFCF {
@@ -71049,4 +71057,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.438bb15330a04b87d435.css.map*/
+/*# sourceMappingURL=0.22c5279c1126252140f8.css.map*/
