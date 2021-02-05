@@ -38384,9 +38384,7 @@ strong {
 }
 
 .circleButton-3RB01i {
-    margin-left: 16px;
-    height: 36px;
-    width: 36px
+    margin-left: 16px
 }
 
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) {
@@ -38427,17 +38425,13 @@ strong {
 }
 
 .button-1-5Aqk {
-    border-radius: 32px;
+    border-radius: 50%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     cursor: pointer;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    height: 32px;
-    min-height: 32px;
-    padding: 8px;
-    width: 32px;
-    min-width: 32px
+    padding: 8px
 }
 
 .secondary-dIudih {
@@ -38458,6 +38452,20 @@ strong {
 .tertiary-aMXF0g:hover:not(.disabled-3Njyym) {
     background-color: var(--background-floating);
     color: var(--interactive-active)
+}
+
+.size32-T2BHRe {
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    min-height: 32px
+}
+
+.size36-1Ff1kn {
+    width: 36px;
+    min-width: 36px;
+    height: 36px;
+    min-height: 36px
 }
 
 .disabled-3Njyym {
@@ -71057,4 +71065,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.22c5279c1126252140f8.css.map*/
+/*# sourceMappingURL=0.ef5bfa9c59dea7b826b1.css.map*/
