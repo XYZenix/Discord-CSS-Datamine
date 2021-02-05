@@ -38016,6 +38016,36 @@ strong {
     margin-bottom: 32px
 }
 
+.container-1igeTA {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.avatar-Ktgjkc {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.textContainer-2rzLui {
+    color: var(--interactive-normal);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.name-kGw4u8 {
+    margin-left: 8px;
+    font-weight: 600
+}
+
+.botTag-hCPuoz,.userTag-1DX5j2 {
+    margin-left: 4px
+}
+
 .container-1Saj_P {
     margin-top: 32px;
     -webkit-box-orient: vertical;
@@ -38045,11 +38075,53 @@ strong {
 
 .memberRow-1wwtfV {
     height: 32px;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    padding-left: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.memberDetails-2a-kJC {
+    min-width: 0
 }
 
 .list-3a9fyp {
+    margin-top: 16px;
     min-height: 0
+}
+
+.removeButtonContainer-1YsIy7 {
+    margin-left: auto
+}
+
+.removeButton-spUszT {
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    color: var(--interactive-normal);
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.removeButton-spUszT:hover {
+    color: var(--interactive-hover)
+}
+
+.removeButton-spUszT:active {
+    color: var(--interactive-active)
 }
 
 .container-23jqbX {
@@ -71065,4 +71137,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5c63b797df6a2c7bdc25.css.map*/
+/*# sourceMappingURL=0.c279d9473821fd80e360.css.map*/
