@@ -38330,10 +38330,15 @@ strong {
     min-height: 0
 }
 
-.header-21q_Ro {
+.headerContainer-1X2CD8 {
     position: absolute;
+    left: 0;
+    right: 16px;
+    z-index: 1
+}
+
+.header-21q_Ro {
     padding-top: 60px;
-    z-index: 1;
     background-color: var(--background-primary)
 }
 
@@ -38425,7 +38430,7 @@ strong {
 }
 
 .contentWidth-xLB44s {
-    width: 100%;
+    width: calc(100% - 56px);
     min-width: 228px;
     max-width: 508px;
     padding-left: 24px;
@@ -71226,4 +71231,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.575eae4378576c7d6505.css.map*/
+/*# sourceMappingURL=0.32334a06f6ff89fbb389.css.map*/
