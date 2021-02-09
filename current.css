@@ -18144,6 +18144,87 @@ img[alt] {
     background-color: #dcddde
 }
 
+.splashBackground-1zhLFw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .1;
+    background-size: cover;
+    background-position: bottom;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-mask: radial-gradient(circle at 50% 0,#000,transparent);
+    mask: radial-gradient(circle at 50% 0,#000,transparent);
+    background-image: url(/assets/976b56da8d86af63aef4f55afb553a9f.png)
+}
+
+.modalSize-32pcp4 {
+    max-height: 100%
+}
+
+.headerContent-3hty5X {
+    margin-top: 20px
+}
+
+.headerContent-3hty5X,.headerHeader-53zx0J {
+    width: 100%;
+    position: relative
+}
+
+.applicationName-2QbFHn {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.price-1ynJAt {
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.71;
+    border-radius: 3px
+}
+
+.priceSpinner-20g34L {
+    height: 23px
+}
+
+.breadcrumbs-S3tCk9,.errorBlock-13Gsgi {
+    margin-top: 20px
+}
+
+.errorBlock-13Gsgi {
+    position: relative
+}
+
+.confirmContent-3zhou3 {
+    padding: 20px 0 30px
+}
+
+.confirmCloseButton-ear6TV {
+    -ms-flex-item-align: end;
+    align-self: flex-end
+}
+
+.theme-dark .applicationName-2QbFHn {
+    color: #dcddde
+}
+
+.theme-dark .price-1ynJAt {
+    background-color: #4f545c;
+    color: #f6f6f7
+}
+
+.theme-light .applicationName-2QbFHn {
+    color: #36393f
+}
+
+.theme-light .price-1ynJAt {
+    background-color: #4f545c;
+    color: #f6f6f7
+}
+
 .applicationBuyButton-2ZS8jB {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -66096,87 +66177,6 @@ html .invoiceCancelRow-3mYhFX {
     color: #36393f
 }
 
-.splashBackground-1zhLFw {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: .1;
-    background-size: cover;
-    background-position: bottom;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-mask: radial-gradient(circle at 50% 0,#000,transparent);
-    mask: radial-gradient(circle at 50% 0,#000,transparent);
-    background-image: url(/assets/976b56da8d86af63aef4f55afb553a9f.png)
-}
-
-.modalSize-32pcp4 {
-    max-height: 100%
-}
-
-.headerContent-3hty5X {
-    margin-top: 20px
-}
-
-.headerContent-3hty5X,.headerHeader-53zx0J {
-    width: 100%;
-    position: relative
-}
-
-.applicationName-2QbFHn {
-    margin-left: 20px;
-    font-size: 16px;
-    font-weight: 600
-}
-
-.price-1ynJAt {
-    padding: 5px 10px;
-    font-size: 14px;
-    line-height: 1.71;
-    border-radius: 3px
-}
-
-.priceSpinner-20g34L {
-    height: 23px
-}
-
-.breadcrumbs-S3tCk9,.errorBlock-13Gsgi {
-    margin-top: 20px
-}
-
-.errorBlock-13Gsgi {
-    position: relative
-}
-
-.confirmContent-3zhou3 {
-    padding: 20px 0 30px
-}
-
-.confirmCloseButton-ear6TV {
-    -ms-flex-item-align: end;
-    align-self: flex-end
-}
-
-.theme-dark .applicationName-2QbFHn {
-    color: #dcddde
-}
-
-.theme-dark .price-1ynJAt {
-    background-color: #4f545c;
-    color: #f6f6f7
-}
-
-.theme-light .applicationName-2QbFHn {
-    color: #36393f
-}
-
-.theme-light .price-1ynJAt {
-    background-color: #4f545c;
-    color: #f6f6f7
-}
-
 .emailVerificationModal-3cfLjL {
     position: relative;
     width: 440px;
@@ -71231,4 +71231,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d03289c86457c4c12973.css.map*/
+/*# sourceMappingURL=0.65a88b5a3e28c09efaef.css.map*/
