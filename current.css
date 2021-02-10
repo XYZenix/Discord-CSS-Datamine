@@ -38175,6 +38175,97 @@ strong {
     fill: #fff
 }
 
+.titleText-1ZIyhl {
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.tabBar-11f3uI {
+    margin-left: -8px
+}
+
+.container-2uOrel {
+    margin-bottom: 20px
+}
+
+.button-4pFjxG {
+    margin-top: 16px
+}
+
+.buttonInner-2qBuz0 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.arrowIcon-3K-V2P {
+    margin-left: 4px
+}
+
+.scroller-3ZpLaI {
+    height: 100%
+}
+
+.header-372bSQ {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top: 60px;
+    padding-bottom: 32px;
+    z-index: 1;
+    background-color: var(--background-primary)
+}
+
+.colorPicker-oPcnKj {
+    margin-top: 24px
+}
+
+.divider-1QCnvR {
+    margin-top: 32px;
+    margin-bottom: 32px
+}
+
+.previewContainer-1KQDJS {
+    margin-top: 16px;
+    border: 1px solid var(--background-modifier-accent);
+    border-radius: 4px;
+    overflow: hidden
+}
+
+.messageContainer-1DiFnQ {
+    background-color: var(--background-primary);
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+.sidebarScrollable-1qPI87 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 232px
+}
+
+.sidebarScrollable-1qPI87+.content-1rPSz4 {
+    margin-left: 232px;
+    max-width: 468px
+}
+
+.scroller-305q3I {
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--background-primary);
+    height: 100%
+}
+
+.contentWidth-xLB44s {
+    width: calc(100% - 56px);
+    min-width: 228px;
+    max-width: 508px;
+    padding-left: 24px;
+    padding-right: 42px
+}
+
 .searchBar-1FaHXw {
     background-color: var(--background-secondary);
     border: 1px solid var(--background-tertiary);
@@ -38363,16 +38454,6 @@ strong {
     min-width: 0
 }
 
-.titleText-1ZIyhl {
-    margin-bottom: 32px;
-    text-transform: uppercase;
-    font-weight: 600
-}
-
-.tabBar-11f3uI {
-    margin-left: -8px
-}
-
 .container-1igeTA {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -38493,33 +38574,6 @@ strong {
 
 .removeButton-spUszT:active {
     color: var(--interactive-active)
-}
-
-.sidebarScrollable-1qPI87 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 232px
-}
-
-.sidebarScrollable-1qPI87+.content-1rPSz4 {
-    margin-left: 232px;
-    max-width: 468px
-}
-
-.scroller-305q3I {
-    overflow-y: auto;
-    overflow-x: hidden;
-    background-color: var(--background-primary);
-    height: 100%
-}
-
-.contentWidth-xLB44s {
-    width: calc(100% - 56px);
-    min-width: 228px;
-    max-width: 508px;
-    padding-left: 24px;
-    padding-right: 42px
 }
 
 .sidebar-dLM-kh {
@@ -38800,11 +38854,12 @@ strong {
     padding-bottom: 80px
 }
 
-.helpText-2stV3Z,.rolesList-1mhLwq {
+.helpText-2stV3Z {
     margin-top: 32px
 }
 
 .searchContainer-383_ld {
+    margin-top: 32px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -39025,24 +39080,6 @@ strong {
 
 .containerDragAfter-1PIDLd:after {
     bottom: -2px
-}
-
-.container-2uOrel {
-    margin-bottom: 20px
-}
-
-.button-4pFjxG {
-    margin-top: 16px
-}
-
-.buttonInner-2qBuz0 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.arrowIcon-3K-V2P {
-    margin-left: 4px
 }
 
 .rolesContent-ZiihSZ {
@@ -71235,4 +71272,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.29412be1581a014e7dc8.css.map*/
+/*# sourceMappingURL=0.d60838f6fc17c3345c53.css.map*/
