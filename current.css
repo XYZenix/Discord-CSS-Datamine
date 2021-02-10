@@ -38207,16 +38207,6 @@ strong {
     height: 100%
 }
 
-.header-372bSQ {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding-top: 60px;
-    padding-bottom: 32px;
-    z-index: 1;
-    background-color: var(--background-primary)
-}
-
 .colorPicker-oPcnKj {
     margin-top: 24px
 }
@@ -38264,6 +38254,17 @@ strong {
     max-width: 508px;
     padding-left: 24px;
     padding-right: 42px
+}
+
+.stickyHeader-hH_ZLl {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-left: -16px;
+    padding: 60px 16px 32px;
+    margin-right: -16px;
+    z-index: 1;
+    background-color: var(--background-primary)
 }
 
 .searchBar-1FaHXw {
@@ -38574,6 +38575,26 @@ strong {
 
 .removeButton-spUszT:active {
     color: var(--interactive-active)
+}
+
+.scroller-Utb7tO {
+    height: 100%
+}
+
+.searchContainer-3pUVEQ {
+    margin-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.clearButton-3wWY21 {
+    margin-left: 24px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
 }
 
 .sidebar-dLM-kh {
@@ -71272,4 +71293,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8647f640eb8e636489e7.css.map*/
+/*# sourceMappingURL=0.641b2c27336dcd1c6c41.css.map*/
