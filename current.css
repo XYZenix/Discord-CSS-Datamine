@@ -38884,6 +38884,11 @@ strong {
     background-color: var(--background-modifier-hover)
 }
 
+.lock-1sBixy {
+    margin-left: 8px;
+    color: var(--interactive-normal)
+}
+
 .rowSelected-1AHq2T {
     background-color: var(--background-modifier-selected)
 }
@@ -71398,4 +71403,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.00dff3542d7e12569859.css.map*/
+/*# sourceMappingURL=0.be24fbe7e2b42f0e6dc1.css.map*/
