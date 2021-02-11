@@ -13890,6 +13890,34 @@ img[alt] {
     text-indent: 0
 }
 
+.cozy-3raOZG .messageContent-2qWWxC {
+    position: relative
+}
+
+.cozy-3raOZG.hasThread-2k82W0 .messageContent-2qWWxC:before {
+    background-color: var(--background-accent);
+    bottom: 0;
+    content: "";
+    left: 34px;
+    position: absolute;
+    top: 22px;
+    width: 2px
+}
+
+.compact-T3H92H .contents-2mQqc9 {
+    position: relative
+}
+
+.compact-T3H92H.hasThread-2k82W0 .contents-2mQqc9:before {
+    background-color: var(--background-accent);
+    bottom: 0;
+    content: "";
+    left: 42px;
+    position: absolute;
+    top: 20px;
+    width: 2px
+}
+
 .zalgo-jN1Ica .messageContent-2qWWxC {
     overflow: hidden
 }
@@ -20326,10 +20354,10 @@ html .progress-GjyFoQ {
     border-bottom-left-radius: 8px;
     border-bottom: 2px solid var(--background-accent);
     border-left: 2px solid var(--background-accent);
-    bottom: 27px;
+    bottom: 29px;
     left: -38px;
     position: absolute;
-    top: 1px;
+    top: 0;
     width: 32px
 }
 
@@ -50659,7 +50687,7 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .image-3XsqGc {
-    height: 60px;
+    height: 40px;
     margin-right: 12px;
     margin-bottom: -8px;
     -ms-flex-item-align: end;
@@ -50718,6 +50746,62 @@ a.ctaAnchor-3-8I3v:hover {
 .countdown-1saXFt {
     color: var(--text-muted);
     margin-right: 16px
+}
+
+.animationLeft-fJlcCc {
+    position: absolute;
+    height: auto;
+    width: 160px;
+    left: -130px;
+    top: -24px
+}
+
+.animationMiddle-ZfETtz {
+    position: absolute;
+    height: 288px;
+    width: 295px;
+    top: -200px;
+    left: 60px
+}
+
+.animationRight-dw5zDz {
+    position: absolute;
+    height: auto;
+    width: 140px;
+    top: -60px;
+    right: -75px
+}
+
+.animationContainer-WR_1ku {
+    width: 440px;
+    position: relative
+}
+
+.header-2PVxw- {
+    margin: 108px 12px 12px 8px;
+    text-align: center
+}
+
+.container-OhOeuR {
+    margin-left: 24px;
+    margin-right: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.button-152dkf {
+    margin: 24px
 }
 
 .modal-SN2Box {
@@ -71419,4 +71503,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.670d5859024725c12878.css.map*/
+/*# sourceMappingURL=0.3b9b3cef6e27c5f97502.css.map*/
