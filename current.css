@@ -38733,6 +38733,15 @@ strong {
     align-items: center
 }
 
+.emptyRowContainer-1OKxeI {
+    color: var(--text-muted)
+}
+
+.emptyRowText-10eIhs {
+    margin-left: 8px;
+    font-weight: 600
+}
+
 .memberDetails-2a-kJC {
     min-width: 0
 }
@@ -71405,4 +71414,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.792d3380efedffcbfee2.css.map*/
+/*# sourceMappingURL=0.3c3653d2826a8e7dfabd.css.map*/
