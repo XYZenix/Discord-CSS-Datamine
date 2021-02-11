@@ -38781,6 +38781,11 @@ strong {
     color: var(--interactive-active)
 }
 
+.removeButtonDisabled-5brXxX {
+    color: var(--interactive-muted);
+    pointer-events: none
+}
+
 .scroller-Utb7tO {
     height: 100%
 }
@@ -71414,4 +71419,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3c3653d2826a8e7dfabd.css.map*/
+/*# sourceMappingURL=0.670d5859024725c12878.css.map*/
