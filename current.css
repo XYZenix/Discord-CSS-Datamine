@@ -32209,7 +32209,8 @@ strong {
 }
 
 .guildJoinRequestRow-35c262:hover {
-    background-color: var(--background-secondary)
+    background-color: var(--background-secondary);
+    border-radius: 4px
 }
 
 .guildJoinRequestRow-35c262:last-of-type {
@@ -32306,6 +32307,11 @@ strong {
 
 .emptyBody-GDvh5u {
     margin-top: 8px
+}
+
+.fetchingSpinner-3F97LU {
+    margin-top: 48px;
+    margin-bottom: 48px
 }
 
 .spacedButton-a-GPe4 {
@@ -32456,7 +32462,7 @@ strong {
 }
 
 .cancelButton-2XkGpw {
-    margin-left: 8px
+    margin-right: 8px
 }
 
 .spacedItem-350nB_ {
@@ -32523,7 +32529,8 @@ strong {
 .editableFormFieldWrapper-S6Tyfh {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    margin-bottom: 8px
 }
 
 .editableFormFieldWrapper-S6Tyfh:hover .editButtonsWrapper-Jj1cFn {
@@ -68502,11 +68509,6 @@ html .invoiceCancelRow-3mYhFX {
     cursor: nesw-resize
 }
 
-.wrapper-12iKnd {
-    width: 480px;
-    height: 500px
-}
-
 .header-GGVVMy {
     padding: 14px 20px 0;
     z-index: 1;
@@ -71403,4 +71405,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.be24fbe7e2b42f0e6dc1.css.map*/
+/*# sourceMappingURL=0.792d3380efedffcbfee2.css.map*/
