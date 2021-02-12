@@ -38401,6 +38401,10 @@ strong {
     font-weight: 600
 }
 
+.tabBar-11f3uI,.warning-2TgtqC {
+    margin-top: 32px
+}
+
 .tabBar-11f3uI {
     margin-left: -8px
 }
@@ -38734,6 +38738,7 @@ strong {
 
 .header-21q_Ro {
     padding-top: 60px;
+    padding-bottom: 16px;
     position: relative;
     z-index: 1;
     background-color: var(--background-primary)
@@ -38741,7 +38746,6 @@ strong {
 
 .searchContainer-2gy0Sr {
     margin-top: 24px;
-    margin-bottom: 16px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -71538,4 +71542,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d7e6a5f7f5c99f5042d9.css.map*/
+/*# sourceMappingURL=0.20350ad372b03156b5eb.css.map*/
