@@ -38480,11 +38480,17 @@ strong {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    margin-left: -16px;
-    padding: 60px 16px 32px;
-    margin-right: -16px;
-    z-index: 1;
+    margin-bottom: 16px;
+    margin-left: -8px;
+    padding: 60px 8px 16px;
+    margin-right: -8px;
+    z-index: 2;
     background-color: var(--background-primary)
+}
+
+.stickyHeaderElevated-I6QUOA {
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low)
 }
 
 .image-3AuVz1 {
@@ -38723,12 +38729,13 @@ strong {
 .headerContainer-1X2CD8 {
     position: absolute;
     left: 0;
-    right: 16px;
-    z-index: 1
+    right: 16px
 }
 
 .header-21q_Ro {
     padding-top: 60px;
+    position: relative;
+    z-index: 1;
     background-color: var(--background-primary)
 }
 
@@ -38879,9 +38886,17 @@ strong {
     right: 0;
     padding-top: 60px;
     margin-right: 8px;
-    padding-bottom: 24px;
+    margin-left: 32px;
+    padding-left: 8px;
+    padding-bottom: 16px;
+    margin-bottom: 8px;
     z-index: 1;
     background-color: var(--background-primary)
+}
+
+.titleElevated-c_kdi7 {
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low)
 }
 
 .title-3GS0Tf {
@@ -38894,7 +38909,6 @@ strong {
     align-items: center;
     cursor: pointer;
     margin-top: -2px;
-    margin-left: 40px;
     margin-right: 16px
 }
 
@@ -71524,4 +71538,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.129eef30c4017d43b837.css.map*/
+/*# sourceMappingURL=0.d7e6a5f7f5c99f5042d9.css.map*/
