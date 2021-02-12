@@ -63361,6 +63361,27 @@ html .invoiceCancelRow-3mYhFX {
     height: 20px!important
 }
 
+.score-HzQK9w {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.2);
+    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace
+}
+
 .wrapper-EG0WaC {
     z-index: 1;
     width: 500px;
@@ -71503,4 +71524,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3b9b3cef6e27c5f97502.css.map*/
+/*# sourceMappingURL=0.129eef30c4017d43b837.css.map*/
