@@ -39077,6 +39077,120 @@ strong {
     color: var(--interactive-normal)
 }
 
+.section-1x7Sca {
+    padding-top: 60px;
+    padding-bottom: 80px
+}
+
+.bannerContainer-1owGn0 {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    background: 50% no-repeat url(/assets/9029911a540e35e3ac8368346aba681f.svg);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.profileCard-2RGvbu {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 100%;
+    width: 180px;
+    border-radius: 8px;
+    border: 1px solid var(--background-secondary-alt);
+    background-color: var(--background-secondary);
+    -webkit-box-shadow: 0 8px 16px rgba(0,0,0,.1);
+    box-shadow: 0 8px 16px rgba(0,0,0,.1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+.avatarContainer-2_ceKX {
+    background-color: var(--background-primary);
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px
+}
+
+.avatar-vlk88d {
+    width: 60px!important;
+    height: 60px!important
+}
+
+.avatarName-3m2hgE {
+    font-weight: 700;
+    margin-top: 8px
+}
+
+.roles-1ti6KV {
+    position: absolute;
+    top: 152px;
+    -webkit-filter: drop-shadow(0 8px 16px rgba(0,0,0,.1));
+    filter: drop-shadow(0 8px 16px rgba(0,0,0,.1))
+}
+
+.rolesRow-3feBSR {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.roleTag-D34VFC {
+    background-color: var(--background-primary);
+    border-radius: 4px;
+    margin: 2px;
+    padding: 4px 8px;
+    white-space: nowrap
+}
+
+.roleDot-1AlYXT {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-top: 3px
+}
+
+.roleDot-1AlYXT,.roleText-3gS02L {
+    display: inline-block
+}
+
+.roleText-3gS02L {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    color: var(--interactive-active);
+    margin-left: 8px;
+    vertical-align: top
+}
+
 .container-32E5OD {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -71547,4 +71661,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.42af6536adc897d10424.css.map*/
+/*# sourceMappingURL=0.825256677c4bf67e56a9.css.map*/
