@@ -18172,6 +18172,69 @@ img[alt] {
     background-color: #dcddde
 }
 
+.header-1Kydsy {
+    font-size: 20px;
+    margin-top: 20px
+}
+
+.backSplash-13_XJL {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .15;
+    background-size: cover;
+    background-position: bottom;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-mask: radial-gradient(circle at 50% 0,#000,transparent);
+    mask: radial-gradient(circle at 50% 0,#000,transparent);
+    background-image: url(/assets/ce828de1535235f9a651b1136121d623.png)
+}
+
+.content-1tt1e0 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 60px 20px
+}
+
+.body-32BEO- {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.closeButton-2b6skY {
+    position: absolute;
+    top: 20px;
+    right: 20px
+}
+
+.theme-dark .header-1Kydsy {
+    color: #fff
+}
+
+.theme-dark .body-32BEO- {
+    color: #b9bbbe
+}
+
+.theme-light .header-1Kydsy {
+    color: #202225
+}
+
+.theme-light .body-32BEO- {
+    color: #36393f
+}
+
 .splashBackground-1zhLFw {
     position: absolute;
     top: 0;
@@ -66549,69 +66612,6 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-.header-1Kydsy {
-    font-size: 20px;
-    margin-top: 20px
-}
-
-.backSplash-13_XJL {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: .15;
-    background-size: cover;
-    background-position: bottom;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-mask: radial-gradient(circle at 50% 0,#000,transparent);
-    mask: radial-gradient(circle at 50% 0,#000,transparent);
-    background-image: url(/assets/ce828de1535235f9a651b1136121d623.png)
-}
-
-.content-1tt1e0 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding: 60px 20px
-}
-
-.body-32BEO- {
-    margin-top: 8px;
-    margin-bottom: 20px;
-    text-align: center
-}
-
-.closeButton-2b6skY {
-    position: absolute;
-    top: 20px;
-    right: 20px
-}
-
-.theme-dark .header-1Kydsy {
-    color: #fff
-}
-
-.theme-dark .body-32BEO- {
-    color: #b9bbbe
-}
-
-.theme-light .header-1Kydsy {
-    color: #202225
-}
-
-.theme-light .body-32BEO- {
-    color: #36393f
-}
-
 .emailVerificationModal-3cfLjL {
     position: relative;
     width: 440px;
@@ -71661,4 +71661,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.825256677c4bf67e56a9.css.map*/
+/*# sourceMappingURL=0.81952125790c7922052a.css.map*/
