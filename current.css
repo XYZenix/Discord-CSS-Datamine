@@ -69665,17 +69665,22 @@ html .invoiceCancelRow-3mYhFX {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    margin-top: -10px;
+    margin-right: -10px
 }
 
-.custom-2SJn4n,.default-cS_caM {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0
+.customContainer-3fZxdw,.defaultContainer-Z8qCJn {
+    margin-top: 10px;
+    margin-right: 10px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    min-width: 60px;
+    max-width: 70px
 }
 
-.preset-10Y8Fc {
+.custom-2SJn4n .preset-10Y8Fc {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -69683,7 +69688,7 @@ html .invoiceCancelRow-3mYhFX {
     flex-direction: vertical
 }
 
-.colorPickerCustom-2CWBn2,.preset-10Y8Fc {
+.colorPickerCustom-2CWBn2,.custom-2SJn4n .preset-10Y8Fc {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -69705,17 +69710,17 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .colorPickerRow-1LgLnl {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    margin-top: 10px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    height: 20px;
     overflow: hidden
 }
 
-.colorPickerRow-1LgLnl:nth-child(odd) {
-    margin-bottom: 10px
+.colorPickerRow-1LgLnl,.colorPickerSwatch-5GX3Ve {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 20px
 }
 
 .colorPickerSwatch-5GX3Ve {
@@ -69724,12 +69729,8 @@ html .invoiceCancelRow-3mYhFX {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 20px;
-    height: 20px;
     border-radius: 3px;
-    margin-left: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    margin-right: 10px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -69742,7 +69743,8 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .colorPickerSwatch-5GX3Ve.custom-2SJn4n,.colorPickerSwatch-5GX3Ve.default-cS_caM {
-    width: 69px;
+    margin-right: 0;
+    width: 100%;
     height: 50px;
     border-radius: 4px
 }
@@ -71664,4 +71666,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1ace691f8a783d469bd8.css.map*/
+/*# sourceMappingURL=0.d8319dd9684a368a5ca8.css.map*/
