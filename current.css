@@ -38466,7 +38466,10 @@ strong {
 .titleText-1ZIyhl {
     margin-bottom: 32px;
     text-transform: uppercase;
-    font-weight: 600
+    font-weight: 600;
+    overflow: hidden;
+    word-wrap: no-wrap;
+    text-overflow: ellipsis
 }
 
 .tabBar-11f3uI,.warning-2TgtqC {
@@ -38496,7 +38499,8 @@ strong {
 }
 
 .scroller-3ZpLaI {
-    height: 100%
+    height: 100%;
+    padding-bottom: 60px
 }
 
 .colorPicker-oPcnKj {
@@ -38855,7 +38859,8 @@ strong {
 
 .list-3a9fyp {
     height: 100%;
-    min-height: 0
+    min-height: 0;
+    padding-bottom: 60px
 }
 
 .removeButtonContainer-1YsIy7 {
@@ -38894,7 +38899,8 @@ strong {
 }
 
 .scroller-Utb7tO {
-    height: 100%
+    height: 100%;
+    padding-bottom: 60px
 }
 
 .searchContainer-3pUVEQ {
@@ -38908,7 +38914,7 @@ strong {
 }
 
 .clearButton-3wWY21 {
-    margin-left: 24px;
+    margin-left: 40px;
     -ms-flex-negative: 0;
     flex-shrink: 0
 }
@@ -39102,7 +39108,7 @@ strong {
 .container-_phMUq {
     background-color: var(--background-secondary);
     border-radius: 4px;
-    padding: 24px 24px 24px 16px;
+    padding: 16px 24px 16px 16px;
     cursor: pointer
 }
 
@@ -39393,8 +39399,8 @@ strong {
 
 .buttonsSpacing-3twfdv {
     -webkit-box-flex: 1;
-    -ms-flex: 1 0 100px;
-    flex: 1 0 100px;
+    -ms-flex: 1 0 88px;
+    flex: 1 0 88px;
     margin-left: 16px
 }
 
@@ -39475,7 +39481,7 @@ strong {
 }
 
 .roleName-1vjSQR {
-    font-weight: 600;
+    font-weight: 500;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis
@@ -39515,13 +39521,10 @@ strong {
 }
 
 .editButton-1V012_ {
-    visibility: hidden;
-    color: var(--text-link);
-    -ms-flex-negative: 0;
-    flex-shrink: 0
+    visibility: hidden
 }
 
-.circleButton-3RB01i {
+.circleButton-3RB01i+.circleButton-3RB01i {
     margin-left: 16px
 }
 
@@ -69741,7 +69744,7 @@ html .invoiceCancelRow-3mYhFX {
 .colorPickerSwatch-5GX3Ve.custom-2SJn4n,.colorPickerSwatch-5GX3Ve.default-cS_caM {
     width: 69px;
     height: 50px;
-    border-radius: 5px
+    border-radius: 4px
 }
 
 .colorPickerSwatch-5GX3Ve.disabled-1C4eHl {
@@ -71661,4 +71664,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.81952125790c7922052a.css.map*/
+/*# sourceMappingURL=0.1ace691f8a783d469bd8.css.map*/
