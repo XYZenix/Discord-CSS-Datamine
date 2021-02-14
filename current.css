@@ -13474,6 +13474,7 @@ img[alt] {
 }
 
 .threadMessageAccessory-1pYyA- {
+    height: 18px;
     min-width: 0;
     padding-right: 4px
 }
@@ -13594,6 +13595,15 @@ img[alt] {
     flex: 0 1 auto;
     overflow: hidden;
     text-overflow: ellipsis
+}
+
+.threadMessageAccessoryPreview-1uSsue {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
 }
 
 .repliedTextPreview-2NBljf.clickable-1bVtEA {
@@ -71666,4 +71676,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d8319dd9684a368a5ca8.css.map*/
+/*# sourceMappingURL=0.2d26f526b1c6ebea442c.css.map*/
