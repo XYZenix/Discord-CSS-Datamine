@@ -34099,8 +34099,9 @@ strong {
     padding-left: 2px
 }
 
-.bannedUserModal-3RJCOV {
-    width: 440px
+.bannedUserModal-3RJCOV .header-kk07Uz {
+    padding-top: 30px;
+    padding-bottom: 40px
 }
 
 .bannedUserModal-3RJCOV .userDiscrim-1D2NlF,.bannedUserModal-3RJCOV .userUsername-W3oZL9 {
@@ -34115,15 +34116,15 @@ strong {
 }
 
 .bannedUserModal-3RJCOV .content-1x7qW2 {
-    padding: 30px 20px 20px;
     -webkit-user-select: text;
     -moz-user-select: text;
     -ms-user-select: text;
-    user-select: text
+    user-select: text;
+    padding-bottom: 20px
 }
 
-.bannedUserModal-3RJCOV .footer-322fxT {
-    padding: 20px
+.bannedUserModal-3RJCOV .error-tieM06 {
+    margin-top: 8px
 }
 
 .theme-dark .bannedUser-1IalTM {
@@ -71676,4 +71677,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2d26f526b1c6ebea442c.css.map*/
+/*# sourceMappingURL=0.84069ef0182bb40b584c.css.map*/
