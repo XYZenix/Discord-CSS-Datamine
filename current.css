@@ -38652,7 +38652,8 @@ strong {
     margin-left: 12px;
     margin-right: 4px;
     padding: 8px 6px;
-    border-radius: 4px
+    border-radius: 4px;
+    cursor: pointer
 }
 
 .addMemberRow-3-w-9X.selectedRow-1QP7qb {
@@ -71682,4 +71683,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f398fe981edb4472ab67.css.map*/
+/*# sourceMappingURL=0.4d180e1f12e48ae46dee.css.map*/
