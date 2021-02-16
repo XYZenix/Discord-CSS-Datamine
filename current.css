@@ -38970,17 +38970,14 @@ strong {
 }
 
 .titleContainer-2CXtJo {
-    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    padding-top: 60px;
-    margin-right: 8px;
-    margin-left: 32px;
-    padding-left: 8px;
-    padding-bottom: 16px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 60px 8px 16px;
     margin-bottom: 8px;
-    z-index: 1;
+    z-index: 2;
     background-color: var(--background-primary)
 }
 
@@ -39017,7 +39014,7 @@ strong {
     -ms-flex-positive: 0;
     flex-grow: 0;
     min-height: 0;
-    padding: 8px 16px 96px 40px
+    padding: 0 16px 96px 40px
 }
 
 .row-3GRgeK {
@@ -39030,6 +39027,7 @@ strong {
     align-items: center;
     padding: 8px;
     cursor: pointer;
+    position: relative;
     border-radius: 4px
 }
 
@@ -39062,6 +39060,27 @@ strong {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap
+}
+
+.dragAfter-1ydZtZ:after,.dragBefore-cCyY7J:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #43b581;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.4);
+    box-shadow: 0 0 3px rgba(0,0,0,.4)
+}
+
+.dragBefore-cCyY7J:before {
+    top: -2px
+}
+
+.dragAfter-1ydZtZ:after {
+    bottom: -2px
 }
 
 .page-3njELR {
@@ -71723,4 +71742,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1060012490ff7bc363a8.css.map*/
+/*# sourceMappingURL=0.ecd63f562295be3a1c69.css.map*/
