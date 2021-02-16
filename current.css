@@ -39168,8 +39168,13 @@ strong {
     width: 100%;
     height: 240px;
     margin-top: 12px;
-    margin-bottom: 32px;
-    background: 50% no-repeat url(/assets/9029911a540e35e3ac8368346aba681f.svg);
+    margin-bottom: 32px
+}
+
+.banner-aJsFyZ {
+    position: absolute;
+    width: 100%;
+    height: 240px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -39180,7 +39185,27 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    overflow: hidden
+    overflow: hidden;
+    -webkit-transition: opacity .25s 416ms;
+    transition: opacity .25s 416ms;
+    background-position: 50%;
+    background-repeat: no-repeat
+}
+
+.bannerOut-3zi4zc {
+    opacity: 0
+}
+
+.bannerClubs-3Xj268 {
+    background-image: url(/assets/9029911a540e35e3ac8368346aba681f.svg)
+}
+
+.bannerGaming-2JPrc4 {
+    background-image: url(/assets/cddb8f0911be17d5d5aa0e5c06015b51.svg)
+}
+
+.bannerHobbies-1oItTY {
+    background-image: url(/assets/b162bb1c0e75e048c05ee5f45fabe505.svg)
 }
 
 .profileCard-2RGvbu {
@@ -39228,7 +39253,22 @@ strong {
     position: absolute;
     top: 152px;
     -webkit-filter: drop-shadow(0 8px 16px rgba(0,0,0,.1));
-    filter: drop-shadow(0 8px 16px rgba(0,0,0,.1))
+    filter: drop-shadow(0 8px 16px rgba(0,0,0,.1));
+    opacity: 1%;
+    -webkit-transition: opacity .25s 832ms,-webkit-transform .25s 832ms;
+    transition: opacity .25s 832ms,-webkit-transform .25s 832ms;
+    transition: transform .25s 832ms,opacity .25s 832ms;
+    transition: transform .25s 832ms,opacity .25s 832ms,-webkit-transform .25s 832ms
+}
+
+.bannerOut-3zi4zc .roles-1ti6KV {
+    -webkit-transition: opacity .25s,-webkit-transform .25s;
+    transition: opacity .25s,-webkit-transform .25s;
+    transition: transform .25s,opacity .25s;
+    transition: transform .25s,opacity .25s,-webkit-transform .25s;
+    -webkit-transform: translateY(24px);
+    transform: translateY(24px);
+    opacity: 0
 }
 
 .rolesRow-3feBSR {
@@ -71683,4 +71723,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4d180e1f12e48ae46dee.css.map*/
+/*# sourceMappingURL=0.1060012490ff7bc363a8.css.map*/
