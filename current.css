@@ -32197,7 +32197,7 @@ strong {
     padding-top: 6px;
     padding-bottom: 6px;
     margin-bottom: 2px;
-    border-radius: 3px
+    border-radius: 4px
 }
 
 .side-8zPYf6 .separator-gCa7yv {
@@ -39210,23 +39210,14 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 8px;
     cursor: pointer;
     position: relative;
-    border-radius: 4px
-}
-
-.row-3GRgeK:hover:not(.rowSelected-1AHq2T) {
-    background-color: var(--background-modifier-hover)
+    overflow: visible
 }
 
 .lock-1sBixy {
     margin-left: 8px;
     color: var(--interactive-normal)
-}
-
-.rowSelected-1AHq2T {
-    background-color: var(--background-modifier-selected)
 }
 
 .roleDot-ZwSovK {
@@ -71747,4 +71738,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.eb377a777d2b6ba39402.css.map*/
+/*# sourceMappingURL=0.79ac7592d5986ff54e49.css.map*/
