@@ -39390,8 +39390,8 @@ strong {
     -ms-flex-align: center;
     align-items: center;
     overflow: hidden;
-    -webkit-transition: opacity .25s 416ms;
-    transition: opacity .25s 416ms;
+    -webkit-transition: opacity .5s 416ms;
+    transition: opacity .5s 416ms;
     background-position: 50%;
     background-repeat: no-repeat
 }
@@ -39458,11 +39458,11 @@ strong {
     top: 152px;
     -webkit-filter: drop-shadow(0 8px 16px rgba(0,0,0,.1));
     filter: drop-shadow(0 8px 16px rgba(0,0,0,.1));
-    opacity: 1%;
-    -webkit-transition: opacity .25s 832ms,-webkit-transform .25s 832ms;
-    transition: opacity .25s 832ms,-webkit-transform .25s 832ms;
-    transition: transform .25s 832ms,opacity .25s 832ms;
-    transition: transform .25s 832ms,opacity .25s 832ms,-webkit-transform .25s 832ms
+    opacity: 1;
+    -webkit-transition: opacity .25s 1082ms,-webkit-transform .25s 1082ms;
+    transition: opacity .25s 1082ms,-webkit-transform .25s 1082ms;
+    transition: transform .25s 1082ms,opacity .25s 1082ms;
+    transition: transform .25s 1082ms,opacity .25s 1082ms,-webkit-transform .25s 1082ms
 }
 
 .bannerOut-3zi4zc .roles-1ti6KV {
@@ -71747,4 +71747,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9f83a9bb901cfaf69e50.css.map*/
+/*# sourceMappingURL=0.eb377a777d2b6ba39402.css.map*/
