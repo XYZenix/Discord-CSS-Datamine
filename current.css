@@ -32431,7 +32431,8 @@ strong {
     left: 0;
     right: 71px;
     max-width: 740px;
-    padding: 0 20px 20px
+    padding: 0 20px 20px;
+    z-index: 2
 }
 
 .toolsContainer-1edPuj {
@@ -38654,13 +38655,27 @@ strong {
     fill: #fff
 }
 
-.titleText-1ZIyhl {
+.titleContainer-CjPpBt {
     margin-bottom: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.titleText-1ZIyhl {
+    min-width: 0;
     text-transform: uppercase;
     font-weight: 600;
     overflow: hidden;
-    word-wrap: no-wrap;
+    white-space: nowrap;
     text-overflow: ellipsis
+}
+
+.menu-32AM6u {
+    margin-left: 16px;
+    margin-top: -2px;
+    color: var(--header-primary);
+    cursor: pointer
 }
 
 .tabBar-11f3uI,.warning-2TgtqC {
@@ -38707,7 +38722,18 @@ strong {
     margin-top: 16px;
     border: 1px solid var(--background-modifier-accent);
     border-radius: 4px;
-    overflow: hidden
+    overflow: hidden;
+    position: relative
+}
+
+.previewContainer-1KQDJS:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: default
 }
 
 .messageContainer-1DiFnQ {
@@ -39013,8 +39039,12 @@ strong {
     background-color: var(--background-primary)
 }
 
+.searchWarning-2nIG6E {
+    margin-top: 24px
+}
+
 .searchContainer-2gy0Sr {
-    margin-top: 24px;
+    margin-top: 16px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -39162,9 +39192,9 @@ strong {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    margin-left: -8px;
+    margin-left: -10px;
     margin-right: -8px;
-    padding: 60px 8px 16px;
+    padding: 60px 8px 16px 10px;
     margin-bottom: 8px;
     z-index: 2;
     background-color: var(--background-primary)
@@ -39208,6 +39238,7 @@ strong {
 
 .row-3GRgeK {
     height: 34px;
+    margin-left: -6px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -39630,8 +39661,8 @@ strong {
 
 .dragSpacing-3xep_M {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 36px;
-    flex: 0 0 36px
+    -ms-flex: 0 0 32px;
+    flex: 0 0 32px
 }
 
 .roleNameSpacing-XtjbtV {
@@ -39655,12 +39686,6 @@ strong {
     margin-left: 16px
 }
 
-.divider-3qBwSB {
-    margin-left: 8px;
-    margin-right: 8px;
-    border-bottom: 1px solid var(--background-modifier-accent)
-}
-
 .emptyRoles-23F3oy {
     color: var(--text-muted)
 }
@@ -39677,8 +39702,15 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    height: 60px;
+    padding-top: 1px;
+    height: 61px;
     cursor: pointer
+}
+
+.emptyRoles-23F3oy,.roleRow-30TwGe,.tableHeader-3x_1oD {
+    margin-left: -32px;
+    margin-right: -8px;
+    padding-right: 8px
 }
 
 .roleRow-30TwGe {
@@ -39686,12 +39718,33 @@ strong {
     border-radius: 4px
 }
 
+.roleRow-30TwGe:before {
+    top: 0
+}
+
+.roleRow-30TwGe:before,.roleRow-30TwGe:last-child:after {
+    content: "";
+    position: absolute;
+    left: 32px;
+    right: 8px;
+    height: 1px;
+    background-color: var(--background-modifier-accent)
+}
+
+.roleRow-30TwGe:last-child:after {
+    bottom: -1px
+}
+
+.roleRow-30TwGe:hover+.roleRow-30TwGe:before,.roleRow-30TwGe:hover:after,.roleRow-30TwGe:hover:before {
+    background-color: transparent
+}
+
 .roleRowDragging-3mvS_Z {
     background-color: var(--background-modifier-hover)
 }
 
 .dragIcon-I74byJ {
-    padding: 8px 12px 8px 8px;
+    padding: 8px;
     cursor: -webkit-grab;
     cursor: grab;
     color: var(--interactive-normal);
@@ -39767,8 +39820,7 @@ strong {
     align-items: center;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
-    margin-right: 8px
+    justify-content: flex-end
 }
 
 .editButton-1V012_ {
@@ -39799,7 +39851,7 @@ strong {
     content: "";
     position: absolute;
     z-index: 1;
-    left: 8px;
+    left: 32px;
     right: 8px;
     height: 4px;
     background-color: #43b581;
@@ -69750,8 +69802,8 @@ html .invoiceCancelRow-3mYhFX {
     margin-top: 10px;
     margin-right: 10px;
     -webkit-box-flex: 1;
-    -ms-flex: 1 0 auto;
-    flex: 1 0 auto;
+    -ms-flex: 1;
+    flex: 1;
     min-width: 60px;
     max-width: 70px
 }
@@ -71742,4 +71794,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f4129a3f5be5cd658cf4.css.map*/
+/*# sourceMappingURL=0.58e8a33059588eab0b82.css.map*/
