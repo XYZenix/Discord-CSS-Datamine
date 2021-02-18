@@ -13557,6 +13557,10 @@ img[alt] {
     margin-right: 8px
 }
 
+.compact-T3H92H .threadMessageAccessoryAvatar-2XWCxw {
+    display: none
+}
+
 .replyBadge-r1su3o {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -20495,7 +20499,7 @@ html .progress-GjyFoQ {
     margin-top: 2px
 }
 
-.bottomLine-2qB7L6.hasMessage-Bnk1Xr {
+.cozy-XCy5h_ .bottomLine-2qB7L6.hasMessage-Bnk1Xr {
     padding-left: 0
 }
 
@@ -39039,18 +39043,18 @@ strong {
     background-color: var(--background-primary)
 }
 
-.searchWarning-2nIG6E {
-    margin-top: 24px
-}
-
 .searchContainer-2gy0Sr {
-    margin-top: 16px;
+    margin-top: 24px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center
+}
+
+.searchWarning-2nIG6E {
+    margin-top: 16px
 }
 
 .addButton-3VFK0j {
@@ -39263,7 +39267,7 @@ strong {
     flex-shrink: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px solid var(--interactive-normal)
+    border: 1px solid var(--interactive-muted)
 }
 
 .roleName-2IkRdr {
@@ -43428,7 +43432,9 @@ strong {
 
 .channelName-_v0rI4,.guildName-GKOCI8 {
     cursor: pointer;
-    display: inline-block
+    display: inline-block;
+    min-width: 0;
+    width: 100%
 }
 
 .channelName-_v0rI4:hover,.guildName-GKOCI8:hover {
@@ -43440,7 +43446,9 @@ strong {
 }
 
 .subtext-qy79y1,.subtextContainer-34z_03 {
-    max-height: 16px
+    max-height: 16px;
+    min-width: 0;
+    width: 100%
 }
 
 .activityStatus-3EyZw5 {
@@ -60721,7 +60729,9 @@ html .tabBadge-3smxHS {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    margin-right: 10px
+    margin-right: 10px;
+    width: 100%;
+    margin-bottom: 20px
 }
 
 .preview-2nSL_2 {
@@ -71794,4 +71804,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.28a3a566f97a191bef7f.css.map*/
+/*# sourceMappingURL=0.b15c37d1a8ffe6f06778.css.map*/
