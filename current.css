@@ -43190,6 +43190,12 @@ strong {
     background: var(--background-modifier-accent)
 }
 
+.caret-3W7cBB {
+    color: var(--text-muted);
+    width: 10px;
+    margin: 0 2px
+}
+
 .messagesPopoutWrap-1MQ1bW {
     background-color: var(--background-secondary);
     -webkit-box-shadow: var(--elevation-stroke),var(--elevation-high);
@@ -51844,6 +51850,10 @@ a.ctaAnchor-3-8I3v:hover {
 
 .channelName-3stJzi {
     margin: 0 8px
+}
+
+.parentChannelName-1C2HEo {
+    color: var(--header-secondary)
 }
 
 .title-3qD0b- {
@@ -72018,4 +72028,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.fda403652330ec88f4e8.css.map*/
+/*# sourceMappingURL=0.2c46d76965485866e2a3.css.map*/
