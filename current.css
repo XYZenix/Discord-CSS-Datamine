@@ -68055,26 +68055,6 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-.authBox-OtSo8z {
-    width: 960px
-}
-
-.createButton-2XJ7jN {
-    margin-top: 12px
-}
-
-.header-2tghzW {
-    text-align: center;
-    margin-bottom: 32px
-}
-
-.formContainer-2ZWoPq {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    text-align: start
-}
-
 .elevated-26QCAo {
     -webkit-box-shadow: 0 2px 10px 0 rgba(4,4,5,.2),0 0 0 1px #202225;
     box-shadow: 0 2px 10px 0 rgba(4,4,5,.2),0 0 0 1px #202225
@@ -68214,6 +68194,265 @@ html .invoiceCancelRow-3mYhFX {
 .valuePropLabel-29Vitw strong {
     color: #fff;
     font-weight: 600
+}
+
+.container-I6Klu5 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.guildBadge-2loz2D {
+    position: relative;
+    margin-right: 6px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px
+}
+
+.appIcon-8pI_Ye {
+    display: inline-block
+}
+
+.appIconSize-1WQ9nz {
+    width: 100px;
+    height: 100px
+}
+
+.appIcon-8pI_Ye,.avatar-5lWvma,.guildIcon-3w0Hwc {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 16px
+}
+
+.title-36_Qng {
+    margin-top: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: var(--header-primary);
+    font-weight: 600
+}
+
+@media (min-height: 640px) {
+    .title-36_Qng {
+        margin-top:8px
+    }
+}
+
+.activityCount-A89d7s {
+    margin-top: 4px
+}
+
+@media (min-height: 640px) {
+    .activityCount-A89d7s {
+        margin-top:8px
+    }
+}
+
+.description-1Rx3bM {
+    margin: 4px 0;
+    color: #b9bbbe;
+    font-size: 14px;
+    line-height: 18px
+}
+
+@media (min-height: 640px) {
+    .description-1Rx3bM {
+        margin:8px 0
+    }
+}
+
+.guildContainer-3U-BXz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.appIn-3Fa6lj {
+    margin: 4px 0
+}
+
+.appGuildName-3nA7vq {
+    color: var(--header-primary)
+}
+
+.inviteJoinContainer-3XnqFF {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.inviterIconWrapper-ti3YTR {
+    padding-right: 8px
+}
+
+.inviteJoinText-3CUNHu {
+    color: var(--header-secondary)
+}
+
+.acceptButton-3IVn3J {
+    margin-top: 28px;
+    width: 100%
+}
+
+.splashBackground-1xe4jJ {
+    --background-mobile-primary: #202225 center/cover no-repeat url(/assets/a49f55e96d5786e4da4935a993d7f796.png)
+}
+
+.centerFlex-2UU8gh {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.centerAuthBoxContent-2AJUs_ {
+    margin-top: -50px
+}
+
+.inviteCard-bGLA09 {
+    border-radius: 8px;
+    background: var(--background-primary);
+    width: calc(100vw - 72px);
+    min-height: 200px;
+    -webkit-box-shadow: 0 8px 16px rgba(0,0,0,.2);
+    box-shadow: 0 8px 16px rgba(0,0,0,.2);
+    padding: 20px;
+    margin: auto 8px
+}
+
+@media (max-height: 640px) {
+    .inviteCard-bGLA09 {
+        width:100vw;
+        padding: 16px;
+        margin: 0
+    }
+}
+
+.inviteCardInner-2QLrMQ {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.inviteCardInner-2QLrMQ,.inviteCardInnerError-2yrg2f {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal
+}
+
+.inviteCardInnerError-2yrg2f {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 -4px;
+    padding-bottom: 0;
+    padding-top: 24px
+}
+
+@media (max-height: 640px) {
+    .inviteCardInnerError-2yrg2f {
+        padding:0;
+        margin: 0 -12px
+    }
+}
+
+.inviteCardInnerLoading-X5GXa7 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.authBox-OtSo8z {
+    width: 960px
+}
+
+.createButton-2XJ7jN {
+    margin-top: 12px
+}
+
+.header-2tghzW {
+    text-align: center;
+    margin-bottom: 32px
+}
+
+.formContainer-2ZWoPq {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: start
 }
 
 .image-vn9QOh {
@@ -71804,4 +72043,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.933c806ac08b7273cbb4.css.map*/
+/*# sourceMappingURL=0.ebf82c687badb9527674.css.map*/
