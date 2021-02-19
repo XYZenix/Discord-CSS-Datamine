@@ -39953,15 +39953,19 @@ strong {
     align-items: center;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: flex-end
-}
-
-.memberCount-1dJD4s,.person-36TQaZ {
+    justify-content: flex-end;
+    height: 100%;
     color: var(--interactive-normal)
 }
 
+.memberCountContainer-1BJFU2:hover {
+    color: var(--interactive-hover)
+}
+
 .person-36TQaZ {
-    margin-left: 4px
+    margin-left: 4px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
 }
 
 .buttonsContainer-bgP7-t {
@@ -72043,4 +72047,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c33cc11b4dd5dfd59d38.css.map*/
+/*# sourceMappingURL=0.6f1b41ea50f9d04c030d.css.map*/
