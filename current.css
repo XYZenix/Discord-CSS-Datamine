@@ -49876,149 +49876,6 @@ a.ctaAnchor-3-8I3v:hover {
     background: url(/assets/a96ad48450382ff5df965439222d1459.svg)
 }
 
-.subHeader-27gFHC {
-    font-weight: 700;
-    font-size: 12px;
-    text-transform: uppercase
-}
-
-.preview-yX6Nx7 {
-    border: 1px solid;
-    pointer-events: none
-}
-
-.textArea-1ZhGKi {
-}
-
-.theme-dark .subHeader-27gFHC {
-    color: #72767d
-}
-
-.theme-dark .preview-yX6Nx7 {
-    border-color: #202225
-}
-
-.theme-light .subHeader-27gFHC {
-    color: #72767d
-}
-
-.theme-light .preview-yX6Nx7 {
-    border-color: #dcddde
-}
-
-.menu-1NyPgn {
-    min-width: 200px;
-    max-width: none
-}
-
-.optionLabel-gOA3fK {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-    font-size: 12px
-}
-
-.optionIcon-1HDcpY {
-    width: 24px;
-    height: 24px
-}
-
-.optionName-uM5yH- {
-    margin-left: 8px
-}
-
-.attachWrapper-2TRKBi {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    -ms-flex-item-align: stretch;
-    align-self: stretch
-}
-
-.attachButton-2WznTc,.attachWrapper-2TRKBi {
-    position: -webkit-sticky;
-    position: sticky
-}
-
-.attachButton-2WznTc {
-    height: 44px;
-    padding: 10px 16px;
-    top: 0
-}
-
-.attachButtonInner-PQjIyk {
-    height: 24px
-}
-
-.attachButtonPlus-jWVFah {
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    width: 24px;
-    height: 24px;
-    fill: var(--interactive-normal)
-}
-
-.attachButton-2WznTc:hover .attachButtonPlus-jWVFah {
-    fill: var(--interactive-hover)
-}
-
-.attachButtonPlay-3iJ0mf {
-    color: #43b581
-}
-
-.attachPopout-36hjtN {
-    border-radius: 8px;
-    min-width: 200px;
-    padding: 8px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    background-color: var(--background-floating);
-    -webkit-box-shadow: var(--elevation-high);
-    box-shadow: var(--elevation-high)
-}
-
-.attachPopoutRow-3iqqu1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 8px;
-    cursor: pointer;
-    border-radius: 3px;
-    -webkit-transition: background-color .2s ease;
-    transition: background-color .2s ease;
-    color: var(--interactive-normal)
-}
-
-.attachPopoutRow-3iqqu1:hover {
-    color: var(--interactive-hover);
-    background-color: var(--background-modifier-hover)
-}
-
-.attachPopoutRowText-2R5RC2 {
-    margin-left: 8px
-}
-
-.attachPopoutIcon-1QXhWW {
-    width: 24px;
-    height: 24px
-}
-
-.uploadInput-1XtQef {
-    position: relative;
-    width: 0;
-    height: 0;
-    pointer-events: none
-}
-
 .container-3RCQyg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -50207,7 +50064,7 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .icon-3kbkI0 {
-    color: var(--interactive-normal);
+    color: #fff;
     width: 32px;
     height: 32px
 }
@@ -50232,6 +50089,149 @@ a.ctaAnchor-3-8I3v:hover {
     border-radius: 50%;
     background-color: var(--background-accent);
     vertical-align: middle
+}
+
+.subHeader-27gFHC {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+.preview-yX6Nx7 {
+    border: 1px solid;
+    pointer-events: none
+}
+
+.textArea-1ZhGKi {
+}
+
+.theme-dark .subHeader-27gFHC {
+    color: #72767d
+}
+
+.theme-dark .preview-yX6Nx7 {
+    border-color: #202225
+}
+
+.theme-light .subHeader-27gFHC {
+    color: #72767d
+}
+
+.theme-light .preview-yX6Nx7 {
+    border-color: #dcddde
+}
+
+.menu-1NyPgn {
+    min-width: 200px;
+    max-width: none
+}
+
+.optionLabel-gOA3fK {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    font-size: 12px
+}
+
+.optionIcon-1HDcpY {
+    width: 24px;
+    height: 24px
+}
+
+.optionName-uM5yH- {
+    margin-left: 8px
+}
+
+.attachWrapper-2TRKBi {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -ms-flex-item-align: stretch;
+    align-self: stretch
+}
+
+.attachButton-2WznTc,.attachWrapper-2TRKBi {
+    position: -webkit-sticky;
+    position: sticky
+}
+
+.attachButton-2WznTc {
+    height: 44px;
+    padding: 10px 16px;
+    top: 0
+}
+
+.attachButtonInner-PQjIyk {
+    height: 24px
+}
+
+.attachButtonPlus-jWVFah {
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 24px;
+    height: 24px;
+    fill: var(--interactive-normal)
+}
+
+.attachButton-2WznTc:hover .attachButtonPlus-jWVFah {
+    fill: var(--interactive-hover)
+}
+
+.attachButtonPlay-3iJ0mf {
+    color: #43b581
+}
+
+.attachPopout-36hjtN {
+    border-radius: 8px;
+    min-width: 200px;
+    padding: 8px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    background-color: var(--background-floating);
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high)
+}
+
+.attachPopoutRow-3iqqu1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+    color: var(--interactive-normal)
+}
+
+.attachPopoutRow-3iqqu1:hover {
+    color: var(--interactive-hover);
+    background-color: var(--background-modifier-hover)
+}
+
+.attachPopoutRowText-2R5RC2 {
+    margin-left: 8px
+}
+
+.attachPopoutIcon-1QXhWW {
+    width: 24px;
+    height: 24px
+}
+
+.uploadInput-1XtQef {
+    position: relative;
+    width: 0;
+    height: 0;
+    pointer-events: none
 }
 
 .wrapper-1F5TKx {
@@ -51737,7 +51737,8 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .threadSidebar-1o3BTy {
-    width: 400px;
+    width: 30%;
+    min-width: 400px;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -72056,4 +72057,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5ee26d24a0822c03f1a0.css.map*/
+/*# sourceMappingURL=0.e2091236ea6e2dfead05.css.map*/
