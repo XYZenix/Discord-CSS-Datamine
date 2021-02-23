@@ -28621,39 +28621,6 @@ html .progress-GjyFoQ {
     margin-top: 14px
 }
 
-.infoBanner-1KfvkX {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: var(--background-tertiary);
-    border-radius: 4px;
-    color: var(--text-normal);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 60px;
-    margin: 16px 0;
-    padding: 0 16px
-}
-
-.infoIcon-39AUw9 {
-    color: #8ea1e1;
-    margin-right: 10px;
-    min-height: 24px;
-    min-width: 24px
-}
-
-.infoText-20YqbT {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1
-}
-
-.closeIcon-1BKPSE {
-    cursor: pointer;
-    margin-left: 10px
-}
-
 .wrapper-OxgYJ1 {
     display: grid;
     grid-template-rows: 1fr auto;
@@ -28721,7 +28688,7 @@ html .progress-GjyFoQ {
 }
 
 .tipWithSearch-1ZG0iW {
-    margin-top: 8px
+    margin-top: undefined
 }
 
 .wrapper-3ir_7D {
@@ -72057,4 +72024,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e2091236ea6e2dfead05.css.map*/
+/*# sourceMappingURL=0.61a630a1de81aa2b665a.css.map*/
