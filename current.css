@@ -65259,32 +65259,8 @@ html .invoiceCancelRow-3mYhFX {
     color: #b9bbbe
 }
 
-.card-2j1p1_ {
-    padding: 10px
-}
-
-.iconContainer-bxm35Z {
-    margin-right: 5px
-}
-
-.noticeText-2A5791 {
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 18px
-}
-
-.noticeText-2A5791 strong {
-    font-weight: 600
-}
-
-.button-1dUBJq {
-}
-
 .container-SDBvD6 {
-    min-height: 100vh
-}
-
-.easyModeContainer-2jU1yo {
+    min-height: 100vh;
     position: relative
 }
 
@@ -65298,18 +65274,10 @@ html .invoiceCancelRow-3mYhFX {
     opacity: 1
 }
 
-.defaultLayoutStyle-qWB_fd {
-    padding: 60px 15px 80px 20px;
-    overflow: hidden
-}
-
-.defaultLayoutStyle-qWB_fd,.easyModeLayoutStyle-11J5S7 {
+.layoutStyle-2tuE18 {
     position: relative;
+    padding: 24px 15px 80px 0;
     color: var(--text-normal)
-}
-
-.easyModeLayoutStyle-11J5S7 {
-    padding: 24px 15px 80px 0
 }
 
 .xsmallAvatar-3MTKjd {
@@ -65389,7 +65357,7 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .easyModeContainer-27mxag {
-    padding: 60px 0 60px 40px
+    padding: 0
 }
 
 .settingCard-3w2mVL {
@@ -72023,4 +71991,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.aa24166cbb3bf414cbad.css.map*/
+/*# sourceMappingURL=0.f8ddb3e84968c66f24df.css.map*/
