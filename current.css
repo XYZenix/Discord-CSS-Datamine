@@ -28723,15 +28723,14 @@ html .progress-GjyFoQ {
     position: relative
 }
 
+.positionLayer-1KzSAt {
+    left: 86px
+}
+
 .positionContainer-DEuh7X {
-    bottom: calc(100% + 8px);
-    height: 444px;
-    left: 0;
-    pointer-events: none;
-    position: absolute;
-    right: 0;
     width: 100%;
-    z-index: 2
+    height: 444px;
+    pointer-events: none
 }
 
 .positionContainerEditingMessage-13cck- {
@@ -72024,4 +72023,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.734104ef79cc5a2f038e.css.map*/
+/*# sourceMappingURL=0.aa24166cbb3bf414cbad.css.map*/
