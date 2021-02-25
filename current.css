@@ -19771,51 +19771,104 @@ html .progress-GjyFoQ {
     margin-right: 8px
 }
 
-.packActions-2175d0 {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
+.loadingIndicator-tk-VI6 {
+    height: 200px
 }
 
-.packActionsStacked-zeQen2 {
+.bodyContentWrapper-mY7Mw3 {
+    padding-top: 16px
+}
+
+.confirmBodyContentWrapper-3xm8u7 {
+    text-align: center;
+    padding-bottom: 48px
+}
+
+.confirmBodySticker-26_4Gb {
+    height: 72px;
+    margin: 0 auto 24px;
+    width: 72px
+}
+
+.confirmBodyHeader-17e52f {
+    font-weight: 700;
+    margin-bottom: 8px
+}
+
+.confirmBodyHeaderWithHeaderImage-1HdQ5d {
+    margin-top: 32px
+}
+
+.confirmBodyContent-23r8Kk {
+    color: var(--text-normal);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 32px
+}
+
+.confirmBodyAction-2kuiIi {
+    display: inline-block
+}
+
+.reviewBodyHeader-18rCjE {
+    margin-bottom: 8px
+}
+
+.invoice-iONs1k,.paymentSourceDropdown-3-Mpfe {
+    margin-bottom: 16px
+}
+
+.legalese-118feI {
+    margin-bottom: 8px
+}
+
+.skuPreviewModalContent-3IkwuK {
+    overflow: hidden!important;
+    padding: 0
+}
+
+.upsellModalContent-1rwrNE {
+    padding: 0
+}
+
+.upsellContinue-3VLXSW {
+    color: var(--interactive-normal)
+}
+
+.upsellContinue-3VLXSW:hover {
+    color: var(--interactive-hover);
+    text-decoration: none
+}
+
+.modalContentForm-1volcU {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column
+    flex-direction: column;
+    min-height: 0
 }
 
-.packActionShinyButton-3RJvCM {
+.terms-2MPusA {
+    color: var(--text-normal)
+}
+
+.fullModalSpinnerWrapper-2q8B_o {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.packActionIcon-3coxAH {
-    display: block;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    height: 16px;
-    margin-right: 4px;
-    width: 16px
-}
-
-.packAction-3Q40tV+.packAction-3Q40tV {
-    margin-left: 12px
-}
-
-.packActionStacked-3aS6HJ+.packActionStacked-3aS6HJ {
-    margin-top: 8px;
-    margin-left: 0
-}
-
-.loadingIndicator-tk-VI6 {
-    height: 200px
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 200px
 }
 
 .headerWithImage-1eQiGL {
@@ -19884,6 +19937,49 @@ html .progress-GjyFoQ {
 
 .scroller-3gAZLs {
     height: 100%
+}
+
+.packActions-2175d0 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.packActionsStacked-zeQen2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.packActionShinyButton-3RJvCM {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.packActionIcon-3coxAH {
+    display: block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 16px;
+    margin-right: 4px;
+    width: 16px
+}
+
+.packAction-3Q40tV+.packAction-3Q40tV {
+    margin-left: 12px
+}
+
+.packActionStacked-3aS6HJ+.packActionStacked-3aS6HJ {
+    margin-top: 8px;
+    margin-left: 0
 }
 
 .unownedStickerLockContainer-1awnDf {
@@ -20104,120 +20200,11 @@ html .progress-GjyFoQ {
     color: #ff8a00
 }
 
-.previewBody-2oRIh5 {
+.previewBody-1jI1tx {
     height: 308px
 }
 
-.hidden-vu5JrP {
-    visibility: hidden
-}
-
-.wrapper-2I_xdo {
-    padding: 32px 8px 20px 16px
-}
-
-.heroImage-2DDtvQ {
-    display: block;
-    margin: 0 auto 47px;
-    width: 250px
-}
-
-.closeButton-3-o1fy {
-    position: absolute;
-    right: 4px;
-    top: 12px
-}
-
-.heading-1T1JUo {
-    margin-bottom: 16px
-}
-
-.perks-38PVEp {
-    background-color: var(--background-secondary);
-    border-radius: 8px
-}
-
-.icon-2so9Ic {
-    height: 20px;
-    width: 20px
-}
-
-.iconColorLightBlue-zbxJUe {
-    color: #aec7ff
-}
-
-.iconColorGreen-c9b11Y {
-    color: #a2fed3
-}
-
-.iconColorOrange-ow96zv {
-    color: #ff9a15
-}
-
-.iconColorYellow-2xDXGJ {
-    color: #fed648
-}
-
-.iconColorPink-1dhBIv {
-    color: #ff73fa
-}
-
-.iconColorDarkBlue-6qQpJf {
-    color: #3e70dd
-}
-
-.iconColorBlue-2PYTWd {
-    color: #80a6ff
-}
-
-.bodyContentWrapper-mY7Mw3 {
-    padding-top: 16px
-}
-
-.confirmBodyContentWrapper-3xm8u7 {
-    text-align: center;
-    padding-bottom: 48px
-}
-
-.confirmBodySticker-26_4Gb {
-    height: 72px;
-    margin: 0 auto 24px;
-    width: 72px
-}
-
-.confirmBodyHeader-17e52f {
-    font-weight: 700;
-    margin-bottom: 8px
-}
-
-.confirmBodyHeaderWithHeaderImage-1HdQ5d {
-    margin-top: 32px
-}
-
-.confirmBodyContent-23r8Kk {
-    color: var(--text-normal);
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 32px
-}
-
-.confirmBodyAction-2kuiIi {
-    display: inline-block
-}
-
-.reviewBodyHeader-18rCjE {
-    margin-bottom: 8px
-}
-
-.invoice-iONs1k,.paymentSourceDropdown-3-Mpfe {
-    margin-bottom: 16px
-}
-
-.legalese-118feI {
-    margin-bottom: 8px
-}
-
-.footer-3aq6Id {
+.footer-2EFvOV {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -20230,75 +20217,98 @@ html .progress-GjyFoQ {
     flex-direction: row
 }
 
-.footerEnd-30Yn44,.upsellFooter-3KAS47 {
+.footerEnd-3XWfns {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end
 }
 
-.upsellFooter-3KAS47 {
-}
-
-.skuPreviewModalContent-3IkwuK {
-    overflow: hidden!important;
-    padding: 0
-}
-
-.skuPreviewFooterCloseButton-l952Td {
+.skuPreviewFooterCloseButton-2ad35W {
     color: var(--interactive-active);
     font-size: 14px;
     font-weight: 600;
     line-height: 18px
 }
 
-.upsellModalContent-1rwrNE {
-    padding: 0
+.hidden-vu5JrP {
+    visibility: hidden
 }
 
-.upsellContinue-3VLXSW {
-    color: var(--interactive-normal)
+.wrapper-9ELKCa {
+    padding: 32px 8px 20px 16px
 }
 
-.upsellContinue-3VLXSW:hover {
-    color: var(--interactive-hover);
-    text-decoration: none
+.heroImage-1RA8PH {
+    display: block;
+    margin: 0 auto 47px;
+    width: 250px
 }
 
-.modalContentForm-1volcU {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-height: 0
+.closeButton-3ARX-0 {
+    position: absolute;
+    right: 4px;
+    top: 12px
 }
 
-.continueToPurchaseButton-37vWA5 {
-    margin-right: 16px;
-    padding-left: 0;
-    padding-right: 0
+.heading-6wT1g3 {
+    margin-bottom: 16px
 }
 
-.terms-2MPusA {
-    color: var(--text-normal)
+.perks-ptrQDg {
+    background-color: var(--background-secondary);
+    border-radius: 8px
 }
 
-.fullModalSpinnerWrapper-2q8B_o {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+.icon-1_nfxm {
+    height: 20px;
+    width: 20px
+}
+
+.iconColorLightBlue-1uuaSK {
+    color: #aec7ff
+}
+
+.iconColorGreen-1IJXxM {
+    color: #a2fed3
+}
+
+.iconColorOrange-2XXOWl {
+    color: #ff9a15
+}
+
+.iconColorYellow-oU7ouJ {
+    color: #fed648
+}
+
+.iconColorPink-2qb_11 {
+    color: #ff73fa
+}
+
+.iconColorDarkBlue-XPg_sq {
+    color: #3e70dd
+}
+
+.iconColorBlue-1jJrHr {
+    color: #80a6ff
+}
+
+.footer-3XnbPv {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    min-height: 200px
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.continueToPurchaseButton-1JgNbm {
+    margin-right: 16px;
+    padding-left: 0;
+    padding-right: 0
 }
 
 .popoutContent-1rAJey {
@@ -71996,4 +72006,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a06c6f0acd695ed277da.css.map*/
+/*# sourceMappingURL=0.eb1474d3689cd2729126.css.map*/
