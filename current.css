@@ -23088,7 +23088,8 @@ html .progress-GjyFoQ {
 
 .guildIcon-38Zs0M {
     border-radius: 8px;
-    background-color: var(--background-primary)
+    margin: auto auto 8px;
+    background-color: var(--background-secondary)
 }
 
 .guildName-2TIjNT {
@@ -23282,24 +23283,25 @@ html .progress-GjyFoQ {
 }
 
 .confirmationButtonRow-2J_xOl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
     background-color: var(--background-secondary);
     margin-top: 24px;
-    padding-top: 12px;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    width: 100%
+    padding: 12px 8px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0 0 4px 4px
 }
 
-.confirmationButtonRow-2J_xOl>:not(:last-child) {
-    margin-right: 8px
-}
-
-.confirmationButtonRow-2J_xOl>:first-child {
-    margin-left: 16px
-}
-
-.confirmationButtonRow-2J_xOl>:last-child {
-    margin-right: 16px
+.confirmationButton-1s3fqt {
+    width: 100%;
+    margin: 4px
 }
 
 .confirmationButtonColumn-X0tXMk {
@@ -23311,34 +23313,7 @@ html .progress-GjyFoQ {
     -ms-flex-direction: column;
     flex-direction: column;
     margin: auto;
-    padding: 12px
-}
-
-.confirmationButton-1s3fqt,.confirmationSecondary-1S5GoO {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1
-}
-
-.secondaryConfirmationButtonRow-3H4SvO {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: var(--background-secondary);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 8px 0;
-    width: 100%
-}
-
-.secondaryConfirmationButtonRow-3H4SvO>button>div {
-    color: var(--interactive-normal)
+    padding: 12px 12px 20px
 }
 
 .notice-3UEAq4 {
@@ -23352,6 +23327,10 @@ html .progress-GjyFoQ {
 
 .rejectionReasonLabel-3CSyvn {
     margin-right: 4px
+}
+
+.rejectionReason-31OKzD {
+    color: #faa61a
 }
 
 .theme-dark .footer-1JuRYY,.theme-light .footer-1JuRYY {
@@ -72006,4 +71985,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.eb1474d3689cd2729126.css.map*/
+/*# sourceMappingURL=0.3ee34677b2b22580f984.css.map*/
