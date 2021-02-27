@@ -39181,15 +39181,26 @@ strong {
 }
 
 .memberRow-1wwtfV {
-    height: 32px;
-    margin-bottom: 8px;
-    padding-left: 4px;
+    height: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.memberRow-1wwtfV:hover {
+    background-color: var(--background-modifier-hover)
+}
+
+.memberRow-1wwtfV:active {
+    background-color: var(--background-modifier-active)
 }
 
 .emptyRowContainer-1OKxeI {
@@ -71985,4 +71996,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0a57b286d6ceb3f94fc4.css.map*/
+/*# sourceMappingURL=0.e5aa6c3203b2c669b76f.css.map*/
