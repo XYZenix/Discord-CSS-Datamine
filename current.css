@@ -13493,7 +13493,8 @@ img[alt] {
 
 .compact-T3H92H .repliedMessage-VokQwo {
     --text-indent: -4rem;
-    margin-left: calc(var(--timestamp-width) + .25rem + var(--text-indent))
+    margin-left: calc(var(--timestamp-width) + .25rem + var(--text-indent));
+    padding-left: .625rem
 }
 
 .cozy-3raOZG .repliedMessage-VokQwo {
@@ -13539,6 +13540,10 @@ img[alt] {
     border-top-left-radius: 6px
 }
 
+.compact-T3H92H .repliedMessage-VokQwo:before {
+    right: calc(100% - .625rem)
+}
+
 .replyAvatar-1K9Wmr,.replyBadge-r1su3o,.threadMessageAccessoryAvatar-2XWCxw {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -13555,10 +13560,6 @@ img[alt] {
 
 .threadMessageAccessoryAvatar-2XWCxw {
     margin-right: 8px
-}
-
-.compact-T3H92H .threadMessageAccessoryAvatar-2XWCxw {
-    display: none
 }
 
 .replyBadge-r1su3o {
@@ -13908,14 +13909,20 @@ img[alt] {
     position: relative
 }
 
-.cozy-3raOZG.hasThread-2k82W0 .messageContent-2qWWxC:before {
-    background-color: var(--background-accent);
-    bottom: 0;
+.cozy-3raOZG.hasThread-2k82W0:after {
+    border-left: 2px solid var(--background-accent);
+    border-bottom: 2px solid var(--background-accent);
+    border-bottom-left-radius: 8px;
+    bottom: 29px;
     content: "";
-    left: 34px;
+    left: 35px;
     position: absolute;
-    top: 22px;
-    width: 2px
+    top: 48px;
+    width: 31px
+}
+
+.cozy-3raOZG.hasThread-2k82W0.hasReply-34In-r:after {
+    top: 70px
 }
 
 .compact-T3H92H .contents-2mQqc9 {
@@ -13926,9 +13933,9 @@ img[alt] {
     background-color: var(--background-accent);
     bottom: 0;
     content: "";
-    left: 42px;
+    left: 40px;
     position: absolute;
-    top: 20px;
+    top: 22px;
     width: 2px
 }
 
@@ -20442,15 +20449,24 @@ html .progress-GjyFoQ {
     border-bottom: 2px solid var(--background-accent);
     border-left: 2px solid var(--background-accent);
     bottom: 29px;
-    left: -38px;
+    left: -40px;
     position: absolute;
     top: 0;
-    width: 32px
+    width: 34px
+}
+
+.spine-5jbOmI.cozy-XCy5h_ {
+    display: none
 }
 
 .container-3hZ-gs {
+    background-color: var(--background-secondary);
+    border-radius: 4px;
     cursor: pointer;
+    margin-top: 8px;
+    max-width: 480px;
     min-width: 0;
+    padding: 8px;
     width: 100%
 }
 
@@ -20509,7 +20525,7 @@ html .progress-GjyFoQ {
     margin-top: 2px
 }
 
-.cozy-XCy5h_ .bottomLine-2qB7L6.hasMessage-Bnk1Xr {
+.bottomLine-2qB7L6.hasMessage-Bnk1Xr {
     padding-left: 0
 }
 
@@ -71996,4 +72012,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e5aa6c3203b2c669b76f.css.map*/
+/*# sourceMappingURL=0.92b643c15209e84d1776.css.map*/
