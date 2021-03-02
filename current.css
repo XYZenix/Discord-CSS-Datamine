@@ -39295,7 +39295,8 @@ strong {
 
 .removeButtonDisabled-5brXxX {
     color: var(--interactive-muted);
-    pointer-events: none
+    pointer-events: none;
+    cursor: not-allowed
 }
 
 .removeTip-2HPwsk {
@@ -72052,4 +72053,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5907a5e10faac6342db9.css.map*/
+/*# sourceMappingURL=0.d25cc6c417bc280bfe4e.css.map*/
