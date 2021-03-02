@@ -13500,8 +13500,7 @@ img[alt] {
 
 .threadMessageAccessory-1pYyA- {
     height: 18px;
-    min-width: 0;
-    padding-right: 4px
+    min-width: 0
 }
 
 .repliedMessage-VokQwo.latin12CompactTimeStamp-38a8OU {
@@ -20495,30 +20494,10 @@ html .progress-GjyFoQ {
     width: 100%
 }
 
-.iconWrapper-jpIswi,.topLine-1hV9bl {
+.topLine-1hV9bl {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
-}
-
-.iconWrapper-jpIswi {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: var(--background-tertiary);
-    border-radius: 16px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    color: var(--interactive-normal);
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    height: 16px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-right: 8px;
-    margin-top: 1px;
-    width: 16px
 }
 
 .name-1qtoQ5 {
@@ -20546,17 +20525,14 @@ html .progress-GjyFoQ {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 24px;
-    margin-top: 2px
-}
-
-.bottomLine-2qB7L6.hasMessage-Bnk1Xr {
-    padding-left: 0
+    margin-top: 2px;
+    white-space: nowrap
 }
 
 .timestamp-1Kyoes {
     -ms-flex-negative: 0;
-    flex-shrink: 0
+    flex-shrink: 0;
+    margin-left: 8px
 }
 
 .embed-IeVjo6 {
@@ -72053,4 +72029,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d25cc6c417bc280bfe4e.css.map*/
+/*# sourceMappingURL=0.42b7a4f0782f1306509c.css.map*/
