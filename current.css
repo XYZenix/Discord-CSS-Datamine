@@ -12456,8 +12456,11 @@ img[alt] {
     pointer-events: none
 }
 
+.uploadArea-3QgLtW.droppable-1orUyP {
+    visibility: visible
+}
+
 .uploadArea-3QgLtW.uploadModalIn-1z07Bv {
-    visibility: visible;
     opacity: 1
 }
 
@@ -12573,12 +12576,23 @@ img[alt] {
     -ms-flex-align: center;
     align-items: center;
     border: 2px dashed hsla(0,0%,100%,.4);
-    border-radius: 6px
+    border-radius: 6px;
+    width: 100%
 }
 
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y {
     font-size: 22px;
-    font-weight: 700
+    font-weight: 700;
+    padding: 0 8px;
+    width: 100%;
+    color: hsla(0,0%,100%,.75);
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y strong {
+    color: #fff
 }
 
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG {
@@ -12920,6 +12934,17 @@ img[alt] {
     background-color: #f6f6f7;
     -webkit-box-shadow: inset 0 1px 0 rgba(246,246,247,.6);
     box-shadow: inset 0 1px 0 rgba(246,246,247,.6)
+}
+
+.destination-3ZiRO2 {
+    margin-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.destination-3ZiRO2 strong {
+    color: var(--header-primary);
+    font-weight: 500
 }
 
 .iconContainer-2B0ixr {
@@ -51719,12 +51744,22 @@ a.ctaAnchor-3-8I3v:hover {
     flex: 1 1 auto
 }
 
+.chat-3bRxxu .uploadArea-1qnBZm {
+    position: fixed
+}
+
 .chat-3bRxxu.threadSidebarOpen-vdkwIh {
     border-radius: 0 8px 8px 0
 }
 
+.chat-3bRxxu.threadSidebarOpen-vdkwIh .uploadArea-1qnBZm {
+    right: max(calc(29vw + 8px),400px + 8px);
+    width: auto;
+    border-radius: 0 8px 8px 0
+}
+
 .threadSidebar-1o3BTy {
-    width: 30%;
+    width: 29vw;
     min-width: 400px;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -51743,6 +51778,11 @@ a.ctaAnchor-3-8I3v:hover {
         border-left: 1px solid var(--background-secondary);
         -webkit-filter: drop-shadow(0 8px 40px rgba(0,0,0,.32));
         filter: drop-shadow(0 8px 40px rgba(0,0,0,.32))
+    }
+
+    .chat-3bRxxu.threadSidebarOpen-vdkwIh .uploadArea-1qnBZm {
+        right: 400px;
+        border-radius: 0
     }
 }
 
@@ -72012,4 +72052,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.88de1a749426a07e95c1.css.map*/
+/*# sourceMappingURL=0.92c29e1c77f244d759f7.css.map*/
