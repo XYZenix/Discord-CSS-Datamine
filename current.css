@@ -13487,7 +13487,7 @@ img[alt] {
     user-select: none
 }
 
-.repliedMessage-VokQwo,.threadMessageAccessory-1pYyA- {
+.executedCommand-2GE3w2,.repliedMessage-VokQwo,.threadMessageAccessory-1pYyA- {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13498,7 +13498,7 @@ img[alt] {
     line-height: 1.125rem
 }
 
-.threadMessageAccessory-1pYyA- {
+.executedCommand-2GE3w2,.threadMessageAccessory-1pYyA- {
     height: 18px;
     min-width: 0
 }
@@ -13568,7 +13568,7 @@ img[alt] {
     right: calc(100% - .625rem)
 }
 
-.replyAvatar-1K9Wmr,.replyBadge-r1su3o,.threadMessageAccessoryAvatar-2XWCxw {
+.executedCommandAvatar-yZ5r9z,.replyAvatar-1K9Wmr,.replyBadge-r1su3o,.threadMessageAccessoryAvatar-2XWCxw {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -13605,7 +13605,12 @@ img[alt] {
     height: 7.2px
 }
 
-.repliedMessage-VokQwo .username-1A8OIy,.threadMessageAccessory-1pYyA- .username-1A8OIy {
+.commandIcon-SBYpgi {
+    width: 5px;
+    height: 9px
+}
+
+.executedCommand-2GE3w2 .applicationName-1-Uq7y,.executedCommand-2GE3w2 .commandName-1klrjB,.executedCommand-2GE3w2 .username-1A8OIy,.repliedMessage-VokQwo .username-1A8OIy,.threadMessageAccessory-1pYyA- .username-1A8OIy {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     font-size: inherit;
@@ -13614,8 +13619,22 @@ img[alt] {
     opacity: .64
 }
 
-.repliedMessage-VokQwo .botTag-1un5a6,.threadMessageAccessory-1pYyA- .botTag-1un5a6 {
+.executedCommand-2GE3w2 .applicationName-1-Uq7y,.executedCommand-2GE3w2 .commandName-1klrjB,.executedCommand-2GE3w2 .username-1A8OIy {
+    margin-right: 0
+}
+
+.executedCommand-2GE3w2 .botTag-1un5a6,.repliedMessage-VokQwo .botTag-1un5a6,.threadMessageAccessory-1pYyA- .botTag-1un5a6 {
     top: 0
+}
+
+.executedCommand-2GE3w2 .commandName-1klrjB {
+    font-weight: 500;
+    color: #7289da
+}
+
+.executedCommand-2GE3w2 .applicationName-1-Uq7y {
+    font-weight: 500;
+    color: var(--header-primary)
 }
 
 .repliedTextPreview-2NBljf,.threadMessageAccessoryPreview-1uSsue {
@@ -13868,7 +13887,7 @@ img[alt] {
     margin-right: .25rem
 }
 
-.username-1A8OIy.clickable-1bVtEA:hover {
+.applicationName-1-Uq7y.clickable-1bVtEA:hover,.commandName-1klrjB.clickable-1bVtEA:hover,.username-1A8OIy.clickable-1bVtEA:hover {
     cursor: pointer;
     text-decoration: underline
 }
@@ -17980,6 +17999,25 @@ img[alt] {
     border-color: var(--background-tertiary)
 }
 
+.wrapper-2NZy0S {
+    margin-top: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.icon-xnhh2x {
+    display: block;
+    margin-right: 8px
+}
+
+.errorIcon-1gpCtD {
+    color: #f04747
+}
+
 .tile-2OwFgW {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21079,7 +21117,7 @@ html .progress-GjyFoQ {
 }
 
 .ephemeralMessage-1fEWtQ {
-    margin-top: 8px;
+    margin-top: 4px;
     font-size: 12px;
     font-weight: 400;
     color: var(--text-muted)
@@ -25478,6 +25516,10 @@ html .progress-GjyFoQ {
 
 .backgroundFlash-24qWLN .groupStart-23k01U {
     margin-top: 0!important
+}
+
+.interactionSending-1jpOwZ {
+    opacity: .5
 }
 
 .modal-3V9_NJ {
@@ -50802,6 +50844,60 @@ a.ctaAnchor-3-8I3v:hover {
     color: #9099a4
 }
 
+.container--XcPWC {
+    max-width: 350px;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text
+}
+
+.tooltip-BPhxJN {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+    background-color: var(--background-floating);
+    color: #dcddde;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 12px
+}
+
+.tooltipPointer-lElcog {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 5px solid var(--background-floating);
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px
+}
+
+.clickable-3AL_3x {
+    cursor: pointer
+}
+
+.mention-z5tRxB {
+    background: none;
+    padding: 0
+}
+
+.optionKey-NJXdov {
+    padding: 0 4px
+}
+
+.spinner-2_i11Y {
+    width: 16px;
+    height: 16px
+}
+
 .avatar-3z61ij {
     border-radius: 50%
 }
@@ -72029,4 +72125,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.21fb9ff415cf4b3af161.css.map*/
+/*# sourceMappingURL=0.b6e58c21e1e1be0f88e8.css.map*/
