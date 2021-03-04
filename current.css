@@ -20677,8 +20677,7 @@ html .progress-GjyFoQ {
     margin-top: 8px;
     max-width: 480px;
     min-width: 0;
-    padding: 8px;
-    width: 100%
+    padding: 8px
 }
 
 .topLine-1hV9bl {
@@ -25513,6 +25512,10 @@ html .progress-GjyFoQ {
 
 .message-2qnXI6.ephemeral-1PsL1r.selected-2P5D_Z,.message-2qnXI6.replying-1x3H0T.selected-2P5D_Z,.mouse-mode.full-motion .ephemeral-1PsL1r:hover,.mouse-mode.full-motion .replying-1x3H0T:hover {
     background-color: rgba(114,137,218,.1)
+}
+
+.quotedChatMessage-3HzRaD {
+    cursor: pointer
 }
 
 .buttons-cl5qTG {
@@ -64776,7 +64779,7 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .menu-1O51-Y {
-    width: 184px
+    width: 200px
 }
 
 .activityItem-1pRGhE {
@@ -64851,7 +64854,7 @@ html .invoiceCancelRow-3mYhFX {
     transform: translateY(-65%) translateX(-50%);
     width: 259px;
     height: 126px;
-    background-image: url(/assets/03215f27cd3a3729613eb34d14aa5bbf.svg)
+    background-image: url(/assets/3fdc74526ba7d5f23c59d9e6642c7663.svg)
 }
 
 .headerText-3gIyzb {
@@ -72381,4 +72384,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.14470c5d6a54eda5cabd.css.map*/
+/*# sourceMappingURL=0.0a04a7156c9e6f1f2065.css.map*/
