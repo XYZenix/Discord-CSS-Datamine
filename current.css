@@ -50015,6 +50015,19 @@ a.ctaAnchor-3-8I3v:hover {
     width: 100%
 }
 
+.container-pTf0Ly {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/a9f6bd0a103d64e943a460338a61868f.png)
+}
+
 .container-3RCQyg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -72237,4 +72250,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2ee9f5a3f0c5cd08766d.css.map*/
+/*# sourceMappingURL=0.9ff250aa37c55bf2e08a.css.map*/
