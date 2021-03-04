@@ -7744,7 +7744,17 @@ img[alt] {
 }
 
 .measurementFill-31KKmO {
-    height: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100%
+}
+
+.measurementFillStatic-MZ1pNY {
+    height: 100%
+}
+
+.animatedNode-5VAmrN {
     width: 100%
 }
 
@@ -9156,7 +9166,7 @@ img[alt] {
     padding: 0 1px
 }
 
-.choosePaymentSourceType-2Q_3qs,.formItem-2EhD7S {
+.choosePaymentSourceType-2Q_3qs {
     margin-top: 20px
 }
 
@@ -9225,24 +9235,8 @@ img[alt] {
     color: #b9bbbe
 }
 
-.paymentTypeSelectStep-q07Z2s {
-    padding: 16px 0
-}
-
-.creditCardInfoStep-256421 {
-    padding-bottom: 16px
-}
-
-.paymentRequestStep-35TiYS,.paypalStep-1AUAG1 {
-    padding: 16px 0
-}
-
-.addressStep-3DW7bF {
-    padding-bottom: 16px
-}
-
-.awaitingAuthenticationStep-3mW1JG,.reviewStep-2XG0zd {
-    padding: 16px 0
+.awaitingAuthenticationStep-3mW1JG,.body-31Cs__ {
+    padding-top: 16px
 }
 
 .paymentSourceLabel-1lo4Ca {
@@ -9725,24 +9719,74 @@ img[alt] {
 }
 
 .content-1YdlXf {
-    padding-bottom: 16px
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 0
 }
 
 .breadcrumbsWrapper-3avBWN {
     border-bottom: 1px solid var(--background-modifier-accent);
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 16px;
     padding: 16px 0
 }
 
 .bodyWrapper-3GGwfp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    min-height: 0;
     position: relative
 }
 
-.errorBlock-Dr2AeS {
-    margin-top: 16px
+.scroller-3tPHw0 {
+    height: 100%;
+    padding: 0 16px 16px
+}
+
+.errorBlockWrapper-1ZfYVz {
+    padding: 16px 16px 0
+}
+
+.paymentNote-3NUaTF {
+    padding: 0 16px
 }
 
 .loadingBlock-2I2zJI {
     height: 192px
+}
+
+.sequencer-2GXxB2 {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sequencerInner-3_gwOO {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto
 }
 
 .skuButtons-3KnDcG {
@@ -19887,32 +19931,7 @@ html .progress-GjyFoQ {
     margin-bottom: 16px
 }
 
-.legalese-118feI {
-    margin-bottom: 8px
-}
-
-.skuPreviewModalContent-3IkwuK {
-    overflow: hidden!important;
-    padding: 0
-}
-
-.upsellModalContent-1rwrNE {
-    padding: 0
-}
-
-.upsellContinue-3VLXSW {
-    color: var(--interactive-normal)
-}
-
-.upsellContinue-3VLXSW:hover {
-    color: var(--interactive-hover);
-    text-decoration: none
-}
-
 .modalContentForm-1volcU {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -19923,14 +19942,13 @@ html .progress-GjyFoQ {
     min-height: 0
 }
 
-.terms-2MPusA {
-    color: var(--text-normal)
+.fullModalSpinnerWrapper-2q8B_o,.modalContentForm-1volcU {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
 }
 
 .fullModalSpinnerWrapper-2q8B_o {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -20304,7 +20322,7 @@ html .progress-GjyFoQ {
 }
 
 .wrapper-9ELKCa {
-    padding: 32px 8px 20px 16px
+    padding-top: 32px
 }
 
 .heroImage-1RA8PH {
@@ -72219,4 +72237,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5b90689b6d3b319bfb88.css.map*/
+/*# sourceMappingURL=0.2ee9f5a3f0c5cd08766d.css.map*/
