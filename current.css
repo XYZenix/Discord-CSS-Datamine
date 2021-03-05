@@ -50055,6 +50055,89 @@ a.ctaAnchor-3-8I3v:hover {
     background: url(/assets/a96ad48450382ff5df965439222d1459.svg)
 }
 
+.divider-yptg8N {
+    background-color: var(--channeltextarea-background)
+}
+
+.topic-3gMffX {
+    margin-left: 8px
+}
+
+.participants-1e7HCI {
+    color: var(--interactive-normal)
+}
+
+.container-2j8dvG,.requestToSpeakContainer-3YU4EO {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.requestToSpeakContainer-3YU4EO {
+    margin-top: -4px;
+    margin-bottom: -4px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: var(--background-tertiary)
+}
+
+.requestToSpeakDescriptionContainer-3-tb15 {
+    padding-left: 16px;
+    display: grid;
+    grid-template-areas: "icon title" "icon description";
+    -webkit-column-gap: 8px;
+    -moz-column-gap: 8px;
+    column-gap: 8px
+}
+
+.requestToSpeakIcon-1BjGfe {
+    grid-area: icon;
+    margin: auto
+}
+
+.slash-3wynFg {
+    color: #f04747
+}
+
+.requestToSpeakTitle-1jHxM9 {
+    grid-area: title;
+    font-weight: 600
+}
+
+.requestToSpeakDescription-1QF1DX {
+    grid-area: description;
+    white-space: nowrap
+}
+
+.raiseHandButton-1TZpXJ {
+    margin: 4px 4px 4px 16px
+}
+
+.buttonSpacing-3apH88 {
+    margin-left: 16px
+}
+
+.speakerRaiseHandButton-1-xsvS {
+    position: relative
+}
+
+.speakerRaiseHandBadge-kSmEho {
+    padding: 0 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 8px;
+    background-color: #f04747;
+    font-weight: 600
+}
+
 .container-1rxwlY {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -72384,4 +72467,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.57f0d444cb41b99a6243.css.map*/
+/*# sourceMappingURL=0.b4e2c626781401c13025.css.map*/
