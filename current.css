@@ -63489,6 +63489,12 @@ html .invoiceCancelRow-3mYhFX {
     margin-top: 24px
 }
 
+@media (max-width: 1024px) {
+    .guilds-3A5wi_ {
+        grid:auto/100%
+    }
+}
+
 .emptyGuilds-14hOr4 {
     margin: 32px auto 0;
     width: 177px;
@@ -72467,4 +72473,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b4e2c626781401c13025.css.map*/
+/*# sourceMappingURL=0.918fa24d2266ffb6ab48.css.map*/
