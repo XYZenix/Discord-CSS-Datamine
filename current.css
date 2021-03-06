@@ -62056,15 +62056,15 @@ html .tabBadge-3smxHS {
 }
 
 .videoWrapper-3YdgHH {
-    background-color: #000;
+    background-color: var(--background-primary);
     border-radius: 5px;
     overflow: hidden
 }
 
 .video-2aTfcg {
     display: block;
-    width: 660px;
-    height: 370px
+    width: 100%;
+    height: 100%
 }
 
 .features-2npk2D {
@@ -62072,6 +62072,7 @@ html .tabBadge-3smxHS {
 }
 
 .video-34IsHk {
+    margin: 0 auto 40px
 }
 
 .perksHeading-3oxU3I {
@@ -72473,4 +72474,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.918fa24d2266ffb6ab48.css.map*/
+/*# sourceMappingURL=0.49e672fe355d73da9f74.css.map*/
