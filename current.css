@@ -50073,6 +50073,160 @@ a.ctaAnchor-3-8I3v:hover {
     background: url(/assets/a96ad48450382ff5df965439222d1459.svg)
 }
 
+.container-1EOCj2 {
+    width: 320px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: var(--background-primary)
+}
+
+.headerContainer-3Dbfbk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px;
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low)
+}
+
+.headerTitle-34m7pK {
+    margin-left: 16px;
+    font-weight: 600
+}
+
+.headerClose-3ppwtq {
+    margin-left: auto;
+    cursor: pointer;
+    color: var(--interactive-normal)
+}
+
+.headerClose-3ppwtq:hover {
+    color: var(--interactive-hover)
+}
+
+.headerClose-3ppwtq:active {
+    color: var(--interactive-active)
+}
+
+.contentContainer-3uyIT3 {
+    padding-left: 16px;
+    padding-right: 16px
+}
+
+.selfSpeakerContainer-qt7ckS {
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--interactive-normal)
+}
+
+.selfSpeakerContainer-qt7ckS:hover {
+    color: var(--interactive-hover)
+}
+
+.selfSpeakerContainer-qt7ckS:active {
+    color: var(--interactive-active)
+}
+
+.buttonContainer-38-Et1 {
+    height: 32px;
+    width: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: var(--background-secondary);
+    border-radius: 50%;
+    color: var(--interactive-normal)
+}
+
+.buttonContainer-38-Et1:hover {
+    color: var(--interactive-hover)
+}
+
+.buttonContainer-38-Et1:active {
+    color: var(--interactive-active)
+}
+
+.buttonContainer-38-Et1+.buttonContainer-38-Et1 {
+    margin-left: 16px
+}
+
+.selfSpeakerButton-2ZvK-g {
+    background-color: var(--background-tertiary)
+}
+
+.selfSpeakerText-3QjNKH {
+    margin-left: 12px
+}
+
+.listTitle-3x9PAq {
+    margin-top: 24px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.participantRowContainer-2LfSyI {
+    margin-top: 8px;
+    height: 40px
+}
+
+.participantMemberContainer-3JuhCc,.participantRowContainer-2LfSyI {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.participantMemberContainer-3JuhCc {
+    margin-right: auto;
+    cursor: pointer
+}
+
+.participantName-1SXKIB {
+    margin-left: 16px;
+    color: var(--header-primary)
+}
+
+.divider-3I8NVc {
+    margin-top: 24px;
+    margin-bottom: 24px
+}
+
+.changePermissionButton-1eZjKJ {
+    margin-top: 4px;
+    padding: 0
+}
+
 .divider-yptg8N {
     background-color: var(--channeltextarea-background)
 }
@@ -50372,16 +50526,33 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .container-pTf0Ly {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-color: var(--background-secondary)
+}
+
+.callContainer-3UuV6S,.container-pTf0Ly {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    height: 100%;
+    width: 100%
+}
+
+.callContainer-3UuV6S {
+    -webkit-box-orient: vertical;
     -ms-flex-direction: column;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
     background-image: url(/assets/a9f6bd0a103d64e943a460338a61868f.png)
+}
+
+.sidebarVisible-F3zEoe {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+    margin-right: 8px
 }
 
 .container-3RCQyg {
@@ -72613,4 +72784,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0fe7f121a260bc03c1a0.css.map*/
+/*# sourceMappingURL=0.f07c986b2cfd20cbfb82.css.map*/
