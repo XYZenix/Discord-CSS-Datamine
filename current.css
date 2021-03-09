@@ -50292,16 +50292,9 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .participants-soO0aD {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-auto-flow: row
 }
 
 .tile-2Q7yR_ {
@@ -72784,4 +72777,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f07c986b2cfd20cbfb82.css.map*/
+/*# sourceMappingURL=0.74911e0fd32ba55a7ea2.css.map*/
