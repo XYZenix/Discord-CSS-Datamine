@@ -57540,6 +57540,40 @@ html .invoiceCancelRow-1YYT42 {
     margin-left: 7px
 }
 
+.container-_xSQEe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.acceptButton-1w0WVo {
+    margin-left: 16px;
+    padding: 4px 8px
+}
+
+.acceptText-j9fxRL {
+    color: #2e7b58
+}
+
+.declineButton-3AjV5l {
+    margin-left: 8px;
+    padding: 3px 7px
+}
+
+.declineText-awkkNG {
+    color: #fff
+}
+
 .errorLabel-7OAe-A,.supportCallToAction-7lpXkq {
     margin-top: 20px
 }
@@ -72777,4 +72811,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.74911e0fd32ba55a7ea2.css.map*/
+/*# sourceMappingURL=0.9f32489551bf75ace4c8.css.map*/
