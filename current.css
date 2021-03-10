@@ -50445,6 +50445,30 @@ a.ctaAnchor-3-8I3v:hover {
     white-space: nowrap
 }
 
+.leaveQuietlyButton-1yMc0b {
+    height: 56px;
+    border-radius: 28px
+}
+
+.leaveQuietlyButtonInnerContainer-3RO33o {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.leaveQuietlyIcon-3W16Ig {
+    margin-left: 4px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
 .raiseHandButton-1TZpXJ {
     margin: 4px 4px 4px 16px
 }
@@ -72854,4 +72878,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.14405f045e1279900682.css.map*/
+/*# sourceMappingURL=0.c8be24d5c95f8482ab37.css.map*/
