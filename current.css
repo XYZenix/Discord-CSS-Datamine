@@ -17188,7 +17188,12 @@ img[alt] {
 }
 
 .codeView-1JPDeA {
-    font-size: 0.875rem
+    font-size: 0.875rem;
+    min-height: 100px
+}
+
+.codeView-1JPDeA::-webkit-scrollbar-track {
+    margin: 0 .5em
 }
 
 .expanded-2itZLW {
@@ -73056,4 +73061,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f02eaec2633fd4749c86.css.map*/
+/*# sourceMappingURL=0.ff676b753e121cdab96a.css.map*/
