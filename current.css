@@ -50601,8 +50601,12 @@ a.ctaAnchor-3-8I3v:hover {
     margin-left: 16px
 }
 
-.speakerRaiseHandButton-1-xsvS {
+.speakerRaiseHandButtonContainer-3VziUu {
     position: relative
+}
+
+.speakerRaiseHandButton-1-xsvS {
+    position: static
 }
 
 .speakerRaiseHandBadge-kSmEho {
@@ -50610,9 +50614,13 @@ a.ctaAnchor-3-8I3v:hover {
     position: absolute;
     top: 0;
     right: 0;
+    min-width: 16px;
     border-radius: 8px;
     background-color: #f04747;
-    font-weight: 600
+    font-weight: 600;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center
 }
 
 .container-1rxwlY {
@@ -73002,4 +73010,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.553805da974fe1cc2926.css.map*/
+/*# sourceMappingURL=0.0cdf2a0fd93966ba9723.css.map*/
