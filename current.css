@@ -17171,6 +17171,7 @@ img[alt] {
 
 .textContainer-C0szpm {
     min-height: 118px;
+    height: 100%;
     overflow: hidden;
     background-color: var(--background-secondary);
     border: 1px solid var(--background-secondary-alt);
@@ -17215,17 +17216,26 @@ img[alt] {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
 }
 
 .toggleExpandSection-3WJYqa {
     cursor: pointer;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
     padding-right: 10px
 }
 
 .toggleExpandSection-3WJYqa:hover {
+    color: var(--interactive-hover)
+}
+
+.openFullPreviewSection-DZS30W {
+    cursor: pointer;
+    padding-top: 4px
+}
+
+.openFullPreviewSection-DZS30W:hover {
     color: var(--interactive-hover)
 }
 
@@ -17288,6 +17298,42 @@ img[alt] {
 
 .codeIcon-3YZylx:hover {
     color: var(--interactive-hover)
+}
+
+.modalRoot-2o6FJT {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    height: 100%
+}
+
+.modalContent-3XArPg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%
+}
+
+.modalTextContainer-ITvzbi {
+    overflow: scroll;
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-secondary-alt);
+    border-radius: 4px 4px 0 0
+}
+
+.modalTextContainer-ITvzbi,.modalTextContainer-ITvzbi pre {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.modalTextContainer-ITvzbi pre {
+    border-radius: 4px 4px 0 0
 }
 
 .barBase-1c2Rfb {
@@ -51733,8 +51779,8 @@ a.ctaAnchor-3-8I3v:hover {
     padding: 0
 }
 
-.optionKey-NJXdov {
-    padding: 0 4px
+.text-3EzEiT {
+    margin-right: 4px
 }
 
 .spinner-2_i11Y {
@@ -73010,4 +73056,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0cdf2a0fd93966ba9723.css.map*/
+/*# sourceMappingURL=0.bffa0f18db437f64fa38.css.map*/
