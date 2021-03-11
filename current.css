@@ -42205,7 +42205,11 @@ strong {
 }
 
 .channelNotice-2bJINM {
-    padding: 16px
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--background-primary)
 }
 
 .textBlock-2FWDjE {
@@ -72998,4 +73002,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c52475c2558f4c74d778.css.map*/
+/*# sourceMappingURL=0.553805da974fe1cc2926.css.map*/
