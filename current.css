@@ -50309,6 +50309,50 @@ a.ctaAnchor-3-8I3v:hover {
     background: url(/assets/a96ad48450382ff5df965439222d1459.svg)
 }
 
+.container-1rxwlY {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sparkleIcon-30-odx {
+    height: 12px;
+    width: 12px
+}
+
+.sparkleTop-2XxWeK {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-right: auto
+}
+
+.sparkleBottom-KN5dmN {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin-left: auto
+}
+
+.background-1vAsyP {
+    padding: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 50%;
+    background-color: var(--background-tertiary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.foreground-2XBsBU {
+    color: var(--interactive-normal)
+}
+
 .container-1EOCj2 {
     width: 320px;
     -ms-flex-negative: 0;
@@ -50460,9 +50504,29 @@ a.ctaAnchor-3-8I3v:hover {
     margin-bottom: 24px
 }
 
-.changePermissionButton-1eZjKJ {
-    margin-top: 4px;
-    padding: 0
+.emptyStateContainer-ExQMn0 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center
+}
+
+.emptyStateTitle-3RFcC1 {
+    margin-top: 16px;
+    font-weight: 600
+}
+
+.emptyStateBody-2qGLUo {
+    margin-top: 8px
 }
 
 .divider-yptg8N {
@@ -50691,29 +50755,6 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center
-}
-
-.container-1rxwlY {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.sparkleIcon-30-odx {
-    height: 12px;
-    width: 12px
-}
-
-.sparkleTop-2XxWeK {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-    margin-right: auto
-}
-
-.sparkleBottom-KN5dmN {
-    -ms-flex-item-align: end;
-    align-self: flex-end;
-    margin-left: auto
 }
 
 .container-2-WIeg {
@@ -73138,4 +73179,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4e61b2e3fd8fe6719760.css.map*/
+/*# sourceMappingURL=0.c826f0616ca09f3342aa.css.map*/
