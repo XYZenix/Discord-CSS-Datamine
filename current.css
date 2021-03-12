@@ -50380,10 +50380,12 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .buttonContainer-38-Et1:hover {
+    background-color: var(--background-tertiary);
     color: var(--interactive-hover)
 }
 
 .buttonContainer-38-Et1:active {
+    background-color: var(--background-tertiary);
     color: var(--interactive-active)
 }
 
@@ -73058,4 +73060,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.335b9f78e9c2d94244fe.css.map*/
+/*# sourceMappingURL=0.a1134404e75644bd7538.css.map*/
