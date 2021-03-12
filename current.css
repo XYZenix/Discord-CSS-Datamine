@@ -50456,8 +50456,8 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .tileContainer-BaRAZF {
-    width: 100px;
-    height: 100px;
+    width: 102px;
+    height: 98px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -50470,7 +50470,12 @@ a.ctaAnchor-3-8I3v:hover {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    border-radius: 8px
+}
+
+.tileContainer-BaRAZF:hover {
+    background-color: var(--background-tertiary)
 }
 
 .text-2wY55Y {
@@ -50488,10 +50493,11 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .roleContainer-2b2e3L {
-    margin-top: 48px;
+    margin-top: 40px;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    margin-bottom: 8px
 }
 
 .roleName-1u8d1R {
@@ -50513,24 +50519,10 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .tile-2Q7yR_ {
-    min-height: 180px;
-    height: 100%;
-    max-height: 202px;
     padding: 4px;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-.full-27E4Jm {
-    width: 66%
-}
-
-.half-1xrJ80 {
-    width: 50%
-}
-
-.third-2mRXUn {
-    width: 33%
+    box-sizing: border-box;
+    height: 100%
 }
 
 .stageTilesContainer-2s7quI {
@@ -50567,9 +50559,13 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 96px;
-    margin-left: 16px;
-    margin-right: 16px
+    margin-top: 128px;
+    padding-left: 16px;
+    padding-right: 16px
+}
+
+.spacer-2ne1bb {
+    padding-bottom: 240px
 }
 
 .container-2j8dvG,.requestToSpeakContainer-3YU4EO {
@@ -73062,4 +73058,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.bf1f5a9240c3aa30cc70.css.map*/
+/*# sourceMappingURL=0.335b9f78e9c2d94244fe.css.map*/
