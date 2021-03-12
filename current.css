@@ -42298,7 +42298,8 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 4px
+    margin-bottom: 4px;
+    white-space: nowrap
 }
 
 .liveNowText-1y0h6H {
@@ -42310,6 +42311,11 @@ strong {
 .eventName-2YgbEu {
     margin-bottom: 4px;
     font-weight: 600
+}
+
+.channelName-JY9Cr0,.eventName-2YgbEu {
+    overflow: hidden;
+    text-overflow: ellipsis
 }
 
 .dotDivider-1W5oqM {
@@ -73179,4 +73185,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c826f0616ca09f3342aa.css.map*/
+/*# sourceMappingURL=0.2f4f737518c34ddc9bb9.css.map*/
