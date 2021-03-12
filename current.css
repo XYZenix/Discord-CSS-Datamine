@@ -40124,8 +40124,20 @@ strong {
     padding: 8px
 }
 
+.primary-2McadE {
+    background-color: var(--background-primary);
+    color: var(--header-primary)
+}
+
+.primary-2McadE:hover:not(.disabled-3Njyym) {
+    color: var(--interactive-active)
+}
+
+.primary-2McadE:hover:not(.disabled-3Njyym),.secondary-dIudih {
+    background-color: var(--background-secondary)
+}
+
 .secondary-dIudih {
-    background-color: var(--background-secondary);
     color: var(--header-secondary)
 }
 
@@ -40142,6 +40154,14 @@ strong {
 .tertiary-aMXF0g:hover:not(.disabled-3Njyym) {
     background-color: var(--background-floating);
     color: var(--interactive-active)
+}
+
+.size24-12dr1B {
+    padding: 4px;
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    min-height: 24px
 }
 
 .size32-T2BHRe {
@@ -65565,6 +65585,61 @@ html .invoiceCancelRow-3mYhFX {
     margin-left: -5px
 }
 
+.scroller-2n3G0k {
+    margin-left: -3px;
+    margin-right: -7px;
+    padding: 4px 0 4px 4px;
+    min-height: 24px;
+    max-height: 132px
+}
+
+.scroller-2n3G0k.expanded-1DTre4 {
+    margin-bottom: 4px
+}
+
+.voiceUsers-2V7vuh {
+    display: grid;
+    grid-template-columns: repeat(8,24px);
+    gap: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%
+}
+
+.expandButton-2hkuXA {
+    grid-row: 1;
+    grid-column: 8
+}
+
+.avatarContainer-2LLZwy {
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.avatar-3Heyg_ {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: 100%;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.speaking-3dBKhR {
+    -webkit-box-shadow: inset 0 0 0 2px #43b581,inset 0 0 0 3px var(--background-secondary);
+    box-shadow: inset 0 0 0 2px #43b581,inset 0 0 0 3px var(--background-secondary)
+}
+
+.avatarIconOverlay-2nbU5G {
+    padding: 4px;
+    background-color: rgba(0,0,0,.3);
+    color: #fff
+}
+
+.avatarIconRed-2sn-Up {
+    color: #f04747
+}
+
 .container-1giJp5 {
     color: var(--header-primary);
     font-size: 14px;
@@ -65645,16 +65720,19 @@ html .invoiceCancelRow-3mYhFX {
     margin-left: 2px
 }
 
+.connection-3KRENF,.voiceUsers-YsH5Db {
+    padding-bottom: 4px
+}
+
 .voiceUsers-YsH5Db {
-    padding: 4px 0 0;
-    margin-left: -4px
+    padding-top: 2px
 }
 
 .actionButtons-14eAc_ {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 8px;
+    padding-top: 4px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between
@@ -73060,4 +73138,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a1134404e75644bd7538.css.map*/
+/*# sourceMappingURL=0.1ccb80eef53d4f490e57.css.map*/
