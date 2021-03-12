@@ -36883,7 +36883,9 @@ strong {
     font-size: 16px;
     line-height: 16px;
     padding-top: 6px;
-    padding-left: 8px
+    padding-left: 8px;
+    max-width: 200px;
+    overflow: hidden
 }
 
 .emojiAliasPlaceholder-3H_iZA:after,.emojiAliasPlaceholder-3H_iZA:before {
@@ -73218,4 +73220,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ec65aa48d99ac7ae3907.css.map*/
+/*# sourceMappingURL=0.f0f42a43652c720c0e41.css.map*/
