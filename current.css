@@ -20646,21 +20646,24 @@ html .progress-GjyFoQ {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 12px 16px;
-    -webkit-box-shadow: var(--elevation-low);
-    box-shadow: var(--elevation-low);
     z-index: 1
 }
 
-.searchBar-3VnLxg,.searchContainer-H0HeAc {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+.shadow-1g4H9H {
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low)
 }
 
 .searchBar-3VnLxg {
     margin-right: 8px;
-    height: 40px
+    height: 40px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .searchFilter-1463q2 {
@@ -20668,13 +20671,16 @@ html .progress-GjyFoQ {
 }
 
 .container-ZuOyTt {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: column
+}
+
+.container-ZuOyTt,.resultsContainer-3_Ba7o {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     height: 100%
 }
 
@@ -20684,6 +20690,13 @@ html .progress-GjyFoQ {
     padding-left: 16px;
     -ms-flex-preferred-size: 433px;
     flex-basis: 433px
+}
+
+.shopList-3PHg-H {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: auto
 }
 
 .closeButton-3zQgWY {
@@ -20734,7 +20747,8 @@ html .progress-GjyFoQ {
 
 .noSearchResults-cDtvb7 {
     padding-right: 16px;
-    height: 100%
+    height: 100%;
+    width: 100%
 }
 
 .sticker-w1FjV4 {
@@ -73220,4 +73234,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f0f42a43652c720c0e41.css.map*/
+/*# sourceMappingURL=0.8422ea84e75316cb8ba7.css.map*/
