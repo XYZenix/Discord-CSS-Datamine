@@ -49066,6 +49066,10 @@ a.ctaAnchor-3-8I3v:hover {
     border-radius: 0
 }
 
+.videoLayer-3hTtOT video {
+    -discord-video-composition: video-layer
+}
+
 .overlay-1YJlCn {
     -ms-flex-align: center;
     -webkit-box-pack: justify;
@@ -73284,4 +73288,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.70640b6c6f2b247fea5c.css.map*/
+/*# sourceMappingURL=0.e620363f81ddacdc21c0.css.map*/
