@@ -30445,6 +30445,105 @@ html .progress-GjyFoQ {
     height: 16px
 }
 
+.container-3S2Mdc {
+    position: absolute;
+    bottom: calc(100% + 5px);
+    right: 0
+}
+
+.tooltip-9LylEY {
+    width: 248px;
+    padding: 16px;
+    max-width: 280px;
+    background-color: var(--background-floating);
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+    border-radius: 5px;
+    text-align: center
+}
+
+@-webkit-keyframes bounce-14qOny {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes bounce-14qOny {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.tooltipImage-1zAEJj {
+    -webkit-animation: bounce-14qOny;
+    animation: bounce-14qOny;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    margin-top: -75px;
+    margin-bottom: 8px
+}
+
+.tooltipTextContainer-r-omBb {
+    margin-bottom: 16px
+}
+
+.tooltipHeader-3JcPfQ {
+    margin-bottom: 8px
+}
+
+.tooltipButtons-13O-V9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around
+}
+
+.tooltipBlankButton-1sjs8S {
+    color: var(--interactive-normal);
+    -webkit-transition: color .2s;
+    transition: color .2s
+}
+
+.tooltipBlankButton-1sjs8S:hover {
+    color: var(--interactive-active)
+}
+
+.tooltipPointer-2Z-d_n {
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    right: 52px;
+    border: 10px solid transparent;
+    border-top: 10px solid var(--background-floating)
+}
+
 .characterCount-1cRDo2 {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -73289,4 +73388,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.cbb766876fec4f613fe7.css.map*/
+/*# sourceMappingURL=0.f88bf5ca91e0f5ae3d7e.css.map*/
