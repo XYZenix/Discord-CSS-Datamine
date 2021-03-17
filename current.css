@@ -49420,6 +49420,51 @@ a.ctaAnchor-3-8I3v:hover {
     background-color: #202225
 }
 
+@-webkit-keyframes pulse-3zYHMZ {
+    0% {
+        border-color: hsla(0,0%,100%,0)
+    }
+
+    33% {
+        border-color: hsla(0,0%,100%,.16)
+    }
+
+    66%,to {
+        border-color: hsla(0,0%,100%,0)
+    }
+}
+
+@keyframes pulse-3zYHMZ {
+    0% {
+        border-color: hsla(0,0%,100%,0)
+    }
+
+    33% {
+        border-color: hsla(0,0%,100%,.16)
+    }
+
+    66%,to {
+        border-color: hsla(0,0%,100%,0)
+    }
+}
+
+.border-QJ09WQ {
+    border: 1px solid #fff;
+    border-radius: 50%
+}
+
+.innerContainer-1llEA-,.outerContainer-3FfmPk {
+    border: 20px solid hsla(0,0%,100%,0);
+    border-radius: 50%;
+    -webkit-animation: pulse-3zYHMZ 7.5s linear infinite;
+    animation: pulse-3zYHMZ 7.5s linear infinite
+}
+
+.outerContainer-3FfmPk {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s
+}
+
 .background-ujHpbY {
     width: 100%;
     height: 100%
@@ -66461,6 +66506,32 @@ html .invoiceCancelRow-3mYhFX {
     margin-top: 16px
 }
 
+.modalRoot-3CFA4t {
+    height: 478px
+}
+
+.header-17bQeH {
+    margin-top: 16px
+}
+
+.headerSubtitle-1rLiK5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.headerSubtitleIcon-1u5vaJ {
+    padding-right: 4px
+}
+
+.error-1xqs3z {
+    margin-left: 16px;
+    margin-right: 16px
+}
+
 .container-VSDcQc {
     border-radius: 5px;
     width: 250px;
@@ -73467,4 +73538,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9c17e1c69d5dced9bdc0.css.map*/
+/*# sourceMappingURL=0.28ff81c11ebd1db74c01.css.map*/
