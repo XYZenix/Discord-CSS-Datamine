@@ -25558,7 +25558,6 @@ html .progress-GjyFoQ {
 .base-PmTxvP {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border-radius: 8px;
     min-width: 16px;
     min-height: 16px;
     font-size: 12px;
@@ -25569,6 +25568,18 @@ html .progress-GjyFoQ {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto
+}
+
+.baseShapeRound-1Mm1YW {
+    border-radius: 8px
+}
+
+.baseShapeRoundLeft-ym85l3 {
+    border-radius: 8px 0 0 8px
+}
+
+.baseShapeRoundRight-1962en {
+    border-radius: 0 8px 8px 0
 }
 
 .numberBadge-2s8kKX {
@@ -25612,9 +25623,20 @@ html .progress-GjyFoQ {
 
 .live-vBWnV6 {
     padding: 0 6px;
-    border-radius: 16px;
     font-weight: 600;
     text-transform: uppercase
+}
+
+.live-vBWnV6,.liveShapeRound-32u79- {
+    border-radius: 16px
+}
+
+.liveShapeRoundLeft-Fg3Fev {
+    border-radius: 16px 0 0 16px
+}
+
+.liveShapeRoundRight-19jrQx {
+    border-radius: 0 16px 16px 0
 }
 
 .grey-nh6urR {
@@ -48884,6 +48906,44 @@ a.ctaAnchor-3-8I3v:hover {
 
 .tile-2naSqK.noBorder-PlNIZT {
     border-radius: 0
+}
+
+.qualityIndicator-mk1mca {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.qualityIndicatorFullQuality-39Z_0H {
+    color: #fff
+}
+
+.qualityIndicatorLowQuality-3VS_Sh {
+    color: #b9bbbe
+}
+
+.premiumStreamIcon-2oV917 {
+    color: #fff;
+    height: 14px;
+    width: 14px;
+    margin-right: 4px
+}
+
+.qualityResolution-2-unm0 {
+    margin-right: 4px
+}
+
+.streamQualityIndicator-2Te7mW {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.liveQualityIndicator-3XCjEU {
+    margin-right: 2px
 }
 
 .art-3wzoO6 {
@@ -73388,4 +73448,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f88bf5ca91e0f5ae3d7e.css.map*/
+/*# sourceMappingURL=0.eeb871c8031e6862aee0.css.map*/
