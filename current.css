@@ -48917,6 +48917,10 @@ a.ctaAnchor-3-8I3v:hover {
     align-items: center
 }
 
+.clickable-2Q9Vaa {
+    cursor: pointer
+}
+
 .qualityIndicatorFullQuality-39Z_0H {
     color: #fff
 }
@@ -51010,7 +51014,7 @@ a.ctaAnchor-3-8I3v:hover {
     padding-bottom: 400px
 }
 
-.container-2j8dvG,.requestToSpeakContainer-3YU4EO {
+.container-2j8dvG {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -51023,12 +51027,32 @@ a.ctaAnchor-3-8I3v:hover {
     align-items: center
 }
 
+.audienceButton-M5mD1c {
+    margin-right: 16px;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%
+}
+
+.audienceButton-M5mD1c,.requestToSpeakContainer-3YU4EO {
+    background-color: var(--background-tertiary)
+}
+
 .requestToSpeakContainer-3YU4EO {
     margin-top: -4px;
     margin-bottom: -4px;
     height: 64px;
     border-radius: 32px;
-    background-color: var(--background-tertiary)
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .requestToSpeakDescriptionContainer-3-tb15 {
@@ -73562,4 +73586,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b7188ffb5e626afc4d2f.css.map*/
+/*# sourceMappingURL=0.70a90daa9b002d99a7e7.css.map*/
