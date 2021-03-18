@@ -49425,11 +49425,11 @@ a.ctaAnchor-3-8I3v:hover {
         border-color: hsla(0,0%,100%,0)
     }
 
-    33% {
+    25% {
         border-color: hsla(0,0%,100%,.16)
     }
 
-    66%,to {
+    50%,to {
         border-color: hsla(0,0%,100%,0)
     }
 }
@@ -49439,11 +49439,11 @@ a.ctaAnchor-3-8I3v:hover {
         border-color: hsla(0,0%,100%,0)
     }
 
-    33% {
+    25% {
         border-color: hsla(0,0%,100%,.16)
     }
 
-    66%,to {
+    50%,to {
         border-color: hsla(0,0%,100%,0)
     }
 }
@@ -49456,15 +49456,15 @@ a.ctaAnchor-3-8I3v:hover {
 .innerContainer-1llEA-,.outerContainer-3FfmPk {
     border: 20px solid hsla(0,0%,100%,0);
     border-radius: 50%;
-    -webkit-animation: pulse-3zYHMZ .75s linear infinite;
-    animation: pulse-3zYHMZ .75s linear infinite;
+    -webkit-animation: pulse-3zYHMZ 2s linear infinite;
+    animation: pulse-3zYHMZ 2s linear infinite;
     -webkit-animation-timing-function: cubic-bezier(.4,0,1,1);
     animation-timing-function: cubic-bezier(.4,0,1,1)
 }
 
 .outerContainer-3FfmPk {
-    -webkit-animation-delay: .1s;
-    animation-delay: .1s
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s
 }
 
 .background-ujHpbY {
@@ -51007,7 +51007,7 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .spacer-2ne1bb {
-    padding-bottom: 240px
+    padding-bottom: 400px
 }
 
 .container-2j8dvG,.requestToSpeakContainer-3YU4EO {
@@ -73562,4 +73562,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.68a8b794f1551343de48.css.map*/
+/*# sourceMappingURL=0.b7188ffb5e626afc4d2f.css.map*/
