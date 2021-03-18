@@ -49429,7 +49429,7 @@ a.ctaAnchor-3-8I3v:hover {
         border-color: hsla(0,0%,100%,.16)
     }
 
-    66%,to {
+    to {
         border-color: hsla(0,0%,100%,0)
     }
 }
@@ -49443,26 +49443,28 @@ a.ctaAnchor-3-8I3v:hover {
         border-color: hsla(0,0%,100%,.16)
     }
 
-    66%,to {
+    to {
         border-color: hsla(0,0%,100%,0)
     }
 }
 
 .border-QJ09WQ {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 50%
 }
 
 .innerContainer-1llEA-,.outerContainer-3FfmPk {
     border: 20px solid hsla(0,0%,100%,0);
     border-radius: 50%;
-    -webkit-animation: pulse-3zYHMZ 7.5s linear infinite;
-    animation: pulse-3zYHMZ 7.5s linear infinite
+    -webkit-animation: pulse-3zYHMZ .75s linear infinite;
+    animation: pulse-3zYHMZ .75s linear infinite;
+    -webkit-animation-timing-function: cubic-bezier(.4,0,1,1);
+    animation-timing-function: cubic-bezier(.4,0,1,1)
 }
 
 .outerContainer-3FfmPk {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s
 }
 
 .background-ujHpbY {
@@ -50842,16 +50844,13 @@ a.ctaAnchor-3-8I3v:hover {
     margin-top: 8px
 }
 
-.divider-yptg8N {
-    background-color: var(--channeltextarea-background)
-}
-
-.topic-3gMffX {
-    margin-left: 8px
-}
-
 .participants-1e7HCI {
-    color: var(--interactive-normal)
+    color: var(--interactive-normal);
+    padding-left: 0
+}
+
+.icon-1FO5mc {
+    margin-left: 0
 }
 
 .tileContainer-BaRAZF {
@@ -50915,6 +50914,31 @@ a.ctaAnchor-3-8I3v:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
     grid-auto-flow: row
+}
+
+.container-2t1JyW {
+    margin-bottom: 16px
+}
+
+.title-2eOBcL {
+    font-weight: 600
+}
+
+.subtitle-1ydIDA {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.icon-3QjGWS {
+    margin-right: 4px
 }
 
 .container-1KVp62 {
@@ -73538,4 +73562,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.28ff81c11ebd1db74c01.css.map*/
+/*# sourceMappingURL=0.877719f65a886b48959a.css.map*/
