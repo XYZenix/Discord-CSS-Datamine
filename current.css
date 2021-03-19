@@ -25627,7 +25627,7 @@ html .progress-GjyFoQ {
     text-transform: uppercase
 }
 
-.live-vBWnV6,.liveShapeRound-32u79- {
+.liveShapeRound-32u79- {
     border-radius: 16px
 }
 
@@ -28029,6 +28029,10 @@ html .progress-GjyFoQ {
     border-left: 1px solid var(--background-modifier-accent);
     padding-left: 8px;
     color: var(--text-muted)
+}
+
+.disabled-2hyQpT {
+    opacity: .3
 }
 
 .wrapper-uf3cnO {
@@ -48943,7 +48947,13 @@ a.ctaAnchor-3-8I3v:hover {
 .streamQualityIndicator-2Te7mW {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    overflow: hidden
+}
+
+.liveIndicator-3FNmiB {
+    position: relative;
+    overflow: hidden
 }
 
 .liveQualityIndicator-3XCjEU {
@@ -73586,4 +73596,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.70a90daa9b002d99a7e7.css.map*/
+/*# sourceMappingURL=0.cbaebaa67117cd65e65d.css.map*/
