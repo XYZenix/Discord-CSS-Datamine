@@ -15550,85 +15550,38 @@ img[alt] {
     min-height: 32px
 }
 
-.image-3wZlK5 {
+.image-3wFWIj {
     width: 156px;
     height: 137px
 }
 
-.text-2F8PnX {
+.text-ojZtuK {
 }
 
-.theme-dark .image-3wZlK5 {
+.theme-dark .image-3wFWIj {
     background-image: url(/assets/fb6a21ef85b63dec6e7c01c683904e8f.svg)
 }
 
-.theme-light .image-3wZlK5 {
+.theme-light .image-3wFWIj {
     background-image: url(/assets/97e866482f43d3ebd2496641cd934904.svg)
 }
 
-.wrapper-3JPufy {
-    position: relative
-}
-
-.inner-2Y6JuD {
-    width: 52px;
-    height: 52px;
-    border: 1px solid rgba(153,170,181,.3);
-    border-radius: 5px;
-    background-size: 36px 36px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
-}
-
-.inner-2Y6JuD:hover {
-    background-color: rgba(153,170,181,.3);
-    cursor: pointer
-}
-
-.inner-2Y6JuD:disabled {
-    opacity: .3;
-    pointer-events: none
-}
-
-.ellipsis-3JqXfv {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0
-}
-
-.spinnerItem-3JjAoz {
-    background-color: #4f545c
-}
-
-.theme-dark .inner-2Y6JuD,.theme-light .inner-2Y6JuD {
-    background-color: transparent
-}
-
-.theme-dark .inner-2Y6JuD:hover,.theme-light .inner-2Y6JuD:hover {
-    border-color: transparent
-}
-
-.spotifyButtonLogo-1El5JQ {
+.spotifyButtonLogo-3uT57D {
     width: 16px;
     height: 16px;
     margin-right: 8px
 }
 
-.listenAlongIcon-2vb1HG {
+.listenAlongIcon-2TkOLH {
     width: 24px;
     height: 24px
 }
 
-.iconButton-285DXF {
+.iconButton-3ucJ7a {
     padding: 0
 }
 
-.iconButtonSize-3s24uQ {
+.iconButtonSize-8raSoG {
     min-width: 32px;
     max-width: 32px
 }
@@ -38590,6 +38543,53 @@ strong {
 
 .theme-dark .tag-3-bjbr {
     background-color: var(--background-accent)
+}
+
+.wrapper-3JPufy {
+    position: relative
+}
+
+.inner-2Y6JuD {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(153,170,181,.3);
+    border-radius: 5px;
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.inner-2Y6JuD:hover {
+    background-color: rgba(153,170,181,.3);
+    cursor: pointer
+}
+
+.inner-2Y6JuD:disabled {
+    opacity: .3;
+    pointer-events: none
+}
+
+.ellipsis-3JqXfv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.spinnerItem-3JjAoz {
+    background-color: #4f545c
+}
+
+.theme-dark .inner-2Y6JuD,.theme-light .inner-2Y6JuD {
+    background-color: transparent
+}
+
+.theme-dark .inner-2Y6JuD:hover,.theme-light .inner-2Y6JuD:hover {
+    border-color: transparent
 }
 
 .buttonFlexContainer-3I-FUG {
@@ -73611,4 +73611,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.20d9decfa575fb9376ea.css.map*/
+/*# sourceMappingURL=0.d252373cea034c19b835.css.map*/
