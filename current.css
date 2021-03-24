@@ -28118,6 +28118,43 @@ html .progress-GjyFoQ {
     opacity: .3
 }
 
+.upsell-1vK3zR {
+    margin-top: -4px;
+    margin-bottom: -4px
+}
+
+.emojis-15d8FD {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.emojiMask-7xUG7F {
+    left: 4px;
+    position: relative
+}
+
+.emojiBackground-wnY1bZ {
+    background-color: var(--background-tertiary);
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 24px;
+    width: 24px
+}
+
+.emoji-20Hm2a {
+    height: 16px;
+    width: 16px
+}
+
 .wrapper-uf3cnO {
     background-color: var(--background-tertiary);
     width: 56px;
@@ -73541,4 +73578,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b8bc6b0fa0ac1b0916ba.css.map*/
+/*# sourceMappingURL=0.119b9bad323e05042dce.css.map*/
