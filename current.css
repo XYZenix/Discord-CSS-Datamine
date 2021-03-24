@@ -51646,7 +51646,78 @@ a.ctaAnchor-3-8I3v:hover {
     padding-bottom: 400px
 }
 
-.container-2j8dvG {
+.content-2MHbqU {
+    padding-top: 40px
+}
+
+.stageIconBackground-5uF4K9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #2f3136;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%
+}
+
+.headerTitle-xJ20KD {
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px
+}
+
+.headerSubtitle-1I1MS0 {
+    text-align: center;
+    margin-bottom: 32px
+}
+
+.formItem-pGBLfU {
+    width: 100%;
+    margin-bottom: 32px
+}
+
+.textInput-2xgsSa {
+    background-color: #2f3136;
+    border-radius: 4px
+}
+
+.cancelButton-1URDrd {
+    margin-right: 8px
+}
+
+.buttonsContainer-ssz-RC {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.container-oZq3fb {
+    width: 400px;
+    border-radius: 12px;
+    background-color: var(--background-secondary);
+    cursor: pointer;
+    padding: 16px;
+    margin-bottom: 40px;
+    position: absolute;
+    bottom: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -51657,6 +51728,40 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center
+}
+
+.title-1TBybU {
+    color: var(--header-primary)
+}
+
+.textContainer-1u8lqv {
+    margin-left: 16px
+}
+
+.rightIcon-2hfqn2 {
+    margin-left: auto
+}
+
+.containerColumn-1Wj-gZ {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.container-2j8dvG,.containerColumn-1Wj-gZ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.container-2j8dvG {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row
 }
 
 .audienceButton-M5mD1c,.makeMeASpeakerButton-2_Cz3b {
@@ -51773,77 +51878,6 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center
-}
-
-.container-2-WIeg {
-    height: 100%;
-    width: 100%;
-    background-image: url(/assets/a9f6bd0a103d64e943a460338a61868f.png)
-}
-
-.centeredText-Y_Aze6,.container-2-WIeg {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column
-}
-
-.centeredText-Y_Aze6 {
-    width: 400px
-}
-
-.stageIconBackground-2b1PtR {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #2f3136;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%
-}
-
-.headerTitle-3bslRD {
-    text-align: center;
-    margin-bottom: 8px;
-    margin-top: 8px
-}
-
-.headerSubtitle-1CNefI {
-    text-align: center;
-    margin-bottom: 32px
-}
-
-.formItem-IIMfGc {
-    width: 100%;
-    margin-bottom: 32px
-}
-
-.textInput-H-qW9U {
-    background-color: #2f3136;
-    border-radius: 4px
-}
-
-.button-NFleH6 {
-    width: 100%
 }
 
 .container-pTf0Ly {
@@ -73476,7 +73510,6 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .mainNavLink-1SwQrC:hover {
-  
     color: #f6f6f7
 }
 
@@ -73504,4 +73537,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6098ac2be647d695b77f.css.map*/
+/*# sourceMappingURL=0.56f2f028b45d9806f4a5.css.map*/
