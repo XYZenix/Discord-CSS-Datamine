@@ -41490,6 +41490,10 @@ strong {
     width: 80px
 }
 
+.stageIcon-165KZv {
+    color: var(--header-primary)
+}
+
 .headerTitle-lsNnIA {
     text-align: center;
     margin-bottom: 8px;
@@ -41563,6 +41567,10 @@ strong {
     border-radius: 50%;
     height: 80px;
     width: 80px
+}
+
+.stageIcon-A2C70A {
+    color: var(--header-primary)
 }
 
 .headerTitle-xJ20KD {
@@ -73669,4 +73677,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8bb031091e863df5d69a.css.map*/
+/*# sourceMappingURL=0.5c4282e597c60c5596d0.css.map*/
