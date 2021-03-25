@@ -13802,7 +13802,8 @@ img[alt] {
 }
 
 .repliedTextPlaceholder-dmN7D1,.threadMessageAccessoryPlaceholder-2pTLxK {
-    font-style: italic
+    font-style: italic;
+    padding-right: 2px
 }
 
 .repliedTextContentIcon-1ivTae,.threadMessageAccessoryContentIcon-1QAVEG {
@@ -13811,7 +13812,7 @@ img[alt] {
     flex: 0 0 auto;
     width: 20px;
     height: 20px;
-    margin-left: 6px
+    margin-left: 4px
 }
 
 .compact-T3H92H .contents-2mQqc9 {
@@ -73668,4 +73669,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2bdaf3b895ce0a94b473.css.map*/
+/*# sourceMappingURL=0.8bb031091e863df5d69a.css.map*/
