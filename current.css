@@ -29575,6 +29575,47 @@ html .progress-GjyFoQ {
     margin-bottom: -8px
 }
 
+.closeButton-2vFjP4 {
+    position: absolute;
+    top: 4px;
+    right: 4px
+}
+
+.content-3xEmRL {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px
+}
+
+.image-12eogT {
+    width: 120px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.header-2OWtC9 {
+    margin-top: 16px;
+    margin-bottom: 8px
+}
+
+.theme-dark .image-12eogT {
+    background-image: url(/assets/222e7361d9f298ecb525cb9d9d9d7312.svg)
+}
+
+.theme-light .image-12eogT {
+    background-image: url(/assets/9cbfe5105fc5f29ef4e659059ee01a46.svg)
+}
+
 .autocomplete-3l_oCd {
     border-radius: 5px;
     -webkit-box-shadow: var(--elevation-stroke),var(--elevation-high);
@@ -73643,4 +73684,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.eacbe77e586cddbbfd8d.css.map*/
+/*# sourceMappingURL=0.493c14ac3c070077f7db.css.map*/
