@@ -10417,7 +10417,8 @@ img[alt] {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    max-height: 660px
+    max-height: 660px;
+    height: 100%
 }
 
 .modalHeader-3heSN8 {
@@ -73684,4 +73685,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.493c14ac3c070077f7db.css.map*/
+/*# sourceMappingURL=0.93e6a4ad69c1f25531cf.css.map*/
