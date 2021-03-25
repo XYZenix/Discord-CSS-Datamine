@@ -53027,7 +53027,8 @@ a.ctaAnchor-3-8I3v:hover {
     border-radius: 5px;
     font-size: 16px;
     line-height: 20px;
-    padding: 8px 12px
+    padding: 8px 12px;
+    overflow-wrap: break-word
 }
 
 .tooltipPointer-lElcog {
@@ -53052,7 +53053,8 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .text-3EzEiT {
-    margin-right: 4px
+    margin-right: 4px;
+    min-width: 0
 }
 
 .spinner-2_i11Y {
@@ -73666,4 +73668,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.82d32b1e26989eb083e6.css.map*/
+/*# sourceMappingURL=0.2bdaf3b895ce0a94b473.css.map*/
