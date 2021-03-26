@@ -41365,15 +41365,22 @@ strong {
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
-    white-space: nowrap;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto
 }
 
-.subtitle-3V1p2E {
+.channelName-2YrOjO {
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis
+}
+
+.subtitle-3V1p2E {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden
 }
 
 .unread-2lAfLh {
@@ -42801,11 +42808,14 @@ strong {
 }
 
 .dotDivider-1W5oqM {
+    margin-left: 4px;
     margin-right: 4px
 }
 
-.dotDivider-1W5oqM,.userNames-3GptEj {
-    margin-left: 4px
+.userNames-3GptEj {
+    margin-left: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis
 }
 
 .joinButton-7Fa-WN {
@@ -73846,4 +73856,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.71b818d6c3c9c4347be3.css.map*/
+/*# sourceMappingURL=0.97e4b6d73f55cd93012e.css.map*/
