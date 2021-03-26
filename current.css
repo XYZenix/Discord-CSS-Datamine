@@ -52079,6 +52079,98 @@ a.ctaAnchor-3-8I3v:hover {
     text-align: center
 }
 
+.content-ZVP-cK {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 32px
+}
+
+.bulletContainer-BgDh6e {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 24px
+}
+
+.bulletContainer-BgDh6e,.iconContainer-2aaq6z {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.iconContainer-2aaq6z {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: var(--background-tertiary);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px
+}
+
+.bulletIcon-3bl_jj {
+    color: var(--header-primary);
+    padding: 12px
+}
+
+.bulletText-2mfMVi {
+    margin-left: 16px
+}
+
+.headerTitle-2xNrT- {
+    text-align: center;
+    margin-bottom: 24px
+}
+
+.button-2sIstc {
+    margin-top: 8px;
+    width: 100%
+}
+
+.icon-3iGRtr {
+    margin-right: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.illustration-2Gd58g {
+    width: 300px;
+    margin: auto auto 24px
+}
+
+.red-C3U0Zq {
+    color: #f04747
+}
+
 .container-pTf0Ly {
     -webkit-box-orient: horizontal;
     -ms-flex-direction: row;
@@ -73715,4 +73807,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e6498aa0269c34808451.css.map*/
+/*# sourceMappingURL=0.c729d5d55bac6299a7ef.css.map*/
