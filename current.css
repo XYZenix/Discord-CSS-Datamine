@@ -41609,7 +41609,8 @@ strong {
 
 .textInput-2xgsSa {
     background-color: var(--background-secondary);
-    border-radius: 4px
+    border-radius: 4px;
+    margin-bottom: 8px
 }
 
 .cancelButton-1URDrd {
@@ -51938,6 +51939,10 @@ a.ctaAnchor-3-8I3v:hover {
     align-items: center
 }
 
+.container-oZq3fb:hover {
+    background-color: var(--background-primary)
+}
+
 .title-1TBybU {
     color: var(--header-primary)
 }
@@ -51947,7 +51952,14 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .rightIcon-2hfqn2 {
-    margin-left: auto
+    margin-left: auto;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg)
+}
+
+.greenIcon-1ZeVJZ {
+    height: 100%;
+    padding-bottom: 6px
 }
 
 .containerColumn-1Wj-gZ {
@@ -73817,4 +73829,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3bb5bcb861622dc34069.css.map*/
+/*# sourceMappingURL=0.7e353fbc99f1d4aadf4e.css.map*/
