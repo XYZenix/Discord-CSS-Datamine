@@ -51980,33 +51980,6 @@ a.ctaAnchor-3-8I3v:hover {
     margin-right: 16px
 }
 
-.requestToSpeakContainer-3YU4EO {
-    margin-top: -4px;
-    margin-bottom: -4px;
-    height: 64px;
-    border-radius: 32px;
-    background-color: var(--background-tertiary);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.requestToSpeakDescriptionContainer-3-tb15 {
-    padding-left: 16px;
-    display: grid;
-    grid-template-areas: "icon title" "icon description";
-    -webkit-column-gap: 8px;
-    -moz-column-gap: 8px;
-    column-gap: 8px
-}
-
 .requestToSpeakIcon-1BjGfe {
     grid-area: icon;
     margin: auto
@@ -52014,16 +51987,6 @@ a.ctaAnchor-3-8I3v:hover {
 
 .slash-3wynFg {
     color: #f04747
-}
-
-.requestToSpeakTitle-1jHxM9 {
-    grid-area: title;
-    font-weight: 600
-}
-
-.requestToSpeakDescription-1QF1DX {
-    grid-area: description;
-    white-space: nowrap
 }
 
 .leaveQuietlyButton-1yMc0b {
@@ -73851,4 +73814,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8abb2c9d3e75147a4f73.css.map*/
+/*# sourceMappingURL=0.dba24b59f42d63a4d052.css.map*/
