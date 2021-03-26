@@ -52083,6 +52083,9 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-orient: horizontal;
     -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
     background-color: var(--background-secondary)
 }
 
@@ -73712,4 +73715,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.dc6f6421763a47dc80c3.css.map*/
+/*# sourceMappingURL=0.e6498aa0269c34808451.css.map*/
