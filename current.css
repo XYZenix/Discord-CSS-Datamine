@@ -51546,17 +51546,23 @@ a.ctaAnchor-3-8I3v:hover {
     width: 320px;
     -ms-flex-negative: 0;
     flex-shrink: 0;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     background-color: var(--background-primary)
 }
 
-.headerContainer-3Dbfbk {
+.container-1EOCj2,.headerContainer-3Dbfbk {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-direction: normal
+}
+
+.headerContainer-3Dbfbk {
     -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-align: center;
@@ -51756,19 +51762,13 @@ a.ctaAnchor-3-8I3v:hover {
 .text-2wY55Y {
     margin-top: 8px;
     text-align: center;
-    width: 86px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: 80px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
 }
 
 .icon-3z8ito {
@@ -73829,4 +73829,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e3295856158eeb49a5cc.css.map*/
+/*# sourceMappingURL=0.9d9f16f6fbb0cc0a0259.css.map*/
