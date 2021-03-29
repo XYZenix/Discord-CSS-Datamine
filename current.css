@@ -52191,7 +52191,7 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-orient: vertical;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #18191c
+    background-color: var(--background-floating)
 }
 
 .sidebarVisible-F3zEoe {
@@ -73842,4 +73842,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.eeb3c0a1a19c484f1b98.css.map*/
+/*# sourceMappingURL=0.43e4d55cae5f8ec50394.css.map*/
