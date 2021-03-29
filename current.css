@@ -42802,7 +42802,10 @@ strong {
 
 .eventName-2YgbEu {
     margin-bottom: 4px;
-    font-weight: 600
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
 }
 
 .channelName-JY9Cr0,.eventName-2YgbEu {
@@ -51723,6 +51726,10 @@ a.ctaAnchor-3-8I3v:hover {
 
 .emptyStateBody-2qGLUo {
     margin-top: 8px
+}
+
+.toggle-3djVTx {
+    margin-top: 20px
 }
 
 .participants-1e7HCI {
@@ -73842,4 +73849,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.43e4d55cae5f8ec50394.css.map*/
+/*# sourceMappingURL=0.fe5633944ec022568d58.css.map*/
