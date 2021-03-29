@@ -51758,16 +51758,35 @@ a.ctaAnchor-3-8I3v:hover {
     background-color: var(--background-tertiary)
 }
 
-.text-2wY55Y {
+.textContainer-3dhW-4 {
     margin-top: 8px;
-    text-align: center;
-    width: 80px;
+    max-width: 102px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: center
+}
+
+.text-2wY55Y {
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap
+    white-space: nowrap;
+    max-width: 75px;
+    text-align: center
+}
+
+.boost-3TdRZp {
+    width: 8px;
+    margin-left: 4px
 }
 
 .icon-3z8ito {
@@ -51781,11 +51800,6 @@ a.ctaAnchor-3-8I3v:hover {
     position: absolute;
     right: 0;
     top: 0
-}
-
-.boost-3TdRZp {
-    width: 12px;
-    margin-left: 4px
 }
 
 .participants-soO0aD {
@@ -73828,4 +73842,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.942d5ea17ccc7b396f3b.css.map*/
+/*# sourceMappingURL=0.eeb3c0a1a19c484f1b98.css.map*/
