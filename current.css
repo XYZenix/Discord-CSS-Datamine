@@ -42819,6 +42819,18 @@ strong {
     margin-right: 4px
 }
 
+.liveIndicator-11vCOL {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #43b581
+}
+
+.stageIcon-3DmINn {
+    color: var(--header-secondary);
+    margin-right: 4px
+}
+
 .userNames-3GptEj {
     margin-left: 4px;
     overflow: hidden;
@@ -66617,7 +66629,8 @@ html .invoiceCancelRow-3mYhFX {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    background-color: var(--background-secondary-alt)
+    background-color: var(--background-secondary-alt);
+    z-index: 1
 }
 
 .content-98HsJk {
@@ -73850,4 +73863,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6549ae7a3f6a061716fa.css.map*/
+/*# sourceMappingURL=0.1c4bf5c8d91863772f09.css.map*/
