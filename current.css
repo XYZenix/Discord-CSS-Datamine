@@ -51704,12 +51704,24 @@ a.ctaAnchor-3-8I3v:hover {
 
 .participantMemberContainer-3JuhCc {
     margin-right: auto;
-    cursor: pointer
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.participantAvatar-2CxvNm {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
 }
 
 .participantName-1SXKIB {
     margin-left: 16px;
-    color: var(--header-primary)
+    margin-right: 8px;
+    color: var(--header-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
 }
 
 .divider-3I8NVc {
@@ -73865,4 +73877,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9ef2f3d9cf16344e86e8.css.map*/
+/*# sourceMappingURL=0.4e6cd7a09c531917d57f.css.map*/
