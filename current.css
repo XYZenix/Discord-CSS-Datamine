@@ -2468,11 +2468,11 @@
 }
 
 .backdrop-1wrmKB {
-    z-index: 1000;
-    opacity: 0
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
 }
 
-.backdrop-1wrmKB,.backdropWithLayer-3_uhz4 {
+.backdrop-1wrmKB,.clickable-1OzUDz {
     position: fixed;
     top: 0;
     right: 0;
@@ -2480,7 +2480,7 @@
     left: 0
 }
 
-.backdropWithLayer-3_uhz4 {
+.clickable-1OzUDz {
     pointer-events: all
 }
 
@@ -73877,4 +73877,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4e6cd7a09c531917d57f.css.map*/
+/*# sourceMappingURL=0.7bc55929c79064638f72.css.map*/
