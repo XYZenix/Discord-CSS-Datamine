@@ -2427,8 +2427,7 @@
 }
 
 .content-3YMskv {
-    position: relative;
-    overflow: hidden
+    position: relative
 }
 
 .scrolling-1Cdwk- .content-3YMskv {
@@ -51648,7 +51647,7 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .selfSpeakerContainer-qt7ckS {
-    margin-top: 16px;
+    padding-top: 16px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -51711,13 +51710,13 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .listTitle-3x9PAq {
-    margin-top: 24px;
+    padding-top: 24px;
     font-weight: 700;
     text-transform: uppercase
 }
 
 .participantRowContainer-2LfSyI {
-    margin-top: 8px;
+    padding-top: 8px;
     height: 40px
 }
 
@@ -51756,11 +51755,6 @@ a.ctaAnchor-3-8I3v:hover {
     text-overflow: ellipsis
 }
 
-.divider-3I8NVc {
-    margin-top: 24px;
-    margin-bottom: 24px
-}
-
 .emptyStateContainer-ExQMn0 {
     padding-top: 32px;
     padding-bottom: 24px;
@@ -51787,7 +51781,7 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .toggle-3djVTx {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 0
 }
 
@@ -73909,4 +73903,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ef47cd239297fc753d0f.css.map*/
+/*# sourceMappingURL=0.eacba56c390fd66e355f.css.map*/
