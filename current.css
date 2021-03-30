@@ -2427,7 +2427,8 @@
 }
 
 .content-3YMskv {
-    position: relative
+    position: relative;
+    overflow: hidden
 }
 
 .scrolling-1Cdwk- .content-3YMskv {
@@ -51742,7 +51743,8 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .toggle-3djVTx {
-    margin-top: 20px
+    margin-top: 20px;
+    margin-bottom: 0
 }
 
 .participants-1e7HCI {
@@ -73863,4 +73865,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1c4bf5c8d91863772f09.css.map*/
+/*# sourceMappingURL=0.9ef2f3d9cf16344e86e8.css.map*/
