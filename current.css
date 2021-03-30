@@ -51847,7 +51847,7 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .roleContainer-8-Ld9g {
-    margin-top: 40px;
+    padding-top: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -51858,7 +51858,7 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 8px
+    padding-bottom: 8px
 }
 
 .roleName-rabVQI {
@@ -51874,8 +51874,8 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .container-2t1JyW {
-    margin-bottom: 16px;
-    margin-top: 96px
+    padding-bottom: 16px;
+    padding-top: 96px
 }
 
 .title-2eOBcL {
@@ -73877,4 +73877,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7bc55929c79064638f72.css.map*/
+/*# sourceMappingURL=0.aa8df048367e676d3a80.css.map*/
