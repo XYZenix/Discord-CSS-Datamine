@@ -2467,19 +2467,16 @@
 }
 
 .backdrop-1wrmKB {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0)
-}
-
-.backdrop-1wrmKB,.clickable-1OzUDz {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0
+    left: 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
 }
 
-.clickable-1OzUDz {
+.backdrop-1wrmKB.withLayer-RoELSG {
     pointer-events: all
 }
 
@@ -8423,6 +8420,7 @@ img[alt] {
 }
 
 .content-sp-7A3 {
+    height: 100%;
     padding-bottom: 20px
 }
 
@@ -8439,13 +8437,19 @@ img[alt] {
     margin-bottom: 20px
 }
 
+.sequencer-FWouqi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
 @media (max-width: 485px) and (max-height:450px) {
     .form-77IDep {
         display:block
-    }
-
-    .content-sp-7A3 {
-        height: auto
     }
 }
 
@@ -9854,18 +9858,36 @@ img[alt] {
 }
 
 .sequencer-2GXxB2 {
+    flex-direction: column
+}
+
+.sequencer-2GXxB2,.sequencerStatic-UthWGP {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column
 }
 
-.sequencerInner-3_gwOO {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto
+.sequencerAnimatedNode-GEjG0S,.sequencerStatic-UthWGP {
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.sequencerAnimatedNode-GEjG0S {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    min-height: 0
 }
 
 .skuButtons-3KnDcG {
@@ -10417,7 +10439,8 @@ img[alt] {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    max-height: 660px
+    max-height: 660px;
+    height: 100%
 }
 
 .modalHeader-3heSN8 {
@@ -73903,4 +73926,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.eacba56c390fd66e355f.css.map*/
+/*# sourceMappingURL=0.2bf5f97d7777844baeff.css.map*/
