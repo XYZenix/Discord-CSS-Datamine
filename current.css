@@ -53234,11 +53234,6 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .tooltip-BPhxJN {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
     background-color: var(--background-floating);
@@ -53269,11 +53264,6 @@ a.ctaAnchor-3-8I3v:hover {
 .mention-z5tRxB {
     background: none;
     padding: 0
-}
-
-.text-3EzEiT {
-    margin-right: 4px;
-    min-width: 0
 }
 
 .spinner-2_i11Y {
@@ -73926,4 +73916,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6fd2f9f89911ce23f9db.css.map*/
+/*# sourceMappingURL=0.539a6d6e493656da71d7.css.map*/
