@@ -43045,6 +43045,21 @@ strong {
     color: #ff73fa
 }
 
+.badge-pO-iEl {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #f04747;
+    right: 6px;
+    bottom: 6px;
+    border: 1px solid var(--background-floating);
+    border-radius: 50%
+}
+
+.badge-pO-iEl.focused-3BasNh {
+    color: var(--header-primary)
+}
+
 .channelNotice-1-XFjC {
     position: relative;
     text-align: center;
@@ -74350,4 +74365,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.86d983501335f36ebf7f.css.map*/
+/*# sourceMappingURL=0.812a8ee05168c6f61b65.css.map*/
