@@ -5342,6 +5342,73 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     background-color: var(--background-modifier-accent)
 }
 
+.container-2SuFUc {
+    position: absolute;
+    margin: 8px;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    white-space: pre;
+    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
+    font-size: 10px;
+    background-color: var(--background-secondary);
+    border: 1px solid #b9bbee;
+    border-radius: 3px;
+    color: #b9bbee;
+    pointer-events: all;
+    z-index: 1001;
+    min-height: 5em;
+    width: 320px
+}
+
+.containerTracked-2Hsjz_ {
+    border-color: #43b581;
+    color: #747f8d
+}
+
+.containerMinimized-3FMdcw {
+    width: auto;
+    min-height: auto
+}
+
+.content-3Xc0iT {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    min-height: 5em
+}
+
+.contentMinimized-2138DT {
+    display: none
+}
+
+.label-1AJL-4 {
+    display: block
+}
+
+.log-1JXqzj {
+    margin-bottom: 8px;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text
+}
+
+.minimizeButton-jig842 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px;
+    cursor: pointer
+}
+
 .downloadApps-wbBFdZ {
     border-radius: 5px;
     min-width: 880px;
@@ -74412,4 +74479,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.37df5b6b7a11f4789c07.css.map*/
+/*# sourceMappingURL=0.64e40a533a0e2ef32bc1.css.map*/
