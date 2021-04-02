@@ -42460,7 +42460,10 @@ strong {
 }
 
 .authorName-2_A-Lf {
-    font-weight: 600
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-weight: 600;
+    max-width: 150px
 }
 
 .messageContent-19B5yF {
@@ -42693,10 +42696,11 @@ strong {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     left: 16px;
+    max-width: 300px;
+    min-width: 220px;
     padding: 8px 16px;
     position: absolute;
-    top: 0;
-    width: 240px
+    top: 0
 }
 
 .title-3JU2Q6 {
@@ -42723,11 +42727,18 @@ strong {
     cursor: pointer
 }
 
+.icon-1ywqfZ,.timestamp-25yOdb {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
 .name-1Rd7lI {
     margin-left: 8px;
-    max-width: 180px;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+.name-1Rd7lI,.timestamp-25yOdb {
     white-space: nowrap
 }
 
@@ -54352,6 +54363,34 @@ a.ctaAnchor-3-8I3v:hover {
     background: rgba(250,166,26,.3)
 }
 
+.chatHeaderBar-4vZS1x {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--background-secondary-alt);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8px 16px
+}
+
+.narrow-1f-G-z {
+    padding: 12px 16px
+}
+
+.chatHeaderBarText-1_O_1M {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.chatHeaderBarButton-UiIh3z {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: 16px
+}
+
 .wrapper-39oAo3 {
     position: relative;
     z-index: 1;
@@ -55089,34 +55128,6 @@ a.ctaAnchor-3-8I3v:hover {
 
 .content-38qMG0 {
     padding-bottom: 20px
-}
-
-.chatHeaderBar-4vZS1x {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: var(--background-secondary-alt);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 8px 16px
-}
-
-.narrow-1f-G-z {
-    padding: 12px 16px
-}
-
-.chatHeaderBarText-1_O_1M {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1
-}
-
-.chatHeaderBarButton-UiIh3z {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin-left: 16px
 }
 
 .chat-1iumcD {
@@ -74541,4 +74552,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.be6d37c89c239da4693d.css.map*/
+/*# sourceMappingURL=0.82661a18012ed7b964c2.css.map*/
