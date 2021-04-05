@@ -31471,13 +31471,21 @@ html .progress-GjyFoQ {
 }
 
 .button-1-5Aqk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
     border-radius: 50%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    cursor: pointer;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    padding: 8px
+    cursor: pointer
 }
 
 .primary-2McadE {
@@ -74652,4 +74660,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c17e48cda15e28a34ba7.css.map*/
+/*# sourceMappingURL=0.09320e2e7828218d83ce.css.map*/
