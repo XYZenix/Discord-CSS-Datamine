@@ -14182,6 +14182,10 @@ img[alt] {
     font-weight: 500
 }
 
+.timestampInline-yHQ6fX {
+    margin-left: .25rem
+}
+
 .timestamp-3ZCmNB.latin12CompactTimeStamp-38a8OU {
     width: 2.25rem
 }
@@ -14202,8 +14206,7 @@ img[alt] {
     font-size: 0.75rem;
     line-height: 1.375rem;
     color: var(--text-muted);
-    vertical-align: baseline;
-    margin-left: .25rem
+    vertical-align: baseline
 }
 
 .background-opacity-high .cozy-3raOZG .timestamp-3ZCmNB,.background-opacity-low .cozy-3raOZG .timestamp-3ZCmNB,.background-opacity-medium .cozy-3raOZG .timestamp-3ZCmNB {
@@ -14229,7 +14232,8 @@ img[alt] {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    text-align: right
+    text-align: right;
+    z-index: 1
 }
 
 .a11y-font-scaled-down .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
@@ -14427,15 +14431,13 @@ img[alt] {
 }
 
 .edited-3sfAzf {
-    margin-left: .3em;
     font-size: 0.625rem;
-    cursor: pointer;
+    font-weight: 400;
     line-height: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
-    color: var(--text-muted)
+    user-select: none
 }
 
 .mention {
@@ -74672,4 +74674,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1ab2232c14f0fb6543c1.css.map*/
+/*# sourceMappingURL=0.e51b172cb147ac6fee3c.css.map*/
