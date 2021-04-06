@@ -38914,6 +38914,18 @@ strong {
     margin-left: 4px
 }
 
+.jumpToPageInlineInput-1Pcgbd {
+    width: 50px
+}
+
+.jumpToPageInlineInput-1Pcgbd+.activeButton-rvKcqq {
+    margin-left: 10px
+}
+
+.activeButton-rvKcqq+.jumpToPageInlineInput-1Pcgbd {
+    margin-left: 6px
+}
+
 .theme-dark .activeButton-rvKcqq,.theme-dark .activeButton-rvKcqq:hover,.theme-light .activeButton-rvKcqq,.theme-light .activeButton-rvKcqq:hover {
     color: #fff;
     background-color: #7289da
@@ -74660,4 +74672,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5f703241ea2fcc2cdd8d.css.map*/
+/*# sourceMappingURL=0.1ab2232c14f0fb6543c1.css.map*/
