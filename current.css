@@ -46903,17 +46903,10 @@ strong {
     white-space: normal
 }
 
-.channelName-2YrOjO {
+.channelName-2YrOjO,.subtitle-3V1p2E {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis
-}
-
-.subtitle-3V1p2E {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden
 }
 
 .unread-2lAfLh {
@@ -74711,4 +74704,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b7bf4f68f21f5079d928.css.map*/
+/*# sourceMappingURL=0.7422d617299b38525294.css.map*/
