@@ -15120,6 +15120,18 @@ img[alt] {
     margin-bottom: 8px
 }
 
+.popoutRoleDot-1XPcoA {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid var(--interactive-muted)
+}
+
 .overflowRolesPopoutHeaderIcon-6PNEZA {
     margin-right: 4px;
     width: 12px;
@@ -18068,6 +18080,31 @@ img[alt] {
 }
 
 .spacing-2IUlSR {
+}
+
+.roleRow-1iQo_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.roleDot-2bTP_S {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid var(--interactive-muted)
 }
 
 .sliderContainer-2Nrll8 {
@@ -74674,4 +74711,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e51b172cb147ac6fee3c.css.map*/
+/*# sourceMappingURL=0.b7bf4f68f21f5079d928.css.map*/
