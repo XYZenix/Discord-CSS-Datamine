@@ -31426,25 +31426,8 @@ html .progress-GjyFoQ {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
-}
-
-.hasMoreButton-1MELpI {
-    height: 30px;
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    font-size: 12px;
-    font-weight: 500;
-    border-radius: 3px;
-    text-transform: uppercase;
-    background-color: var(--background-primary);
-    color: #7289da;
-    border: 1px solid var(--background-tertiary);
-    cursor: pointer
+    align-items: center;
+    padding: 0 9px 16px 16px
 }
 
 .messagesPopout-24nkyi {
@@ -74837,4 +74820,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6e25e9d604c275287c06.css.map*/
+/*# sourceMappingURL=0.c2f6d864305a86106dee.css.map*/
