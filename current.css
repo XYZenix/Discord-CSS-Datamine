@@ -53114,19 +53114,8 @@ a.ctaAnchor-3-8I3v:hover {
 .tileContainer-BaRAZF {
     width: 102px;
     height: 98px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    margin: auto;
+    display: inline-block;
     border-radius: 8px;
     cursor: pointer
 }
@@ -53136,34 +53125,34 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .textContainer-3dhW-4 {
-    margin-top: 8px;
-    max-width: 102px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+    padding: 0 4px;
+    max-width: 102px
+}
+
+.avatar-3u7cAV {
+    margin: 8px auto
 }
 
 .text-2wY55Y {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 90px;
+    display: inline-block;
+    text-align: center;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
-    max-width: 75px;
-    text-align: center
+    white-space: nowrap
+}
+
+.boostIcon-1Cx7Wb .text-2wY55Y {
+    max-width: 80px
 }
 
 .boost-3TdRZp {
+    padding-bottom: 2px;
     width: 8px;
-    margin-left: 4px
+    height: 14px;
+    display: inline-block
 }
 
 .icon-3z8ito {
@@ -53185,13 +53174,7 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .participants-soO0aD {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    height: 98px;
     background-color: var(--background-floating)
 }
 
@@ -74808,4 +74791,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9d3b727266f11b0e1980.css.map*/
+/*# sourceMappingURL=0.2a9fd14f2ed780b83f20.css.map*/
