@@ -22703,27 +22703,52 @@ html .progress-GjyFoQ {
     margin-right: 8px
 }
 
-.avatarContainer-3CQrif {
+.size24-1HlGux .avatarContainer-3CQrif {
     width: 24px;
     height: 24px
 }
 
-.avatarContainerMasked-PIJ-3L {
-    margin-right: -4px
+.size24-1HlGux .avatarContainerMasked-PIJ-3L {
+    margin-right: -4px;
+    width: 24px;
+    height: 24px
+}
+
+.size24-1HlGux .clickableAvatar-1wQpeh,.size24-1HlGux .emptyUser-7txhlW {
+    width: 24px;
+    height: 24px
+}
+
+.size16-NOVQSt .avatarContainer-3CQrif {
+    width: 16px;
+    height: 16px
+}
+
+.size16-NOVQSt .avatarContainerMasked-PIJ-3L {
+    margin-right: -3px;
+    width: 16px;
+    height: 16px
+}
+
+.size16-NOVQSt .clickableAvatar-1wQpeh,.size16-NOVQSt .emptyUser-7txhlW {
+    width: 16px;
+    height: 16px
 }
 
 .clickableAvatar-1wQpeh {
+    border-radius: 50%;
     cursor: pointer
 }
 
-.avatar-3bWpYy,.clickableAvatar-1wQpeh,.emptyUser-7txhlW {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%
+.emptyUser-7txhlW {
+    border-radius: 50%;
+    background: var(--background-accent)
 }
 
-.emptyUser-7txhlW {
-    background: var(--background-accent)
+.avatar-3bWpYy {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
 }
 
 .moreUsers-7v8yWY {
@@ -48117,6 +48142,7 @@ strong {
 }
 
 .textBlock-2FWDjE {
+    margin: 4px auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -48130,7 +48156,6 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 4px;
     white-space: nowrap
 }
 
@@ -74791,4 +74816,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2a9fd14f2ed780b83f20.css.map*/
+/*# sourceMappingURL=0.7c1e3a19e5aff1da78aa.css.map*/
