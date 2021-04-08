@@ -7114,21 +7114,37 @@ img[alt] {
     cursor: default
 }
 
+.avatarStack-2Dr8S9 {
+    display: grid;
+    width: 100%;
+    height: 100%
+}
+
+.avatar-VxgULZ,.avatarSpeaking-2c8-9i {
+    width: 100%;
+    height: 100%;
+    grid-area: 1/1
+}
+
 .avatar-VxgULZ {
+    display: block;
     -o-object-fit: cover;
     object-fit: cover;
     pointer-events: none
 }
 
-.avatar-VxgULZ,.avatar-VxgULZ:before {
-    display: block;
-    width: 100%;
-    height: 100%
-}
-
 .avatar-VxgULZ:before {
     content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
     background-color: var(--background-modifier-accent)
+}
+
+.avatarSpeaking-2c8-9i {
+    -webkit-box-shadow: inset 0 0 0 2px #43b581,inset 0 0 0 3px var(--background-secondary);
+    box-shadow: inset 0 0 0 2px #43b581,inset 0 0 0 3px var(--background-secondary);
+    border-radius: 50%
 }
 
 .pointerEvents-2zdfdO {
@@ -74820,4 +74836,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a3c18e58fd2404d4bd84.css.map*/
+/*# sourceMappingURL=0.90cd8fe6d1e726671d0c.css.map*/
