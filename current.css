@@ -23136,17 +23136,15 @@ html .progress-GjyFoQ {
     display: none
 }
 
-.diversitySelector-2kYFHA {
+.diversitySelectorButton-3IE08D {
     width: 24px;
     height: 24px;
     cursor: pointer
 }
 
-.diversitySelectorPopout-3FiGaM {
+.diversitySelectorOptions-4YM-vX {
     background-color: var(--background-secondary-alt);
     position: absolute;
-    margin-left: -5px;
-    margin-top: -5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -23154,18 +23152,15 @@ html .progress-GjyFoQ {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    border-radius: 3px;
+    border-radius: 4px;
     border: 1px solid var(--background-tertiary);
-    overflow: hidden
+    top: 0;
+    right: 11px
 }
 
 .diversityEmojiItem-L6_IXw {
-    border-radius: 4px;
-    display: inline-block;
     width: 24px;
     height: 24px;
-    line-height: 24px;
-    text-align: center;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -23682,7 +23677,8 @@ html .progress-GjyFoQ {
     -webkit-box-shadow: var(--elevation-low);
     box-shadow: var(--elevation-low);
     padding: 12px;
-    z-index: 100
+    z-index: 100;
+    position: relative
 }
 
 .emojiPickerInExpressionPicker-3IzIcv .header-8ilj5e {
@@ -74836,4 +74832,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.90cd8fe6d1e726671d0c.css.map*/
+/*# sourceMappingURL=0.83736cd5e6a21faaae9e.css.map*/
