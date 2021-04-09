@@ -33003,13 +33003,15 @@ html .progress-GjyFoQ {
 }
 
 .wrapper-2qzCYF {
-    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: relative;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     background-color: #000;
-    overflow: hidden
+    z-index: 2
 }
 
 .wrapper-2qzCYF.animated-1N1Pe_ {
@@ -33047,11 +33049,18 @@ html .progress-GjyFoQ {
     height: 154px
 }
 
-.centerControls-2E5oVA {
-    pointer-events: all;
+.callContainer-36WRfH {
+    overflow: hidden
+}
+
+.callContainer-36WRfH,.centerControls-2E5oVA {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.centerControls-2E5oVA {
+    pointer-events: all;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -33099,6 +33108,14 @@ html .progress-GjyFoQ {
 
 .headerWrapper-3NUKsd {
     margin: 0 -16px
+}
+
+.resizeHandle-aTgVKr {
+    bottom: -2px;
+    cursor: ns-resize;
+    height: 4px;
+    position: absolute;
+    width: 100%
 }
 
 .missingEntitlementImage-15q-cx {
@@ -74916,4 +74933,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6c63b35739b75830fdd5.css.map*/
+/*# sourceMappingURL=0.e88e21c856950a92b03e.css.map*/
