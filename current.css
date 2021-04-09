@@ -24505,6 +24505,26 @@ html .progress-GjyFoQ {
     color: #c7d0f0
 }
 
+.reactionTooltip-3pvwwY {
+    max-width: 234px
+}
+
+.reactionTooltipContent-2TwEIL {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px
+}
+
+.reactionTooltipEmoji-3LG0v8 {
+    margin-right: 12px;
+    width: 32px;
+    height: 32px
+}
+
 .container-1ov-mD {
     display: grid;
     grid-auto-flow: row;
@@ -63117,6 +63137,10 @@ html .tabBadge-3smxHS {
     margin-bottom: 20px
 }
 
+.formDivider-MjIVc7 {
+    margin-bottom: 16px
+}
+
 .modalRoot-1Kx4Hb {
     overflow: visible
 }
@@ -63232,6 +63256,19 @@ html .tabBadge-3smxHS {
 
 .cancelButton-2O3h8t:hover {
     text-decoration: underline
+}
+
+.statusOptionItem-Yx4fei {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.statusIcon-17SurO {
+    margin-right: 8px
 }
 
 .statusItem-33LqPf {
@@ -74832,4 +74869,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.efa67ca67b2f76a59a88.css.map*/
+/*# sourceMappingURL=0.ff7c99d5b575e14bea45.css.map*/
