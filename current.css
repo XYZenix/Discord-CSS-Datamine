@@ -18225,6 +18225,28 @@ img[alt] {
     color: #fff
 }
 
+.description-3BvR20 {
+    margin-bottom: 16px
+}
+
+.input-2suNrw {
+    margin-bottom: 8px
+}
+
+.reset-2IwrbI {
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding-left: 1px;
+    padding-right: 1px;
+    opacity: .6
+}
+
+.reset-2IwrbI:hover {
+    opacity: 1;
+    text-decoration: underline
+}
+
 .spacing-2jY1b4 {
 }
 
@@ -20614,29 +20636,6 @@ html .progress-GjyFoQ {
     background: rgba(0,0,0,.8)
 }
 
-.listWrapper-21hRUc {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0
-}
-
-.listHeight-3jP-vC {
-    visibility: hidden
-}
-
-.listItems-1uJgMC {
-    contain: layout;
-    position: absolute
-}
-
-.scroller-3gAZLs {
-    height: 100%
-}
-
 .packActions-2175d0 {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -20898,6 +20897,10 @@ html .progress-GjyFoQ {
     color: #ff8a00
 }
 
+.description-zTR9jp {
+    padding-bottom: 4px
+}
+
 .previewBody-1jI1tx {
     height: 426px
 }
@@ -20926,6 +20929,18 @@ html .progress-GjyFoQ {
     font-size: 14px;
     font-weight: 600;
     line-height: 18px
+}
+
+.header-3qGmP8 {
+    height: auto
+}
+
+.container-yTYkpp {
+    padding: 12px 0
+}
+
+.containerWithHeader-xzv4Vd {
+    padding-top: 0
 }
 
 .hidden-vu5JrP {
@@ -21051,6 +21066,29 @@ html .progress-GjyFoQ {
 
 .theme-dark .forceLightTheme-1nVhlT .sadImage-2ph8SI,.theme-light .sadImage-2ph8SI {
     background-image: url(/assets/8436f69c3df6453ce7c9c0deefeddfc1.svg)
+}
+
+.listWrapper-21hRUc {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.listHeight-3jP-vC {
+    visibility: hidden
+}
+
+.listItems-1uJgMC {
+    contain: layout;
+    position: absolute
+}
+
+.scroller-3gAZLs {
+    height: 100%
 }
 
 .searchContainer-H0HeAc {
@@ -55828,21 +55866,30 @@ a.ctaAnchor-3-8I3v:hover {
 
 .akaBadge-1M-1Gw {
     margin-left: 8px;
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary)
+}
+
+.akaBadge-1M-1Gw,.nicknames-1XK4Zt {
     color: var(--header-secondary)
 }
 
 .nicknames-1XK4Zt {
     width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
     min-width: 0;
     margin: 0 0 0 8px;
     font-size: 14px;
     line-height: 18px;
-    font-weight: 500;
-    color: var(--header-secondary)
+    font-weight: 500
 }
 
-.nicknames-1XK4Zt,.spacer-3kEb8l {
+.tooltip-2ADRCz {
+    display: inline
+}
+
+.spacer-3kEb8l {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto
@@ -74869,4 +74916,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ff7c99d5b575e14bea45.css.map*/
+/*# sourceMappingURL=0.6c63b35739b75830fdd5.css.map*/
