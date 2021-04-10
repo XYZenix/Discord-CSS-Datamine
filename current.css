@@ -18676,6 +18676,20 @@ img[alt] {
     border-color: var(--background-tertiary)
 }
 
+.channelIcon-Lewl0l {
+    width: 1rem;
+    height: 1rem;
+    -o-object-fit: contain;
+    object-fit: contain;
+    position: absolute;
+    left: .125rem;
+    top: .125rem
+}
+
+.iconMention-O5BG9X {
+    padding-left: 1.25rem
+}
+
 .wrapper-2NZy0S {
     margin-top: 4px;
     display: -webkit-box;
@@ -36006,6 +36020,20 @@ html .progress-GjyFoQ {
 
 .discriminator-17tNDS {
     opacity: .5
+}
+
+.channelIcon-kD4rFt {
+    width: 1rem;
+    height: 1rem;
+    -o-object-fit: contain;
+    object-fit: contain;
+    position: absolute;
+    left: .125rem;
+    top: .125rem
+}
+
+.iconMention-1t7gB7 {
+    padding-left: 1.25rem
 }
 
 .commandBlock-38NGGm {
@@ -74950,4 +74978,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.53870873fc449081d4b3.css.map*/
+/*# sourceMappingURL=0.265260578d2b9bba6189.css.map*/
