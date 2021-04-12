@@ -51921,9 +51921,181 @@ strong {
     background-color: #fff
 }
 
+.container-7Unqij {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.iconContainer-3ekW6L {
+    width: 24px
+}
+
+.icon-3jQD8H {
+    color: var(--header-primary);
+    margin-right: auto
+}
+
+.container-2VXfwz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.iconContainer-1WF8ZH {
+    width: 24px
+}
+
+.icon-14eTMV {
+    color: var(--header-primary);
+    margin-left: auto
+}
+
+.container-1zIh5b {
+    height: 80px;
+    width: 80px;
+    border-radius: 8px
+}
+
+.container-1zIh5b,.innerContainer-v408KG {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.innerContainer-v408KG {
+    height: 56px;
+    width: 56px;
+    background-color: hsla(0,0%,100%,.16);
+    border-radius: 50%
+}
+
+.outerContainer-f2YWxd {
+    height: 56px;
+    width: 56px;
+    border: 8px solid hsla(0,0%,100%,.32);
+    border-radius: 50%
+}
+
+.guildIcon-3-9C1R {
+    border-radius: 0
+}
+
+.border-f4g_1z {
+    height: 36px;
+    width: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 2px solid var(--header-primary);
+    border-radius: 8px;
+    contain: content
+}
+
+.speakerContainer-3Pc8T5 {
+    height: 80px;
+    width: 80px;
+    position: absolute
+}
+
+.speaker-2ccgwP {
+    position: absolute;
+    border: 2px solid var(--header-primary)
+}
+
+.firstSpeaker-3wmgPS {
+    top: 12px;
+    left: 12px
+}
+
+.secondSpeaker-2ykxBJ {
+    right: 12px;
+    bottom: 12px
+}
+
+.container-S9SaVf {
+    margin: 8px;
+    width: 262px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    padding: 16px
+}
+
+.headerContainer-1X_tPb {
+    height: 100px
+}
+
+.guildIcon-3DxHr5 {
+    margin-right: 4px;
+    border-radius: 8px
+}
+
+.guildInfoContainer-VZ-tXn {
+    margin: 4px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.topicText-3B26Cx {
+    margin-top: 8px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+.participantsContainer-3Noi9p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
 .container-G9-iYf {
+    height: 100%;
     display: grid;
-    grid-template-columns: repeat(1fr,4)
+    grid-template-columns: repeat(1fr,4);
+    background-color: var(--background-primary)
 }
 
 .container-1a3EgQ {
@@ -75024,4 +75196,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8c13aba5b39c41cc85b6.css.map*/
+/*# sourceMappingURL=0.7f491de9c0296fc093b9.css.map*/
