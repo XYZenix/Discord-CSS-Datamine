@@ -29156,6 +29156,24 @@ html .progress-GjyFoQ {
     background-color: #202225
 }
 
+.blocked-1Hjnsy {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    margin-right: 4px
+}
+
+.blockedIcon-1l6uje {
+    width: 12px;
+    height: 12px;
+    margin: 2px
+}
+
+.blocked-1Hjnsy {
+    opacity: .5
+}
+
 @-webkit-keyframes pulse-3zYHMZ {
     0% {
         border-color: hsla(0,0%,100%,0)
@@ -53290,6 +53308,10 @@ a.ctaAnchor-3-8I3v:hover {
     margin: 8px auto
 }
 
+.avatar-3u7cAV.faded-br_yZz {
+    opacity: .5
+}
+
 .text-2wY55Y {
     margin: 0 auto;
     width: 100%;
@@ -53301,15 +53323,37 @@ a.ctaAnchor-3-8I3v:hover {
     white-space: nowrap
 }
 
-.boostIcon-1Cx7Wb .text-2wY55Y {
+.singleIcon-1YgZ-K .text-2wY55Y {
     max-width: 80px
 }
 
+.doubleIcon-13cAl6 .text-2wY55Y {
+    max-width: 64px
+}
+
 .boost-3TdRZp {
-    padding-bottom: 2px;
-    width: 8px;
-    height: 14px;
+    width: 10px
+}
+
+.blocked-OlW5cA,.boost-3TdRZp {
+    height: 16px;
     display: inline-block
+}
+
+.blocked-OlW5cA {
+    border-radius: 50%;
+    width: 16px;
+    background-color: #fff;
+    vertical-align: text-top
+}
+
+.blockedIcon-2tOKiw {
+    margin: 2px
+}
+
+.blockedIcon-2tOKiw,.icon-3z8ito {
+    width: 12px;
+    height: 12px
 }
 
 .icon-3z8ito {
@@ -53317,8 +53361,6 @@ a.ctaAnchor-3-8I3v:hover {
     border-radius: 50%;
     padding: 2px;
     color: var(--background-floating);
-    width: 12px;
-    height: 12px;
     background-color: var(--header-primary);
     position: absolute;
     right: 0;
@@ -74978,4 +75020,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.265260578d2b9bba6189.css.map*/
+/*# sourceMappingURL=0.6648f983b0d3d9e015fb.css.map*/
