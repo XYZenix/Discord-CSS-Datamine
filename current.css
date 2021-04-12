@@ -39949,6 +39949,15 @@ strong {
     margin-top: 12px
 }
 
+.applicationIcon-3MMA5L {
+    width: 88px;
+    height: 80px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-top: 4px;
+    margin-bottom: 16px
+}
+
 .left-3d-3Co {
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg)
@@ -75196,4 +75205,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7f491de9c0296fc093b9.css.map*/
+/*# sourceMappingURL=0.edf10ff4742ed33907cd.css.map*/
