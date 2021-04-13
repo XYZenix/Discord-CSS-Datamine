@@ -3999,6 +3999,13 @@
     background-image: url(/assets/b11534acfa213d55a7e8b4c79fb59ccd.svg)
 }
 
+.formImageNew-3E9R0m {
+    position: absolute;
+    width: 88px;
+    height: 80px;
+    background-image: url(/assets/793f3e4e608d9cf98d1e9ab2f2644b82.svg)
+}
+
 .formTitle-29Lcxo {
     margin-bottom: 8px;
     margin-top: 95px
@@ -4041,9 +4048,17 @@
 }
 
 .successTitle-2wbpkm {
-    margin-bottom: 40px;
+    margin-bottom: 40px
+}
+
+.successTitle-2wbpkm,.successTitle2-1oSakh {
     text-align: center;
     color: var(--header-primary)
+}
+
+.successTitle2-1oSakh {
+    margin-bottom: 12px;
+    font-weight: 600
 }
 
 .successPromotion-3OUqFK {
@@ -4062,11 +4077,28 @@
     background-position: 50%
 }
 
-.theme-light .successImage-2Tgulb {
+.successImageLight-3XBp_y {
     background-image: url(/assets/7c6b9649a101a9d3e28044d66ee65730.svg)
 }
 
-.theme-dark .successImage-2Tgulb {
+.successImage2-3KRyMK {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 104px;
+    height: 80px;
+    background-image: url(/assets/c11b1679c24ac7092c23679037575023.svg)
+}
+
+.modalLight-1SNwqJ {
+    background-color: #fff;
+    border-radius: 5px
+}
+
+.theme-light .successImageThemed-OP4M9b {
+    background-image: url(/assets/7c6b9649a101a9d3e28044d66ee65730.svg)
+}
+
+.theme-dark .successImageThemed-OP4M9b {
     background-image: url(/assets/15bc6312ff83991a86d4eb9be19094d6.svg)
 }
 
@@ -75281,4 +75313,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.61f900608164afc6fa91.css.map*/
+/*# sourceMappingURL=0.7d623710be6bafabedc6.css.map*/
