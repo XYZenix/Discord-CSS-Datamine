@@ -52045,6 +52045,7 @@ strong {
 .container-S9SaVf {
     margin: 8px;
     width: 262px;
+    height: 254px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -52052,9 +52053,16 @@ strong {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     background-color: var(--background-secondary);
     border-radius: 8px;
-    padding: 16px
+    padding: 16px;
+    cursor: pointer
+}
+
+.container-S9SaVf:hover {
+    background-color: var(--background-secondary-alt)
 }
 
 .headerContainer-1X_tPb {
@@ -52102,9 +52110,19 @@ strong {
 
 .container-G9-iYf {
     height: 100%;
-    display: grid;
-    grid-template-columns: repeat(1fr,4);
     background-color: var(--background-primary)
+}
+
+.tileRow-3PonlW {
+    padding: 0 8px;
+    height: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
 }
 
 .container-1a3EgQ {
@@ -75205,4 +75223,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.25a30a39686f7c5886a4.css.map*/
+/*# sourceMappingURL=0.6f5bba61a6c36b72575e.css.map*/
