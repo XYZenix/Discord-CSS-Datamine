@@ -52100,7 +52100,8 @@ strong {
 .container-1zIh5b {
     height: 80px;
     width: 80px;
-    border-radius: 8px
+    border-radius: 8px;
+    position: relative
 }
 
 .container-1zIh5b,.innerContainer-v408KG {
@@ -52171,6 +52172,36 @@ strong {
     bottom: 12px
 }
 
+.container-3YjqEq {
+    padding: 16px;
+    height: 64px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--background-secondary-alt)
+}
+
+.button-8RD2sk {
+    width: 50%
+}
+
+.leaveButton-1YMl4Y {
+    margin-right: 8px
+}
+
+.joinButton-omhyEZ {
+    margin-left: auto
+}
+
 .container-S9SaVf {
     margin: 8px;
     width: 262px;
@@ -52186,7 +52217,6 @@ strong {
     box-sizing: border-box;
     background-color: var(--background-secondary);
     border-radius: 8px;
-    padding: 16px;
     cursor: pointer
 }
 
@@ -52194,8 +52224,19 @@ strong {
     background-color: var(--background-secondary-alt)
 }
 
+.contentContainer-1fklqj {
+    padding: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
 .headerContainer-1X_tPb {
-    height: 100px
+    height: 70px
 }
 
 .guildIcon-3DxHr5 {
@@ -52225,6 +52266,8 @@ strong {
 }
 
 .participantsContainer-3Noi9p {
+    height: 64px;
+    padding: 0 16px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -75351,4 +75394,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3a61a6667022b989d2d9.css.map*/
+/*# sourceMappingURL=0.277eeafc63ecda1b3e53.css.map*/
