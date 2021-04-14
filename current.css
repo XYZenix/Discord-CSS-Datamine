@@ -53783,7 +53783,15 @@ a.ctaAnchor-3-8I3v:hover {
 
 .textContainer-3dhW-4 {
     padding: 0 4px;
-    max-width: 102px
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .avatar-3u7cAV {
@@ -53795,38 +53803,37 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .text-2wY55Y {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 90px;
-    display: inline-block;
-    text-align: center;
+    max-width: 100%;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap
+    white-space: nowrap;
+    display: inline-block
 }
 
 .singleIcon-1YgZ-K .text-2wY55Y {
-    max-width: 80px
+    max-width: calc(100% - 16px)
 }
 
 .doubleIcon-13cAl6 .text-2wY55Y {
-    max-width: 64px
+    max-width: calc(100% - 32px)
 }
 
 .boost-3TdRZp {
+    margin-left: 4px;
     width: 10px
 }
 
 .blocked-OlW5cA,.boost-3TdRZp {
     height: 16px;
-    display: inline-block
+    display: inline-block;
+    vertical-align: text-top
 }
 
 .blocked-OlW5cA {
-    border-radius: 50%;
+    margin-right: 4px;
     width: 16px;
-    background-color: #fff;
-    vertical-align: text-top
+    border-radius: 50%;
+    background-color: #fff
 }
 
 .blockedIcon-2tOKiw {
@@ -75344,4 +75351,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.36bf6f4d1e871bc03905.css.map*/
+/*# sourceMappingURL=0.3a61a6667022b989d2d9.css.map*/
