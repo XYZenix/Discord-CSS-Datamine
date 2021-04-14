@@ -47791,7 +47791,7 @@ strong {
     cursor: pointer
 }
 
-.icon-1ywqfZ,.timestamp-25yOdb {
+.timestamp-25yOdb {
     -ms-flex-negative: 0;
     flex-shrink: 0
 }
@@ -56587,28 +56587,20 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .icon-iDUzSK {
-    position: relative
-}
-
-.count-bFJRJm {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: var(--background-tertiary);
-    border-radius: 16px;
-    border: 2px solid var(--background-primary);
-    bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    font-weight: 700;
-    height: 16px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: absolute;
-    right: -5px;
-    width: 16px
+    display: flex
+}
+
+.count-bFJRJm {
+    margin-left: 4px
+}
+
+.icon-iDUzSK:hover .count-bFJRJm {
+    color: var(--interactive-hover)
 }
 
 .browser-2NpbWS {
@@ -75313,4 +75305,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2ca26196585539d9f218.css.map*/
+/*# sourceMappingURL=0.bf8fe0446f03a9010b5a.css.map*/
