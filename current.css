@@ -18777,7 +18777,7 @@ img[alt] {
 }
 
 .iconMention-O5BG9X {
-    padding-left: 1.25rem
+    padding-left: 1.25rem!important
 }
 
 .wrapper-2NZy0S {
@@ -24658,7 +24658,11 @@ html .progress-GjyFoQ {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 12px
+    padding: 12px;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto
 }
 
 .reactionTooltipEmoji-3LG0v8 {
@@ -75394,4 +75398,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ded0e229577756cedc25.css.map*/
+/*# sourceMappingURL=0.b5495cfd8f08331b26bf.css.map*/
