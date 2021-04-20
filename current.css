@@ -52266,7 +52266,7 @@ strong {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border: 2px solid var(--header-primary);
+    border: 2px solid #fff;
     border-radius: 8px;
     contain: content
 }
@@ -52279,7 +52279,7 @@ strong {
 
 .speaker-2ccgwP {
     position: absolute;
-    border: 2px solid var(--header-primary)
+    border: 2px solid #fff
 }
 
 .firstSpeaker-3wmgPS {
@@ -52335,13 +52335,23 @@ strong {
     flex-direction: column;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: var(--background-secondary);
     border-radius: 8px;
     cursor: pointer
 }
 
-.container-S9SaVf:hover {
+.hoveredContainer-1No0jm {
     background-color: var(--background-secondary-alt)
+}
+
+.theme-dark .container-S9SaVf {
+    background-color: var(--background-secondary)
+}
+
+.theme-light .container-S9SaVf {
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-accent);
+    -webkit-box-shadow: 0 4px 4px rgba(0,0,0,.08);
+    box-shadow: 0 4px 4px rgba(0,0,0,.08)
 }
 
 .contentContainer-1fklqj {
@@ -52400,6 +52410,10 @@ strong {
     justify-content: center;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px
+}
+
+.hoveredParticipantsContainer-1jRGjF {
+    background-color: var(--background-secondary-alt)
 }
 
 .container-G9-iYf {
@@ -75516,4 +75530,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1c21f8db01d23f41ccbe.css.map*/
+/*# sourceMappingURL=0.51633513ab9b0708276a.css.map*/
