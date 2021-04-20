@@ -52356,7 +52356,7 @@ strong {
 }
 
 .headerContainer-1X_tPb {
-    height: 70px
+    height: 78px
 }
 
 .guildIcon-3DxHr5 {
@@ -52376,7 +52376,7 @@ strong {
 }
 
 .topicText-3B26Cx {
-    margin-top: 8px;
+    margin-top: 16px;
     font-weight: 600;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -52397,7 +52397,9 @@ strong {
     flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px
 }
 
 .container-G9-iYf {
@@ -75514,4 +75516,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b18c85de4b216893eed8.css.map*/
+/*# sourceMappingURL=0.1c21f8db01d23f41ccbe.css.map*/
