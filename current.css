@@ -52445,6 +52445,12 @@ strong {
     flex-direction: column
 }
 
+.headerBarContainer-31FKNA {
+    background-color: var(--background-primary);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.2)
+}
+
 .container-2Pjhx- {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -75530,4 +75536,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e78361635246d615cfc0.css.map*/
+/*# sourceMappingURL=0.699e92e3fce76bde4aba.css.map*/
