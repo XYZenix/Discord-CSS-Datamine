@@ -31448,22 +31448,6 @@ html .progress-GjyFoQ {
     transform: rotate(180deg)
 }
 
-.wrapper-232cHJ {
-    display: inline-block;
-    border-radius: 3px;
-    background-clip: padding-box;
-    background-color: #f04747;
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25),inset 0 1px 0 hsla(0,0%,100%,.15);
-    box-shadow: 0 1px 0 rgba(0,0,0,.25),inset 0 1px 0 hsla(0,0%,100%,.15);
-    color: #fff;
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: 500;
-    padding: 3px 6px;
-    text-shadow: 0 1px 0 rgba(0,0,0,.25);
-    text-transform: uppercase
-}
-
 .platform-osx .container-1r6BKw {
     -webkit-app-region: drag
 }
@@ -32033,6 +32017,22 @@ html .progress-GjyFoQ {
 
 .jumpButton-2dvRSC:active .text-3KVtey {
     color: var(--interactive-active)
+}
+
+.wrapper-232cHJ {
+    display: inline-block;
+    border-radius: 3px;
+    background-clip: padding-box;
+    background-color: #f04747;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25),inset 0 1px 0 hsla(0,0%,100%,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.25),inset 0 1px 0 hsla(0,0%,100%,.15);
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    padding: 3px 6px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.25);
+    text-transform: uppercase
 }
 
 .channelHeader-3Gd2xq {
@@ -33328,8 +33328,8 @@ html .progress-GjyFoQ {
 
 .badge-1z4YpW {
     position: absolute;
-    top: -6px;
-    right: -6px;
+    top: -8px;
+    right: 0;
     pointer-events: none
 }
 
@@ -75536,4 +75536,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.699e92e3fce76bde4aba.css.map*/
+/*# sourceMappingURL=0.8ddf0d6850da54d2aac5.css.map*/
