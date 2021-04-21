@@ -22473,6 +22473,28 @@ html .progress-GjyFoQ {
     pointer-events: none
 }
 
+.removeAttachmentButton-2qVPxg {
+    opacity: 0;
+    position: absolute;
+    top: -2px;
+    right: -20px;
+    cursor: pointer;
+    color: var(--interactive-normal);
+    padding: 2px
+}
+
+.messageAttachment-1aDidq {
+    position: relative
+}
+
+.messageAttachment-1aDidq:focus-within .removeAttachmentButton-2qVPxg,.messageAttachment-1aDidq:hover .removeAttachmentButton-2qVPxg {
+    opacity: 1
+}
+
+.removeAttachmentButton-2qVPxg:hover {
+    color: var(--interactive-hover)
+}
+
 @-webkit-keyframes ripple-N7-maz {
     0% {
         -webkit-transform: scale(.4);
@@ -75645,4 +75667,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e4d5d3cb7adc792d4f54.css.map*/
+/*# sourceMappingURL=0.66dd4f7cfda656bf8aae.css.map*/
