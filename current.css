@@ -45906,6 +45906,65 @@ strong {
     box-shadow: var(--elevation-low)
 }
 
+.scroller-Utb7tO {
+    height: 100%;
+    padding-bottom: 60px
+}
+
+.searchContainer-3pUVEQ {
+    margin-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.clearButton-3wWY21 {
+    margin-left: 16px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.noResultsContainer-1kVGAa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.noResults-3C-Rr0 {
+    margin-bottom: 16px;
+    width: 85px;
+    height: 85px
+}
+
+.permissionsForm-1DoqZ5+.permissionsForm-1DoqZ5 {
+    margin-top: 40px
+}
+
+.searchContainer-3CrmrC {
+    margin-top: 12px;
+    margin-bottom: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.search-2pBRTh {
+    z-index: 0
+}
+
 .header-2PmrS5 {
     padding-top: 32px;
     padding-bottom: 24px
@@ -46129,50 +46188,6 @@ strong {
 
 .removeTip-2HPwsk {
     margin-top: 12px
-}
-
-.scroller-Utb7tO {
-    height: 100%;
-    padding-bottom: 60px
-}
-
-.searchContainer-3pUVEQ {
-    margin-top: 24px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.clearButton-3wWY21 {
-    margin-left: 16px;
-    -ms-flex-negative: 0;
-    flex-shrink: 0
-}
-
-.noResultsContainer-1kVGAa {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.noResults-3C-Rr0 {
-    margin-bottom: 16px;
-    width: 85px;
-    height: 85px
-}
-
-.permissionsForm-1DoqZ5+.permissionsForm-1DoqZ5 {
-    margin-top: 40px
 }
 
 .sidebar-dLM-kh {
@@ -75667,4 +75682,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.66dd4f7cfda656bf8aae.css.map*/
+/*# sourceMappingURL=0.a1fbcad08ad89e9221c8.css.map*/
