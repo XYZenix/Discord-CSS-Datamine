@@ -47701,6 +47701,7 @@ strong {
     background-color: var(--background-primary);
     border-radius: 80px;
     color: var(--text-muted);
+    display: inline-block;
     padding: 22px
 }
 
@@ -53721,9 +53722,15 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .channelName-1JRO3C {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     background: var(--background-secondary);
     color: var(--header-primary);
     cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-weight: 600;
     margin-bottom: 8px;
     overflow: hidden;
@@ -53735,6 +53742,12 @@ a.ctaAnchor-3-8I3v:hover {
 
 .channelName-1JRO3C:hover {
     text-decoration: underline
+}
+
+.channelNameIcon-27Cx1g {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding-right: 4px
 }
 
 .resultsBlocked-3a77lQ {
@@ -64294,7 +64307,15 @@ html .tabBadge-3smxHS {
 .container-q03LZO {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -6px;
+    margin-bottom: -6px
+}
+
+.container-q03LZO>* {
+    margin: 0 6px 6px 0
 }
 
 .profileBadge-2niAfJ {
@@ -64304,10 +64325,6 @@ html .tabBadge-3smxHS {
     cursor: pointer;
     width: 24px;
     height: 24px
-}
-
-.profileBadgeWrapper-1rGSsp {
-    margin-right: 6px
 }
 
 .profileBadgeStaff-3BXdTO {
@@ -75682,4 +75699,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.282fc0aa26044ca16c1d.css.map*/
+/*# sourceMappingURL=0.c8c4f3e7ffcf074a1ec9.css.map*/
