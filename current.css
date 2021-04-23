@@ -61608,6 +61608,25 @@ html .invoiceCancelRow-1YYT42 {
     color: #fff
 }
 
+.blocked-v_WYd3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.blockedIcon-1j8HfR {
+    margin-right: 4px;
+    margin-left: 12px
+}
+
+.blockedText-18I_XK {
+    font-size: 12px;
+    font-weight: 400
+}
+
 .errorLabel-7OAe-A,.supportCallToAction-7lpXkq {
     margin-top: 20px
 }
@@ -75699,4 +75718,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c8c4f3e7ffcf074a1ec9.css.map*/
+/*# sourceMappingURL=0.a656d58fb1a5fdc24c54.css.map*/
