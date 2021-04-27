@@ -54116,6 +54116,16 @@ a.ctaAnchor-3-8I3v:hover {
     margin-left: 0
 }
 
+.settingsButton-2tFGbO {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer
+}
+
 .tileContainer-BaRAZF {
     width: 102px;
     height: 98px;
@@ -75722,4 +75732,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d0d4a2dc53892f29536c.css.map*/
+/*# sourceMappingURL=0.4f3c867f06044036b662.css.map*/
