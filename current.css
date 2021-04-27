@@ -23888,7 +23888,9 @@ html .progress-GjyFoQ {
 
 .premiumPromoImage-2wS9zo {
     display: block;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    width: 124px;
+    height: 96px
 }
 
 .premiumPromoTitle-2cKOQe {
@@ -45765,7 +45767,7 @@ strong {
 }
 
 .titleContainer-CjPpBt {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -45788,10 +45790,6 @@ strong {
     margin-top: -2px;
     color: var(--header-primary);
     cursor: pointer
-}
-
-.warning-2TgtqC {
-    margin-top: 32px
 }
 
 .tabBar-11f3uI {
@@ -45831,6 +45829,10 @@ strong {
 
 .colorPicker-oPcnKj {
     margin-top: 24px
+}
+
+.colorDescription-Pxuojt {
+    margin-bottom: 8px
 }
 
 .divider-1QCnvR {
@@ -46334,6 +46336,15 @@ strong {
 
 .dragAfter-1ydZtZ:after {
     bottom: -2px
+}
+
+.helpSeparator-2mcq4E,.helpText-3Ggj5i {
+    margin-bottom: 12px
+}
+
+.helpSeparator-2mcq4E {
+    height: 1px;
+    background-color: var(--background-modifier-accent)
 }
 
 .page-3njELR {
@@ -75732,4 +75743,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.181add6d55356529c210.css.map*/
+/*# sourceMappingURL=0.5d2f7d4ae257f20fe61d.css.map*/
