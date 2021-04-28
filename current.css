@@ -52497,7 +52497,8 @@ strong {
 }
 
 .hoveredContainer-1No0jm {
-    background-color: var(--background-secondary-alt)
+    background-color: var(--background-secondary-alt);
+    border-radius: 8px
 }
 
 .theme-dark .container-S9SaVf {
@@ -72027,19 +72028,21 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .splashBackground-1xe4jJ {
-    --background-mobile-primary: #202225 center/cover no-repeat url(/assets/a49f55e96d5786e4da4935a993d7f796.png)
+    --background-mobile-primary: #202225 center/cover no-repeat url(/assets/a49f55e96d5786e4da4935a993d7f796.png);
+    width: 100%;
+    height: 100%
 }
 
-.centerFlex-2UU8gh {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+.centerFlex-2UU8gh,.splashBackground-1xe4jJ {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
 }
 
 .centerAuthBoxContent-2AJUs_ {
@@ -72050,6 +72053,7 @@ html .invoiceCancelRow-3mYhFX {
     border-radius: 8px;
     background: var(--background-primary);
     width: calc(100vw - 72px);
+    max-width: 480px;
     min-height: 200px;
     -webkit-box-shadow: 0 8px 16px rgba(0,0,0,.2);
     box-shadow: 0 8px 16px rgba(0,0,0,.2);
@@ -75738,4 +75742,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2a96da4649258d9a97c2.css.map*/
+/*# sourceMappingURL=0.2b34836c33685cfed2cb.css.map*/
