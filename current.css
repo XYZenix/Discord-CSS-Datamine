@@ -17819,17 +17819,12 @@ img[alt] {
     -moz-user-select: text;
     -ms-user-select: text;
     user-select: text;
-    height: 100%
+    height: 100%;
+    min-height: auto
 }
 
 .modalContent-3XArPg {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    display: grid;
     width: 100%;
     height: 100%
 }
@@ -75743,4 +75738,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.fc6b6d26bbc9cf425241.css.map*/
+/*# sourceMappingURL=0.2a96da4649258d9a97c2.css.map*/
