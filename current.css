@@ -6436,12 +6436,16 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     min-height: 0
 }
 
-.app-1q1i1E {
+.app-1q1i1E,.mobileApp-13Vx-n {
     position: relative;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     z-index: auto
+}
+
+.mobileApp-13Vx-n {
+    overflow: auto
 }
 
 .modal-yWgWj- {
@@ -75742,4 +75746,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2b34836c33685cfed2cb.css.map*/
+/*# sourceMappingURL=0.5f278d48b4bc37a7c5db.css.map*/
