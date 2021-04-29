@@ -47833,6 +47833,10 @@ strong {
     white-space: pre!important
 }
 
+.messageContent-19B5yF .mention {
+    pointer-events: none
+}
+
 .messageContentIcon-yzjShp {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -51024,146 +51028,6 @@ strong {
     color: #72767d
 }
 
-.inset-3sAvek,.outer-1AjyKL {
-    border-radius: 4px
-}
-
-.outer-1AjyKL {
-    background-color: var(--activity-card-background)
-}
-
-.padded-302COx {
-    padding: 16px
-}
-
-.padded-302COx.inset-3sAvek {
-    padding: 12px
-}
-
-.interactive-3B9GmY {
-    cursor: pointer
-}
-
-.theme-dark .outer-1AjyKL.active-1xchHY,.theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
-    background-color: #18191c
-}
-
-.theme-dark .inset-3sAvek {
-    background-color: #2f3136
-}
-
-.theme-light .inset-3sAvek {
-    background-color: #ebedef
-}
-
-.wrapper-3m_mRm {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.partyMembers-id_l4H,.wrapper-3m_mRm {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 24px
-}
-
-.partyMember-1CzxeX {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    margin-left: -2px;
-    -webkit-mask: url(/assets/16f17f1916fb411b98e44008b2535a83.svg);
-    mask: url(/assets/16f17f1916fb411b98e44008b2535a83.svg);
-    -webkit-mask-size: 100%;
-    mask-size: 100%;
-    mask-type: luminance
-}
-
-.partyMemberKnown-3Ee9hc {
-    cursor: pointer
-}
-
-.partyMember-1CzxeX:first-child {
-    margin-left: 0
-}
-
-.partyMember-1CzxeX:last-child {
-    -webkit-mask: none;
-    mask: none
-}
-
-.partyMemberEmpty-ra2xl3,.partyMemberUnknown-fwK2DC {
-}
-
-.partyMemberUnknown-fwK2DC {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.partyMemberUnknownIcon-1eDbV6 {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%
-}
-
-.partyMemberOverflow-lXnzvu {
-    height: 24px;
-    min-width: 24px;
-    padding: 0 4px;
-    margin-left: -2px;
-    font-weight: 600;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-radius: 12px;
-    color: var(--header-secondary)
-}
-
-.theme-dark .partyMemberOverflow-lXnzvu {
-    background-color: #18191c
-}
-
-.theme-dark .partyMemberBackground-3XOgDv,.theme-dark .partyMemberUnknown-fwK2DC {
-    background-color: #4f545c
-}
-
-.theme-dark .partyMemberUnknownIcon-1eDbV6 {
-    color: #72767d
-}
-
-.theme-light .partyMemberOverflow-lXnzvu {
-    background-color: #e3e5e8
-}
-
-.theme-light .partyMemberBackground-3XOgDv,.theme-light .partyMemberUnknown-fwK2DC {
-    background-color: #ebedef
-}
-
-.theme-light .partyMemberUnknownIcon-1eDbV6 {
-    color: #c7ccd1
-}
-
 .wrapper-3D2qGf {
     background-color: var(--background-tertiary)
 }
@@ -51614,6 +51478,146 @@ strong {
 
 .theme-light .applicationStreamingPreviewWrapper-8QqvVY {
     background-color: #f8f9f9
+}
+
+.inset-3sAvek,.outer-1AjyKL {
+    border-radius: 4px
+}
+
+.outer-1AjyKL {
+    background-color: var(--activity-card-background)
+}
+
+.padded-302COx {
+    padding: 16px
+}
+
+.padded-302COx.inset-3sAvek {
+    padding: 12px
+}
+
+.interactive-3B9GmY {
+    cursor: pointer
+}
+
+.theme-dark .outer-1AjyKL.active-1xchHY,.theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: #18191c
+}
+
+.theme-dark .inset-3sAvek {
+    background-color: #2f3136
+}
+
+.theme-light .inset-3sAvek {
+    background-color: #ebedef
+}
+
+.wrapper-3m_mRm {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.partyMembers-id_l4H,.wrapper-3m_mRm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 24px
+}
+
+.partyMember-1CzxeX {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: -2px;
+    -webkit-mask: url(/assets/16f17f1916fb411b98e44008b2535a83.svg);
+    mask: url(/assets/16f17f1916fb411b98e44008b2535a83.svg);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    mask-type: luminance
+}
+
+.partyMemberKnown-3Ee9hc {
+    cursor: pointer
+}
+
+.partyMember-1CzxeX:first-child {
+    margin-left: 0
+}
+
+.partyMember-1CzxeX:last-child {
+    -webkit-mask: none;
+    mask: none
+}
+
+.partyMemberEmpty-ra2xl3,.partyMemberUnknown-fwK2DC {
+}
+
+.partyMemberUnknown-fwK2DC {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.partyMemberUnknownIcon-1eDbV6 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%
+}
+
+.partyMemberOverflow-lXnzvu {
+    height: 24px;
+    min-width: 24px;
+    padding: 0 4px;
+    margin-left: -2px;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 12px;
+    color: var(--header-secondary)
+}
+
+.theme-dark .partyMemberOverflow-lXnzvu {
+    background-color: #18191c
+}
+
+.theme-dark .partyMemberBackground-3XOgDv,.theme-dark .partyMemberUnknown-fwK2DC {
+    background-color: #4f545c
+}
+
+.theme-dark .partyMemberUnknownIcon-1eDbV6 {
+    color: #72767d
+}
+
+.theme-light .partyMemberOverflow-lXnzvu {
+    background-color: #e3e5e8
+}
+
+.theme-light .partyMemberBackground-3XOgDv,.theme-light .partyMemberUnknown-fwK2DC {
+    background-color: #ebedef
+}
+
+.theme-light .partyMemberUnknownIcon-1eDbV6 {
+    color: #c7ccd1
 }
 
 .memberItem-3VdCg9 {
@@ -75746,4 +75750,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5f278d48b4bc37a7c5db.css.map*/
+/*# sourceMappingURL=0.cdb8d4d944290d0effcb.css.map*/
