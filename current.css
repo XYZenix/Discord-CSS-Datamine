@@ -52431,6 +52431,14 @@ strong {
     margin-left: auto
 }
 
+.names-fc3srZ {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical
+}
+
 .container-1zIh5b {
     height: 88px;
     width: 88px;
@@ -52607,11 +52615,18 @@ strong {
 .topicText-3B26Cx {
     margin-top: 16px;
     font-weight: 600;
+    -webkit-line-clamp: 2
+}
+
+.guildName-2Ec3Mf,.topicText-3B26Cx {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical
+}
+
+.guildName-2Ec3Mf {
+    -webkit-line-clamp: 1
 }
 
 .participantsContainer-3Noi9p {
@@ -76932,4 +76947,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a34d7d20e8c324f4d9e8.css.map*/
+/*# sourceMappingURL=0.9d2b833de530a32c9d44.css.map*/
