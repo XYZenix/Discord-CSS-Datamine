@@ -15196,6 +15196,27 @@ img[alt] {
     color: #fff
 }
 
+.colorGreen-2ZgJka {
+}
+
+.colorGreen-2ZgJka,.colorGreen-2ZgJka .checkbox-3s5GYZ,.colorGreen-2ZgJka .radioSelection-1HmrQS {
+    color: #43b581
+}
+
+.colorGreen-2ZgJka.focused-3afm-j {
+    background-color: #43b581;
+    color: #fff
+}
+
+.colorGreen-2ZgJka.focused-3afm-j .check-1JyqgN {
+    color: #43b581
+}
+
+.colorGreen-2ZgJka:active:not(.hideInteraction-1iHO1O) {
+    background-color: #3ca374;
+    color: #fff
+}
+
 .groupLabel-2t5iuZ {
     text-transform: uppercase;
     font-weight: 700;
@@ -54260,34 +54281,6 @@ strong {
     color: #f04747
 }
 
-.container-3FEABE {
-    margin-top: 12px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.guildName-3s-Up4 {
-    margin-left: 8px;
-    font-weight: 500
-}
-
-.container-3mv-Q4 {
-    margin-top: 8px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.rsvpCount-3PmrkW {
-    margin-left: 8px;
-    font-weight: 500
-}
-
-.icon-24OH25 {
-    color: #b9bbbe
-}
-
 .confButton-1ctd5S,.ticketCard-3ZQDle {
     margin-top: 32px
 }
@@ -54324,6 +54317,58 @@ strong {
     align-items: center
 }
 
+.container-13Jtkl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.activeTicketPriceContainer-1Ks9Lm {
+    background: -webkit-gradient(linear,left top,right top,from(#1db4d4),to(#3bb76c));
+    background: linear-gradient(90deg,#1db4d4,#3bb76c 100%)
+}
+
+.purchaseTicketPriceContainer-r6097Z {
+    background: var(--background-accent);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.activeTicketPriceContainer-1Ks9Lm,.purchaseTicketPriceContainer-r6097Z {
+    margin-left: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 8px
+}
+
+.ticketPrice-4nRwvK {
+    font-weight: 500
+}
+
+.date-VA5H0t {
+    font-weight: 700
+}
+
+.checkmark-3eomZV {
+    color: var(--interactive-active)
+}
+
+.container-3FEABE {
+    margin-top: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.guildName-3s-Up4 {
+    margin-left: 8px;
+    font-weight: 500
+}
+
 .eventImage-vM1EK3 {
     width: 88px;
     height: 88px;
@@ -54348,16 +54393,15 @@ strong {
     opacity: 1
 }
 
-.time-28qJgr,.title-Vc4fll {
-    font-weight: 600
-}
-
 .title-Vc4fll {
+    font-weight: 600;
     margin-top: 4px
 }
 
-.time-28qJgr {
-    opacity: .8
+.eventDateContainer-1lcib6 {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start
 }
 
 .guildIconContainer-2n_YUS,.guildIconInnerCircle-25A7Pv,.guildIconOuterCircle-Eyil-u {
@@ -54406,48 +54450,6 @@ strong {
     margin-bottom: 16px
 }
 
-.content-BHLa6U {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    position: relative
-}
-
-.description-WSLwdo {
-    font-weight: 500;
-    padding-bottom: 8px
-}
-
-.speakerNamesContainer-2Cc4Qf {
-    margin-top: 8px
-}
-
-.purchaseButton-3qt_dU {
-    background: -webkit-gradient(linear,left top,right top,from(#1db4d4),to(#3bb76c));
-    background: linear-gradient(90deg,#1db4d4,#3bb76c 100%);
-    margin-left: 4px
-}
-
-.purchaseButton-3qt_dU:hover {
-    opacity: .8
-}
-
-.interestedButton-KD1uYJ,.purchaseButton-3qt_dU {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1
-}
-
-.interestedButton-KD1uYJ {
-    margin-right: 4px
-}
-
-.footer-1xP6Re {
-    margin-top: 32px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
 .modal-2MVslt.modal-2MVslt {
     background-color: var(--background-primary)
 }
@@ -54469,7 +54471,8 @@ strong {
 .container-2xxLVG {
     margin: 8px;
     width: 262px;
-    height: 310px;
+    height: 329px;
+    position: relative;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 8px;
@@ -54491,7 +54494,11 @@ strong {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    padding: 16px
+    padding: 12px 16px 16px
+}
+
+.disabledContentContainer-LASXHS {
+    pointer-events: none
 }
 
 .theme-dark .container-2xxLVG {
@@ -54517,8 +54524,12 @@ strong {
     margin-top: 36px
 }
 
+.rsvpCount-2N2v0L {
+    margin-top: 8px
+}
+
 .eventImageContainer-3Ang9W {
-    margin-top: 16px
+    margin-top: 12px
 }
 
 .eventImage-TwpFHP {
@@ -54527,85 +54538,57 @@ strong {
     border-radius: 8px
 }
 
-.eventName-3XEjOa {
-    font-weight: 500;
-    margin-top: 16px
+.overflowMenu-2R0LgP {
+    padding-left: 16px;
+    padding-bottom: 16px
 }
 
-.eventName-3XEjOa,.guildName-1Y7QTL {
-    white-space: nowrap;
+.overflowMenuIcon-3Th443 {
+    color: #b9bbbe
+}
+
+.eventDescription-15dzvF,.eventName-3XEjOa {
     overflow: hidden;
     text-overflow: ellipsis
 }
 
-.guildName-1Y7QTL {
-    max-lines: 1;
+.eventName-3XEjOa {
+    max-height: 40px;
+    font-weight: 600;
+    margin-top: 16px
+}
+
+.eventDescription-15dzvF {
+    max-height: 72px;
+    font-weight: 500;
     margin-top: 8px
 }
 
-.eventDetailsContainer-2_pZdc {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+.loadingIndicatorContainer-20CWuO {
+    position: absolute;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end
-}
-
-.rsvpCount-2N2v0L {
-    margin-top: 8px
-}
-
-.buttonContainer-1x75TR {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px
-}
-
-.leftButton-2QLZsj,.rsvpButton-2rUrI3 {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-right: 4px
-}
-
-.rightButton-3V31tO {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-left: 4px
-}
-
-.purchaseButton-1JOYxe {
-    background: -webkit-gradient(linear,left top,right top,from(#1db4d4),to(#3bb76c));
-    background: linear-gradient(90deg,#1db4d4,#3bb76c 100%)
-}
-
-.purchaseButton-1JOYxe:hover {
-    opacity: .8
-}
-
-.buttonCheckmarkContainer-2IHvRO {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.85);
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
 }
 
-.buttonCheckmark-2zTKG9 {
-    margin-left: 4px
+.loadingIndicatorText-KUyBz_ {
+    margin-top: 32px;
+    font-weight: 700
 }
 
 .container-2vijaa {
@@ -54620,7 +54603,7 @@ strong {
 
 .row-3wEdgL {
     padding: 0 8px;
-    height: 361px;
+    height: 345px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -73616,36 +73599,6 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-.clock-bm1xfG {
-    margin-right: 8px
-}
-
-.container-zpj2Le {
-    margin-top: 16px
-}
-
-.container-zpj2Le,.expirationContainer-2kThAV {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
-}
-
-.expirationContainer-2kThAV {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    border-radius: 100px;
-    padding: 8px 16px;
-    background-color: var(--background-tertiary)
-}
-
 .elevated-26QCAo {
     -webkit-box-shadow: 0 2px 10px 0 rgba(4,4,5,.2),0 0 0 1px #202225;
     box-shadow: 0 2px 10px 0 rgba(4,4,5,.2),0 0 0 1px #202225
@@ -73693,6 +73646,36 @@ html .invoiceCancelRow-3mYhFX {
 
 .cardAccentRight-2fDjxG {
     right: 0
+}
+
+.clock-bm1xfG {
+    margin-right: 8px
+}
+
+.container-zpj2Le {
+    margin-top: 16px
+}
+
+.container-zpj2Le,.expirationContainer-2kThAV {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.expirationContainer-2kThAV {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-radius: 100px;
+    padding: 8px 16px;
+    background-color: var(--background-tertiary)
 }
 
 .acceptButton-1JKJrE {
@@ -76949,4 +76932,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.86b88dadad1c1b6a2d4b.css.map*/
+/*# sourceMappingURL=0.a34d7d20e8c324f4d9e8.css.map*/
