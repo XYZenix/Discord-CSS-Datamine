@@ -32217,6 +32217,11 @@ html .progress-GjyFoQ {
     cursor: pointer
 }
 
+.full-motion .button-1-5Aqk {
+    -webkit-transition: color .2s ease,background-color .2s ease;
+    transition: color .2s ease,background-color .2s ease
+}
+
 .primary-2McadE {
     background-color: var(--background-primary);
     color: var(--header-primary)
@@ -53048,7 +53053,8 @@ strong {
     justify-content: center;
     border: 2px solid #fff;
     border-radius: 8px;
-    contain: content
+    contain: content;
+    overflow: hidden
 }
 
 .speakerContainer-3Pc8T5 {
@@ -54887,11 +54893,13 @@ strong {
     border: 1px solid var(--text-muted)
 }
 
-.date-VA5H0t,.ticketPrice-4nRwvK {
-    font-weight: 500
+.ticketPrice-4nRwvK {
+    font-weight: 500;
+    color: #fff
 }
 
 .date-VA5H0t {
+    font-weight: 500;
     text-transform: uppercase
 }
 
@@ -54998,6 +55006,10 @@ strong {
     height: 88px;
     border-radius: 8px;
     background-color: hsla(0,0%,100%,.1)
+}
+
+.theme-light .guildIconContainer-2n_YUS {
+    background-color: rgba(0,0,0,.1)
 }
 
 .guildIconInnerCircle-25A7Pv {
@@ -55198,12 +55210,14 @@ strong {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
+    z-index: 2
 }
 
 .loadingIndicatorText-KUyBz_ {
     margin-top: 32px;
-    font-weight: 700
+    font-weight: 700;
+    color: #fff
 }
 
 .buttonContainer-1x75TR {
@@ -55218,25 +55232,24 @@ strong {
     align-items: flex-end;
     margin-left: 16px;
     margin-right: 16px;
-    margin-bottom: 16px
+    margin-bottom: 16px;
+    gap: 8px
 }
 
-.leftButton-2QLZsj {
+.button-1Dr_y3 {
+    padding-left: 0;
+    padding-right: 0;
     -webkit-box-flex: 1;
     -ms-flex: 1;
-    flex: 1;
-    margin-right: 4px
+    flex: 1
+}
+
+.wrappedButton-2BFqcC {
+    width: 100%
 }
 
 .disabledOutlinedButton-1gdx7y {
     color: var(--background-accent)
-}
-
-.rightButton-3V31tO {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-left: 4px
 }
 
 .purchaseButton-1JOYxe {
@@ -77725,4 +77738,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3ebf2fe5a4e5c365f769.css.map*/
+/*# sourceMappingURL=0.2053f395775576e43745.css.map*/
