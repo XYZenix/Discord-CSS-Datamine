@@ -15913,6 +15913,30 @@ img[alt] {
     color: #72767d
 }
 
+.root-3-OKEZ {
+    text-align: center
+}
+
+.header-1afJj7 {
+    margin-bottom: 8px
+}
+
+.content-3zS6lm {
+    margin-bottom: 24px
+}
+
+.footer-1dAGh4 {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.art-1r1UyT {
+    width: 225px;
+    height: 149px;
+    margin: -24px auto 8px
+}
+
 .input-2_SIlA {
     font-size: 14px
 }
@@ -29045,45 +29069,6 @@ html .progress-GjyFoQ {
     background-image: url(/assets/b93ef52d62a513a4f2127a6ca0c3208c.svg)
 }
 
-.root-38PW22 {
-    text-align: center
-}
-
-.header-108w-K {
-    margin-bottom: 8px
-}
-
-.content-3ze2b4 {
-    margin-bottom: 24px
-}
-
-.footer-1K4uCB {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between
-}
-
-.art-11ppxi {
-    width: 225px;
-    height: 149px;
-    margin: -24px auto 8px
-}
-
-.buttonContent-1n61OB {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.buttonIcon-3lIJ3J {
-    width: 16px;
-    height: 16px;
-    margin-right: 4px
-}
-
 .qualityIndicator-mk1mca {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -37485,18 +37470,43 @@ html .progress-GjyFoQ {
     height: 16px
 }
 
+.root-2GkXUO {
+    background: var(--background-secondary);
+    border-radius: 4px;
+    padding: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 120px
+}
+
+.premium-1XICKa {
+    margin-right: 4px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px
+}
+
 .characterCount-1cRDo2 {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    bottom: 0;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    bottom: 16px;
     color: var(--text-normal);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 44px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     position: absolute;
     right: 14px
+}
+
+.upsell-34F9Me {
+    margin-top: 8px
 }
 
 .theme-dark .error-1M5Do5 {
@@ -77715,4 +77725,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b0ab619746cd49eb5462.css.map*/
+/*# sourceMappingURL=0.3ebf2fe5a4e5c365f769.css.map*/
