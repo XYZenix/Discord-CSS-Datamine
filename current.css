@@ -15885,12 +15885,16 @@ img[alt] {
     text-align: center
 }
 
+.root-3-OKEZ p {
+    margin: 0 0 16px
+}
+
 .header-1afJj7 {
     margin-bottom: 8px
 }
 
 .content-3zS6lm {
-    margin-bottom: 24px
+    margin-bottom: 16px
 }
 
 .footer-1dAGh4 {
@@ -15899,10 +15903,30 @@ img[alt] {
     justify-content: space-between
 }
 
-.art-1r1UyT {
+.artContainer-1EdHbR {
+    position: relative;
+    margin: -48px auto 24px;
+    border-radius: 8px;
+    -webkit-box-shadow: var(--elevation-medium);
+    box-shadow: var(--elevation-medium)
+}
+
+.art-1r1UyT,.artContainer-1EdHbR {
     width: 225px;
-    height: 149px;
-    margin: -24px auto 8px
+    height: 149px
+}
+
+.sparkleBadge-2pfBfb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -18px;
+    margin-left: -12px;
+    display: block;
+    width: 47px;
+    height: 34px;
+    -webkit-filter: drop-shadow(0 1px 3px rgba(0,0,0,.3));
+    filter: drop-shadow(0 1px 3px rgba(0,0,0,.3))
 }
 
 .input-2_SIlA {
@@ -22813,6 +22837,83 @@ html .progress-GjyFoQ {
     height: 100%
 }
 
+.base-PmTxvP {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 16px;
+    min-height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto
+}
+
+.baseShapeRound-1Mm1YW {
+    border-radius: 8px
+}
+
+.baseShapeRoundLeft-ym85l3 {
+    border-radius: 8px 0 0 8px
+}
+
+.baseShapeRoundRight-1962en {
+    border-radius: 0 8px 8px 0
+}
+
+.numberBadge-2s8kKX {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.textBadge-1iylP6 {
+    padding: 0 6px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.iconBadge-2NuvG9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px
+}
+
+.icon-3s6X1M {
+    padding: 2px;
+    width: 100%;
+    height: 100%
+}
+
+.learnMoreLink-3H5-aT {
+    cursor: pointer;
+    color: var(--text-link)
+}
+
+.newBadge-3sTR8M {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px
+}
+
 .container-1qJFPO {
     position: relative
 }
@@ -23297,12 +23398,7 @@ html .progress-GjyFoQ {
     background-color: #ed4245
 }
 
-.circleButtonMask-1_597P:active {
-    -webkit-transform: translateY(1px);
-    transform: translateY(1px)
-}
-
-.circleIconButton-1QV--U {
+.circleButtonBase-2DCxIZ {
     cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23318,7 +23414,10 @@ html .progress-GjyFoQ {
     width: 48px;
     height: 48px;
     -webkit-transition: color .15s ease-out,background-color .15s ease-out;
-    transition: color .15s ease-out,background-color .15s ease-out;
+    transition: color .15s ease-out,background-color .15s ease-out
+}
+
+.circleIconButton-1QV--U {
     color: #3ba55c;
     background-color: var(--background-primary)
 }
@@ -23326,6 +23425,15 @@ html .progress-GjyFoQ {
 .circleIconButton-1QV--U.selected-1JjBPm {
     color: #fff;
     background-color: #3ba55c
+}
+
+.nitroUpsell-3LsJnJ {
+    background: linear-gradient(135deg,#b473f5,#e292aa);
+    color: #fff
+}
+
+.nitroUpsellIcon-2csSJA {
+    stroke: #000 2px
 }
 
 .circleIcon-1-oi1i {
@@ -23409,6 +23517,27 @@ html .progress-GjyFoQ {
 
 .theme-dark .listItemTooltip-1JmWJ7,.theme-light .listItemTooltip-1JmWJ7 {
     color: var(--text-normal)
+}
+
+.upsellTooltip-2A3BlB {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.upsellIcon-33qg4- {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-right: 8px;
+    margin-left: -6px
+}
+
+.upsellText-3Q7ST7 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    line-height: 22px
 }
 
 .row-1c01mR {
@@ -26652,72 +26781,6 @@ html .progress-GjyFoQ {
     color: var(--text-warning);
     width: 16px;
     height: 16px
-}
-
-.base-PmTxvP {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    min-width: 16px;
-    min-height: 16px;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 600;
-    color: #fff;
-    text-align: center;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto
-}
-
-.baseShapeRound-1Mm1YW {
-    border-radius: 8px
-}
-
-.baseShapeRoundLeft-ym85l3 {
-    border-radius: 8px 0 0 8px
-}
-
-.baseShapeRoundRight-1962en {
-    border-radius: 0 8px 8px 0
-}
-
-.numberBadge-2s8kKX {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
-}
-
-.textBadge-1iylP6 {
-    padding: 0 6px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden
-}
-
-.iconBadge-2NuvG9 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 16px;
-    height: 16px
-}
-
-.icon-3s6X1M {
-    padding: 2px;
-    width: 100%;
-    height: 100%
 }
 
 .live-vBWnV6 {
@@ -61409,6 +61472,21 @@ html .invoiceCancelRow-1YYT42 {
     top: 1px
 }
 
+.featureMoreServers-14Thw5 .featureImage-2L9kA0 {
+    display: block;
+    width: 132px;
+    height: 132px;
+    margin: 8px auto 0
+}
+
+.newSparkles-1I8M41 {
+    display: inline-block;
+    width: 47px;
+    height: 34px;
+    vertical-align: middle;
+    margin: -12px 4px -4px -8px
+}
+
 .theme-light .feature-2w65J5 {
     background-color: #fff;
     -webkit-box-shadow: var(--elevation-medium);
@@ -61440,6 +61518,10 @@ html .invoiceCancelRow-1YYT42 {
     color: #22a777
 }
 
+.theme-light .featureMoreServers-14Thw5 .featureTitle-W5O6R1 {
+    color: #a57ef8
+}
+
 .theme-light .featureBadge-3ZA-Ca .featureTitle-W5O6R1 {
     color: #e15be1
 }
@@ -61454,6 +61536,10 @@ html .invoiceCancelRow-1YYT42 {
 
 .theme-dark .featureProfile-tTo0C- .featureTitle-W5O6R1 {
     color: #00e0a7
+}
+
+.theme-dark .featureMoreServers-14Thw5 .featureTitle-W5O6R1 {
+    color: #a57ef8
 }
 
 .theme-dark .featureBadge-3ZA-Ca .featureTitle-W5O6R1 {
@@ -73423,15 +73509,21 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .scroller-3__pG8 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     position: relative;
     width: 400px;
-    height: 420px
+    height: 420px;
+    padding: 32px 32px 0
+}
+
+.noThanksButton-3mqg48 {
+    height: 32px
 }
 
 .inviteContent-3R63XV {
     position: relative;
     height: 380px;
-    margin: 40px 32px 0 40px;
     text-align: center
 }
 
@@ -73463,6 +73555,58 @@ html .invoiceCancelRow-3mYhFX {
 
 .buttonGroup-276hcG>* {
     margin: 4px
+}
+
+.experimentUpsellError-1B_dtk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--background-tertiary);
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: -6px
+}
+
+.experimentUpsellError-1B_dtk:hover {
+    background-color: var(--background-floating)
+}
+
+.experimentUpsellIcon-3G0C9_ {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-right: 8px;
+    min-width: 0
+}
+
+.experimentUpsellText-33hEF0 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: left;
+    min-width: 0;
+    color: var(--text-normal)
+}
+
+.experimentGetNitro-2umQa7,.experimentUpsellText-33hEF0 {
+    display: block;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.experimentGetNitro-2umQa7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    max-width: 106px;
+    margin-left: 12px;
+    color: var(--text-link);
+    padding: 0 8px
 }
 
 .tutorial-3igfYb {
@@ -77863,4 +78007,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ea32a26089a01067daab.css.map*/
+/*# sourceMappingURL=0.66226ee636cd0fc1a6fa.css.map*/
