@@ -49492,6 +49492,41 @@ strong {
     margin-top: 12px
 }
 
+.purchaseButton-11Ftdj {
+    background: -webkit-gradient(linear,left top,right top,from(#40c1a2),to(#4697c4));
+    background: linear-gradient(90deg,#40c1a2,#4697c4);
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+
+.purchaseButton-11Ftdj:hover {
+    opacity: .8
+}
+
+.purchaseButtonContent-2B-EJq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.buyButtonDotSeparator-4mb9aQ {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    opacity: .5;
+    background-color: #fff;
+    margin: 0 4px;
+    display: inline-block
+}
+
+.purchaseButton-3aCFfZ {
+    margin-top: 12px;
+    width: 100%
+}
+
 .channelNotice-3DDmsB {
     background-position: center top 20px;
     background-repeat: no-repeat;
@@ -55296,36 +55331,6 @@ strong {
 
 .disabledOutlinedButton-1gdx7y {
     color: var(--background-accent)
-}
-
-.purchaseButton-1JOYxe {
-    background: -webkit-gradient(linear,left top,right top,from(#40c1a2),to(#4697c4));
-    background: linear-gradient(90deg,#40c1a2,#4697c4);
-    -webkit-transition: opacity .2s ease;
-    transition: opacity .2s ease
-}
-
-.purchaseButton-1JOYxe:hover {
-    opacity: .8
-}
-
-.purchaseButtonContent-1EmlgR {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.buyButtonDotSeperator-1jr3aB {
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    opacity: .5;
-    background-color: #fff;
-    margin: 0 4px;
-    display: inline-block
 }
 
 .buttonCheckmarkContainer-2IHvRO {
@@ -78007,4 +78012,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.66226ee636cd0fc1a6fa.css.map*/
+/*# sourceMappingURL=0.13e17c815f5acea2e106.css.map*/
