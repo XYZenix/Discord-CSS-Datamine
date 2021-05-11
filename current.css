@@ -20864,12 +20864,24 @@ html .progress-GjyFoQ {
     margin-right: 4px
 }
 
+.launchIcon-3n9VDY,.textEmoji-2Vv04G {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
 .launchIcon-3n9VDY {
     margin-left: 8px
 }
 
 .hidden-1gw_r7 {
     visibility: hidden
+}
+
+.label-3aEGGA {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-flex-negative: 1;
+    flex-shrink: 1
 }
 
 .container-2xsjOj {
@@ -20902,7 +20914,9 @@ html .progress-GjyFoQ {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden
 }
 
 .loadingIndicator-tk-VI6 {
@@ -77849,4 +77863,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.517d306718d97d0e422a.css.map*/
+/*# sourceMappingURL=0.ea32a26089a01067daab.css.map*/
