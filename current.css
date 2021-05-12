@@ -15968,12 +15968,6 @@ img[alt] {
     filter: drop-shadow(0 1px 3px rgba(0,0,0,.3))
 }
 
-.newBadge-2wENLF {
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: -2px
-}
-
 .input-2_SIlA {
     font-size: 14px
 }
@@ -22946,6 +22940,12 @@ html .progress-GjyFoQ {
 .learnMoreLink-3H5-aT {
     cursor: pointer;
     color: var(--text-link)
+}
+
+.newBadge-3sTR8M {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px
 }
 
 .container-1qJFPO {
@@ -61244,13 +61244,7 @@ html .invoiceCancelRow-1YYT42 {
     text-align: center;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    position: relative
-}
-
-.feature-2w65J5 .featureNewBadge-24rCe6 {
-    top: -4px;
-    left: -4px;
-    position: absolute
+    overflow: hidden
 }
 
 .featureDescription-1wp-zJ {
@@ -61365,22 +61359,6 @@ html .invoiceCancelRow-1YYT42 {
     height: 233px
 }
 
-.featureStickers-Pc_FBx .featureTitle-W5O6R1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
-}
-
-.featureStickers-Pc_FBx .featureStickersNewBadge-1yAl2q {
-    margin-right: 19px
-}
-
 .featureStickers-Pc_FBx .featureDescription-1wp-zJ {
     margin-right: auto;
     margin-left: auto;
@@ -61412,6 +61390,46 @@ html .invoiceCancelRow-1YYT42 {
 
 .featureStickers-Pc_FBx .featureImage-2L9kA0:last-child {
     margin-right: 0
+}
+
+.featureStickers-Pc_FBx .badgeNew-16P_X0 {
+    background-color: var(--brand-experiment);
+    font-size: 12px;
+    line-height: 20px;
+    display: inline;
+    margin-right: 19px;
+    padding: 0 4px;
+    vertical-align: top
+}
+
+.featureStickers-Pc_FBx .sparkleContainer-26geov {
+    position: relative;
+    height: 5px
+}
+
+.featureStickers-Pc_FBx .sparkle-1qyWC9 {
+    position: relative
+}
+
+.featureStickers-Pc_FBx .sparkleStarTopRight-1uWZTi {
+    top: -8px;
+    left: -43px;
+    width: 12.75px;
+    height: 12.75px
+}
+
+.featureStickers-Pc_FBx .sparkleStarRight-3STViN {
+    top: 1px;
+    left: -48px;
+    height: 7.44px;
+    width: 7.44px
+}
+
+.featureStickers-Pc_FBx .sparkleStarBottomLeft-3dycVF {
+    top: 12px;
+    left: -95px;
+    height: 7.44px;
+    width: 7.44px
 }
 
 .featureStickers-Pc_FBx .stickerImageSection-7EUs8E {
@@ -61449,45 +61467,6 @@ html .invoiceCancelRow-1YYT42 {
 .featureStickers-Pc_FBx .fakeBuyButtonInner-26ap8t {
     padding: 0 8px;
     font-size: 12px
-}
-
-.newBadge-1Is7Nf {
-    background-color: var(--brand-experiment);
-    font-size: 12px;
-    line-height: 16px;
-    padding: 0 4px
-}
-
-.newBadgeContainer-3wCcs5 {
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase
-}
-
-.sparkle-1qyWC9 {
-    position: absolute
-}
-
-.sparkleStarTopRight-1uWZTi {
-    bottom: calc(100% - 4px);
-    left: calc(100% - 5px);
-    width: 12.75px;
-    height: 12.75px
-}
-
-.sparkleStarRight-3STViN {
-    bottom: 3px;
-    left: calc(100% + 1.31px)
-}
-
-.sparkleStarBottomLeft-3dycVF,.sparkleStarRight-3STViN {
-    height: 7.44px;
-    width: 7.44px
-}
-
-.sparkleStarBottomLeft-3dycVF {
-    top: calc(100% + .56px);
-    left: -1px
 }
 
 .featureStickers2Images-2AZnZQ {
@@ -61546,10 +61525,6 @@ html .invoiceCancelRow-1YYT42 {
     margin: 8px auto 0
 }
 
-.featureLongerMessageContent-1RADxx .featureImage-2L9kA0 {
-    width: 100%
-}
-
 .newSparkles-1I8M41 {
     display: inline-block;
     width: 47px;
@@ -61565,24 +61540,20 @@ html .invoiceCancelRow-1YYT42 {
     border: 1px solid var(--background-modifier-accent)
 }
 
-.theme-light .sparkleStarTopRight-1uWZTi {
+.theme-light .featureStickers-Pc_FBx .featureTitle-W5O6R1 {
+    color: #000
+}
+
+.theme-light .featureStickers-Pc_FBx .sparkleStarTopRight-1uWZTi {
     color: #83ddc5
 }
 
-.theme-light .sparkleStarRight-3STViN {
+.theme-light .featureStickers-Pc_FBx .sparkleStarRight-3STViN {
     color: #e15be1
 }
 
-.theme-light .sparkleStarBottomLeft-3dycVF {
+.theme-light .featureStickers-Pc_FBx .sparkleStarBottomLeft-3dycVF {
     color: #fbb848
-}
-
-.theme-light .featureLongerMessageContent-1RADxx .featureTitle-W5O6R1 {
-    color: #2e3338
-}
-
-.theme-light .featureStickers-Pc_FBx .featureTitle-W5O6R1 {
-    color: #000
 }
 
 .theme-light .featureEmoji-3pTtR2 .featureTitle-W5O6R1 {
@@ -61605,10 +61576,6 @@ html .invoiceCancelRow-1YYT42 {
     background-color: var(--background-secondary-alt)
 }
 
-.theme-dark .featureLongerMessageContent-1RADxx .featureTitle-W5O6R1 {
-    color: #ffd836
-}
-
 .theme-dark .featureEmoji-3pTtR2 .featureTitle-W5O6R1 {
     color: #ffa600
 }
@@ -61625,12 +61592,12 @@ html .invoiceCancelRow-1YYT42 {
     color: #ffafff
 }
 
-.theme-dark .sparkle-1qyWC9 {
-    color: #fff
-}
-
 .theme-dark .featureStickers-Pc_FBx .featureTitle-W5O6R1 {
     color: #ffd836
+}
+
+.theme-dark .featureStickers-Pc_FBx .sparkle-1qyWC9 {
+    color: #fff
 }
 
 .premiumSubscriptionAccountCredit-25i0tQ {
@@ -78086,4 +78053,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.bfd3dae1e905cb548e9c.css.map*/
+/*# sourceMappingURL=0.530c562517acb96d1fa7.css.map*/
