@@ -6284,7 +6284,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     background-color: var(--brand-experiment)
 }
 
-html.oldBrand {
+[data-popout-root].oldBrand,html.oldBrand {
     --brand-experiment-100: #f8f9fd;
     --brand-experiment-130: #f2f4fc;
     --brand-experiment-160: #ebeefa;
@@ -6332,7 +6332,7 @@ html.oldBrand {
     --brand-experiment-95a: rgba(114,137,218,0.95)
 }
 
-html.newBrand {
+[data-popout-root].newBrand,html.newBrand {
     --brand-experiment-100: #f7f7fe;
     --brand-experiment-130: #f0f1fe;
     --brand-experiment-160: #e7e9fd;
@@ -78082,4 +78082,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c1aa290ad4b0e0c69ee4.css.map*/
+/*# sourceMappingURL=0.d940b11f5ddb9748ff86.css.map*/
