@@ -15546,8 +15546,7 @@ img[alt] {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid var(--interactive-muted)
+    box-sizing: border-box
 }
 
 .overflowRolesPopoutHeaderIcon-6PNEZA {
@@ -18587,8 +18586,7 @@ img[alt] {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid var(--interactive-muted)
+    box-sizing: border-box
 }
 
 .sliderContainer-2Nrll8 {
@@ -46140,8 +46138,8 @@ strong {
 }
 
 .divider-1QCnvR {
-    margin-top: 32px;
-    margin-bottom: 32px
+    margin-top: 24px;
+    margin-bottom: 24px
 }
 
 .previewContainer-1KQDJS {
@@ -46231,8 +46229,17 @@ strong {
     align-items: center
 }
 
+.permissionsWrapper-1amySy {
+    position: relative
+}
+
 .clearButton-3wWY21 {
-    margin-left: 16px;
+    font-weight: 600;
+    position: absolute;
+    margin-bottom: 20px;
+    top: 0;
+    right: 0;
+    padding: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0
 }
@@ -46257,7 +46264,7 @@ strong {
 }
 
 .permissionsForm-1DoqZ5+.permissionsForm-1DoqZ5 {
-    margin-top: 40px
+    margin-top: 32px
 }
 
 .searchContainer-3CrmrC {
@@ -46517,9 +46524,11 @@ strong {
 }
 
 .removeButtonDisabled-5brXxX {
-    color: var(--interactive-muted);
-    pointer-events: none;
     cursor: not-allowed
+}
+
+.removeButtonDisabled-5brXxX,.removeButtonDisabled-5brXxX:hover {
+    color: var(--interactive-muted)
 }
 
 .removeTip-2HPwsk {
@@ -46728,13 +46737,8 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    margin-left: -10px;
-    margin-right: -8px;
-    padding: 60px 8px 16px 10px;
-    margin-bottom: 8px;
+    padding: 60px 8px 16px;
+    margin: 0 8px 8px 16px;
     z-index: 2;
     background-color: var(--background-primary)
 }
@@ -46809,8 +46813,7 @@ strong {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid var(--interactive-muted)
+    box-sizing: border-box
 }
 
 .roleName-2IkRdr {
@@ -78011,4 +78014,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.91dfda30df049afb9ba2.css.map*/
+/*# sourceMappingURL=0.3e26dda6964159f69143.css.map*/
