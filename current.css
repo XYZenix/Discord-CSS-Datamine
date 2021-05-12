@@ -2981,6 +2981,10 @@
     color: var(--interactive-active)
 }
 
+.content-mK72R6 {
+    padding-bottom: 20px
+}
+
 .select-2TCrqx.error-3S-7y9 .errorMessage-1Y9q-X {
     font-size: 14px;
     line-height: 20px;
@@ -3535,6 +3539,42 @@
     -ms-flex-item-align: end;
     align-self: flex-end;
     margin-left: auto
+}
+
+.body-3kE9vV {
+    padding: 24px
+}
+
+.headerIconContainer-3zvlVZ {
+    margin-bottom: 24px
+}
+
+.iconBackground-1iJ6Oq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--background-tertiary);
+    border-radius: 50%;
+    height: 64px;
+    width: 64px
+}
+
+.headerIcon-2HH87Q {
+    color: var(--interactive-normal)
+}
+
+.title-XH3OPd {
+    margin-bottom: 8px
+}
+
+.subtitle-2gi0Yl,.title-XH3OPd {
+    text-align: center
 }
 
 .content-1-UQqA {
@@ -6242,10 +6282,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg {
     background-color: var(--brand-experiment)
-}
-
-.content-mK72R6 {
-    padding-bottom: 20px
 }
 
 html.oldBrand {
@@ -27405,12 +27441,6 @@ html .progress-GjyFoQ {
     left: 0;
     bottom: 0;
     right: 0
-}
-
-.theme-dark .mentioned-xhSam7 .mention,.theme-light .mentioned-xhSam7 .mention {
-    border-radius: 0;
-    padding: 0;
-    background-color: transparent!important
 }
 
 .theme-dark .mentioned-xhSam7 .mention.interactive:hover,.theme-light .mentioned-xhSam7 .mention.interactive:hover {
@@ -78019,4 +78049,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7a623bee4f3a69911370.css.map*/
+/*# sourceMappingURL=0.8978898c28bcd87241bd.css.map*/
