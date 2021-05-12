@@ -54745,7 +54745,7 @@ strong {
 }
 
 .addEndDateIcon-3LLc82 {
-    color: #7289da;
+    color: var(--brand-experiment);
     margin-right: 8px
 }
 
@@ -55116,6 +55116,11 @@ strong {
 .paymentSourceDropdown-ndYLoA {
     margin-top: 8px;
     margin-bottom: 16px
+}
+
+.disclaimerText-1PxEL7 {
+    color: var(--channels-default);
+    margin-top: 10px
 }
 
 .modal-2MVslt.modal-2MVslt {
@@ -78014,4 +78019,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3e26dda6964159f69143.css.map*/
+/*# sourceMappingURL=0.aaf7f8226d3ec457a96b.css.map*/
