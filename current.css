@@ -14408,7 +14408,7 @@ img[alt] {
 
 .executedCommand-2GE3w2 .commandName-1klrjB {
     font-weight: 500;
-    color: var(--brand-experiment)
+    color: var(--text-link)
 }
 
 .executedCommand-2GE3w2 .applicationName-1-Uq7y {
@@ -22531,10 +22531,6 @@ html .progress-GjyFoQ {
     color: var(--text-muted)
 }
 
-.ephemeralMessage-1fEWtQ a {
-    color: var(--brand-experiment)
-}
-
 .icon-2ZUv7M {
     margin-right: 4px;
     vertical-align: text-bottom
@@ -25154,9 +25150,12 @@ html .progress-GjyFoQ {
 }
 
 .reactionTooltipEmoji-3LG0v8 {
-    margin-right: 12px;
     width: 32px;
     height: 32px
+}
+
+.reactionTooltipText-u4NWre {
+    margin-left: 12px
 }
 
 .container-1ov-mD {
@@ -78012,4 +78011,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.420194c44d38bb89a5f1.css.map*/
+/*# sourceMappingURL=0.91dfda30df049afb9ba2.css.map*/
