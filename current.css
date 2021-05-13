@@ -53462,7 +53462,7 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin: 32px 32px 96px
+    margin: 32px
 }
 
 .container-1WCE6w,.icons-2wALEG {
@@ -53563,7 +53563,8 @@ strong {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-direction: normal
+    -webkit-box-direction: normal;
+    overflow: hidden
 }
 
 .stageSection-3mAD8V {
@@ -53573,7 +53574,6 @@ strong {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    overflow: hidden;
     background: var(--background-primary)
 }
 
@@ -78137,4 +78137,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ae118e95cc14ae15da30.css.map*/
+/*# sourceMappingURL=0.fda475da9523945559f3.css.map*/
