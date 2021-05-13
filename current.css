@@ -49326,6 +49326,7 @@ strong {
 .name-1jkAdW {
     font-size: 16px;
     line-height: 20px;
+    font-weight: 600;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -49334,7 +49335,11 @@ strong {
     flex: 1
 }
 
-.name-1jkAdW,.tierTooltipTitle-3AtaZT {
+.newBrand .name-1jkAdW {
+    font-size: 15px
+}
+
+.tierTooltipTitle-3AtaZT {
     font-weight: 600
 }
 
@@ -55125,11 +55130,6 @@ strong {
 .paymentSourceDropdown-ndYLoA {
     margin-top: 8px;
     margin-bottom: 16px
-}
-
-.disclaimerText-1PxEL7 {
-    color: var(--channels-default);
-    margin-top: 10px
 }
 
 .modal-2MVslt.modal-2MVslt {
@@ -78137,4 +78137,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.28320bb437c112d5a4d2.css.map*/
+/*# sourceMappingURL=0.ae118e95cc14ae15da30.css.map*/
