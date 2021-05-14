@@ -10726,8 +10726,8 @@ img[alt] {
     transform: translateX(-50%)
 }
 
-.reviewLoader-3EALfL {
-    margin-top: 16px
+.loader-3HXZ2q {
+    margin-top: 64px
 }
 
 .invoiceHeader-3VOJTm {
@@ -10943,24 +10943,28 @@ img[alt] {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 32px 0 16px;
-    text-align: center
+    padding: 0 16px
 }
 
 .title-9oNsnn {
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 700;
-    color: var(--header-primary);
-    margin-bottom: 8px
+    margin-bottom: 16px
 }
 
 .bodyText-ThtFMi {
-    color: var(--interactive-normal);
-    font-size: 16px;
-    line-height: 20px;
     font-weight: 500;
-    margin-bottom: 16px
+    margin-bottom: 20px
+}
+
+.errorImage-22tjNJ {
+    margin-top: 42px;
+    margin-bottom: 12px;
+    height: 111px
+}
+
+@media (max-width: 485px) {
+    .errorFooter-eY2PQo {
+        display:none
+    }
 }
 
 .header-1F6gxU {
@@ -78273,4 +78277,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8d83e4265c4141040707.css.map*/
+/*# sourceMappingURL=0.aed067d8b5089a6dccad.css.map*/
