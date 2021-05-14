@@ -16478,6 +16478,16 @@ img[alt] {
     min-height: 32px
 }
 
+.button-2Yen-x {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0
+}
+
+.popout-3h7_tF {
+    margin-top: 8px
+}
+
 .image-3wFWIj {
     width: 156px;
     height: 137px
@@ -71390,8 +71400,7 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .header-2C89wJ {
-    text-transform: uppercase;
-    background-color: rgba(115,139,215,.98);
+    color: #fff;
     padding: 13px;
     font-weight: 500;
     display: -webkit-box;
@@ -71411,8 +71420,12 @@ html .invoiceCancelRow-3mYhFX {
     border-radius: 3px
 }
 
-.white-3xi-nx {
-    color: #fff
+.theme-light .header-2C89wJ {
+    background-color: var(--brand-experiment)
+}
+
+.oldBrand .header-2C89wJ {
+    text-transform: uppercase
 }
 
 .secured-1Yihly {
@@ -78135,4 +78148,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d5e35b0157225c62ef35.css.map*/
+/*# sourceMappingURL=0.f5f7d3846250a783f1a4.css.map*/
