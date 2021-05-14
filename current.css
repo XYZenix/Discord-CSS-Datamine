@@ -46948,6 +46948,32 @@ strong {
     margin-top: 12px
 }
 
+.clearButton-2sT92t {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    padding: inputElementsPadding;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    opacity: .6;
+    line-height: 0;
+    height: 100%
+}
+
+.clearButton-2sT92t:focus,.clearButton-2sT92t:hover {
+    opacity: 1
+}
+
+.inputWithClearWrapper-dftAkD {
+    position: relative
+}
+
+.clearIcon-3FDYw9 {
+    width: 16px;
+    height: 16px;
+    color: var(--interactive-normal)
+}
+
 .header-3gJGL7 {
     padding: 32px 16px 24px;
     text-align: center
@@ -78247,4 +78273,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.6a73adceb5991a3a240a.css.map*/
+/*# sourceMappingURL=0.7e43e812fd860701f8a1.css.map*/
