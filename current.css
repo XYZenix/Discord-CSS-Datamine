@@ -75257,6 +75257,106 @@ html .invoiceCancelRow-3mYhFX {
     text-align: start
 }
 
+.flex-32dgJs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.header-3qymWa {
+    text-align: start;
+    margin-top: 16px
+}
+
+.speakers-kEGflI {
+    grid-gap: 8px 16px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    margin-bottom: -16px
+}
+
+.speaker-1HW9IK,.speakers-kEGflI {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.speaker-1HW9IK {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 34%;
+    flex-basis: 34%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.label-3jnO6p {
+    margin-left: 8px
+}
+
+.background-2vw-bh {
+    border-radius: 12px;
+    padding: 4px 8px
+}
+
+.background-2vw-bh,.icon-1kl4sN {
+    background-color: var(--background-secondary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.icon-1kl4sN {
+    border-radius: 50%;
+    height: 24px;
+    width: 24px
+}
+
+.guild-1H1MQY {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 8px 0
+}
+
+.guildInfo-3bTId5 {
+    margin-left: 12px;
+    text-align: start
+}
+
+.dot-38181A {
+    width: 8px;
+    height: 8px;
+    background-color: #57f287;
+    border-radius: 50%;
+    margin-right: 4px
+}
+
+.alignStart-2FQjAH {
+    text-align: start
+}
+
 .image-vn9QOh {
     height: 100px
 }
@@ -78148,4 +78248,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.16389fcd545d55222468.css.map*/
+/*# sourceMappingURL=0.0d84d790b2283596f9a0.css.map*/
