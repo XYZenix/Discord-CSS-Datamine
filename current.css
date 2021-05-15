@@ -53290,7 +53290,7 @@ strong {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-flow: row;
-    gap: 4px
+    gap: 8px
 }
 
 .speakerContainer-3h4uQU {
@@ -53303,11 +53303,10 @@ strong {
     flex-direction: row;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    padding: 4px 0
+    align-items: center
 }
 
-.speaker-3WW4pR {
+.avatar-vQKmqY {
     margin-right: 8px
 }
 
@@ -53332,18 +53331,25 @@ strong {
     border-radius: 50%
 }
 
-.nickname-3ODtp_ {
+.textInGrid-1ba1AD {
+    max-width: 164px;
     overflow: hidden;
-    width: 120px;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical
 }
 
+@media (max-width: 1200px) {
+    .textInGrid-1ba1AD {
+        max-width:120px
+    }
+}
+
 .container-S9SaVf {
     margin: 8px;
-    width: 640px;
+    max-width: 640px;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -53397,7 +53403,7 @@ strong {
     border-radius: 8px
 }
 
-.guildIconAndName-2AlEL-,.guildInfoContainer-VZ-tXn {
+.flexContainerRow-2a2RpB,.guildInfoContainer-VZ-tXn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -53443,6 +53449,7 @@ strong {
 }
 
 .guildName-2Ec3Mf {
+    margin-right: 4px;
     -webkit-line-clamp: 1
 }
 
@@ -53484,6 +53491,20 @@ strong {
     animation: placeholderPulse-3MG86Y 1s ease-in-out infinite;
     background-color: var(--background-tertiary);
     min-height: 172px
+}
+
+.rightJustifiedContent-1qP_dH {
+    margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .scoreSummary-kqJvzd {
@@ -53556,7 +53577,8 @@ strong {
 
 .headerContainer-1Wluzl {
     margin: 16px;
-    width: 640px
+    max-width: 640px;
+    width: 90%
 }
 
 .pageHeader-3nuK1W {
@@ -53614,12 +53636,18 @@ strong {
     background: var(--background-primary)
 }
 
-.activityFeedSidebar-2qhPSj {
+.nowPlayingSidebar-2OFn0o {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 30%;
     flex: 0 1 30%;
     min-width: 360px;
     max-width: 420px
+}
+
+@media (max-width: 1200px) {
+    .nowPlayingSidebar-2OFn0o {
+        display:none
+    }
 }
 
 .modal-1dtIlv.modal-1dtIlv {
@@ -78277,4 +78305,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.aed067d8b5089a6dccad.css.map*/
+/*# sourceMappingURL=0.7ef07c1800ba8fde1b08.css.map*/
