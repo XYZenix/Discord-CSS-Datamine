@@ -25897,6 +25897,10 @@ html .progress-GjyFoQ {
     margin-right: 8px
 }
 
+.component-1IAYeC {
+    margin: 4px 8px 4px 0
+}
+
 .content-2wNArO {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -25952,15 +25956,13 @@ html .progress-GjyFoQ {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
-    padding: 4px 0
+    flex-direction: column
 }
 
 .children-2goeSq,.container-2xsjOj {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    gap: 8px
+    display: flex
 }
 
 .children-2goeSq {
@@ -25969,7 +25971,7 @@ html .progress-GjyFoQ {
 }
 
 .error-2FxDDG {
-    margin-top: 0
+    margin: 4px 0
 }
 
 .container-1v9gV9 {
@@ -78122,4 +78124,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.785b2c2d46dc0d9ddfc6.css.map*/
+/*# sourceMappingURL=0.f85fc1d5dff58162cd6a.css.map*/
