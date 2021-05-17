@@ -53348,6 +53348,33 @@ strong {
     margin-top: 16px
 }
 
+.container-3u4ndt {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.header-3YnDzJ {
+    font-weight: 700;
+    margin: 8px 0 4px
+}
+
+.subheader-2RpfyZ {
+    margin-bottom: 8px
+}
+
 .container-24CyRY {
     height: 100%;
     display: -webkit-box;
@@ -78095,4 +78122,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.54acb5dd4cb84b6458bc.css.map*/
+/*# sourceMappingURL=0.785b2c2d46dc0d9ddfc6.css.map*/
