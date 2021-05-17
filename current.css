@@ -48934,7 +48934,6 @@ strong {
 }
 
 .name-1Rd7lI {
-    margin-left: 8px;
     overflow: hidden;
     text-overflow: ellipsis
 }
@@ -53222,21 +53221,19 @@ strong {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     background-color: var(--background-tertiary);
     border-radius: 12px
 }
 
-.iconContainer-3ekW6L {
-    width: 24px
-}
-
 .icon-3jQD8H {
-    color: var(--header-primary);
-    margin-right: auto
+    margin-right: 4px;
+    color: var(--header-primary)
 }
 
 .container-G4Iil7 {
-    height: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -53251,7 +53248,9 @@ strong {
 }
 
 .avatar-3FSiro {
-    margin: 0 8px 0 16px
+    height: 20px!important;
+    width: 20px!important;
+    margin: 8px 8px 8px 16px
 }
 
 .container-3yC5sj {
@@ -53273,12 +53272,12 @@ strong {
 }
 
 .icon-29krgh {
-    color: #3ba55c
+    color: #3ba55c;
+    margin-left: 4px
 }
 
 .listeningText-2DLvOV {
-    font-weight: 600;
-    margin-left: 10px
+    margin-left: 8px
 }
 
 .leaveButton-3Z5D-N {
@@ -53307,6 +53306,8 @@ strong {
 }
 
 .avatar-vQKmqY {
+    height: 20px!important;
+    width: 20px!important;
     margin-right: 8px
 }
 
@@ -53315,8 +53316,8 @@ strong {
 }
 
 .iconMicrophone-1A2Yqh {
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
     margin-right: 8px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -53327,17 +53328,19 @@ strong {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: var(--header-primary);
+    color: var(--header-secondary);
     border-radius: 50%
 }
 
+.textInGridContainer-XBWCa- {
+    max-width: 164px
+}
+
 .textInGrid-1ba1AD {
-    max-width: 164px;
+    max-width: 124px;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical
+    white-space: nowrap
 }
 
 @media (max-width: 1200px) {
@@ -53399,8 +53402,8 @@ strong {
 }
 
 .guildIcon-3DxHr5 {
-    margin-right: 4px;
-    border-radius: 8px
+    margin-right: 8px;
+    border-radius: 4px
 }
 
 .flexContainerRow-2a2RpB,.guildInfoContainer-VZ-tXn {
@@ -53417,31 +53420,13 @@ strong {
     justify-items: center
 }
 
-.guildInfoContainer-VZ-tXn {
-    margin: 4px 0
-}
-
-.guildNameAndContext-3U0IyY {
-    margin-left: 12px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
-}
-
 .topicText-3B26Cx {
-    margin: 16px 0;
+    margin: 12px 0;
+    font-weight: 600;
     -webkit-line-clamp: 2
 }
 
 .guildName-2Ec3Mf,.topicText-3B26Cx {
-    font-weight: 600;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -78205,4 +78190,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8e6e0f257bf3402e0d17.css.map*/
+/*# sourceMappingURL=0.da3700d4cf645f05c503.css.map*/
