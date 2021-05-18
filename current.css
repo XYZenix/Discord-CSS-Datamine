@@ -18703,6 +18703,176 @@ img[alt] {
     cursor: pointer
 }
 
+.avatarUploader-3XDtmn {
+    text-align: center;
+    font-size: 12px
+}
+
+.avatarUploader-3XDtmn .removeButton-1hcZyG {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.avatarUploader-3XDtmn .sizeInfo-SKMPPw {
+    margin-top: 10px;
+    display: block;
+    font-size: 10px;
+    color: #87909c
+}
+
+.avatarUploader-3XDtmn .sizeInfo-SKMPPw strong {
+    font-weight: 700
+}
+
+.avatarUploaderInner-3UNxY3 {
+    display: inline-block;
+    width: 138px;
+    height: 138px;
+    border-radius: 50%;
+    background-color: var(--brand-experiment);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: -webkit-box-shadow .1s;
+    transition: -webkit-box-shadow .1s;
+    transition: box-shadow .1s;
+    transition: box-shadow .1s,-webkit-box-shadow .1s;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.avatarUploaderInner-3UNxY3>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    pointer-events: none;
+    color: #fff
+}
+
+.avatarUploaderInner-3UNxY3 .fileInput-23-d-3,.avatarUploaderInner-3UNxY3 input[type=file] {
+    pointer-events: auto
+}
+
+.avatarUploaderInner-3UNxY3:focus-within,.avatarUploaderInner-3UNxY3:hover {
+    -webkit-box-shadow: inset 0 0 120px rgba(0,0,0,.75);
+    box-shadow: inset 0 0 120px rgba(0,0,0,.75)
+}
+
+.avatarUploaderInner-3UNxY3:focus-within .avatarUploaderAcronym-3SioMc,.avatarUploaderInner-3UNxY3:hover .avatarUploaderAcronym-3SioMc {
+    visibility: hidden
+}
+
+.avatarUploaderInner-3UNxY3:focus-within .avatarUploaderHint-3SN212,.avatarUploaderInner-3UNxY3:hover .avatarUploaderHint-3SN212 {
+    visibility: visible
+}
+
+.avatarUploaderAcronym-3SioMc {
+    font-size: 40px;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.avatarUploaderHint-3SN212 {
+    visibility: hidden;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 12px;
+    white-space: pre
+}
+
+.avatarUploaderIndicator-2G-aIZ {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.theme-light .avatarUploader-3XDtmn .removeButton-1hcZyG {
+    color: #b9bbbe
+}
+
+.theme-light .avatarUploader-3XDtmn .removeButton-1hcZyG:hover {
+    color: #72767d
+}
+
+.theme-light .avatarUploaderIndicator-2G-aIZ {
+    background-color: #fff;
+    background-image: url(/assets/30a3036e40d0f175912ec96c03596e29.svg)
+}
+
+.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG {
+    color: #b9bbbe
+}
+
+.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover {
+    color: #72767d
+}
+
+.theme-dark .avatarUploaderIndicator-2G-aIZ {
+    background-color: #dcddde;
+    background-image: url(/assets/d5c25e76af04cea8997e4a060572feae.svg)
+}
+
+.avatarUploaderInner-8sz5Du {
+    width: 80px;
+    height: 80px
+}
+
+.content-1VT-5N {
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+    padding: 16px
+}
+
+.reset-2qAT6l {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding-left: 1px;
+    padding-right: 1px;
+    opacity: .6
+}
+
+.reset-2qAT6l:hover {
+    opacity: 1;
+    text-decoration: underline
+}
+
 .card-1SJYqw {
     padding: 10px;
     line-height: 20px
@@ -37966,151 +38136,6 @@ html .progress-GjyFoQ {
 
 .container-2XwRXY {
     padding: 16px
-}
-
-.avatarUploader-3XDtmn {
-    text-align: center;
-    font-size: 12px
-}
-
-.avatarUploader-3XDtmn .removeButton-1hcZyG {
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    display: block;
-    text-decoration: none;
-    cursor: pointer
-}
-
-.avatarUploader-3XDtmn .sizeInfo-SKMPPw {
-    margin-top: 10px;
-    display: block;
-    font-size: 10px;
-    color: #87909c
-}
-
-.avatarUploader-3XDtmn .sizeInfo-SKMPPw strong {
-    font-weight: 700
-}
-
-.avatarUploaderInner-3UNxY3 {
-    display: inline-block;
-    width: 138px;
-    height: 138px;
-    border-radius: 50%;
-    background-color: var(--brand-experiment);
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    position: relative;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: -webkit-box-shadow .1s;
-    transition: -webkit-box-shadow .1s;
-    transition: box-shadow .1s;
-    transition: box-shadow .1s,-webkit-box-shadow .1s;
-    -ms-flex-negative: 0;
-    flex-shrink: 0
-}
-
-.avatarUploaderInner-3UNxY3>* {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    pointer-events: none;
-    color: #fff
-}
-
-.avatarUploaderInner-3UNxY3 .fileInput-23-d-3,.avatarUploaderInner-3UNxY3 input[type=file] {
-    pointer-events: auto
-}
-
-.avatarUploaderInner-3UNxY3:focus-within,.avatarUploaderInner-3UNxY3:hover {
-    -webkit-box-shadow: inset 0 0 120px rgba(0,0,0,.75);
-    box-shadow: inset 0 0 120px rgba(0,0,0,.75)
-}
-
-.avatarUploaderInner-3UNxY3:focus-within .avatarUploaderAcronym-3SioMc,.avatarUploaderInner-3UNxY3:hover .avatarUploaderAcronym-3SioMc {
-    visibility: hidden
-}
-
-.avatarUploaderInner-3UNxY3:focus-within .avatarUploaderHint-3SN212,.avatarUploaderInner-3UNxY3:hover .avatarUploaderHint-3SN212 {
-    visibility: visible
-}
-
-.avatarUploaderAcronym-3SioMc {
-    font-size: 40px;
-    overflow: hidden;
-    white-space: nowrap
-}
-
-.avatarUploaderHint-3SN212 {
-    visibility: hidden;
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 12px;
-    white-space: pre
-}
-
-.avatarUploaderIndicator-2G-aIZ {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: auto;
-    width: 28px;
-    height: 28px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.theme-light .avatarUploader-3XDtmn .removeButton-1hcZyG {
-    color: #b9bbbe
-}
-
-.theme-light .avatarUploader-3XDtmn .removeButton-1hcZyG:hover {
-    color: #72767d
-}
-
-.theme-light .avatarUploaderIndicator-2G-aIZ {
-    background-color: #fff;
-    background-image: url(/assets/30a3036e40d0f175912ec96c03596e29.svg)
-}
-
-.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG {
-    color: #b9bbbe
-}
-
-.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover {
-    color: #72767d
-}
-
-.theme-dark .avatarUploaderIndicator-2G-aIZ {
-    background-color: #dcddde;
-    background-image: url(/assets/d5c25e76af04cea8997e4a060572feae.svg)
 }
 
 .avatar-dEJa0g,.container-2Qf5AZ {
@@ -78174,4 +78199,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.485279e178036c31dcfe.css.map*/
+/*# sourceMappingURL=0.ac8d80235aac86f0380f.css.map*/
