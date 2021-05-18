@@ -10932,7 +10932,7 @@ img[alt] {
     text-align: center
 }
 
-.body-UWe58N {
+.errorBody-3WviEJ {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -10944,6 +10944,52 @@ img[alt] {
     -ms-flex-align: center;
     align-items: center;
     padding: 0 16px
+}
+
+@media (max-width: 485px) {
+    .errorBody-3WviEJ {
+        text-align:center
+    }
+}
+
+.promotionBody-2r_eLH {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 20px
+}
+
+@media (max-width: 485px) {
+    .promotionBody-2r_eLH {
+        -webkit-box-orient:vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto;
+        text-align: center
+    }
+}
+
+.promotionImage-1HQo_l {
+    max-height: 200px;
+    max-width: 160px
+}
+
+@media (min-width: 485px) {
+    .promotionImage-1HQo_l {
+        margin-right:16px
+    }
+}
+
+@media (max-width: 485px) {
+    .promotionImage-1HQo_l {
+        margin-top:32px;
+        margin-bottom: 32px
+    }
 }
 
 .title-9oNsnn {
@@ -78199,4 +78245,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ac8d80235aac86f0380f.css.map*/
+/*# sourceMappingURL=0.80782910d78932dd52fe.css.map*/
