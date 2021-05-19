@@ -3170,13 +3170,16 @@
 }
 
 .children-rWhLdy {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column
+}
+
+.children-rWhLdy,.sectionTitle-2vauyC {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
 }
 
 .container-3bTSed {
@@ -16665,6 +16668,460 @@ img[alt] {
     flex-shrink: 0
 }
 
+.container-q03LZO {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -6px;
+    margin-bottom: -6px
+}
+
+.container-q03LZO>* {
+    margin: 0 6px 6px 0
+}
+
+.profileBadge-2niAfJ {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    cursor: pointer;
+    width: 24px;
+    height: 24px
+}
+
+.profileBadgeStaff-3BXdTO {
+    background-image: url(/assets/7cfd90c8062139e4804a1fa59f564731.svg)
+}
+
+.profileBadgePartner-j6Lwhr {
+    background-image: url(/assets/a6a741e07b5ec2d1583f8b98df3c2143.svg)
+}
+
+.profileBadgeHypesquad-12E2P6 {
+    background-image: url(/assets/3a050fcc884255231b99b7033c776070.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse1-3rBtjf {
+    background-image: url(/assets/1115767aed344e96a27a12e97718c171.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse2-2oU04B {
+    background-image: url(/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse3-1DoJkv {
+    background-image: url(/assets/2a085ed9c86f3613935a6a8667ba8b89.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse1Winner-3wCl80 {
+    background-image: url(/assets/75f75c3142b8d44ea7052c2bcb9a9043.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse2Winner-AS5bXe {
+    background-image: url(/assets/d4a8fe68fc5f40c8a778f858881a7b84.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse3Winner-2CwwQi {
+    background-image: url(/assets/5dc48a7859a00e7d95ad8382156aab84.svg)
+}
+
+.profileBadgeVerifiedDeveloper-195KfD {
+    background-image: url(/assets/785d81fdbedd133e213da693aba98774.svg)
+}
+
+.profileBadgeCertifiedModerator-1TQtjV {
+    background-image: url(/assets/2b18e0ba64c087204e399479cab5c60a.svg)
+}
+
+.profileBadgeEarlySupporter-2ng_jL {
+    background-image: url(/assets/ce15562552e3d70c56d5408cfeed2ffd.svg);
+    width: 28px
+}
+
+.profileBadgePremium-1KDZYC {
+    background-image: url(/assets/379d2b3171722ef8be494231234da5d1.svg);
+    width: 28px
+}
+
+.profileBadgeBugHunterLevel1-dbEzVz {
+    background-image: url(/assets/df26f079738a4dcd07cbce6eb3c957f1.svg)
+}
+
+.profileBadgeBugHunterLevel2-3TUciC {
+    background-image: url(/assets/16def052b03d75dac0ed9234c5d6a880.svg)
+}
+
+.profileGuildSubscriberlvl1-3oI9tx {
+    background-image: url(/assets/a86d7e56b8208da9f8623ac49fe822dc.svg)
+}
+
+.profileGuildSubscriberlvl2-r6nJHT {
+    background-image: url(/assets/e85361cd599b6722548c5a5f003b4b78.svg)
+}
+
+.profileGuildSubscriberlvl3-38s3Dj {
+    background-image: url(/assets/7a0be61e754af3353d0871070f46a9d6.svg)
+}
+
+.profileGuildSubscriberlvl4-2NXrsI {
+    background-image: url(/assets/88f960f400930f109847d0335685de69.svg)
+}
+
+.profileGuildSubscriberlvl5-3XIa2K {
+    background-image: url(/assets/a99def5f819c077e5e5061cab741b7e6.svg)
+}
+
+.profileGuildSubscriberlvl6-3e3sxW {
+    background-image: url(/assets/2cfb317f3db3963d8ded9a97ee967bac.svg)
+}
+
+.profileGuildSubscriberlvl7-1dVhQT {
+    background-image: url(/assets/278736f579d810b11ddf308cb598b19e.svg)
+}
+
+.profileGuildSubscriberlvl8-1kXdFr {
+    background-image: url(/assets/38e40f25802a0fdf480d9b855a37a2f3.svg)
+}
+
+.profileGuildSubscriberlvl9-1d6zav {
+    background-image: url(/assets/cfbc2d8ceacfacf07850f986c8165195.svg)
+}
+
+.colored-1armap .profileBadgeStaff-3BXdTO {
+    background-image: url(/assets/c5b2473c93c340dbe540e120a86a019f.svg)
+}
+
+.colored-1armap .profileBadgePartner-j6Lwhr {
+    background-image: url(/assets/0d494d94157e71dd9cc064baad0f1b70.svg)
+}
+
+.colored-1armap .profileBadgeHypesquad-12E2P6 {
+    background-image: url(/assets/6c73f47daf179ffade99f501bfc5101b.svg)
+}
+
+.colored-1armap .profileBadgeHypeSquadOnlineHouse1-3rBtjf {
+    background-image: url(/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg)
+}
+
+.colored-1armap .profileBadgeHypeSquadOnlineHouse2-2oU04B {
+    background-image: url(/assets/48cf0556d93901c8cb16317be2436523.svg)
+}
+
+.colored-1armap .profileBadgeHypeSquadOnlineHouse3-1DoJkv {
+    background-image: url(/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg)
+}
+
+.colored-1armap .profileBadgeHypeSquadOnlineHouse1Winner-3wCl80 {
+    background-image: url(/assets/26a2dc8c9d70955a988cb377eec84c22.svg)
+}
+
+.colored-1armap .profileBadgeHypeSquadOnlineHouse2Winner-AS5bXe {
+    background-image: url(/assets/88d4f11bee9ea34fee59973b33353da0.svg)
+}
+
+.colored-1armap .profileBadgeHypeSquadOnlineHouse3Winner-2CwwQi {
+    background-image: url(/assets/3245b2cd85b787b195ea8f6e10ef5790.svg)
+}
+
+.colored-1armap .profileBadgeVerifiedDeveloper-195KfD {
+    background-image: url(/assets/45cd06af582dcd3c6b79370b4e3630de.svg)
+}
+
+.colored-1armap .profileBadgeEarlySupporter-2ng_jL {
+    background-image: url(/assets/23e59d799436a73c024819f84ea0b627.svg)
+}
+
+.colored-1armap .profileBadgePremium-1KDZYC {
+    background-image: url(/assets/386884eecd36164487505ddfbac35a9d.svg)
+}
+
+.colored-1armap .profileBadgeBugHunterLevel1-dbEzVz {
+    background-image: url(/assets/30f7a46fe785c7273bfc4558213c317a.svg)
+}
+
+.colored-1armap .profileBadgeBugHunterLevel2-3TUciC {
+    background-image: url(/assets/9286332d6e947c91fa91569efce431b0.svg)
+}
+
+.colored-1armap .profileBadgeCertifiedModerator-1TQtjV {
+    background-image: url(/assets/955e3c9783043c7080ac202565810fc3.svg)
+}
+
+.colored-1armap .profileGuildSubscriberlvl1-3oI9tx {
+    background-image: url(/assets/fbb6f1e160280f0e9aeb5d7c452eefe1.svg)
+}
+
+.colored-1armap .profileGuildSubscriberlvl2-r6nJHT {
+    background-image: url(/assets/b4b741bef6c3de9b29e2e0653e294620.svg)
+}
+
+.colored-1armap .profileGuildSubscriberlvl3-38s3Dj {
+    background-image: url(/assets/93f5a393e22796a850931483166d7cb9.svg)
+}
+
+.colored-1armap .profileGuildSubscriberlvl4-2NXrsI {
+    background-image: url(/assets/4c380650960c2b1e1584115d5e9ad63b.svg)
+}
+
+.colored-1armap .profileGuildSubscriberlvl5-3XIa2K {
+    background-image: url(/assets/438dd7ecbffcf21b6cbf2773ade51a04.svg)
+}
+
+.colored-1armap .profileGuildSubscriberlvl6-3e3sxW {
+    background-image: url(/assets/7a5f78de816fcecbbd1d5d6e635cc7dd.svg)
+}
+
+.colored-1armap .profileGuildSubscriberlvl7-1dVhQT {
+    background-image: url(/assets/5a24b20b84fb3eafc138916729386e76.svg)
+}
+
+.colored-1armap .profileGuildSubscriberlvl8-1kXdFr {
+    background-image: url(/assets/f31d590e1f3629cd0b614330f4a8ee2a.svg)
+}
+
+.colored-1armap .profileGuildSubscriberlvl9-1d6zav {
+    background-image: url(/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg)
+}
+
+.profileBannerPremium-2RxXQ9 {
+    height: 120px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover
+}
+
+.profileBanner-j34RzR {
+    height: 60px
+}
+
+.headerNormal-1l1Znk {
+    color: var(--header-secondary);
+    line-height: 20px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background-color: var(--background-secondary)
+}
+
+.headerNameWrapper-gEOyRH {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.headerName-3W-qH- {
+    word-break: break-word;
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    color: var(--interactive-active)
+}
+
+.avatarHint-1E3LMl {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: opacity .1s ease;
+    transition: opacity .1s ease;
+    pointer-events: none
+}
+
+.avatarHintInner-2kMTo4 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: 700;
+    width: 100%;
+    padding-top: 4px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-transform: uppercase;
+    -webkit-box-shadow: inset 0 0 120px rgba(0,0,0,.75);
+    box-shadow: inset 0 0 120px rgba(0,0,0,.75)
+}
+
+.avatar-22FtUu {
+    border: 6px solid var(--background-tertiary);
+    background-color: var(--background-tertiary)
+}
+
+.avatarWrapper-1-5NA0 {
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 16px;
+    z-index: 1
+}
+
+.avatarWrapperNormal-2tu8Ts {
+    cursor: pointer
+}
+
+.avatarWrapperNormal-2tu8Ts:hover .avatarHint-1E3LMl {
+    opacity: 1
+}
+
+.avatarWrapperNonUserBot-1aLvjh {
+    cursor: default
+}
+
+.avatarPositionNormal-1CZUPk {
+    top: 16px
+}
+
+.avatarPositionPremium-1QenYe {
+    top: 76px
+}
+
+.headerTop-2y3V6H {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 64px 16px 16px;
+    background-color: var(--background-tertiary);
+    overflow: hidden;
+    position: relative
+}
+
+.headerText-2WJ44e,.headerTop-2y3V6H {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.headerText-2WJ44e {
+    text-align: left
+}
+
+.headerTag-nSOkYt {
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.headerNormal-1l1Znk .headerTag-nSOkYt {
+    color: var(--header-secondary)
+}
+
+.headerTagWithNickname-2YarQ8 {
+}
+
+.headerTagNoNickname-3ak9o8 {
+    line-height: 24px;
+    word-break: break-word;
+    white-space: normal;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+
+.headerBotTagWithNickname-3-shVg {
+    margin-bottom: 2px
+}
+
+.customStatus-3NamXG {
+    margin-top: 12px;
+    width: 100%;
+    overflow-wrap: break-word;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--header-secondary)
+}
+
+.customStatus-3NamXG .customStatusEmoji-1itGdP {
+    width: 20px;
+    height: 20px
+}
+
+.customStatus-3NamXG .customStatusEmoji-1itGdP:not(:last-child) {
+    margin-right: 8px
+}
+
+.customStatus-3NamXG .customStatusEmoji-1itGdP.customStatusSoloEmoji-3RCuZj {
+    width: 48px;
+    height: 48px
+}
+
+.customStatusText-2wWmYP {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text
+}
+
+.activity-fViXj7 {
+    padding: 16px 0;
+    margin: 0 16px;
+    border-bottom: 1px solid var(--background-accent)
+}
+
+.headerTagUsernameNoNickname-1SSLBc {
+    color: var(--interactive-active);
+    font-weight: 600
+}
+
+.headerTagDiscriminatorNoNickname-1jiWtJ {
+    line-height: 20px
+}
+
+.profileBadges-1dm1_q {
+    max-width: 180px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.profileBadges-1dm1_q,.spinner-3YTkt9 {
+    position: absolute;
+    top: 16px;
+    right: 16px
+}
+
+.spinner-3YTkt9 {
+    width: auto
+}
+
+.aboutMeSection-3bipSD {
+    padding: 0 16px 16px;
+    background-color: var(--background-tertiary)
+}
+
+.aboutMeTitle-2M2L3- {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px
+}
+
 @-webkit-keyframes live-pulse-3GAxuT {
     0% {
         -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.12),0 0 0 0 rgba(237,66,69,.42);
@@ -16702,7 +17159,6 @@ img[alt] {
 .userPopout-3XzG_A {
     -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6);
     box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6);
-    width: 250px;
     border-radius: 5px;
     overflow: hidden;
     max-height: calc(100vh - 20px);
@@ -16747,7 +17203,7 @@ img[alt] {
 }
 
 .headerPlaying-j0WQBV {
-    background: var(--brand-experiment)
+    background: #7289da
 }
 
 .avatarWrapper-3H_478 {
@@ -67382,223 +67838,6 @@ html .tabBadge-3smxHS {
     justify-content: flex-end
 }
 
-.container-q03LZO {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -6px;
-    margin-bottom: -6px
-}
-
-.container-q03LZO>* {
-    margin: 0 6px 6px 0
-}
-
-.profileBadge-2niAfJ {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50%;
-    cursor: pointer;
-    width: 24px;
-    height: 24px
-}
-
-.profileBadgeStaff-3BXdTO {
-    background-image: url(/assets/7cfd90c8062139e4804a1fa59f564731.svg)
-}
-
-.profileBadgePartner-j6Lwhr {
-    background-image: url(/assets/a6a741e07b5ec2d1583f8b98df3c2143.svg)
-}
-
-.profileBadgeHypesquad-12E2P6 {
-    background-image: url(/assets/3a050fcc884255231b99b7033c776070.svg)
-}
-
-.profileBadgeHypeSquadOnlineHouse1-3rBtjf {
-    background-image: url(/assets/1115767aed344e96a27a12e97718c171.svg)
-}
-
-.profileBadgeHypeSquadOnlineHouse2-2oU04B {
-    background-image: url(/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg)
-}
-
-.profileBadgeHypeSquadOnlineHouse3-1DoJkv {
-    background-image: url(/assets/2a085ed9c86f3613935a6a8667ba8b89.svg)
-}
-
-.profileBadgeHypeSquadOnlineHouse1Winner-3wCl80 {
-    background-image: url(/assets/75f75c3142b8d44ea7052c2bcb9a9043.svg)
-}
-
-.profileBadgeHypeSquadOnlineHouse2Winner-AS5bXe {
-    background-image: url(/assets/d4a8fe68fc5f40c8a778f858881a7b84.svg)
-}
-
-.profileBadgeHypeSquadOnlineHouse3Winner-2CwwQi {
-    background-image: url(/assets/5dc48a7859a00e7d95ad8382156aab84.svg)
-}
-
-.profileBadgeVerifiedDeveloper-195KfD {
-    background-image: url(/assets/785d81fdbedd133e213da693aba98774.svg)
-}
-
-.profileBadgeCertifiedModerator-1TQtjV {
-    background-image: url(/assets/2b18e0ba64c087204e399479cab5c60a.svg)
-}
-
-.profileBadgeEarlySupporter-2ng_jL {
-    background-image: url(/assets/ce15562552e3d70c56d5408cfeed2ffd.svg);
-    width: 28px
-}
-
-.profileBadgePremium-1KDZYC {
-    background-image: url(/assets/379d2b3171722ef8be494231234da5d1.svg);
-    width: 28px
-}
-
-.profileBadgeBugHunterLevel1-dbEzVz {
-    background-image: url(/assets/df26f079738a4dcd07cbce6eb3c957f1.svg)
-}
-
-.profileBadgeBugHunterLevel2-3TUciC {
-    background-image: url(/assets/16def052b03d75dac0ed9234c5d6a880.svg)
-}
-
-.profileGuildSubscriberlvl1-3oI9tx {
-    background-image: url(/assets/a86d7e56b8208da9f8623ac49fe822dc.svg)
-}
-
-.profileGuildSubscriberlvl2-r6nJHT {
-    background-image: url(/assets/e85361cd599b6722548c5a5f003b4b78.svg)
-}
-
-.profileGuildSubscriberlvl3-38s3Dj {
-    background-image: url(/assets/7a0be61e754af3353d0871070f46a9d6.svg)
-}
-
-.profileGuildSubscriberlvl4-2NXrsI {
-    background-image: url(/assets/88f960f400930f109847d0335685de69.svg)
-}
-
-.profileGuildSubscriberlvl5-3XIa2K {
-    background-image: url(/assets/a99def5f819c077e5e5061cab741b7e6.svg)
-}
-
-.profileGuildSubscriberlvl6-3e3sxW {
-    background-image: url(/assets/2cfb317f3db3963d8ded9a97ee967bac.svg)
-}
-
-.profileGuildSubscriberlvl7-1dVhQT {
-    background-image: url(/assets/278736f579d810b11ddf308cb598b19e.svg)
-}
-
-.profileGuildSubscriberlvl8-1kXdFr {
-    background-image: url(/assets/38e40f25802a0fdf480d9b855a37a2f3.svg)
-}
-
-.profileGuildSubscriberlvl9-1d6zav {
-    background-image: url(/assets/cfbc2d8ceacfacf07850f986c8165195.svg)
-}
-
-.colored-1armap .profileBadgeStaff-3BXdTO {
-    background-image: url(/assets/c5b2473c93c340dbe540e120a86a019f.svg)
-}
-
-.colored-1armap .profileBadgePartner-j6Lwhr {
-    background-image: url(/assets/0d494d94157e71dd9cc064baad0f1b70.svg)
-}
-
-.colored-1armap .profileBadgeHypesquad-12E2P6 {
-    background-image: url(/assets/6c73f47daf179ffade99f501bfc5101b.svg)
-}
-
-.colored-1armap .profileBadgeHypeSquadOnlineHouse1-3rBtjf {
-    background-image: url(/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg)
-}
-
-.colored-1armap .profileBadgeHypeSquadOnlineHouse2-2oU04B {
-    background-image: url(/assets/48cf0556d93901c8cb16317be2436523.svg)
-}
-
-.colored-1armap .profileBadgeHypeSquadOnlineHouse3-1DoJkv {
-    background-image: url(/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg)
-}
-
-.colored-1armap .profileBadgeHypeSquadOnlineHouse1Winner-3wCl80 {
-    background-image: url(/assets/26a2dc8c9d70955a988cb377eec84c22.svg)
-}
-
-.colored-1armap .profileBadgeHypeSquadOnlineHouse2Winner-AS5bXe {
-    background-image: url(/assets/88d4f11bee9ea34fee59973b33353da0.svg)
-}
-
-.colored-1armap .profileBadgeHypeSquadOnlineHouse3Winner-2CwwQi {
-    background-image: url(/assets/3245b2cd85b787b195ea8f6e10ef5790.svg)
-}
-
-.colored-1armap .profileBadgeVerifiedDeveloper-195KfD {
-    background-image: url(/assets/45cd06af582dcd3c6b79370b4e3630de.svg)
-}
-
-.colored-1armap .profileBadgeEarlySupporter-2ng_jL {
-    background-image: url(/assets/23e59d799436a73c024819f84ea0b627.svg)
-}
-
-.colored-1armap .profileBadgePremium-1KDZYC {
-    background-image: url(/assets/386884eecd36164487505ddfbac35a9d.svg)
-}
-
-.colored-1armap .profileBadgeBugHunterLevel1-dbEzVz {
-    background-image: url(/assets/30f7a46fe785c7273bfc4558213c317a.svg)
-}
-
-.colored-1armap .profileBadgeBugHunterLevel2-3TUciC {
-    background-image: url(/assets/9286332d6e947c91fa91569efce431b0.svg)
-}
-
-.colored-1armap .profileBadgeCertifiedModerator-1TQtjV {
-    background-image: url(/assets/955e3c9783043c7080ac202565810fc3.svg)
-}
-
-.colored-1armap .profileGuildSubscriberlvl1-3oI9tx {
-    background-image: url(/assets/fbb6f1e160280f0e9aeb5d7c452eefe1.svg)
-}
-
-.colored-1armap .profileGuildSubscriberlvl2-r6nJHT {
-    background-image: url(/assets/b4b741bef6c3de9b29e2e0653e294620.svg)
-}
-
-.colored-1armap .profileGuildSubscriberlvl3-38s3Dj {
-    background-image: url(/assets/93f5a393e22796a850931483166d7cb9.svg)
-}
-
-.colored-1armap .profileGuildSubscriberlvl4-2NXrsI {
-    background-image: url(/assets/4c380650960c2b1e1584115d5e9ad63b.svg)
-}
-
-.colored-1armap .profileGuildSubscriberlvl5-3XIa2K {
-    background-image: url(/assets/438dd7ecbffcf21b6cbf2773ade51a04.svg)
-}
-
-.colored-1armap .profileGuildSubscriberlvl6-3e3sxW {
-    background-image: url(/assets/7a5f78de816fcecbbd1d5d6e635cc7dd.svg)
-}
-
-.colored-1armap .profileGuildSubscriberlvl7-1dVhQT {
-    background-image: url(/assets/5a24b20b84fb3eafc138916729386e76.svg)
-}
-
-.colored-1armap .profileGuildSubscriberlvl8-1kXdFr {
-    background-image: url(/assets/f31d590e1f3629cd0b614330f4a8ee2a.svg)
-}
-
-.colored-1armap .profileGuildSubscriberlvl9-1d6zav {
-    background-image: url(/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg)
-}
-
 .header-3ydO_m {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -67851,6 +68090,134 @@ html .tabBadge-3smxHS {
     text-overflow: ellipsis
 }
 
+.userProfileCustomizationSection-3jnC1o {
+    position: relative
+}
+
+.userProfileCustomizationTitle-2PzmOq {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-bottom: 8px
+}
+
+.nitroUpsellButton-3TnnfB {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.profileBannerSection-CYy4KP {
+    margin-top: 40px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.profileBannerInfo-3uf8pG,.profileBannerSection-CYy4KP {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.profileBannerInfo-3uf8pG {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.profileBannerPreview-3FLQKD {
+    position: relative
+}
+
+.noOverlay-2LXVi2 {
+    display: none
+}
+
+.bannerDisabledOverlay-2Z-HAU {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0,0,0,.3)
+}
+
+.uploadButton-1T8FHa {
+    margin-top: 16px
+}
+
+.previewProfile-_oCk35 {
+    width: 300px;
+    height: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-radius: 8px
+}
+
+.profileBackgroundPreview-3BVL0Q {
+    border-radius: 0 0 8px 8px;
+    height: 60px;
+    width: 100%;
+    top: 120px
+}
+
+.avatar-2PN2-j,.profileBackgroundPreview-3BVL0Q {
+    background-color: var(--background-tertiary);
+    position: absolute
+}
+
+.avatar-2PN2-j {
+    border: 6px solid var(--background-tertiary);
+    left: 16px;
+    top: 76px;
+    z-index: 1
+}
+
+.bannerUploader-2jPvg2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 205px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.bannerUploaderInnerSquare-Um3vgL {
+    border-radius: 8px 8px 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 120px
+}
+
+.bioSection-2odaMw {
+    margin-top: 40px
+}
+
+.aboutMeDescription-CHP9ty {
+    margin-bottom: 8px
+}
+
+.disabledDescription-NVwpyW {
+    color: var(--text-muted)
+}
+
 .header-2xfEYR {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -68063,6 +68430,18 @@ html .tabBadge-3smxHS {
 
 .theme-dark .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy {
     color: #dcddde
+}
+
+.userProfileCustomizationSection-3nHZ-9 {
+    margin-top: 40px;
+    position: relative
+}
+
+.nitroIcon-1oDfAa {
+    color: var(--header-primary);
+    margin-right: 6px;
+    position: relative;
+    top: -3px
 }
 
 .modalContent-Kx1eDz {
@@ -78364,4 +78743,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7113744c1c40e30a2054.css.map*/
+/*# sourceMappingURL=0.eba9cfbf7e3af503f38f.css.map*/
