@@ -12772,13 +12772,20 @@ img[alt] {
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-    min-height: 300px;
-    height: 400px;
-    max-height: 500px;
     overflow: hidden;
     margin: 0 20px;
     background-color: #000;
     border-radius: 4px
+}
+
+.editingContainerAvatar-1ZAZj7 {
+    min-height: 300px;
+    height: 400px;
+    max-height: 500px
+}
+
+.editingContainerBanner-cJTggD {
+    height: 300px
 }
 
 .image-3Yh9L1 {
@@ -12800,10 +12807,16 @@ img[alt] {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     pointer-events: none;
+    position: absolute
+}
+
+.overlayAvatar-2W83ow {
     -webkit-box-shadow: rgba(47,49,54,.6) 0 0 0 9999px;
     box-shadow: 0 0 0 9999px rgba(47,49,54,.6);
-    border-radius: 50%;
-    position: absolute
+    border-radius: 50%
+}
+
+.overlayAvatar-2W83ow,.overlayBanner-gTP3kG {
 }
 
 .sliderContainer-1N1-Pn {
@@ -78838,4 +78851,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c5283adf954fa07081ac.css.map*/
+/*# sourceMappingURL=0.a1fe219fe728f81afbf1.css.map*/
