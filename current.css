@@ -57530,12 +57530,20 @@ a.ctaAnchor-3-8I3v:hover {
     align-items: center
 }
 
+.dotSeparator-3gmT-O {
+    margin: 0 8px;
+    height: 4px;
+    width: 4px;
+    background-color: var(--background-accent);
+    border-radius: 50%
+}
+
 .icon-3QjGWS {
     margin-right: 4px
 }
 
-.iconAudience-1pFEnZ {
-    margin: auto 4px
+.iconAfterText-3Hl9dX {
+    margin: auto 4px auto 8px
 }
 
 .scrollerBase-1X4git {
@@ -78803,4 +78811,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8487b06b2930c4cdaa42.css.map*/
+/*# sourceMappingURL=0.d9a359150d849fbf3ec5.css.map*/
