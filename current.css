@@ -16898,6 +16898,14 @@ img[alt] {
     background-image: url(/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg)
 }
 
+.banner-3gRYg5 {
+    position: relative
+}
+
+.banner-3gRYg5:hover .bannerOverlay-1Q8RTe,.banner-3gRYg5:hover .pencilIcon-XmcZQT {
+    opacity: 1
+}
+
 .profileBannerPremium-2RxXQ9 {
     height: 120px;
     width: 300px;
@@ -16908,6 +16916,27 @@ img[alt] {
 
 .profileBanner-j34RzR {
     height: 60px
+}
+
+.pencilIcon-XmcZQT {
+    top: 16px;
+    right: 16px;
+    color: #fff
+}
+
+.bannerOverlay-1Q8RTe,.pencilIcon-XmcZQT {
+    position: absolute;
+    opacity: 0
+}
+
+.bannerOverlay-1Q8RTe {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),inset 0 0 120px rgba(0,0,0,.6);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),inset 0 0 120px rgba(0,0,0,.6);
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease
 }
 
 .headerNormal-1l1Znk {
@@ -50301,6 +50330,18 @@ strong {
     text-align: center
 }
 
+.tooltip-1Il2gT p {
+    margin: 12px 0
+}
+
+.tooltip-1Il2gT p:first-of-type {
+    margin-top: 0
+}
+
+.tooltip-1Il2gT p:last-of-type {
+    margin-bottom: 0
+}
+
 .progressCircle-1hzs_b {
     position: relative;
     width: 100%;
@@ -78851,4 +78892,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a1fe219fe728f81afbf1.css.map*/
+/*# sourceMappingURL=0.86770df8a2074a4083b4.css.map*/
