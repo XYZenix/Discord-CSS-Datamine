@@ -67691,6 +67691,60 @@ html .tabBadge-3smxHS {
     margin-left: 4px
 }
 
+.content-23Vf0N {
+    background: var(--brand-experiment);
+    position: relative;
+    text-align: center;
+    padding: 32px 10px 16px;
+    max-width: 280px;
+    border-radius: 8px
+}
+
+.art-1f2nmf {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateY(-85%) translateX(-50%);
+    transform: translateY(-85%) translateX(-50%);
+    width: 248px;
+    height: 153.21px;
+    background-image: url(/assets/d8b0839b664fcfcfebad6a4c2a622872.png)
+}
+
+.headerText-21DDzl {
+    color: #fff;
+    font-weight: 600;
+    margin-top: 3px
+}
+
+.bodyText-2tDiRp {
+    color: #fff;
+    margin-top: 4px
+}
+
+.button-1wP1OV {
+    margin-top: 16px;
+    height: 32px
+}
+
+.content-23Vf0N .button-1wP1OV {
+    color: var(--brand-experiment)
+}
+
+.pointer-2uxyAa {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 5px solid var(--brand-experiment);
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px
+}
+
 .group-2TdL0v {
 }
 
@@ -68101,10 +68155,20 @@ html .tabBadge-3smxHS {
     margin-bottom: 8px
 }
 
-.nitroUpsellButton-3TnnfB {
-    position: absolute;
-    top: 0;
-    right: 0
+.nitroUpsellButtonInner-2K4aHT {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.nitroUpsellButtonWheel-kBcKNI {
+    margin-right: 4px
 }
 
 .profileBannerSection-CYy4KP {
@@ -78739,4 +78803,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4701bf6efbd2b65321f8.css.map*/
+/*# sourceMappingURL=0.8487b06b2930c4cdaa42.css.map*/
