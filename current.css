@@ -6385,7 +6385,8 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     --brand-experiment-85a: rgba(88,101,242,0.85);
     --brand-experiment-90a: rgba(88,101,242,0.9);
     --brand-experiment-95a: rgba(88,101,242,0.95);
-    --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif
+    --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --control-brand-foreground: var(--control-brand-foreground-new)
 }
 
 .root-3R2ngo {
@@ -6891,6 +6892,7 @@ code {
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
     --logo-primary: #fff;
     --control-brand-foreground: #a5b3e7;
+    --control-brand-foreground-new: #949cf7;
     --background-mentioned: rgba(250,166,26,0.1);
     --background-mentioned-hover: rgba(250,166,26,0.08);
     --background-message-hover: rgba(4,4,5,0.07);
@@ -6970,6 +6972,7 @@ code {
     --elevation-high: 0 8px 16px rgba(0,0,0,0.16);
     --logo-primary: #7289da;
     --control-brand-foreground: #7289da;
+    --control-brand-foreground-new: #5865f2;
     --background-mentioned: rgba(250,166,26,0.1);
     --background-mentioned-hover: rgba(250,166,26,0.2);
     --background-message-hover: rgba(6,6,7,0.02);
@@ -7621,6 +7624,7 @@ img[alt] {
 }
 
 .newBrand .theme-light.authBox-hW6HRx:before {
+    width: 130px;
     background: url(/assets/0c1f2f5429ac65d7a30636176b42ce8c.svg) no-repeat
 }
 
@@ -7634,6 +7638,7 @@ img[alt] {
 }
 
 .newBrand .theme-dark.authBox-hW6HRx:before {
+    width: 130px;
     background: url(/assets/5724892521ce5bc348669e9f1fabe28b.svg) no-repeat
 }
 
@@ -78932,4 +78937,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c2c756b600d568582eb2.css.map*/
+/*# sourceMappingURL=0.016ccb2af26c47aa1fad.css.map*/
