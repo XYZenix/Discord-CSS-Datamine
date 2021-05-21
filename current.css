@@ -58107,7 +58107,9 @@ a.ctaAnchor-3-8I3v:hover {
 .chat-1WUuAG .select-Upjed1>svg {
     background-color: var(--background-primary);
     border-radius: 4px;
-    margin-left: 8px
+    height: 18px;
+    margin-left: 8px;
+    width: 18px
 }
 
 .scrollerSpacer-2rPyqs {
@@ -60310,6 +60312,10 @@ a.ctaAnchor-3-8I3v:hover {
     padding-bottom: 20px
 }
 
+.strikethrough-otdQWt {
+    color: #ed4245
+}
+
 .chat-1iumcD {
     min-width: 0;
     min-height: 0;
@@ -60372,10 +60378,6 @@ a.ctaAnchor-3-8I3v:hover {
     min-width: 480px;
     width: 35vw;
     overflow: hidden
-}
-
-.strikethrough-otdQWt {
-    color: #ed4245
 }
 
 @-webkit-keyframes placeholderPulse-34GVGw {
@@ -78890,4 +78892,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2a6f0f5d1c300ebd81ba.css.map*/
+/*# sourceMappingURL=0.19b4870ceb1baaa71b4a.css.map*/
