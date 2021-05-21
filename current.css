@@ -30759,6 +30759,7 @@ html .progress-GjyFoQ {
 }
 
 .splashImage-3SgZ2f {
+    max-height: 140px;
     -o-object-fit: cover;
     object-fit: cover
 }
@@ -53833,6 +53834,11 @@ strong {
 .guildName-2Ec3Mf {
     margin-right: 4px;
     -webkit-line-clamp: 1
+}
+
+.guildName-2Ec3Mf:hover {
+    text-decoration: underline;
+    color: var(--header-primary)
 }
 
 .hoveredParticipantsContainer-1jRGjF {
@@ -78937,4 +78943,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.016ccb2af26c47aa1fad.css.map*/
+/*# sourceMappingURL=0.c9fb5bffd739aa3320bb.css.map*/
