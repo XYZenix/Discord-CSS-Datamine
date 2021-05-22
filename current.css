@@ -12754,22 +12754,22 @@ img[alt] {
     color: var(--text-positive)
 }
 
-.modalContent-3_WBnz {
+.modalContent-nFuWe- {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    overflow-y: hidden;
-    padding: 0
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
 }
 
-.editingContainer-3s5xK0,.modalContent-3_WBnz {
+.editingContainer-1iOrsV,.modalContent-nFuWe- {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
 }
 
-.editingContainer-3s5xK0 {
+.editingContainer-1iOrsV {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -12778,22 +12778,21 @@ img[alt] {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    margin: 0 20px;
     background-color: #000;
     border-radius: 4px
 }
 
-.editingContainerAvatar-1ZAZj7 {
+.editingContainerAvatar-HyS-Vl {
     min-height: 300px;
     height: 400px;
     max-height: 500px
 }
 
-.editingContainerBanner-cJTggD {
+.editingContainerBanner-OAHy-i {
     height: 300px
 }
 
-.image-3Yh9L1 {
+.image-1O4VR4 {
     height: 100%;
     pointer-events: all;
     position: absolute;
@@ -12801,12 +12800,12 @@ img[alt] {
     cursor: grab
 }
 
-.icon-2glot6 {
+.icon-1BtL8T {
     color: var(--text-normal);
     padding: 0 20px
 }
 
-.overlay-4k_Q4- {
+.overlay-qP93Id {
     z-index: 1;
     border: 5px solid #fff;
     -webkit-box-sizing: border-box;
@@ -12815,16 +12814,16 @@ img[alt] {
     position: absolute
 }
 
-.overlayAvatar-2W83ow {
+.overlayAvatar-1voNS7 {
     -webkit-box-shadow: rgba(47,49,54,.6) 0 0 0 9999px;
     box-shadow: 0 0 0 9999px rgba(47,49,54,.6);
     border-radius: 50%
 }
 
-.overlayAvatar-2W83ow,.overlayBanner-gTP3kG {
+.overlayAvatar-1voNS7,.overlayBanner-394JZU {
 }
 
-.sliderContainer-1N1-Pn {
+.sliderContainer-2Pbe0z {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -12838,15 +12837,15 @@ img[alt] {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     margin: 20px auto
 }
 
-.cancelButton-3Xu9aX {
+.cancelButton-2NwKof {
     margin-right: 12px
 }
 
-.modalFooter-2ug_ge {
+.modalFooter-37WjOa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -78943,4 +78942,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c9fb5bffd739aa3320bb.css.map*/
+/*# sourceMappingURL=0.0c3b16bb0d0065ac28f2.css.map*/
