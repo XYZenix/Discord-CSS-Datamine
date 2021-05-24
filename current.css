@@ -5796,6 +5796,17 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     height: 80px
 }
 
+.loadingPopout-qYljDW {
+    background-color: var(--background-secondary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 8px
+}
+
 .full-motion .translate-2dAEQ6.animatorTop-2Y7x2r {
     -webkit-transform: translate3d(0,-10px,0);
     transform: translate3d(0,-10px,0)
@@ -78970,4 +78981,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.516d14a6fc99681538d2.css.map*/
+/*# sourceMappingURL=0.35db7686d50109eb10a1.css.map*/
