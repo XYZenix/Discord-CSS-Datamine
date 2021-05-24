@@ -18553,6 +18553,122 @@ img[alt] {
     flex-shrink: 0
 }
 
+.base-PmTxvP {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 16px;
+    min-height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto
+}
+
+.baseShapeRound-1Mm1YW {
+    border-radius: 8px
+}
+
+.baseShapeRoundLeft-ym85l3 {
+    border-radius: 8px 0 0 8px
+}
+
+.baseShapeRoundRight-1962en {
+    border-radius: 0 8px 8px 0
+}
+
+.numberBadge-2s8kKX {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.textBadge-1iylP6 {
+    padding: 0 6px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.iconBadge-2NuvG9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px
+}
+
+.icon-3s6X1M {
+    padding: 2px;
+    width: 100%;
+    height: 100%
+}
+
+.banner-2QYc2d {
+    position: relative
+}
+
+.banner-2QYc2d:hover .bannerOverlay-1uIerX,.banner-2QYc2d:hover .pencilIcon-XSi-VE {
+    opacity: 1
+}
+
+.profileBannerPremium-35utuo {
+    height: 120px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover
+}
+
+.profileBanner-33-uE1 {
+    height: 60px
+}
+
+.pencilIcon-XSi-VE {
+    top: 14px;
+    right: 16px;
+    color: #fff
+}
+
+.bannerOverlay-1uIerX,.pencilIcon-XSi-VE {
+    position: absolute;
+    opacity: 0
+}
+
+.bannerOverlay-1uIerX {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),inset 0 0 120px rgba(0,0,0,.6);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),inset 0 0 120px rgba(0,0,0,.6);
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+
+.betaBadge-1Ve-yb {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    text-transform: uppercase;
+    -webkit-filter: drop-shadow(0 8px 16px rgba(0,0,0,.2));
+    filter: drop-shadow(0 8px 16px rgba(0,0,0,.2))
+}
+
 .markup-4LM5iR {
     white-space: normal
 }
@@ -18788,122 +18904,6 @@ img[alt] {
     background-image: url(/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg)
 }
 
-.base-PmTxvP {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    min-width: 16px;
-    min-height: 16px;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 600;
-    color: #fff;
-    text-align: center;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto
-}
-
-.baseShapeRound-1Mm1YW {
-    border-radius: 8px
-}
-
-.baseShapeRoundLeft-ym85l3 {
-    border-radius: 8px 0 0 8px
-}
-
-.baseShapeRoundRight-1962en {
-    border-radius: 0 8px 8px 0
-}
-
-.numberBadge-2s8kKX {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
-}
-
-.textBadge-1iylP6 {
-    padding: 0 6px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden
-}
-
-.iconBadge-2NuvG9 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 16px;
-    height: 16px
-}
-
-.icon-3s6X1M {
-    padding: 2px;
-    width: 100%;
-    height: 100%
-}
-
-.banner-3gRYg5 {
-    position: relative
-}
-
-.banner-3gRYg5:hover .bannerOverlay-1Q8RTe,.banner-3gRYg5:hover .pencilIcon-XmcZQT {
-    opacity: 1
-}
-
-.profileBannerPremium-2RxXQ9 {
-    height: 120px;
-    width: 300px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover
-}
-
-.profileBanner-j34RzR {
-    height: 60px
-}
-
-.pencilIcon-XmcZQT {
-    top: 14px;
-    right: 16px;
-    color: #fff
-}
-
-.bannerOverlay-1Q8RTe,.pencilIcon-XmcZQT {
-    position: absolute;
-    opacity: 0
-}
-
-.bannerOverlay-1Q8RTe {
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),inset 0 0 120px rgba(0,0,0,.6);
-    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),inset 0 0 120px rgba(0,0,0,.6);
-    -webkit-transition: opacity .2s ease;
-    transition: opacity .2s ease
-}
-
-.betaBadge-1eHgKC {
-    position: absolute;
-    top: 14px;
-    right: 16px;
-    text-transform: uppercase;
-    -webkit-filter: drop-shadow(0 8px 16px rgba(0,0,0,.2));
-    filter: drop-shadow(0 8px 16px rgba(0,0,0,.2))
-}
-
 .headerNormal-1l1Znk {
     color: var(--text-normal);
     -webkit-box-flex: 0;
@@ -19124,13 +19124,25 @@ img[alt] {
     border-bottom: 1px solid var(--background-accent)
 }
 
+.aboutMeSection-3bipSD .aboutMeBody-1a7Pjl {
+    font-size: 14px;
+    line-height: 18px
+}
+
 .aboutMeTitle-2M2L3- {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 8px
 }
 
-.aboutMeBody-1a7Pjl {
+.betaBadge-1JOhGD {
+    margin-left: 8px
 }
 
 @-webkit-keyframes live-pulse-3GAxuT {
@@ -78981,4 +78993,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.35db7686d50109eb10a1.css.map*/
+/*# sourceMappingURL=0.4baed97f2997fe1cdcdb.css.map*/
