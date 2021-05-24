@@ -18028,6 +18028,10 @@ img[alt] {
     color: var(--header-secondary)
 }
 
+.spotifyIcon-2J9kSv {
+    display: none
+}
+
 .theme-light .activityActivityFeed-3xysim .content-3JfFJh,.theme-light .activityActivityFeed-3xysim .details-38sfDr {
     color: #4f545c
 }
@@ -18048,13 +18052,24 @@ img[alt] {
     color: #fff
 }
 
-.theme-light .newPopoutActivityStyles .activityName-1IaRLn,.theme-light .newPopoutActivityStyles .content-3JfFJh,.theme-light .newPopoutActivityStyles .details-38sfDr,.theme-light .newPopoutActivityStyles .headerText-1HLrL7,.theme-light .newPopoutActivityStyles .name-29ETJS,.theme-light .newPopoutActivityStyles .nameNormal-2lqVQK,.theme-light .newPopoutActivityStyles .nameWrap-3Z4G_9 {
-    color: var(--header-primary)
+.theme-dark .newPopoutActivityStyles .activityName-1IaRLn,.theme-dark .newPopoutActivityStyles .content-3JfFJh,.theme-dark .newPopoutActivityStyles .details-38sfDr,.theme-dark .newPopoutActivityStyles .name-29ETJS,.theme-dark .newPopoutActivityStyles .nameNormal-2lqVQK,.theme-dark .newPopoutActivityStyles .nameWrap-3Z4G_9,.theme-light .newPopoutActivityStyles .activityName-1IaRLn,.theme-light .newPopoutActivityStyles .content-3JfFJh,.theme-light .newPopoutActivityStyles .details-38sfDr,.theme-light .newPopoutActivityStyles .name-29ETJS,.theme-light .newPopoutActivityStyles .nameNormal-2lqVQK,.theme-light .newPopoutActivityStyles .nameWrap-3Z4G_9 {
+    color: var(--text-normal)
 }
 
-.theme-light .newPopoutActivityStyles button {
+.theme-dark .newPopoutActivityStyles .headerText-1HLrL7,.theme-light .newPopoutActivityStyles .headerText-1HLrL7 {
+    color: var(--header-secondary)
+}
+
+.theme-dark .newPopoutActivityStyles button,.theme-light .newPopoutActivityStyles button {
     color: var(--header-primary);
     border-color: var(--header-primary)
+}
+
+.theme-dark .newPopoutActivityStyles .spotifyIcon-2J9kSv,.theme-light .newPopoutActivityStyles .spotifyIcon-2J9kSv {
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 16px
 }
 
 .button-2IFFQ4 {
@@ -18555,12 +18570,11 @@ img[alt] {
 }
 
 .headerNormal-1l1Znk {
-    color: var(--header-secondary);
-    line-height: 20px;
+    color: var(--text-normal);
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    background-color: var(--background-secondary)
+    background-color: var(--background-floating)
 }
 
 .headerNameWrapper-gEOyRH {
@@ -18574,7 +18588,8 @@ img[alt] {
     font-weight: 600;
     margin-bottom: 2px;
     margin-top: 4px;
-    color: var(--interactive-active)
+    color: var(--interactive-active);
+    font-family: var(--font-display)
 }
 
 .avatarHint-1E3LMl {
@@ -18613,8 +18628,8 @@ img[alt] {
 }
 
 .avatar-22FtUu {
-    border: 6px solid var(--background-tertiary);
-    background-color: var(--background-tertiary)
+    border: 6px solid var(--background-floating);
+    background-color: var(--background-floating)
 }
 
 .avatarWrapper-1-5NA0 {
@@ -18649,8 +18664,8 @@ img[alt] {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 64px 16px 16px;
-    background-color: var(--background-tertiary);
+    padding: 64px 16px 12px;
+    background-color: var(--background-floating);
     overflow: hidden;
     position: relative
 }
@@ -18737,9 +18752,8 @@ img[alt] {
 }
 
 .activity-fViXj7 {
-    padding: 16px 0;
-    margin: 0 16px;
-    border-bottom: 1px solid var(--background-accent)
+    position: relative;
+    padding: 16px 16px 0
 }
 
 .headerTagUsernameNoNickname-1SSLBc {
@@ -18770,7 +18784,8 @@ img[alt] {
 
 .aboutMeSection-3bipSD {
     padding: 0 16px 16px;
-    background-color: var(--background-tertiary)
+    background-color: var(--background-floating);
+    border-bottom: 1px solid var(--background-accent)
 }
 
 .aboutMeTitle-2M2L3- {
@@ -19251,6 +19266,14 @@ img[alt] {
 
 .theme-light .wumpusTooltip-65YlMT:after {
     border-color: transparent rgba(220,221,222,.6) transparent transparent
+}
+
+.newUserPopoutStyles-1lzZvB .activity-11LB_k,.newUserPopoutStyles-1lzZvB .body-3iLsc4,.newUserPopoutStyles-1lzZvB .footer-1fjuF6 {
+    background-color: var(--background-floating)
+}
+
+.newUserPopoutStyles-1lzZvB .bodyTitle-Y0qMQz {
+    font-family: var(--font-display)
 }
 
 .avatarUploader-3XDtmn {
@@ -78935,4 +78958,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.34a35d9f98ba466caf41.css.map*/
+/*# sourceMappingURL=0.a49dee138a1840610159.css.map*/
