@@ -52360,7 +52360,7 @@ strong {
 .section-2gLsgF {
     position: relative;
     padding: 12px;
-    border-radius: 4px
+    border-radius: 8px
 }
 
 .clickableIcon-32gFJk {
@@ -52413,7 +52413,7 @@ strong {
     width: 24px;
     height: 24px;
     justify-self: end;
-    border-radius: 4px
+    border-radius: 8px
 }
 
 .multipleIconWrapper-DfGWrz {
@@ -52436,7 +52436,7 @@ strong {
 
 .body-1ld4H7 {
     margin-top: 12px;
-    border-radius: 4px
+    border-radius: 8px
 }
 
 .body-1ld4H7 .separator-XqIyoz {
@@ -52917,7 +52917,8 @@ strong {
 }
 
 .itemCard-v9viV7 {
-    margin-top: 8px
+    margin-top: 8px;
+    border-radius: 8px
 }
 
 .itemCard-v9viV7:first-of-type {
@@ -52946,7 +52947,7 @@ strong {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 16px
 }
 
@@ -52961,7 +52962,7 @@ strong {
 .popout-38lTFE {
     width: 200px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 8px 16px
 }
 
@@ -52990,20 +52991,10 @@ strong {
     height: 100%
 }
 
-.containerStageDiscovery-2KuG6H {
-    padding: 16px 24px
-}
-
 .header-2SF4Nh {
-    padding-bottom: 8px;
-    color: var(--header-secondary);
-    text-transform: uppercase
-}
-
-.headerStageDiscovery-3MYH1H {
     font-family: var(--font-display);
-    margin-bottom: 16px;
-    font-weight: 600
+    margin: 8px 0 16px;
+    font-weight: 700
 }
 
 .wrapper-1cBijl {
@@ -53482,7 +53473,8 @@ strong {
 }
 
 .peopleList-3c4jOR {
-    padding-bottom: 8px
+    padding-bottom: 8px;
+    margin-top: 8px
 }
 
 .container-1D34oG {
@@ -53982,7 +53974,8 @@ strong {
 
 .body-3MGQWc {
     margin-top: 12px;
-    color: #fff
+    color: #fff;
+    white-space: pre-wrap
 }
 
 .body-3MGQWc,.header-3g0E_g {
@@ -54048,13 +54041,13 @@ strong {
 }
 
 .headerContainer-1Wluzl {
-    margin: 16px 16px 8px;
+    margin: 24px 16px 8px;
     max-width: 640px;
     width: 90%
 }
 
 .pageHeader-3nuK1W {
-    font-weight: 600;
+    font-weight: 700;
     font-family: var(--font-display);
     text-align: left
 }
@@ -78942,4 +78935,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0c3b16bb0d0065ac28f2.css.map*/
+/*# sourceMappingURL=0.34a35d9f98ba466caf41.css.map*/
