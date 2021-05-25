@@ -22021,6 +22021,29 @@ img[alt] {
     height: 20px
 }
 
+.stageListenerPill-1RXT2G {
+    margin-left: 8px;
+    padding: 0 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--background-tertiary);
+    border-radius: 12px;
+    height: 24px
+}
+
+.stageListenerCount-2tWHfF {
+    margin-left: 4px;
+    font-weight: 500
+}
+
 .guildNameText-3Zwx4p {
     word-wrap: break-word;
     color: var(--text-normal);
@@ -78996,4 +79019,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.be4eb11b6d9ec94014e1.css.map*/
+/*# sourceMappingURL=0.52e255aa512dac39d136.css.map*/
