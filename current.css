@@ -17451,7 +17451,7 @@ img[alt] {
 }
 
 .colorDefault-2K3EoJ .checkbox-3s5GYZ,.colorDefault-2K3EoJ .radioSelection-1HmrQS {
-    color: var(--brand-experiment-560)
+    color: var(--control-brand-foreground)
 }
 
 .colorDefault-2K3EoJ .check-1JyqgN {
@@ -18620,7 +18620,9 @@ img[alt] {
 }
 
 .banner-2QYc2d {
-    position: relative
+    position: relative;
+    -webkit-transition: background-color .1s;
+    transition: background-color .1s
 }
 
 .banner-2QYc2d:hover .bannerOverlay-1uIerX,.banner-2QYc2d:hover .pencilIcon-XSi-VE {
@@ -18632,7 +18634,8 @@ img[alt] {
     width: 300px;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-size: cover
+    background-size: cover;
+    background-color: var(--background-floating)
 }
 
 .profileBanner-33-uE1 {
@@ -19664,10 +19667,10 @@ img[alt] {
     position: relative;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-transition: -webkit-box-shadow .1s;
-    transition: -webkit-box-shadow .1s;
-    transition: box-shadow .1s;
-    transition: box-shadow .1s,-webkit-box-shadow .1s;
+    -webkit-transition: -webkit-box-shadow background-color .1s .1s;
+    transition: -webkit-box-shadow background-color .1s .1s;
+    transition: box-shadow background-color .1s .1s;
+    transition: box-shadow background-color .1s .1s,-webkit-box-shadow background-color .1s .1s;
     -ms-flex-negative: 0;
     flex-shrink: 0
 }
@@ -79019,4 +79022,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.52e255aa512dac39d136.css.map*/
+/*# sourceMappingURL=0.8f632f327aa7503d2175.css.map*/
