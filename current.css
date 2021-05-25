@@ -13146,12 +13146,12 @@ img[alt] {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     pointer-events: none;
-    position: absolute
+    position: absolute;
+    -webkit-box-shadow: rgba(47,49,54,.6) 0 0 0 9999px;
+    box-shadow: 0 0 0 9999px rgba(47,49,54,.6)
 }
 
 .overlayAvatar-1voNS7 {
-    -webkit-box-shadow: rgba(47,49,54,.6) 0 0 0 9999px;
-    box-shadow: 0 0 0 9999px rgba(47,49,54,.6);
     border-radius: 50%
 }
 
@@ -19006,10 +19006,11 @@ img[alt] {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 64px 16px 12px;
+    padding: 64px 16px 16px;
     background-color: var(--background-floating);
     overflow: hidden;
-    position: relative
+    position: relative;
+    border-bottom: 1px solid var(--background-modifier-accent)
 }
 
 .headerText-2WJ44e,.headerTop-2y3V6H {
@@ -19108,26 +19109,18 @@ img[alt] {
 }
 
 .profileBadges-1dm1_q {
+    position: absolute;
+    top: 16px;
+    right: 16px;
     max-width: 180px;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end
 }
 
-.profileBadges-1dm1_q,.spinner-3YTkt9 {
-    position: absolute;
-    top: 16px;
-    right: 16px
-}
-
-.spinner-3YTkt9 {
-    width: auto
-}
-
 .aboutMeSection-3bipSD {
-    padding: 0 16px 16px;
-    background-color: var(--background-floating);
-    border-bottom: 1px solid var(--background-modifier-accent)
+    padding-top: 12px;
+    background-color: var(--background-floating)
 }
 
 .aboutMeSection-3bipSD .aboutMeBody-1a7Pjl {
@@ -79022,4 +79015,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8f632f327aa7503d2175.css.map*/
+/*# sourceMappingURL=0.880780f6a6be926e8ba6.css.map*/
