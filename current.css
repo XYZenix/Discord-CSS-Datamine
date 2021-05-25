@@ -18669,8 +18669,11 @@ img[alt] {
     filter: drop-shadow(0 8px 16px rgba(0,0,0,.2))
 }
 
-.markup-4LM5iR {
-    white-space: normal
+.clamped-IwJfxR {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    -webkit-box-orient: vertical
 }
 
 .container-q03LZO {
@@ -19121,7 +19124,7 @@ img[alt] {
 .aboutMeSection-3bipSD {
     padding: 0 16px 16px;
     background-color: var(--background-floating);
-    border-bottom: 1px solid var(--background-accent)
+    border-bottom: 1px solid var(--background-modifier-accent)
 }
 
 .aboutMeSection-3bipSD .aboutMeBody-1a7Pjl {
@@ -78993,4 +78996,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4baed97f2997fe1cdcdb.css.map*/
+/*# sourceMappingURL=0.be4eb11b6d9ec94014e1.css.map*/
