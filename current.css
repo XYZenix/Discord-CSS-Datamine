@@ -18979,7 +18979,6 @@ img[alt] {
     position: absolute;
     top: 6px;
     left: 6px;
-    z-index: 2;
     opacity: 0;
     -webkit-transition: opacity .1s ease;
     transition: opacity .1s ease;
@@ -19020,8 +19019,7 @@ img[alt] {
     border-radius: 50%;
     position: absolute;
     top: 80px;
-    left: 16px;
-    z-index: 1
+    left: 16px
 }
 
 .avatarWrapperNormal-2tu8Ts {
@@ -78726,4 +78724,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7e502688470652d9a2dd.css.map*/
+/*# sourceMappingURL=0.cfc9f62df435036ba64f.css.map*/
