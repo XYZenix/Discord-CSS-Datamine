@@ -4607,6 +4607,15 @@
     margin-right: 18px
 }
 
+.privacyItemTitleContainer-2nV-PD {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
 .privacyItemTitle-3BNt6V {
     font-weight: 600
 }
@@ -4627,6 +4636,16 @@
 
 .radioIconForeground-3xnKol {
     color: var(--control-brand-foreground)
+}
+
+.pill-1LL23F {
+    padding: 2px 4px;
+    margin-left: 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--brand-experiment);
+    color: #fff
 }
 
 .closeButton-3oHzMa {
@@ -78998,4 +79017,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.bfd8e1d9c601897001bb.css.map*/
+/*# sourceMappingURL=0.f3795d5a5466b957cf81.css.map*/
