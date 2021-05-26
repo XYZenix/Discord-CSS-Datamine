@@ -18918,17 +18918,10 @@ img[alt] {
     background-color: var(--background-floating)
 }
 
-.headerNameWrapper-gEOyRH {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.headerName-3W-qH- {
-    word-break: break-word;
+.nickname-322DbL {
+    line-height: 24px;
+    word-break: break-all;
     font-weight: 600;
-    margin-bottom: 2px;
-    margin-top: 4px;
     color: var(--interactive-active);
     font-family: var(--font-display)
 }
@@ -19003,9 +18996,7 @@ img[alt] {
 }
 
 .headerTop-2y3V6H {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    display: block;
     padding: 64px 16px 16px;
     background-color: var(--background-floating);
     overflow: hidden;
@@ -19013,35 +19004,13 @@ img[alt] {
     border-bottom: 1px solid var(--background-modifier-accent)
 }
 
-.headerText-2WJ44e,.headerTop-2y3V6H {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column
-}
-
 .headerText-2WJ44e {
-    text-align: left
 }
 
 .headerTag-nSOkYt {
     font-weight: 500;
-    line-height: 18px;
     color: #fff;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
+    display: block
 }
 
 .headerNormal-1l1Znk .headerTag-nSOkYt {
@@ -19049,6 +19018,7 @@ img[alt] {
 }
 
 .headerTagWithNickname-2YarQ8 {
+    line-height: 18px
 }
 
 .headerTagNoNickname-3ak9o8 {
@@ -19079,7 +19049,7 @@ img[alt] {
 }
 
 .customStatus-3NamXG .customStatusEmoji-1itGdP:not(:last-child) {
-    margin-right: 8px
+    margin-right: 4px
 }
 
 .customStatus-3NamXG .customStatusEmoji-1itGdP.customStatusSoloEmoji-3RCuZj {
@@ -19099,13 +19069,26 @@ img[alt] {
     padding: 16px 16px 0
 }
 
+.headerTagUsernameBase-12nwcw {
+    overflow: auto;
+    word-break: break-all;
+    text-overflow: unset;
+    white-space: normal;
+    vertical-align: top;
+    display: inline!important
+}
+
 .headerTagUsernameNoNickname-1SSLBc {
     color: var(--interactive-active);
     font-weight: 600
 }
 
+.discrimBase-1PEDoA {
+    vertical-align: top
+}
+
 .headerTagDiscriminatorNoNickname-1jiWtJ {
-    line-height: 20px
+    font-weight: 600
 }
 
 .profileBadges-1dm1_q {
@@ -79015,4 +78998,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.880780f6a6be926e8ba6.css.map*/
+/*# sourceMappingURL=0.bfd8e1d9c601897001bb.css.map*/
