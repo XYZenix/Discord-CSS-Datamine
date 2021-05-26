@@ -6030,7 +6030,21 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 }
 
 .selectedIcon-3uS11H {
-    color: #fff
+    color: #7289da
+}
+
+.icons-2E-yxr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 4px
+}
+
+.clear-1-31NQ {
+    display: block
 }
 
 .error-3iVqOt {
@@ -19665,6 +19679,11 @@ img[alt] {
     font-weight: 700
 }
 
+.avatarUploader-3XDtmn.disabled-10u2on .avatarUploaderInner-3UNxY3:focus-within,.avatarUploader-3XDtmn.disabled-10u2on .avatarUploaderInner-3UNxY3:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
 .avatarUploaderInner-3UNxY3 {
     display: inline-block;
     width: 138px;
@@ -19759,25 +19778,17 @@ img[alt] {
     align-items: center
 }
 
-.theme-light .avatarUploader-3XDtmn .removeButton-1hcZyG {
-    color: #b9bbbe
+.removeButton-1hcZyG {
+    color: var(--interactive-normal)
 }
 
-.theme-light .avatarUploader-3XDtmn .removeButton-1hcZyG:hover {
-    color: #72767d
+.removeButton-1hcZyG:hover {
+    color: var(--interactive-hover)
 }
 
 .theme-light .avatarUploaderIndicator-2G-aIZ {
     background-color: #fff;
     background-image: url(/assets/30a3036e40d0f175912ec96c03596e29.svg)
-}
-
-.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG {
-    color: #b9bbbe
-}
-
-.theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover {
-    color: #72767d
 }
 
 .theme-dark .avatarUploaderIndicator-2G-aIZ {
@@ -68384,13 +68395,16 @@ html .tabBadge-3smxHS {
     margin-bottom: 8px
 }
 
-.nitroUpsellButtonInner-2K4aHT {
+.nitroUpsellButtonInner-2K4aHT,.userProfileCustomizationTitle-2PzmOq {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: center
+}
+
+.nitroUpsellButtonInner-2K4aHT {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center
@@ -68401,19 +68415,24 @@ html .tabBadge-3smxHS {
 }
 
 .profileBannerSection-CYy4KP {
-    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between
 }
 
-.profileBannerInfo-3uf8pG,.profileBannerSection-CYy4KP {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
+.nitroWheel-1WdMSa {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px
 }
 
 .profileBannerInfo-3uf8pG {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -68735,6 +68754,7 @@ html .tabBadge-3smxHS {
     -webkit-box-flex: 0;
     -ms-flex-positive: 0;
     flex-grow: 0;
+    text-transform: uppercase;
     font-weight: 400
 }
 
@@ -79032,4 +79052,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.325aa789c26ed5aab0a0.css.map*/
+/*# sourceMappingURL=0.326c3bb5f153308f5ece.css.map*/
