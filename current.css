@@ -4427,42 +4427,57 @@
 }
 
 .content-377gr8 {
-    padding-top: 40px;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch
 }
 
-.content-377gr8,.iconBackground-1pEgCd {
+.banner-2InC54,.content-377gr8 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column
+    -webkit-box-direction: normal
 }
 
-.iconBackground-1pEgCd {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+.banner-2InC54 {
+    background-color: var(--brand-experiment);
+    margin: 0;
+    height: 120px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: var(--background-tertiary);
-    border-radius: 50%;
-    height: 80px;
-    width: 80px
+    position: relative
 }
 
-.headerIcon-2PFi5U {
-    color: var(--header-primary)
+.headerTextContainer-3F-06s {
+    padding: 16px
 }
 
 .headerTitle-29Z695 {
+    max-width: 270px;
     margin-top: 8px;
-    text-align: center
+    text-align: left;
+    font-weight: 700
+}
+
+.caption-342S-b {
+    text-align: left;
+    margin-top: 4px;
+    color: #fff
+}
+
+.illustration-2FiZg0 {
+    position: absolute;
+    right: 0;
+    bottom: 0
 }
 
 .infoListContainer-1QGkta {
@@ -4592,7 +4607,7 @@
 }
 
 .privacyItemDisabled-3l-cdI {
-    opacity: .2;
+    opacity: .4;
     cursor: not-allowed
 }
 
@@ -79017,4 +79032,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.61d91f38192393ee53ed.css.map*/
+/*# sourceMappingURL=0.325aa789c26ed5aab0a0.css.map*/
