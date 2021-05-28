@@ -4102,7 +4102,12 @@
     align-self: stretch
 }
 
-.formItem-1B0brO {
+.topicFormItem-32kwOR {
+    width: 100%;
+    margin-bottom: 16px
+}
+
+.privacyFormItem-3UPvxA {
     width: 100%
 }
 
@@ -4131,7 +4136,7 @@
 }
 
 .privacyContainer-JsAijK {
-    margin-top: 24px;
+    margin-top: 8px;
     background-color: var(--background-secondary);
     border-radius: 8px;
     overflow: hidden
@@ -4232,6 +4237,10 @@
 
 .footer-1KBtfL {
     margin-top: 24px
+}
+
+.warning-3P4oqk {
+    margin-bottom: 8px
 }
 
 .select-2TCrqx.error-3S-7y9 .errorMessage-1Y9q-X {
@@ -5086,7 +5095,7 @@
 }
 
 .content-2MHbqU {
-    padding-top: 40px
+    padding-top: 24px
 }
 
 .content-2MHbqU,.stageIconBackground-5uF4K9 {
@@ -79311,4 +79320,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9f1c95c94d8a8a6b6010.css.map*/
+/*# sourceMappingURL=0.d79205750e41cd1dcdca.css.map*/
