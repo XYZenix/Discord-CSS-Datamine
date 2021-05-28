@@ -24948,25 +24948,58 @@ img[alt] {
 }
 
 .container-2fRDfG {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.replyBar-1YLQ2F,.threadSuggestionBar-2ufK2Z {
     background: var(--background-secondary);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    cursor: pointer
+}
+
+.replyBar-1YLQ2F {
     display: grid;
     grid-template-columns: 1fr auto;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    cursor: pointer
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
+}
+
+.threadSuggestionBar-2ufK2Z {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-top: 1px solid var(--background-modifier-accent);
+    padding-top: 6px;
+    padding-bottom: 6px
 }
 
 .text-15b_0l {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     margin-left: 16px
+}
+
+.replyLabel-27F26o {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.threadSuggestionLabelContainer-1MbYec {
+    overflow: hidden
 }
 
 .name-hpTFiv {
@@ -25024,6 +25057,13 @@ img[alt] {
 .closeIcon-HLoKft {
     width: 16px;
     height: 16px
+}
+
+.createThreadButton-oQpjNC {
+    font-weight: 600;
+    white-space: nowrap;
+    margin-left: 8px;
+    margin-right: 8px
 }
 
 .divider-JfaTT5 {
@@ -75514,7 +75554,7 @@ html .invoiceCancelRow-3mYhFX {
     color: var(--header-secondary)
 }
 
-.avatar-3EQepX {
+.guildAvatar-1jj2zu {
     margin-right: 4px;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -79263,4 +79303,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.be4c6dbaa99ff6e791ab.css.map*/
+/*# sourceMappingURL=0.c21941dccd16b021556d.css.map*/
