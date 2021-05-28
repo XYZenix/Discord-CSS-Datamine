@@ -71586,6 +71586,14 @@ html .invoiceCancelRow-3mYhFX {
     fill: #fff!important
 }
 
+.premiumTabItemLink-3IZzin {
+    color: var(--control-brand-foreground)!important
+}
+
+.premiumTabItemLink-3IZzin .icon-Zc-uZZ {
+    fill: var(--control-brand-foreground)!important
+}
+
 .container-1S6Mlq {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -79303,4 +79311,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c21941dccd16b021556d.css.map*/
+/*# sourceMappingURL=0.9f1c95c94d8a8a6b6010.css.map*/
