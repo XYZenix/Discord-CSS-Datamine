@@ -3743,7 +3743,7 @@
 }
 
 .selectedIcon-3uS11H {
-    color: #7289da
+    color: var(--brand-experiment)
 }
 
 .icons-2E-yxr {
@@ -4328,7 +4328,12 @@
 }
 
 .privacyFormItem-3UPvxA {
-    width: 100%
+    width: 100%;
+    margin-top: 16px
+}
+
+.channelSelectionFormItem-AU-meU {
+    margin-top: 16px
 }
 
 .textInput-2hUaEf {
@@ -4452,7 +4457,8 @@
 }
 
 .channelName-1mXqh4 {
-    color: var(--header-primary)
+    color: var(--header-primary);
+    font-weight: 700
 }
 
 .channelSelection-1MN6q2 {
@@ -4929,7 +4935,11 @@
 
 .guildIcon-30yrn3 {
     border-radius: 8px;
-    margin-bottom: 24px
+    margin-bottom: 16px
+}
+
+.subheader-3zcPkA {
+    margin-top: 8px
 }
 
 .transition-27fFQS {
@@ -5019,7 +5029,8 @@
 .bulletsContainer-3omDLR {
     width: 408px;
     background-color: var(--background-secondary);
-    border-radius: 8px
+    border-radius: 8px;
+    overflow: hidden
 }
 
 .scroller-10BisQ {
@@ -5043,6 +5054,10 @@
 
 .clickable-2ebqgo {
     cursor: pointer
+}
+
+.clickable-2ebqgo:hover {
+    background-color: var(--background-secondary-alt)
 }
 
 .circle-1anBj0 {
@@ -5364,8 +5379,8 @@
     justify-content: center;
     background-color: var(--background-tertiary);
     border-radius: 50%;
-    height: 80px;
-    width: 80px
+    height: 60px;
+    width: 60px
 }
 
 .stageIcon-A2C70A {
@@ -19105,6 +19120,10 @@ img[alt] {
     overflow: hidden
 }
 
+.newBrand .textBadge-1iylP6 {
+    font-family: var(--font-display)
+}
+
 .iconBadge-2NuvG9 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -19129,6 +19148,10 @@ img[alt] {
     margin-bottom: 20px;
     padding: 10px;
     line-height: 20px
+}
+
+.identityDescription-by1_3Z {
+    margin-bottom: 16px
 }
 
 .itemGroup-37-G3x {
@@ -19215,6 +19238,14 @@ img[alt] {
 .disabled-1uvjrp {
     opacity: .4;
     pointer-events: none
+}
+
+.serverAvatarPremiumIcon-3asqFR {
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px
 }
 
 .icon-15YQ1T {
@@ -19538,7 +19569,7 @@ img[alt] {
 
 .nickname-322DbL {
     line-height: 24px;
-    word-break: break-all;
+    word-break: break-word;
     font-weight: 600;
     color: var(--header-primary);
     font-family: var(--font-display)
@@ -19925,6 +19956,13 @@ img[alt] {
 
 .theme-light .wumpusTooltip-65YlMT:after {
     border-color: transparent rgba(220,221,222,.6) transparent transparent
+}
+
+.newBadge-34a1Fs {
+    display: inline-block;
+    margin-left: 8px;
+    text-transform: uppercase;
+    vertical-align: middle
 }
 
 .description-3BvR20 {
@@ -50644,6 +50682,13 @@ strong {
     margin-bottom: 0
 }
 
+.tooltipAvatarAsset-3Ycoah {
+    display: block;
+    margin: 0 auto 8px;
+    width: 208px;
+    height: 88px
+}
+
 .progressCircle-1hzs_b {
     position: relative;
     width: 100%;
@@ -79351,4 +79396,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0e24f9cc006895ed7733.css.map*/
+/*# sourceMappingURL=0.6676d9e47062c3cac4c8.css.map*/
