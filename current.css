@@ -19620,15 +19620,18 @@ img[alt] {
 
 .headerBotTag-36eaSD {
     vertical-align: top;
-    display: inline-block;
-    margin-top: 5px!important;
+    margin-top: 5px!important
+}
+
+.headerBotTag-36eaSD,.headerBotTagWithNickname-2kgwth {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     line-height: 15px
 }
 
 .headerBotTagWithNickname-2kgwth {
-    display: inline-block;
-    margin-bottom: 2px!important;
-    line-height: 15px
+    margin-bottom: 2px!important
 }
 
 .aboutMeSection---MkQa {
@@ -79386,4 +79389,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.dee25f0f64c72e7d375b.css.map*/
+/*# sourceMappingURL=0.7403c19045a173c06c42.css.map*/
