@@ -19317,7 +19317,8 @@ img[alt] {
 }
 
 .bot-2Fta1w,.username-2b1r56 {
-    -webkit-box-flex: 0
+    -webkit-box-flex: 0;
+    display: block
 }
 
 .bot-2Fta1w {
@@ -19576,12 +19577,7 @@ img[alt] {
 .headerTag-16AlQV {
     font-size: 14px;
     font-weight: 500;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+    display: block
 }
 
 .headerTagWithNickname-1SDMpI {
@@ -19592,16 +19588,20 @@ img[alt] {
     font-size: 20px;
     line-height: 24px;
     word-break: break-word;
-    white-space: normal
+    white-space: normal;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
 }
 
-.headerTagUsername-1rEZ3Z {
+.headerTagUsernameBase-24SRnT {
     overflow: auto;
     word-break: break-all;
     text-overflow: unset;
     white-space: normal;
     color: var(--header-secondary);
-    vertical-align: top
+    vertical-align: top;
+    display: inline
 }
 
 .headerTagUsernameNoNickname-1ZLDYY {
@@ -19609,13 +19609,26 @@ img[alt] {
     font-weight: 600
 }
 
-.discriminator-2m5xbw {
+.discrimBase-1QwWzY {
     color: var(--header-secondary);
     vertical-align: top
 }
 
-.discriminatorNoNickname-5LyG_F {
+.headerTagDiscriminatorNoNickname-1vRWkt {
     font-weight: 600
+}
+
+.headerBotTag-36eaSD {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 5px!important;
+    line-height: 15px
+}
+
+.headerBotTagWithNickname-2kgwth {
+    display: inline-block;
+    margin-bottom: 2px!important;
+    line-height: 15px
 }
 
 .aboutMeSection---MkQa {
@@ -19645,6 +19658,7 @@ img[alt] {
 }
 
 .headerTop-2cWpdB {
+    display: block;
     padding: 64px 16px 16px;
     background-color: var(--background-floating);
     overflow: hidden;
@@ -79372,4 +79386,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2cdceec2f01723855872.css.map*/
+/*# sourceMappingURL=0.dee25f0f64c72e7d375b.css.map*/
