@@ -19317,8 +19317,7 @@ img[alt] {
 }
 
 .bot-2Fta1w,.username-2b1r56 {
-    -webkit-box-flex: 0;
-    display: block
+    -webkit-box-flex: 0
 }
 
 .bot-2Fta1w {
@@ -19577,7 +19576,12 @@ img[alt] {
 .headerTag-16AlQV {
     font-size: 14px;
     font-weight: 500;
-    display: block
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .headerTagWithNickname-1SDMpI {
@@ -19588,20 +19592,16 @@ img[alt] {
     font-size: 20px;
     line-height: 24px;
     word-break: break-word;
-    white-space: normal;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end
+    white-space: normal
 }
 
-.headerTagUsernameBase-24SRnT {
+.headerTagUsername-1rEZ3Z {
     overflow: auto;
     word-break: break-all;
     text-overflow: unset;
     white-space: normal;
     color: var(--header-secondary);
-    vertical-align: top;
-    display: inline
+    vertical-align: top
 }
 
 .headerTagUsernameNoNickname-1ZLDYY {
@@ -19609,21 +19609,13 @@ img[alt] {
     font-weight: 600
 }
 
-.discrimBase-1QwWzY {
+.discriminator-2m5xbw {
     color: var(--header-secondary);
     vertical-align: top
 }
 
-.headerTagDiscriminatorNoNickname-1vRWkt {
+.discriminatorNoNickname-5LyG_F {
     font-weight: 600
-}
-
-.headerBotTag-36eaSD {
-    margin-top: 6px
-}
-
-.headerBotTagWithNickname-2kgwth {
-    margin-bottom: 2px
 }
 
 .aboutMeSection---MkQa {
@@ -19653,7 +19645,6 @@ img[alt] {
 }
 
 .headerTop-2cWpdB {
-    display: block;
     padding: 64px 16px 16px;
     background-color: var(--background-floating);
     overflow: hidden;
@@ -79381,4 +79372,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8c48a462bbc52a951c55.css.map*/
+/*# sourceMappingURL=0.2cdceec2f01723855872.css.map*/
