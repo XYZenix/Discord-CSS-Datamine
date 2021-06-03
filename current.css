@@ -8230,6 +8230,10 @@ img[alt] {
     text-align: center
 }
 
+.avatar-1gWJaf {
+    margin-bottom: 24px
+}
+
 @media (max-width: 485px) {
     .authBox-hW6HRx {
         position:absolute;
@@ -8380,14 +8384,11 @@ img[alt] {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    padding: 5px 16px 4px;
-    border-radius: 100px;
-    background-color: var(--background-tertiary)
+    align-items: center
 }
 
 .pillOnline-35Y-7N {
-    margin-right: 8px
+    margin-right: 16px
 }
 
 .pillMessage-1btqlx {
@@ -9192,7 +9193,7 @@ img[alt] {
 }
 
 .appIcon-lZGJcM,.avatar-2Gi7sV,.guildIcon-1PRDp6 {
-    margin-bottom: 20px
+    margin-bottom: 24px
 }
 
 @media (max-height: 720px) {
@@ -51848,10 +51849,9 @@ strong {
 }
 
 .speakers-kEGflI {
-    grid-gap: 8px 16px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 16px
+    margin-top: 12px
 }
 
 .speaker-1HW9IK,.speakers-kEGflI {
@@ -51871,7 +51871,8 @@ strong {
     justify-content: flex-start;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    margin: 4px 0
 }
 
 .label-3jnO6p {
@@ -51884,7 +51885,7 @@ strong {
 }
 
 .background-2vw-bh,.icon-1kl4sN {
-    background-color: var(--background-secondary);
+    background-color: var(--background-tertiary);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -51895,8 +51896,8 @@ strong {
 
 .icon-1kl4sN {
     border-radius: 50%;
-    height: 24px;
-    width: 24px
+    height: 20px;
+    width: 20px
 }
 
 .guild-1H1MQY {
@@ -51927,6 +51928,11 @@ strong {
 
 .alignStart-2FQjAH {
     text-align: start
+}
+
+.avatar-30KUrI {
+    width: 20px!important;
+    height: 20px!important
 }
 
 .checkbox-2isuxc {
@@ -74491,7 +74497,6 @@ html .invoiceCancelRow-3mYhFX {
 
 .container-2Yth53 {
     position: relative;
-    height: 420px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
@@ -74531,23 +74536,27 @@ html .invoiceCancelRow-3mYhFX {
     box-sizing: border-box;
     position: relative;
     width: 400px;
-    height: 420px;
-    padding: 32px 32px 0
+    padding: 32px
 }
 
 .noThanksButton-3mqg48 {
     height: 32px
 }
 
+.stage-3yqMwJ {
+    background-color: var(--background-secondary);
+    padding: 16px;
+    border-radius: 8px
+}
+
 .inviteContent-3R63XV {
     position: relative;
-    height: 380px;
+    min-height: 380px;
     text-align: center
 }
 
 .inviteSplash-40aHus {
     width: 520px;
-    height: 420px;
     background-size: cover;
     background-position: 100%;
     border-radius: 0 5px 5px 0
@@ -79016,4 +79025,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e1249e7341657fc70dfb.css.map*/
+/*# sourceMappingURL=0.87dc00120830870f7e49.css.map*/
