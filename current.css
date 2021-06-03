@@ -11012,6 +11012,9 @@ img[alt] {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     max-height: 660px;
     height: 100%
 }
@@ -78996,4 +78999,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.60216d8dde78ba131fe3.css.map*/
+/*# sourceMappingURL=0.f8b109566cfa596cb88d.css.map*/
