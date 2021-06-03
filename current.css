@@ -60949,7 +60949,10 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .ownerIcon-2NH9FM {
-    color: var(--text-warning);
+    color: var(--text-warning)
+}
+
+.lostPermissionIcon-Tepjch,.ownerIcon-2NH9FM {
     margin-left: 4px
 }
 
@@ -61164,7 +61167,7 @@ a.ctaAnchor-3-8I3v:hover {
     display: -ms-flexbox;
     display: flex;
     font-weight: 700;
-    padding: 16px 16px 0;
+    padding: 16px 16px 8px;
     text-transform: uppercase
 }
 
@@ -79025,4 +79028,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.87dc00120830870f7e49.css.map*/
+/*# sourceMappingURL=0.2cc51688da113307983c.css.map*/
