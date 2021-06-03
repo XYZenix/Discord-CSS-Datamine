@@ -24974,7 +24974,7 @@ img[alt] {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-    bottom: 16px;
+    bottom: 12px;
     color: var(--text-normal);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -24985,6 +24985,23 @@ img[alt] {
     flex-direction: column;
     position: absolute;
     right: 14px
+}
+
+.premiumFlair-ogSJ9V {
+    color: var(--interactive-normal)
+}
+
+.premiumFlair-ogSJ9V:not(:last-child) {
+    margin-right: 4px
+}
+
+.flairContainer-2Txy_E {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .upsell-34F9Me {
@@ -78999,4 +79016,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2aba7751f43f4d3a9935.css.map*/
+/*# sourceMappingURL=0.e1249e7341657fc70dfb.css.map*/
