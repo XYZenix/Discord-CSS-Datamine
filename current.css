@@ -24704,6 +24704,12 @@ img[alt] {
     color: var(--interactive-active)
 }
 
+.clipContainer-eeROt0 {
+    overflow: hidden;
+    padding-top: 3px;
+    margin-top: -3px
+}
+
 .container-2fRDfG {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -24738,8 +24744,10 @@ img[alt] {
     -ms-flex-direction: row;
     flex-direction: row;
     border-top: 1px solid var(--background-modifier-accent);
-    padding-top: 6px;
-    padding-bottom: 6px
+    padding-top: 7px;
+    padding-bottom: 7px;
+    -webkit-box-shadow: 0 3px 0 var(--background-secondary);
+    box-shadow: 0 3px 0 var(--background-secondary)
 }
 
 .text-15b_0l {
@@ -24753,10 +24761,6 @@ img[alt] {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto
-}
-
-.threadSuggestionLabelContainer-1MbYec {
-    overflow: hidden
 }
 
 .name-hpTFiv {
@@ -27719,6 +27723,162 @@ html .progress-GjyFoQ {
 .learnMoreLink-3H5-aT {
     cursor: pointer;
     color: var(--text-link)
+}
+
+.flex-32dgJs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.header-3qymWa {
+    text-align: start;
+    margin-top: 16px
+}
+
+.header-3qymWa.embed-1cTuq4 {
+    margin-top: 0
+}
+
+.listeners-qGG-NC {
+    color: var(--interactive-normal)
+}
+
+.live-3pJRI7 {
+    color: #57f287
+}
+
+.speakers-kEGflI {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.members-1BI21N,.speakers-kEGflI {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.members-1BI21N {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 12px
+}
+
+.members-1BI21N.embed-1cTuq4 {
+    margin-top: 8px
+}
+
+.speaker-1HW9IK {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 34%;
+    flex-basis: 34%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 4px 8px 4px 0;
+    overflow: hidden
+}
+
+.label-3jnO6p {
+    margin-left: 8px
+}
+
+.background-2vw-bh {
+    border-radius: 12px;
+    padding: 4px 8px
+}
+
+.background-2vw-bh,.icon-1kl4sN {
+    background-color: var(--background-tertiary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.icon-1kl4sN {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px
+}
+
+.icon-1kl4sN.embed-1cTuq4 {
+    height: 16px;
+    width: 16px
+}
+
+.guild-1H1MQY {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 8px 0
+}
+
+.guild-1H1MQY.embed-1cTuq4 {
+    margin: 12px 0
+}
+
+.guildInfo-3bTId5 {
+    margin-left: 12px;
+    text-align: start
+}
+
+.dot-38181A {
+    width: 8px;
+    height: 8px;
+    background-color: #57f287;
+    border-radius: 50%;
+    margin-right: 4px
+}
+
+.alignStart-2FQjAH {
+    text-align: start
+}
+
+.avatar-30KUrI {
+    width: 20px!important;
+    height: 20px!important
+}
+
+.username-3Lwvlv {
+    margin-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre
+}
+
+.theme-light .live-3pJRI7 {
+    color: #3ba55c
 }
 
 .container-1qJFPO {
@@ -51840,110 +52000,6 @@ strong {
     margin-bottom: 20px;
     width: 252px;
     height: 168px
-}
-
-.flex-32dgJs {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between
-}
-
-.header-3qymWa {
-    text-align: start;
-    margin-top: 16px
-}
-
-.speakers-kEGflI {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top: 12px
-}
-
-.speaker-1HW9IK,.speakers-kEGflI {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.speaker-1HW9IK {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -ms-flex-preferred-size: 34%;
-    flex-basis: 34%;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 4px 0
-}
-
-.label-3jnO6p {
-    margin-left: 8px
-}
-
-.background-2vw-bh {
-    border-radius: 12px;
-    padding: 4px 8px
-}
-
-.background-2vw-bh,.icon-1kl4sN {
-    background-color: var(--background-tertiary);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.icon-1kl4sN {
-    border-radius: 50%;
-    height: 20px;
-    width: 20px
-}
-
-.guild-1H1MQY {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    margin: 8px 0
-}
-
-.guildInfo-3bTId5 {
-    margin-left: 12px;
-    text-align: start
-}
-
-.dot-38181A {
-    width: 8px;
-    height: 8px;
-    background-color: #57f287;
-    border-radius: 50%;
-    margin-right: 4px
-}
-
-.alignStart-2FQjAH {
-    text-align: start
-}
-
-.avatar-30KUrI {
-    width: 20px!important;
-    height: 20px!important
 }
 
 .checkbox-2isuxc {
@@ -79039,4 +79095,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8b2038c1fcba511e1569.css.map*/
+/*# sourceMappingURL=0.37a2c7ea97f905ec5a1d.css.map*/
