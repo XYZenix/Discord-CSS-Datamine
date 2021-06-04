@@ -8040,6 +8040,17 @@ img[alt] {
     }
 }
 
+.platform-osx .wrapper-6URcxg:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 32px;
+    z-index: 1;
+    -webkit-app-region: drag
+}
+
 .logo-2iEHEq {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -79028,4 +79039,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2cc51688da113307983c.css.map*/
+/*# sourceMappingURL=0.8b2038c1fcba511e1569.css.map*/
