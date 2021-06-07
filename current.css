@@ -15398,6 +15398,12 @@ img[alt] {
     height: 7.2px
 }
 
+.userJoinSystemMessageIcon-1jNKMz {
+    width: 12px;
+    height: 12px;
+    margin-right: .25rem
+}
+
 .commandIcon-SBYpgi {
     width: 5px;
     height: 9px
@@ -34132,18 +34138,23 @@ html .progress-GjyFoQ {
 }
 
 .innerContainer-1llEA- {
+    border: 20px solid hsla(0,0%,100%,0);
+    border-radius: 50%
+}
+
+.app-focused .innerContainer-1llEA- {
     -webkit-animation: darkerPulse-3isOlW 2s linear infinite;
     animation: darkerPulse-3isOlW 2s linear infinite;
     -webkit-animation-timing-function: cubic-bezier(.4,0,1,1);
     animation-timing-function: cubic-bezier(.4,0,1,1)
 }
 
-.innerContainer-1llEA-,.outerContainer-3FfmPk {
+.outerContainer-3FfmPk {
     border: 20px solid hsla(0,0%,100%,0);
     border-radius: 50%
 }
 
-.outerContainer-3FfmPk {
+.app-focused .outerContainer-3FfmPk {
     -webkit-animation: pulse-3zYHMZ 2s linear infinite;
     animation: pulse-3zYHMZ 2s linear infinite;
     -webkit-animation-timing-function: cubic-bezier(.4,0,1,1);
@@ -79095,4 +79106,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.13c7da4c1d24ee8bb59b.css.map*/
+/*# sourceMappingURL=0.46459559aa8efb3d49b5.css.map*/
