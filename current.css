@@ -38391,7 +38391,7 @@ html .progress-GjyFoQ {
 }
 
 .spacer-2ne1bb {
-    padding-bottom: 200px
+    padding-bottom: 88px
 }
 
 .divider-JMvf_l {
@@ -48424,6 +48424,9 @@ html .progress-GjyFoQ {
 }
 
 .botTag-U0I7-9 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     position: relative;
     bottom: 1px
 }
@@ -79035,4 +79038,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.34fb14b886de40390ed7.css.map*/
+/*# sourceMappingURL=0.b3684695ab2bc566ff2c.css.map*/
