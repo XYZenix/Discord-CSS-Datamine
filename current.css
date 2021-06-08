@@ -58788,7 +58788,7 @@ a.ctaAnchor-3-8I3v:hover {
     background-image: url(/assets/5551facc96157d81da521c30c5859850.svg)
 }
 
-.chat-1WUuAG {
+.chat-1cCjJ5 {
     min-width: 0;
     min-height: 0;
     -webkit-box-flex: 1;
@@ -58810,7 +58810,7 @@ a.ctaAnchor-3-8I3v:hover {
     position: relative
 }
 
-.chat-1WUuAG:before {
+.chat-1cCjJ5:before {
     content: "";
     position: absolute;
     display: block;
@@ -58824,7 +58824,7 @@ a.ctaAnchor-3-8I3v:hover {
     pointer-events: none
 }
 
-.messagesWrapper-2liWqn {
+.messagesWrapper-2Nta7M {
     position: relative;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -58834,13 +58834,13 @@ a.ctaAnchor-3-8I3v:hover {
     z-index: 0
 }
 
-.messagesWrapper-2liWqn,.scroller-3ozpb9 {
+.messagesWrapper-2Nta7M,.scroller-36cuUh {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
 }
 
-.scroller-3ozpb9 {
+.scroller-36cuUh {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -58854,34 +58854,34 @@ a.ctaAnchor-3-8I3v:hover {
     min-height: 100%
 }
 
-.scrollerInner-k-72Fy {
+.scrollerInner-1JzK65 {
     min-height: 0
 }
 
-.formSection-Kn7mNK {
+.formSection-33c8Tg {
     margin-top: 16px
 }
 
-.checkbox-3xinIW {
+.checkbox-2db6gx {
     color: var(--interactive-normal)
 }
 
-.checkbox-3xinIW:hover {
+.checkbox-2db6gx:hover {
     color: var(--interactive-hover)
 }
 
-.checkbox-3xinIW:active {
+.checkbox-2db6gx:active {
     color: var(--interactive-active)
 }
 
-.chat-1WUuAG .select-Upjed1 {
+.chat-1cCjJ5 .select-25Azxp {
     display: inline-grid;
     padding: 0 2px 0 4px;
     background-color: var(--background-tertiary);
     border: none
 }
 
-.chat-1WUuAG .select-Upjed1>svg {
+.chat-1cCjJ5 .select-25Azxp>svg {
     background-color: var(--background-primary);
     border-radius: 4px;
     height: 18px;
@@ -58889,7 +58889,7 @@ a.ctaAnchor-3-8I3v:hover {
     width: 18px
 }
 
-.scrollerSpacer-2rPyqs {
+.scrollerSpacer-1l6Db6 {
     display: block;
     height: 22px;
     width: 1px;
@@ -58899,7 +58899,7 @@ a.ctaAnchor-3-8I3v:hover {
     pointer-events: none
 }
 
-.form-3uUEen {
+.form-3eU9kJ {
     position: relative;
     -ms-flex-negative: 0;
     flex-shrink: 0;
@@ -58907,7 +58907,7 @@ a.ctaAnchor-3-8I3v:hover {
     padding-right: 16px
 }
 
-.channelTextArea-2ZBawt {
+.channelTextArea-3O-WhA {
     margin-bottom: 24px;
     background-color: var(--background-primary)
 }
@@ -58955,6 +58955,38 @@ a.ctaAnchor-3-8I3v:hover {
     border-radius: 50%;
     background-color: var(--background-accent);
     vertical-align: middle
+}
+
+.icon-iDUzSK {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.count-bFJRJm {
+    margin-left: 4px
+}
+
+.icon-iDUzSK:hover .count-bFJRJm {
+    color: var(--interactive-hover)
+}
+
+.browser-2NpbWS {
+    -webkit-box-shadow: var(--elevation-stroke),var(--elevation-high);
+    box-shadow: var(--elevation-stroke),var(--elevation-high);
+    min-height: 400px;
+    max-height: 80vh;
+    max-width: 600px;
+    min-width: 480px;
+    width: 35vw;
+    overflow: hidden
+}
+
+.strikethrough-otdQWt {
+    color: #ed4245
 }
 
 .subHeader-27gFHC {
@@ -61127,11 +61159,7 @@ a.ctaAnchor-3-8I3v:hover {
     padding-bottom: 20px
 }
 
-.strikethrough-otdQWt {
-    color: #ed4245
-}
-
-.chat-1iumcD {
+.chat-15Vmww {
     min-width: 0;
     min-height: 0;
     -webkit-box-flex: 1;
@@ -61153,7 +61181,7 @@ a.ctaAnchor-3-8I3v:hover {
     position: relative
 }
 
-.chat-1iumcD:before {
+.chat-15Vmww:before {
     content: "";
     position: absolute;
     display: block;
@@ -61165,34 +61193,6 @@ a.ctaAnchor-3-8I3v:hover {
     box-shadow: var(--elevation-low);
     z-index: 1;
     pointer-events: none
-}
-
-.icon-iDUzSK {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.count-bFJRJm {
-    margin-left: 4px
-}
-
-.icon-iDUzSK:hover .count-bFJRJm {
-    color: var(--interactive-hover)
-}
-
-.browser-2NpbWS {
-    -webkit-box-shadow: var(--elevation-stroke),var(--elevation-high);
-    box-shadow: var(--elevation-stroke),var(--elevation-high);
-    min-height: 400px;
-    max-height: 80vh;
-    max-width: 600px;
-    min-width: 480px;
-    width: 35vw;
-    overflow: hidden
 }
 
 @-webkit-keyframes placeholderPulse-34GVGw {
@@ -79038,4 +79038,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b3684695ab2bc566ff2c.css.map*/
+/*# sourceMappingURL=0.41895e1530e4ff722671.css.map*/
