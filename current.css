@@ -44023,6 +44023,10 @@ html .progress-GjyFoQ {
     background: url(/assets/8a601e97f6e51a5627cbe0d95d6909ed.svg)
 }
 
+.themeOverrideLight-3bx_5B.icon-RTGJu3.targetGuildScheduledEvent-1EbkkW,.theme-light .icon-RTGJu3.targetGuildScheduledEvent-1EbkkW {
+    background: url(/assets/cdf92175218b32fc08092a995fa1e066.svg)
+}
+
 .themeOverrideDark-1u5Vo0.icon-RTGJu3.targetAll-13V3n6,.theme-dark .icon-RTGJu3.targetAll-13V3n6 {
     background: url(/assets/fc3f5f9be1a4db14b02336b7cb02e6ce.svg)
 }
@@ -44085,6 +44089,10 @@ html .progress-GjyFoQ {
 
 .themeOverrideDark-1u5Vo0.icon-RTGJu3.targetStageInstance-29rvVP,.theme-dark .icon-RTGJu3.targetStageInstance-29rvVP {
     background: url(/assets/0c3abaf62cd500adbc022c85e06676a7.svg)
+}
+
+.themeOverrideDark-1u5Vo0.icon-RTGJu3.targetGuildScheduledEvent-1EbkkW,.theme-dark .icon-RTGJu3.targetGuildScheduledEvent-1EbkkW {
+    background: url(/assets/adcbafa0017394ce023dd551a67f31c2.svg)
 }
 
 .customHeader-f9DEJ_ {
@@ -79158,4 +79166,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.474f621dbb0da646f18f.css.map*/
+/*# sourceMappingURL=0.1299a6719f360bc19b7c.css.map*/
