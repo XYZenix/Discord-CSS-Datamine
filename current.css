@@ -38126,7 +38126,9 @@ html .progress-GjyFoQ {
     margin: auto;
     display: inline-block;
     border-radius: 8px;
-    cursor: pointer
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--background-floating)
 }
 
 .tileContainer-BaRAZF:hover {
@@ -38146,8 +38148,18 @@ html .progress-GjyFoQ {
     align-items: center
 }
 
+.avatarContainer-aPUO5G {
+    margin: 8px auto;
+    position: relative;
+    width: 56px;
+    height: 56px
+}
+
 .avatar-3u7cAV {
-    margin: 8px auto
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: var(--background-floating)
 }
 
 .avatar-3u7cAV.faded-br_yZz {
@@ -38193,9 +38205,10 @@ html .progress-GjyFoQ {
     padding: 2px;
     color: var(--background-floating);
     background-color: var(--header-primary);
+    border: 3px solid var(--background-floating);
     position: absolute;
-    right: 0;
-    top: 0
+    right: -3px;
+    top: -3px
 }
 
 .icon-3z8ito.invited-2iN9W3 {
@@ -79055,4 +79068,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c377ef1f1b073b1ff477.css.map*/
+/*# sourceMappingURL=0.cff638c7e79b9c9d00c3.css.map*/
