@@ -39574,6 +39574,33 @@ html .progress-GjyFoQ {
     height: 100%
 }
 
+.emptyIconFriends-2l7flK,.emptyIconGuilds-zT7p-8,.emptyIconStreamerMode-1h-oZF {
+}
+
+.theme-dark .emptyIconStreamerMode-1h-oZF {
+    background-image: url(/assets/e18336bc1141d8a5e88379e41e91cacb.svg)
+}
+
+.theme-dark .emptyIconGuilds-zT7p-8 {
+    background-image: url(/assets/f49d47ca5489f7d20c6dc53953cfe60c.svg)
+}
+
+.theme-dark .emptyIconFriends-2l7flK {
+    background-image: url(/assets/51dfef72c56e5e77b91109553bdefb76.svg)
+}
+
+.theme-light .emptyIconStreamerMode-1h-oZF {
+    background-image: url(/assets/40311479d87be9ab59aef9571750cd5f.svg)
+}
+
+.theme-light .emptyIconGuilds-zT7p-8 {
+    background-image: url(/assets/55df85915c4da9f5d21869db7258c72c.svg)
+}
+
+.theme-light .emptyIconFriends-2l7flK {
+    background-image: url(/assets/f7921d97c0a2b6f01cf58d15a87ef986.svg)
+}
+
 .button-2CgfFz {
     text-indent: -9999em;
     overflow: hidden;
@@ -79131,4 +79158,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5d8cf04220c19817c6d7.css.map*/
+/*# sourceMappingURL=0.474f621dbb0da646f18f.css.map*/
