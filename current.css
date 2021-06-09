@@ -24492,13 +24492,6 @@ img[alt] {
     transition: transform .2s,-webkit-transform .2s
 }
 
-.stickerButtonWithResult-1EqRLT {
-    padding: 0;
-    height: 44px;
-    margin-left: 4px;
-    margin-right: 4px
-}
-
 .stickerButtonWithNotification-ESXiw0 {
     margin-top: 1px;
     padding-left: 2px;
@@ -74861,6 +74854,79 @@ html .invoiceCancelRow-3mYhFX {
     line-height: 20px
 }
 
+.logo-JKbOAV {
+    width: 64px;
+    height: 64px
+}
+
+.container-2ed4dF {
+    text-align: center
+}
+
+.inner-2LhM-m {
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.downloadButton-3jZj_S {
+    height: 40px;
+    width: 100%
+}
+
+.title-1_r4Id {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--header-primary)
+}
+
+.subtitle-fYi1f6 {
+    margin-bottom: 24px;
+    font-weight: 500;
+    color: var(--header-secondary);
+    font-size: 14px
+}
+
+.closeButton-1Xwe8N {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    cursor: pointer;
+    color: var(--interactive-normal)
+}
+
+.fullscreen-2BFgBh {
+    height: 100vh;
+    width: 100vw;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--background-primary)
+}
+
 .ragingDemon-bDcoXE {
     position: fixed;
     top: 0;
@@ -79485,4 +79551,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ebd0a4f08957915144d4.css.map*/
+/*# sourceMappingURL=0.0890c43c47b3980918fc.css.map*/
