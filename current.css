@@ -11607,6 +11607,11 @@ img[alt] {
     width: 100%
 }
 
+.pngImage-33yLRP {
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
 .pngImage-33yLRP,.roundedMask-3rB_-f {
     display: block;
     height: 100%;
@@ -15240,6 +15245,61 @@ img[alt] {
 
 .modalCloseButton-ZynU77 {
     margin: -4px
+}
+
+.formHeader-yek417 {
+    overflow: visible;
+    padding: 100px 16px 0;
+    text-align: center;
+    white-space: break-spaces
+}
+
+.formContent-3Wg7_O {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-items: center;
+    padding: 24px 0 0
+}
+
+.closeButton-QGK1b_ {
+    position: absolute;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    top: 12px;
+    right: 4px
+}
+
+.formFooter-1QTk1H {
+    margin: 20px 0 0
+}
+
+.formImage-2Yshf2 {
+    position: absolute;
+    top: -110px;
+    width: 200px;
+    height: 194px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(/assets/564f89ce267784e7065850b19b8c1f82.svg)
+}
+
+.formSubHeader-3nX9mD {
+    margin: 8px 0 0;
+    padding: 0 30px
+}
+
+.formDescription-2PAeGq {
+    margin: 8px 0 0
+}
+
+.modalRoot-2Z7KCC {
+    width: 520px
 }
 
 .wrapper-2a6GCs {
@@ -55983,7 +56043,7 @@ strong {
     -webkit-animation: placeholderPulse-3MG86Y 1s ease-in-out infinite;
     animation: placeholderPulse-3MG86Y 1s ease-in-out infinite;
     background-color: var(--background-tertiary);
-    min-height: 204px
+    min-height: 140px
 }
 
 .rightJustifiedContent-1qP_dH {
@@ -63070,7 +63130,7 @@ html .invoiceCancelRow-1YYT42 {
 }
 
 .featurePremiumGuild-2KpCr6 .featureImage-2L9kA0 {
-    width: 188px
+    width: 190px
 }
 
 .featureBadge-3ZA-Ca .featureImageWrapper-pPDLjm {
@@ -63085,7 +63145,7 @@ html .invoiceCancelRow-1YYT42 {
 }
 
 .featureBadge-3ZA-Ca .featureImage-2L9kA0 {
-    width: 188px
+    width: 190px
 }
 
 .featureUploadSize-2CAVFL .featureTitle-W5O6R1 {
@@ -79370,4 +79430,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f50978f01a56f1375eb7.css.map*/
+/*# sourceMappingURL=0.6091b1503b8b934e047d.css.map*/
