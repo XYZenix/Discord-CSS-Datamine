@@ -24432,6 +24432,10 @@ img[alt] {
     padding-left: 16px
 }
 
+.sansAttachButtonCreateThread-1UPx8S {
+    padding-left: 10px
+}
+
 .attachButton-2dnuIu {
     margin-left: -16px
 }
@@ -24496,6 +24500,10 @@ img[alt] {
 
 .textAreaSlate-1ZzRVj {
     padding: 0
+}
+
+.textAreaThreadCreation-3zmvce {
+    min-height: 66px
 }
 
 .textAreaWithoutAttachmentButton-qiaiTB {
@@ -59639,6 +59647,10 @@ a.ctaAnchor-3-8I3v:hover {
     color: var(--interactive-active)
 }
 
+.privateThreadDescription-3_57Hi {
+    margin-top: 8px
+}
+
 .chat-1cCjJ5 .select-25Azxp {
     display: inline-grid;
     padding: 0 2px 0 4px;
@@ -59654,27 +59666,26 @@ a.ctaAnchor-3-8I3v:hover {
     width: 18px
 }
 
-.scrollerSpacer-1l6Db6 {
-    display: block;
-    height: 22px;
-    width: 1px;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    pointer-events: none
-}
-
 .form-3eU9kJ {
-    position: relative;
+    min-height: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    padding-left: 16px;
-    padding-right: 16px
+    position: relative
 }
 
 .channelTextArea-3O-WhA {
-    margin-bottom: 24px;
     background-color: var(--background-primary)
+}
+
+.channelTextAreaInner-1WnnRS {
+    background-color: var(--deprecated-text-input-bg);
+    border: 1px solid var(--deprecated-text-input-border);
+    border-radius: 3px
+}
+
+.submitButton-10dlpk {
+    margin: 24px 16px;
+    width: calc(100% - 32px)
 }
 
 .iconWrapper-L3hQuc {
@@ -72481,14 +72492,6 @@ html .invoiceCancelRow-3mYhFX {
     fill: #fff!important
 }
 
-.premiumTabItemLink-3IZzin {
-    color: var(--control-brand-foreground)!important
-}
-
-.premiumTabItemLink-3IZzin .icon-Zc-uZZ {
-    fill: var(--control-brand-foreground)!important
-}
-
 .container-1S6Mlq {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -78739,63 +78742,6 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-.logo-1U_ovC {
-    fill: #fff
-}
-
-.clyde-2-VPBZ {
-    width: 33px
-}
-
-.clyde-2-VPBZ,.type-1G6S2n {
-    height: 36px
-}
-
-.type-1G6S2n {
-    width: 98px
-}
-
-@media screen and (max-width: 1024px) {
-    .type-1G6S2n {
-        display:none
-    }
-}
-
-.flex-21ywRf {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.flex-21ywRf,.flex-21ywRf .flexChild-FMspoG {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-.flex-21ywRf .flexChild-FMspoG {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1
-}
-
-.flex-21ywRf.flexGutterSmall-qcUxro {
-    margin-left: -10px;
-    margin-right: -10px
-}
-
-.flex-21ywRf.flexGutterSmall-qcUxro .flexChild-FMspoG {
-    padding: 0 10px
-}
-
-.flex-21ywRf.flexGutterLarge-2kUiyw {
-    margin-left: -30px;
-    margin-right: -30px
-}
-
-.flex-21ywRf.flexGutterLarge-2kUiyw .flexChild-FMspoG {
-    padding: 0 30px
-}
-
 .flexVertical-3UlyGp {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -78923,6 +78869,63 @@ html .invoiceCancelRow-3mYhFX {
 .flexWrapReverse-2yt1q9 {
     -ms-flex-wrap: wrap-reverse;
     flex-wrap: wrap-reverse
+}
+
+.flex-21ywRf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.flex-21ywRf,.flex-21ywRf .flexChild-FMspoG {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.flex-21ywRf .flexChild-FMspoG {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.flex-21ywRf.flexGutterSmall-qcUxro {
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.flex-21ywRf.flexGutterSmall-qcUxro .flexChild-FMspoG {
+    padding: 0 10px
+}
+
+.flex-21ywRf.flexGutterLarge-2kUiyw {
+    margin-left: -30px;
+    margin-right: -30px
+}
+
+.flex-21ywRf.flexGutterLarge-2kUiyw .flexChild-FMspoG {
+    padding: 0 30px
+}
+
+.logo-1U_ovC {
+    fill: #fff
+}
+
+.clyde-2-VPBZ {
+    width: 33px
+}
+
+.clyde-2-VPBZ,.type-1G6S2n {
+    height: 36px
+}
+
+.type-1G6S2n {
+    width: 98px
+}
+
+@media screen and (max-width: 1024px) {
+    .type-1G6S2n {
+        display:none
+    }
 }
 
 .localePicker-25NM64 {
@@ -79672,4 +79675,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a5ed9e86bcac9d87014e.css.map*/
+/*# sourceMappingURL=0.5ac9f9e756d3fbd1a11f.css.map*/
