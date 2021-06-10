@@ -47986,10 +47986,13 @@ html .progress-GjyFoQ {
 }
 
 .tierUnlocked-2H6ULo {
+    background-image: -webkit-gradient(linear,left top,right top,from(hsl(221,calc(var(--saturation-factor, 1)*70%),55.5%)),to(hsl(269,calc(var(--saturation-factor, 1)*83.8%),71%)));
+    background-image: linear-gradient(90deg,hsl(221,calc(var(--saturation-factor, 1)*70%),55.5%),hsl(269,calc(var(--saturation-factor, 1)*83.8%),71%));
     border-radius: 10px;
-    padding: 4px 8px;
+    color: #fff;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 4px 8px;
     text-transform: uppercase
 }
 
@@ -48191,11 +48194,6 @@ html .progress-GjyFoQ {
     border: 1px solid #ebedef
 }
 
-.theme-dark .tierUnlocked-2H6ULo,.theme-light .tierUnlocked-2H6ULo {
-    background-color: #fff;
-    color: var(--brand-experiment)
-}
-
 .theme-dark .tierCloseHint-w4yino,.theme-light .tierCloseHint-w4yino {
     color: #fff;
     background-color: var(--brand-experiment)
@@ -48365,12 +48363,6 @@ html .progress-GjyFoQ {
     color: #747f8d
 }
 
-.previewText-3KQfnt {
-    position: absolute;
-    top: 6px;
-    left: 8px
-}
-
 .infoIcon-1SsK3R {
     margin-left: 4px;
     vertical-align: bottom
@@ -48520,7 +48512,7 @@ html .progress-GjyFoQ {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: var(--background-secondary);
+    background-color: var(--background-primary);
     border-radius: 24px;
     -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3),0 0 0 1px rgba(32,34,37,.6);
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3),0 0 0 1px rgba(32,34,37,.6);
@@ -48560,6 +48552,11 @@ html .progress-GjyFoQ {
     height: 100%
 }
 
+.theme-light .action-Wexk0G {
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.2),0 0 0 1px rgba(185,187,190,.3);
+    box-shadow: 0 1px 5px rgba(0,0,0,.2),0 0 0 1px rgba(185,187,190,.3)
+}
+
 .grid-2oDofK {
     display: grid;
     grid-gap: 12px;
@@ -48575,8 +48572,8 @@ html .progress-GjyFoQ {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: -webkit-gradient(linear,left top,right top,from(hsl(244,calc(var(--saturation-factor, 1)*100%),84.1%)),to(hsl(228,calc(var(--saturation-factor, 1)*86.7%),70.6%)));
-    background-image: linear-gradient(90deg,hsl(244,calc(var(--saturation-factor, 1)*100%),84.1%),hsl(228,calc(var(--saturation-factor, 1)*86.7%),70.6%));
+    background-image: -webkit-gradient(linear,left top,right top,from(hsl(221,calc(var(--saturation-factor, 1)*70%),55.5%)),to(hsl(269,calc(var(--saturation-factor, 1)*83.8%),71%)));
+    background-image: linear-gradient(90deg,hsl(221,calc(var(--saturation-factor, 1)*70%),55.5%),hsl(269,calc(var(--saturation-factor, 1)*83.8%),71%));
     border-radius: 48px;
     color: #fff;
     display: -webkit-box;
@@ -48618,6 +48615,10 @@ html .progress-GjyFoQ {
 
 .tierCardSubheading-IziHG4 {
     font-weight: 400
+}
+
+.uploadCardLabel-375Lg_ {
+    font-weight: 500
 }
 
 .upsellContainer-3UlEOE {
@@ -79697,4 +79698,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.12249120a06198cdc4ba.css.map*/
+/*# sourceMappingURL=0.3271fe5a8a2f9b6f2fa2.css.map*/
