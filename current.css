@@ -25139,7 +25139,8 @@ img[alt] {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    height: 24px
 }
 
 .upsell-34F9Me {
@@ -79604,4 +79605,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ee7bbf7863e118d09e0a.css.map*/
+/*# sourceMappingURL=0.29a336385c7d1b7cf455.css.map*/
