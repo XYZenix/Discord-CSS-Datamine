@@ -12229,10 +12229,20 @@ img[alt] {
     }
 }
 
-.promotionBody-2r_eLH {
+.promotionBodyWrapper-JgfKJo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.promotionBody-2r_eLH,.promotionBodyWrapper-JgfKJo {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex
+}
+
+.promotionBody-2r_eLH {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -12267,6 +12277,39 @@ img[alt] {
         margin-top:32px;
         margin-bottom: 32px
     }
+}
+
+.promotionAccountIdentifier-16Eu6A {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 24px
+}
+
+@media (max-width: 485px) {
+    .promotionAccountIdentifier-16Eu6A {
+        margin-top:48px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+.promotionAccountIdentifier-16Eu6A a {
+    margin-left: 4px
+}
+
+.promotionAccountIdentifierAvatar-1I8Olf {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 4px;
+    margin-right: 4px
 }
 
 .title-9oNsnn {
@@ -79551,4 +79594,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0890c43c47b3980918fc.css.map*/
+/*# sourceMappingURL=0.f728e502f496fd430ea8.css.map*/
