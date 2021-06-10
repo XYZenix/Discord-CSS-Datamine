@@ -63722,9 +63722,9 @@ html .invoiceCancelRow-1YYT42 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
 }
 
 .perkListItem-1BjVlm:last-child {
@@ -63734,12 +63734,22 @@ html .invoiceCancelRow-1YYT42 {
 .perkListItemIcon-2B4aA2 {
     width: 20px;
     height: 20px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
     margin-right: 16px;
     color: var(--header-secondary)
 }
 
 .perkListItemIcon-2B4aA2.hasPerkIcon-JJ5Ezo {
     color: var(--brand-experiment)
+}
+
+.classicPerkGrid-2izruP {
+    display: grid;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    grid-template-columns: 190px 190px
 }
 
 .container-xm7Ad0:before {
@@ -79594,4 +79604,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f728e502f496fd430ea8.css.map*/
+/*# sourceMappingURL=0.ee7bbf7863e118d09e0a.css.map*/
