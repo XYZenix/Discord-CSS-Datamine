@@ -66788,6 +66788,42 @@ html .invoiceCancelRow-1YYT42 {
     color: var(--brand-experiment)
 }
 
+.root-sJwU_u {
+    position: relative;
+    background: -webkit-gradient(linear,left top,right top,from(hsl(270,calc(var(--saturation-factor, 1)*86.7%),70.6%)),to(hsl(342,calc(var(--saturation-factor, 1)*58%),72.9%)));
+    background: linear-gradient(90deg,hsl(270,calc(var(--saturation-factor, 1)*86.7%),70.6%),hsl(342,calc(var(--saturation-factor, 1)*58%),72.9%));
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+    width: 280px
+}
+
+.header-2Y6byp {
+    font-weight: 500;
+    margin-bottom: 4px
+}
+
+.body-2KVGrz {
+    margin-bottom: 16px
+}
+
+.button-3BM6-a {
+    width: 100%
+}
+
+.root-sJwU_u:after {
+    content: "";
+    right: 100%;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-right: 8px solid hsl(270,calc(var(--saturation-factor, 1)*86.7%),70.6%);
+    pointer-events: none;
+    position: absolute;
+    top: 10%
+}
+
 .channel-2QD9_O {
     position: relative;
     max-width: 224px;
@@ -79943,4 +79979,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.eda8a65e32610286a6ff.css.map*/
+/*# sourceMappingURL=0.888503e9add4c4d866b1.css.map*/
