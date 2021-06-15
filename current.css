@@ -14766,8 +14766,40 @@ img[alt] {
     width: 80px
 }
 
+.textArea-1Lj-Ns {
+    height: auto;
+    resize: none
+}
+
+.resizeable-3Dlqvo {
+    resize: auto
+}
+
+.inputMaxLength-1vRluy {
+    position: relative
+}
+
+.flex-2mWL14 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.maxLength-39QFBo {
+    position: absolute;
+    bottom: 12px;
+    right: 14px;
+    font-size: 12px;
+    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
+    pointer-events: none;
+    color: #72767d
+}
+
 .header-287ONi {
-    padding: 24px 16px 0
+    padding: 24px 24px 0
 }
 
 .closeButton-26zew5 {
@@ -14789,7 +14821,7 @@ img[alt] {
 }
 
 .createGuild-23lWNm {
-    margin: 20px 0;
+    margin: 16px 0;
     -webkit-box-flex: 0;
     -ms-flex-positive: 0;
     flex-grow: 0
@@ -14807,7 +14839,11 @@ img[alt] {
 }
 
 .nameInput-2LpnKg {
-    margin-top: 32px
+    margin-top: 24px
+}
+
+.descriptionInput-3XMwZd {
+    margin-top: 16px
 }
 
 .guidelines-1NSoht {
@@ -15083,38 +15119,6 @@ img[alt] {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin-left: 8px
-}
-
-.textArea-1Lj-Ns {
-    height: auto;
-    resize: none
-}
-
-.resizeable-3Dlqvo {
-    resize: auto
-}
-
-.inputMaxLength-1vRluy {
-    position: relative
-}
-
-.flex-2mWL14 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto
-}
-
-.maxLength-39QFBo {
-    position: absolute;
-    bottom: 12px;
-    right: 14px;
-    font-size: 12px;
-    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
-    pointer-events: none;
-    color: #72767d
 }
 
 .headerContainer-3-vFuY {
@@ -59244,6 +59248,138 @@ a.ctaAnchor-3-8I3v:hover {
     color: var(--interactive-normal)
 }
 
+.header-3EwbJF {
+    padding: 16px 24px 0;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0
+}
+
+.closeButton-4LBYOH {
+    position: absolute;
+    top: 12px;
+    right: 9px
+}
+
+.guildList-2TgSqd {
+    margin-top: 20px;
+    padding: 0 8px 8px 16px;
+    height: 330px
+}
+
+.title-1trl6A {
+    font-weight: 700
+}
+
+.subtitle-2Zhgtc,.title-1trl6A {
+    margin-top: 8px;
+    text-align: center
+}
+
+.guildRow-35jjhr {
+    margin-bottom: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid var(--background-modifier-accent);
+    background-color: var(--background-primary);
+    cursor: pointer;
+    padding: 8px 12px 8px 8px
+}
+
+.guildRow-35jjhr:hover {
+    background-color: var(--background-modifier-hover)
+}
+
+.guildRow-35jjhr:active {
+    background-color: var(--background-modifier-active)
+}
+
+.guildName-GeVAOH {
+    margin-left: 16px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 600
+}
+
+.footer-2pLi9a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.footerTitle-1XVXdA {
+    margin-bottom: 8px
+}
+
+.footerButton-3ZBvhg {
+    -ms-flex-item-align: stretch;
+    align-self: stretch
+}
+
+.header-lpMT0b {
+    padding: 16px 24px 0;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0
+}
+
+.closeButton-3B3L2u {
+    position: absolute;
+    top: 12px;
+    right: 9px
+}
+
+.templatesList-2GYOU6 {
+    margin-top: 16px;
+    padding: 0 8px 8px 16px;
+    height: 330px
+}
+
+.title-1hTJEU {
+    font-weight: 700
+}
+
+.subtitle-VsQq8b,.title-1hTJEU {
+    margin-top: 8px;
+    text-align: center
+}
+
+.optionHeader-Sc3x4H {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.container-1O4ciH {
+    width: 440px;
+    max-height: 580px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
 .card-Rhm0MB {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -59256,12 +59392,34 @@ a.ctaAnchor-3-8I3v:hover {
     -ms-flex: 1;
     flex: 1;
     height: 260px;
-    max-width: 320px;
-    min-width: 240px;
     overflow: hidden;
     border-radius: 8px;
     position: relative;
     background-color: var(--background-secondary)
+}
+
+.addEntryCard-11Q874 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: var(--background-primary);
+    border: 2px dashed var(--text-muted);
+    border-radius: 4px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.addEntryCard-11Q874:active,.addEntryCard-11Q874:hover {
+    background-color: var(--background-modifier-hover)
+}
+
+.addServerText-2TmEN2 {
+    margin-top: 8px;
+    font-weight: 600
 }
 
 .cardHeader-3v6rH5 {
@@ -59410,35 +59568,21 @@ a.ctaAnchor-3-8I3v:hover {
 
 .pageContainer-1x6lGh {
     width: 100%;
-    -webkit-box-orient: vertical;
-    -ms-flex-direction: column;
-    flex-direction: column
-}
-
-.container-CFW7u3,.pageContainer-1x6lGh {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-direction: normal
-}
-
-.container-CFW7u3 {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    -webkit-box-orient: horizontal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
-    padding: 16px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     background-color: var(--background-primary)
 }
 
-.directoryCard-1amrX4 {
-    margin: 16px 8px
+.container-CFW7u3 {
+    padding: 16px;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fill,minmax(248px,1fr))
 }
 
 .emptyWrapper-xguANd {
@@ -79996,4 +80140,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.2a23cd4afbf8cefeb1e4.css.map*/
+/*# sourceMappingURL=0.cb567ccc0be7c1d163ea.css.map*/
