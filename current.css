@@ -26883,7 +26883,8 @@ html .progress-GjyFoQ {
     transition: none;
     color: var(--interactive-hover);
     background-color: var(--interactive-muted);
-    font-weight: 400
+    font-weight: 400;
+    margin: 4px
 }
 
 .tag-1hplGn:hover {
@@ -26920,8 +26921,7 @@ html .progress-GjyFoQ {
 
 .value-FbrxsN {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 4px
+    flex-wrap: wrap
 }
 
 .singleValue-3OF6b1 {
@@ -57292,6 +57292,10 @@ strong {
     color: var(--interactive-normal)
 }
 
+.label-vSGvuH {
+    margin-top: 8px
+}
+
 .titleImageContainer-1_XNR7 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -80140,4 +80144,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f4bb190f8c1450492f69.css.map*/
+/*# sourceMappingURL=0.383d180343165b2aa06a.css.map*/
