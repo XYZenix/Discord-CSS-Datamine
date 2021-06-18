@@ -18181,6 +18181,15 @@ img[alt] {
     font-weight: 500
 }
 
+.timestamp-1Dd_pn {
+    background-color: var(--background-modifier-accent);
+    border-radius: 2px
+}
+
+.timestampTooltip-2YTl4z {
+    max-width: unset
+}
+
 .menu-3sdvDG {
     position: relative;
     -webkit-box-sizing: border-box;
@@ -80712,4 +80721,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e258c43d850ed7b6f60a.css.map*/
+/*# sourceMappingURL=0.48fe68805b1d2db422de.css.map*/
