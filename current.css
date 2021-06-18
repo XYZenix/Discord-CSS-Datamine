@@ -18183,7 +18183,8 @@ img[alt] {
 
 .timestamp-1Dd_pn {
     background-color: var(--background-modifier-accent);
-    border-radius: 2px
+    border-radius: 3px;
+    padding: 0 2px
 }
 
 .timestampTooltip-2YTl4z {
@@ -80721,4 +80722,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.48fe68805b1d2db422de.css.map*/
+/*# sourceMappingURL=0.e2e3917f5c1a57c074e2.css.map*/
