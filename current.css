@@ -55431,7 +55431,7 @@ strong {
     bottom: 12px
 }
 
-.container-3GYiPf {
+.container-3Z2M46 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -55447,17 +55447,72 @@ strong {
     padding-right: 8px
 }
 
-.description-3KoyVh,.header-2Z7uaO {
+.description-15WvSK,.header-1h7oGJ {
     text-align: center
 }
 
-.header-2Z7uaO {
+.header-1h7oGJ {
     margin-top: 24px;
     font-weight: 700
 }
 
-.description-3KoyVh {
+.description-15WvSK {
     margin-top: 8px
+}
+
+.addModeratorsHeader-2dxHdN {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.addModeratorsHeaderSubtitle-1FRERx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.addModeratorsHeaderSubtitleIcon-1-qX50 {
+    padding-right: 4px
+}
+
+.addModeratorsCloseButton-2CiwMN {
+    position: absolute;
+    top: -4px;
+    right: 8px
+}
+
+.confirmModalContainer-1LGyKn {
+    position: relative
+}
+
+.confirmModalContent-2Ldh1k {
+    padding-bottom: 20px
+}
+
+.confirmModalPositiveButtonsContainer-3O9fTV {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.confirmModalFooter-3Bc2vB {
+    position: relative
+}
+
+.addModeratorsButton-a-kh9z {
+    margin-right: 8px;
+    margin-left: 8px
+}
+
+.cancelButton-2759sk {
+    margin-left: -16px
 }
 
 .container-1a8CVa {
@@ -80691,4 +80746,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c9b709c819f1c6b9eff4.css.map*/
+/*# sourceMappingURL=0.4a0361faef666597771f.css.map*/
