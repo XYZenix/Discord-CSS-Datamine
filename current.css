@@ -59494,7 +59494,7 @@ a.ctaAnchor-3-8I3v:hover {
 .guildList-2TgSqd {
     margin-top: 20px;
     padding: 0 8px 8px 16px;
-    height: 330px
+    height: 300px
 }
 
 .title-1trl6A {
@@ -59525,7 +59525,7 @@ a.ctaAnchor-3-8I3v:hover {
     border: 1px solid var(--background-modifier-accent);
     background-color: var(--background-primary);
     cursor: pointer;
-    padding: 8px 12px 8px 8px
+    padding: 12px 16px 12px 12px
 }
 
 .guildRow-35jjhr:hover {
@@ -60093,6 +60093,22 @@ a.ctaAnchor-3-8I3v:hover {
     left: 12px
 }
 
+.overflowMenu-2UV1_r {
+    cursor: pointer;
+    color: var(--interactive-normal);
+    position: absolute;
+    right: 16px;
+    bottom: -24px
+}
+
+.overflowMenu-2UV1_r:hover {
+    color: var(--interactive-hover)
+}
+
+.overflowMenu-2UV1_r:active {
+    color: var(--interactive-active)
+}
+
 .iconMask-IeE9AR {
     padding: 4px;
     background-color: var(--background-secondary-alt)
@@ -60217,8 +60233,12 @@ a.ctaAnchor-3-8I3v:hover {
     background-color: var(--background-primary)
 }
 
+.scroller-1m6Rtg {
+    padding: 32px
+}
+
 .cardsContainer-1FCJbh {
-    padding: 24px 32px;
+    padding: 24px 0;
     display: grid;
     grid-gap: 16px;
     grid-template-columns: repeat(auto-fill,minmax(248px,1fr))
@@ -60231,7 +60251,6 @@ a.ctaAnchor-3-8I3v:hover {
 .header-1PwRG9 {
     position: relative;
     text-align: center;
-    margin: 32px 32px 0;
     min-width: 650px
 }
 
@@ -60323,7 +60342,6 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .searchHeader-1FrjMT {
-    margin: 32px 32px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -60337,6 +60355,8 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .searchHeader-1FrjMT .searchPageBox-2SLwyN {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     margin-top: 16px;
     width: 100%;
     background-color: var(--background-tertiary);
@@ -60388,7 +60408,7 @@ a.ctaAnchor-3-8I3v:hover {
     flex: 1;
     background-color: var(--background-secondary);
     border-radius: 8px;
-    margin: 24px 24px 24px 32px;
+    margin: 24px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -80792,4 +80812,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b130780df84bd5298bbf.css.map*/
+/*# sourceMappingURL=0.db802279dba297dcf0b4.css.map*/
