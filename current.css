@@ -51890,6 +51890,61 @@ strong {
     height: 12px
 }
 
+.card-Fh3FwF {
+    background-color: var(--background-secondary);
+    padding: 16px;
+    border-radius: 8px
+}
+
+.inline-2jL-kY {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.live-1ZlZq_ {
+    color: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+    margin-bottom: 16px
+}
+
+.label-3OR99Z {
+    margin-left: 4px
+}
+
+.spacing-2a1-9F {
+    margin-top: 16px
+}
+
+.header-1lhVN8 {
+    background-color: var(--background-tertiary);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.content-28Ou7a,.header-1lhVN8 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.content-28Ou7a {
+    margin: 16px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-gap: 16px
+}
+
+.icon-25B593 {
+    color: var(--header-secondary);
+    margin-right: 8px
+}
+
 .container-1JlpAi {
     background-color: var(--background-floating);
     border-radius: 8px;
@@ -80737,4 +80792,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ed1e2677cb5aabaf98be.css.map*/
+/*# sourceMappingURL=0.b130780df84bd5298bbf.css.map*/
