@@ -3069,32 +3069,6 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
     text-transform: uppercase
 }
 
-.headerContainer-3HZzq8 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.close-3K265x {
-    width: 18px;
-    height: 18px;
-    color: var(--interactive-normal)
-}
-
-.close-3K265x:hover {
-    color: var(--interactive-hover)
-}
-
-.close-3K265x:active {
-    color: var(--interactive-active)
-}
-
 .transitionGroup-aR7y1d {
     overflow: hidden;
     position: relative
@@ -80763,4 +80737,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4f3a9f08af3cdc47160f.css.map*/
+/*# sourceMappingURL=0.ed1e2677cb5aabaf98be.css.map*/
