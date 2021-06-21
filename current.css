@@ -54741,11 +54741,15 @@ strong {
     position: relative
 }
 
-.uploadIcon-3EO47A {
+.uploadIconContainer-srTNzu {
     width: 22px;
     height: 22px;
     background-repeat: no-repeat;
     background-size: cover
+}
+
+.uploadIcon-3EO47A {
+    color: #b9bbbe
 }
 
 .pencilIconContainer-2XYqVg {
@@ -54795,6 +54799,7 @@ strong {
 .titleInput-2spVRT {
     resize: none;
     overflow: hidden;
+    min-height: 49px;
     font-size: 20px;
     line-height: 24px;
     color: var(--interactive-active);
@@ -80722,4 +80727,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e2e3917f5c1a57c074e2.css.map*/
+/*# sourceMappingURL=0.822136716c3ddffae25f.css.map*/
