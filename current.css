@@ -60437,6 +60437,46 @@ a.ctaAnchor-3-8I3v:hover {
     margin-top: 8px
 }
 
+.formHeaderContainer-3q1-XI {
+    padding: 24px 16px 0;
+    overflow: visible;
+    text-align: center;
+    white-space: break-spaces
+}
+
+.formContent-2H_v0k {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-items: center;
+    padding: 24px 0 0
+}
+
+.formFooter-1gE60f {
+    margin: 20px 0 0
+}
+
+.formImage-1w5Q-K {
+    width: 80px;
+    height: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(/assets/5338d8f3fef87e5052ac24789aa46453.svg)
+}
+
+.formSubHeader-3VaaCi {
+    margin: 8px 0 0
+}
+
+.formHeader-2pj06R {
+    margin: 16px 0 0
+}
+
 .searchIndexAnimation-UMrQlU {
     position: relative;
     width: 320px;
@@ -80812,4 +80852,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.db802279dba297dcf0b4.css.map*/
+/*# sourceMappingURL=0.a343761c8500ce894a3e.css.map*/
