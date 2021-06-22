@@ -50578,6 +50578,10 @@ html .progress-GjyFoQ {
 }
 
 .headerTop-547GTz {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    left: 160px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -50586,8 +50590,7 @@ html .progress-GjyFoQ {
     justify-content: space-between;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    padding: 16px 16px 0 160px
+    align-items: center
 }
 
 .badgeList-1R1WgZ {
@@ -50625,7 +50628,7 @@ html .progress-GjyFoQ {
     font-size: 20px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 36px;
+    margin-top: 76px;
     margin-left: 16px;
     font-weight: 600;
     font-family: var(--font-display)
@@ -80882,4 +80885,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.bfcab9cccd78138b5125.css.map*/
+/*# sourceMappingURL=0.540db7cd05be793885d9.css.map*/
