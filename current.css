@@ -20224,6 +20224,9 @@ img[alt] {
 }
 
 .aboutMeTitle-1IYtPE {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-weight: 700;
     margin-bottom: 8px
 }
@@ -31071,7 +31074,7 @@ html .progress-GjyFoQ {
 }
 
 .container-2I9Hud:hover {
-    border-color: var(--background-modifier-accent)
+    border-color: var(--background-accent)
 }
 
 .left-3P8WCO {
@@ -40092,6 +40095,13 @@ html .progress-GjyFoQ {
 .icon-188URH {
     padding: 6px;
     border-radius: 50%
+}
+
+.separator-2uO-Ud {
+    margin: 16px 0;
+    background-color: var(--background-primary);
+    border: none;
+    height: 1px
 }
 
 .containerColumn-1Wj-gZ {
@@ -50108,7 +50118,7 @@ html .progress-GjyFoQ {
 
 .uploadRequirementsList-2CtxQd {
     list-style: disc;
-    padding: 8px 0 0 24px
+    padding: 8px 0 8px 24px
 }
 
 .divider-JGc9Sw {
@@ -53184,9 +53194,13 @@ strong {
     left: 16px;
     max-width: 300px;
     min-width: 220px;
-    padding: 8px 16px;
+    padding: 8px 8px 0;
     position: absolute;
     top: 0
+}
+
+.more-3VADkW,.row-1ImlrZ,.title-3JU2Q6 {
+    padding: 0 8px
 }
 
 .title-3JU2Q6 {
@@ -53205,25 +53219,36 @@ strong {
 }
 
 .row-1ImlrZ {
+    border-radius: 4px;
     color: var(--interactive-normal)
 }
 
 .row-1ImlrZ:hover {
-    color: var(--interactive-hover);
+    background-color: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    color: #fff;
     cursor: pointer
 }
 
+.avatar-3oP4LX {
+    height: 16px;
+    margin-right: 8px;
+    width: 16px
+}
+
 .timestamp-25yOdb {
+    color: var(--text-muted);
     -ms-flex-negative: 0;
-    flex-shrink: 0
+    flex-shrink: 0;
+    white-space: nowrap
+}
+
+.row-1ImlrZ:hover .timestamp-25yOdb {
+    color: #fff
 }
 
 .name-1Rd7lI {
     overflow: hidden;
-    text-overflow: ellipsis
-}
-
-.name-1Rd7lI,.timestamp-25yOdb {
+    text-overflow: ellipsis;
     white-space: nowrap
 }
 
@@ -53231,7 +53256,9 @@ strong {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    border-top: 1px solid var(--background-modifier-accent);
     color: var(--text-link);
+    cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -63023,6 +63050,10 @@ a.ctaAnchor-3-8I3v:hover {
     color: var(--header-secondary)
 }
 
+.parentChannelName-1C2HEo:hover {
+    color: var(--header-primary)
+}
+
 .title-3qD0b- {
     position: relative;
     -webkit-box-flex: 0;
@@ -63386,11 +63417,12 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .ownerIcon-2NH9FM {
-    color: var(--text-warning)
+    color: var(--text-warning);
+    margin-left: 4px
 }
 
-.lostPermissionIcon-Tepjch,.ownerIcon-2NH9FM {
-    margin-left: 4px
+.lostPermission-2pphCL {
+    text-decoration: line-through
 }
 
 .premiumIcon-1rDbWQ {
@@ -63610,6 +63642,61 @@ a.ctaAnchor-3-8I3v:hover {
 
 .instructions-O3OCc7 {
     padding: 0 16px
+}
+
+.emptyState-2KU9WW {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 16px;
+    text-align: center
+}
+
+.emptyStateHeader-W2ruuN {
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase
+}
+
+.emptyStateIcon-1JWNn4 {
+    border-radius: 100%;
+    background-color: var(--background-tertiary);
+    color: var(--interactive-normal);
+    height: 56px;
+    width: 56px
+}
+
+.emptyStateIcon-1JWNn4,.emptyStateIconContainer-3CFwua {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.emptyStateIconContainer-3CFwua {
+    margin: 32px 0;
+    position: relative
+}
+
+.emptyStateStars-3H0CeG {
+    margin: 0 auto;
+    position: absolute;
+    top: -13px
+}
+
+.emptyStateSubtext-2G0UeF {
+    margin-top: 8px
 }
 
 .strikethrough-3Wiitd {
@@ -80810,4 +80897,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1f2631e8cd68ee4d117a.css.map*/
+/*# sourceMappingURL=0.a3019c363b7b5f1f164a.css.map*/
