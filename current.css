@@ -72182,33 +72182,46 @@ html .tabBadge-3smxHS {
     color: #72767d
 }
 
-.modalRoot-b4j38N {
-    overflow: visible
+.loading-RBMycv {
+    margin-top: 48px
 }
 
-.content-2ruaPs {
-    padding-bottom: 16px
+.maybeLaterButton-2GCoPp {
+    color: var(--header-primary);
+    margin-right: 8px
 }
 
-.modalCloseButton-wRlXg2 {
-    position: absolute;
-    top: 12px;
-    right: 12px
+.maybeLaterButton-2GCoPp:hover {
+    text-decoration: underline
 }
 
-.headerText-BkYGzL {
-    margin-top: 8px;
-    text-align: center
+.bodyText-9sDIid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
 }
 
-.headerContainer-3wcp1C {
-    overflow: visible;
-    position: relative
+.formDivider-2YpN2v {
+    margin: 16px 0
 }
 
-.header-3fy4Ix {
-    padding-top: 52px;
-    width: 100%;
+.formSection-18ae0i {
+    margin-bottom: 16px
+}
+
+.confirmationText-zJQc0M {
+    margin-top: 8px
+}
+
+.textInput-3M0tLo {
+    color: red
+}
+
+.headerContainer-2oa3uf {
+    padding: 0 0 8px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -72216,33 +72229,37 @@ html .tabBadge-3smxHS {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+    margin-top: -60px
 }
 
-.art-2_Xqu3 {
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    transform: translateY(-50%) translateX(-50%);
-    width: 300px;
+.art-UTc0S4 {
     height: 120px;
-    background-image: url(/assets/f6c22e729e8546947eb67d1e67c24697.svg)
+    width: 240px;
+    background-image: url(/assets/272d7742477b424d154f9e02beb5da80.svg)
 }
 
-.subHeader-ySW_oM {
-    color: var(--header-secondary);
-    text-transform: uppercase;
-    margin-bottom: 8px
+.art-UTc0S4,.errorArt-nd3oB9 {
+    margin-bottom: 16px
 }
 
-.confirmationEmail-sCKx-l {
-    margin-top: 8px;
-    color: var(--header-secondary)
+.errorArt-nd3oB9 {
+    height: 99px;
+    width: 141px;
+    background-image: url(/assets/391ebe29636351dc6f7802e9f747b79d.svg)
+}
+
+.errorHeader-1WNSiu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.errorBody-3ofSBw {
+    padding-bottom: 32px
 }
 
 .card-7JP0BX {
@@ -80881,4 +80898,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8b35f9e298bef342b5d6.css.map*/
+/*# sourceMappingURL=0.971890c35af276c6ad1e.css.map*/
