@@ -49377,6 +49377,7 @@ html .progress-GjyFoQ {
 }
 
 .tierIcon-1g5KsI {
+    color: hsl(302,calc(var(--saturation-factor, 1)*100%),72.5%);
     width: 32px;
     height: 32px
 }
@@ -81233,4 +81234,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1eff8b26b54ab621af45.css.map*/
+/*# sourceMappingURL=0.b62fa792a738696e110e.css.map*/
