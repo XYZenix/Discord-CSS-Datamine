@@ -7472,55 +7472,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     }
 }
 
-[data-popout-root].oldBrand,html.oldBrand {
-    --brand-experiment-100: hsl(228,calc(var(--saturation-factor, 1)*55.6%),98.2%);
-    --brand-experiment-130: hsl(228,calc(var(--saturation-factor, 1)*62.5%),96.9%);
-    --brand-experiment-160: hsl(228,calc(var(--saturation-factor, 1)*60%),95.1%);
-    --brand-experiment-200: hsl(229,calc(var(--saturation-factor, 1)*60%),93.1%);
-    --brand-experiment-230: hsl(227,calc(var(--saturation-factor, 1)*57.4%),90.8%);
-    --brand-experiment-260: hsl(226,calc(var(--saturation-factor, 1)*58.6%),88.6%);
-    --brand-experiment-300: hsl(227,calc(var(--saturation-factor, 1)*57.7%),86.1%);
-    --brand-experiment-330: hsl(227,calc(var(--saturation-factor, 1)*59.1%),81.8%);
-    --brand-experiment-360: hsl(227,calc(var(--saturation-factor, 1)*57.9%),77.6%);
-    --brand-experiment-400: hsl(226,calc(var(--saturation-factor, 1)*58%),72%);
-    --brand-experiment-430: hsl(227,calc(var(--saturation-factor, 1)*58.2%),70%);
-    --brand-experiment-460: hsl(227,calc(var(--saturation-factor, 1)*58.5%),67.8%);
-    --brand-experiment: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
-    --brand-experiment-500: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
-    --brand-experiment-530: hsl(227,calc(var(--saturation-factor, 1)*45.2%),59.2%);
-    --brand-experiment-560: hsl(227,calc(var(--saturation-factor, 1)*35.3%),52.7%);
-    --brand-experiment-600: hsl(227,calc(var(--saturation-factor, 1)*31%),44.3%);
-    --brand-experiment-630: hsl(226,calc(var(--saturation-factor, 1)*31.3%),38.2%);
-    --brand-experiment-660: hsl(226,calc(var(--saturation-factor, 1)*31%),33.5%);
-    --brand-experiment-700: hsl(227,calc(var(--saturation-factor, 1)*30.8%),26.1%);
-    --brand-experiment-730: hsl(228,calc(var(--saturation-factor, 1)*31.2%),24.5%);
-    --brand-experiment-760: hsl(227,calc(var(--saturation-factor, 1)*31.6%),22.4%);
-    --brand-experiment-800: hsl(226,calc(var(--saturation-factor, 1)*31.3%),19.4%);
-    --brand-experiment-830: hsl(225,calc(var(--saturation-factor, 1)*31.6%),14.9%);
-    --brand-experiment-860: hsl(225,calc(var(--saturation-factor, 1)*32%),9.8%);
-    --brand-experiment-900: hsl(228,calc(var(--saturation-factor, 1)*29.4%),3.3%);
-    --brand-experiment-05a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.05);
-    --brand-experiment-10a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.1);
-    --brand-experiment-15a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.15);
-    --brand-experiment-20a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.2);
-    --brand-experiment-25a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.25);
-    --brand-experiment-30a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.3);
-    --brand-experiment-35a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.35);
-    --brand-experiment-40a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.4);
-    --brand-experiment-45a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.45);
-    --brand-experiment-50a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.5);
-    --brand-experiment-55a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.55);
-    --brand-experiment-60a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.6);
-    --brand-experiment-65a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.65);
-    --brand-experiment-70a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.7);
-    --brand-experiment-75a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.75);
-    --brand-experiment-80a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.8);
-    --brand-experiment-85a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.85);
-    --brand-experiment-90a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.9);
-    --brand-experiment-95a: hsla(227,calc(var(--saturation-factor, 1)*58.4%),65.1%,0.95)
-}
-
-[data-popout-root].newBrand,html.newBrand {
+[data-popout-root],html {
     --brand-experiment-100: hsl(240,calc(var(--saturation-factor, 1)*77.8%),98.2%);
     --brand-experiment-130: hsl(236,calc(var(--saturation-factor, 1)*87.5%),96.9%);
     --brand-experiment-160: hsl(235,calc(var(--saturation-factor, 1)*84.6%),94.9%);
@@ -8340,10 +8292,6 @@ img[alt] {
     flex: 0 0 auto;
     width: 130px;
     height: 36px;
-    background: url(/assets/4f004ac9be168ac6ee18fc442a52ab53.svg) no-repeat
-}
-
-.newBrand .logo-2iEHEq {
     background: url(/assets/5724892521ce5bc348669e9f1fabe28b.svg) no-repeat
 }
 
@@ -8560,10 +8508,6 @@ img[alt] {
         top: 20px;
         height: 36px;
         width: 112px;
-        background: url(/assets/4f004ac9be168ac6ee18fc442a52ab53.svg) no-repeat
-    }
-
-    .newBrand .authBox-hW6HRx:before {
         background: url(/assets/5724892521ce5bc348669e9f1fabe28b.svg) no-repeat
     }
 
@@ -8613,10 +8557,6 @@ img[alt] {
     top: 20px;
     height: 36px;
     width: 112px;
-    background: url(/assets/4f004ac9be168ac6ee18fc442a52ab53.svg) no-repeat
-}
-
-.newBrand .is-mobile .authBox-hW6HRx:before {
     background: url(/assets/5724892521ce5bc348669e9f1fabe28b.svg) no-repeat
 }
 
@@ -8637,12 +8577,8 @@ img[alt] {
 }
 
 .theme-light.authBox-hW6HRx:before {
-    background: url(/assets/2dc2e17d6902f055c7c4ca5bb70de37b.svg) no-repeat
-}
-
-.newBrand .theme-light.authBox-hW6HRx:before {
-    width: 130px;
-    background: url(/assets/0c1f2f5429ac65d7a30636176b42ce8c.svg) no-repeat
+    background: url(/assets/0c1f2f5429ac65d7a30636176b42ce8c.svg) no-repeat;
+    width: 130px
 }
 
 .theme-dark.authBox-hW6HRx {
@@ -8651,12 +8587,8 @@ img[alt] {
 }
 
 .theme-dark.authBox-hW6HRx:before {
-    background: url(/assets/4f004ac9be168ac6ee18fc442a52ab53.svg) no-repeat
-}
-
-.newBrand .theme-dark.authBox-hW6HRx:before {
-    width: 130px;
-    background: url(/assets/5724892521ce5bc348669e9f1fabe28b.svg) no-repeat
+    background: url(/assets/5724892521ce5bc348669e9f1fabe28b.svg) no-repeat;
+    width: 130px
 }
 
 .title-jXR8lp {
@@ -8819,10 +8751,6 @@ img[alt] {
     top: 20px;
     height: 36px;
     width: 112px;
-    background: url(/assets/4f004ac9be168ac6ee18fc442a52ab53.svg) no-repeat
-}
-
-.newBrand .mobileBannerLogo-2Kb4rf {
     background: url(/assets/5724892521ce5bc348669e9f1fabe28b.svg) no-repeat
 }
 
@@ -18610,13 +18538,10 @@ img[alt] {
 
 .textBadge-1iylP6 {
     padding: 0 6px;
+    font-family: var(--font-display);
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden
-}
-
-.newBrand .textBadge-1iylP6 {
-    font-family: var(--font-display)
 }
 
 .iconBadge-2NuvG9 {
@@ -53775,9 +53700,8 @@ strong {
 }
 
 .name-1jkAdW {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 20px;
-    font-weight: 600;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -53786,11 +53710,7 @@ strong {
     flex: 1
 }
 
-.newBrand .name-1jkAdW {
-    font-size: 15px
-}
-
-.tierTooltipTitle-3AtaZT {
+.name-1jkAdW,.tierTooltipTitle-3AtaZT {
     font-weight: 600
 }
 
@@ -64433,7 +64353,7 @@ html .invoiceCancelRow-1YYT42 {
 }
 
 .hero-EvfTTA {
-    background-image: url(/assets/a821f6c69ee5729cec9e82246c2cd63a.svg);
+    background-image: url(/assets/c7c0a638f8e8e45dc18c686359defbb7.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     max-width: 660px;
@@ -64451,11 +64371,7 @@ html .invoiceCancelRow-1YYT42 {
     align-items: center
 }
 
-.newBrand .hero-EvfTTA {
-    background-image: url(/assets/c7c0a638f8e8e45dc18c686359defbb7.svg)
-}
-
-.featureImage-2L9kA0,.featureTitle-W5O6R1 {
+.featureImage-2L9kA0,.featureTitle-W5O6R1,.hero-EvfTTA {
 }
 
 .heroIcon-3QgOM5 {
@@ -74491,10 +74407,6 @@ html .invoiceCancelRow-3mYhFX {
     background-color: var(--brand-experiment)
 }
 
-.oldBrand .header-2C89wJ {
-    text-transform: uppercase
-}
-
 .secured-1Yihly {
     font-size: 12px;
     font-weight: 500;
@@ -80898,4 +80810,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.971890c35af276c6ad1e.css.map*/
+/*# sourceMappingURL=0.1f2631e8cd68ee4d117a.css.map*/
