@@ -16077,6 +16077,10 @@ img[alt] {
     width: 31px
 }
 
+.cozy-3raOZG.hasThread-2k82W0.isSystemMessage-2MkNHd:after {
+    top: 28px
+}
+
 .cozy-3raOZG.hasThread-2k82W0.hasReply-34In-r:after {
     top: 70px
 }
@@ -16093,6 +16097,10 @@ img[alt] {
     position: absolute;
     top: 22px;
     width: 2px
+}
+
+.compact-T3H92H.hasThread-2k82W0.isSystemMessage-2MkNHd .contents-2mQqc9:before {
+    display: none
 }
 
 .zalgo-jN1Ica .messageContent-2qWWxC {
@@ -27347,6 +27355,11 @@ html .progress-GjyFoQ {
     width: 34px
 }
 
+.spine-5jbOmI.systemMessageSpine-3ZKfiO {
+    bottom: 32px;
+    left: -33px
+}
+
 .spine-5jbOmI.cozy-XCy5h_ {
     display: none
 }
@@ -27359,6 +27372,10 @@ html .progress-GjyFoQ {
     max-width: 480px;
     min-width: 0;
     padding: 8px
+}
+
+.systemMessageContainer-2ddkN3 {
+    margin-top: 0
 }
 
 .topLine-1hV9bl {
@@ -80897,4 +80914,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a3019c363b7b5f1f164a.css.map*/
+/*# sourceMappingURL=0.9893ab4525e156b5d491.css.map*/
