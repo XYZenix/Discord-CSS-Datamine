@@ -11804,6 +11804,11 @@ img[alt] {
     user-select: none
 }
 
+.assetWrapperMasked-2tj_Bb {
+    -webkit-mask: url(/assets/7d65d61e6cd25bf1847ec2d3e4a0144d.svg) 0 0/100% 100%;
+    mask: url(/assets/7d65d61e6cd25bf1847ec2d3e4a0144d.svg) 0 0/100% 100%
+}
+
 .lottieCanvas-1W7L-f {
     height: 100%;
     left: 0;
@@ -11841,14 +11846,16 @@ img[alt] {
     justify-content: center
 }
 
-.shape-2kfO2v {
+.loadingIndicator-1T4i1D {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     cursor: default;
-    display: block
+    display: block;
+    -webkit-mask: url(/assets/7d65d61e6cd25bf1847ec2d3e4a0144d.svg) 0 0/100% 100%;
+    mask: url(/assets/7d65d61e6cd25bf1847ec2d3e4a0144d.svg) 0 0/100% 100%
 }
 
-.error-3sSo0R,.shape-2kfO2v {
+.error-3sSo0R,.loadingIndicator-1T4i1D {
     width: 100%;
     height: 100%;
     background-color: var(--background-modifier-active)
@@ -23429,21 +23436,20 @@ img[alt] {
     padding: 2px
 }
 
-.mask-WB_llw {
-    position: absolute;
-    z-index: -1;
-    margin-top: -2px;
-    margin-left: -2px
-}
-
-.stickerBackground-2XECKi {
+.inspectedIndicator-59EII8 {
     height: 100%;
+    left: 0;
+    -webkit-mask: url(/assets/7d65d61e6cd25bf1847ec2d3e4a0144d.svg) 0 0/100% 100%;
+    mask: url(/assets/7d65d61e6cd25bf1847ec2d3e4a0144d.svg) 0 0/100% 100%;
+    position: absolute;
+    top: 0;
     -webkit-transition: background-color .08s ease-out,color .08s ease-out;
     transition: background-color .08s ease-out,color .08s ease-out;
-    width: 100%
+    width: 100%;
+    z-index: -1
 }
 
-.stickerInspected-2EM4w- .stickerBackground-2XECKi {
+.stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
     background-color: var(--background-accent)
 }
 
@@ -23457,12 +23463,12 @@ img[alt] {
     top: 0
 }
 
-.viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh,.viewAllInspected-FsmJHj .viewAllBackground-3Bn1vh {
+.viewAll-2RLt-n:hover .viewAllButton-I9GJG2,.viewAllInspected-FsmJHj .viewAllButton-I9GJG2 {
     background-color: var(--background-tertiary);
     color: var(--interactive-hover)
 }
 
-.viewAllBackground-3Bn1vh {
+.viewAllButton-I9GJG2 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -81030,4 +81036,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4e31be7b67bd573ff167.css.map*/
+/*# sourceMappingURL=0.3104433fc7bd727985c4.css.map*/
