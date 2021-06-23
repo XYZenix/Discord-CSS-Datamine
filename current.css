@@ -8572,7 +8572,7 @@ img[alt] {
 }
 
 .theme-light.authBox-hW6HRx {
-    color: #c7ccd1;
+    color: #747f8d;
     background: #f8f9f9
 }
 
@@ -8777,6 +8777,46 @@ img[alt] {
 .description-3iuMrd {
     margin-top: 8px;
     font-size: 12px
+}
+
+.footer-R83Ab3 {
+    padding: 20px 32px;
+    margin: 0 -32px -32px;
+    border-radius: 0 0 5px 5px
+}
+
+@media (max-width: 485px) {
+    .footer-R83Ab3 {
+        margin:0
+    }
+}
+
+.theme-dark .footer-R83Ab3 {
+    background-color: #2f3136;
+    -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    box-shadow: inset 0 1px 0 rgba(47,49,54,.6)
+}
+
+@media (max-width: 485px) {
+    .theme-dark .footer-R83Ab3 {
+        background-color:transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+}
+
+.theme-light .footer-R83Ab3 {
+    background-color: #dcddde;
+    -webkit-box-shadow: inset 0 1px 0 rgba(220,221,222,.6);
+    box-shadow: inset 0 1px 0 rgba(220,221,222,.6)
+}
+
+@media (max-width: 485px) {
+    .theme-light .footer-R83Ab3 {
+        background-color:transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
 }
 
 .error-36J3A_ {
@@ -27124,6 +27164,10 @@ html .progress-GjyFoQ {
 
 .emoji-2lCmvk {
     margin-right: 8px
+}
+
+.offset-2xmZwD {
+    margin-left: 27px
 }
 
 .tag-1hplGn {
@@ -56700,6 +56744,10 @@ strong {
     color: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%)
 }
 
+.smsVerifyErrorMessage-1tY1Rc {
+    margin: 20px 0
+}
+
 .createAccountTemplateHeader-2nHsFv {
     color: var(--header-primary);
     font-size: 24px;
@@ -56714,6 +56762,44 @@ strong {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto
+}
+
+.theme-light .smsVerifyCodeBox-gId9DB {
+    color: #c7ccd1;
+    background: #f8f9f9
+}
+
+.theme-dark .smsVerifyCodeBox-gId9DB {
+    color: #b9bbbe;
+    background: var(--background-mobile-primary)
+}
+
+.segmentControl-3pvqPk {
+    margin-bottom: 16px
+}
+
+.segmentControl-3pvqPk .segmentControlOptionSelected-3OpUdZ {
+    border-bottom: 2px solid var(--brand-experiment);
+    font-weight: 500
+}
+
+.theme-light .segmentControl-3pvqPk {
+    border-bottom: 2px solid #c7ccd1
+}
+
+.theme-dark .segmentControl-3pvqPk {
+    border-bottom: 2px solid #40444b
+}
+
+.segmentControlOption-qN207- {
+    padding-bottom: 16px;
+    font-size: 16px;
+    position: relative;
+    top: 2px
+}
+
+.subtleLoginSwitcher-1nGw3h {
+    margin-top: 8px
 }
 
 .pill-3N7f9r {
@@ -80977,4 +81063,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.512c1ef68c92de6ca868.css.map*/
+/*# sourceMappingURL=0.9efddda15df9294a05a7.css.map*/
