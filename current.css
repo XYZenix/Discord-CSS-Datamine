@@ -2611,13 +2611,17 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
 }
 
 .scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb,.scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
-    border-width: 3px;
     border-radius: 7px;
     background-clip: padding-box;
-    border-style: solid
+    border: 3px solid transparent
+}
+
+.scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-auto-thumb)
 }
 
 .scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-auto-track);
     border-width: initial
 }
 
@@ -2664,26 +2668,6 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track {
     background-color: transparent;
     border: none
-}
-
-.theme-light .scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb {
-    background-color: rgba(79,84,92,.3);
-    border-color: transparent
-}
-
-.theme-light .scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
-    background-color: transparent;
-    border-color: transparent
-}
-
-.theme-dark .scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb {
-    background-color: rgba(32,34,37,.6);
-    border-color: transparent
-}
-
-.theme-dark .scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
-    background-color: transparent;
-    border-color: transparent
 }
 
 .wrapper-3Q5DdO {
@@ -81268,4 +81252,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.db26fb0e497dcaf9de79.css.map*/
+/*# sourceMappingURL=0.1b24b0b1d24524741ee9.css.map*/
