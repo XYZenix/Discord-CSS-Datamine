@@ -40890,6 +40890,7 @@ html .progress-GjyFoQ {
 }
 
 .editIcon-13gaox {
+    background-image: url(/assets/860396b3ff3fa1c4ae355bebfabadecb.svg);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40934,14 +40935,6 @@ html .progress-GjyFoQ {
     opacity: 1;
     -webkit-transform: translateZ(0);
     transform: translateZ(0)
-}
-
-.theme-light .editIcon-13gaox {
-    background-image: url(/assets/a99de44bba751701d4de08fa81041ed0.svg)
-}
-
-.theme-dark .editIcon-13gaox {
-    background-image: url(/assets/860396b3ff3fa1c4ae355bebfabadecb.svg)
 }
 
 @-webkit-keyframes shadowPulse-2kjgqQ {
@@ -81233,4 +81226,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.81c3f5f255714153a417.css.map*/
+/*# sourceMappingURL=0.f1941d0d854c9db6f29b.css.map*/
