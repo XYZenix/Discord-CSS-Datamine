@@ -7518,7 +7518,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     --brand-experiment-85a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.85);
     --brand-experiment-90a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.9);
     --brand-experiment-95a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.95);
-    --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --control-brand-foreground: var(--control-brand-foreground-new)
 }
 
@@ -7884,7 +7883,7 @@ code {
 
 :root {
     --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-display: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
     --font-korean: Whitney,"Apple SD Gothic Neo","NanumBarunGothic","\B9D1\C740   \ACE0\B515","Malgun Gothic",Gulim,êµ´ë¦¼,Dotum,ë‹ì›€,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-japanese: Whitney,Hiragino Sans,"\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3","Hiragino Kaku Gothic ProN","\30E1\30A4\30EA\30AA",Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -81234,4 +81233,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b62fa792a738696e110e.css.map*/
+/*# sourceMappingURL=0.81c3f5f255714153a417.css.map*/
