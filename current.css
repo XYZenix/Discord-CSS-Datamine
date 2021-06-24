@@ -70553,6 +70553,57 @@ html .tabBadge-3smxHS {
     justify-content: flex-end
 }
 
+.fakeActivityWrapper-2i1oU- {
+    padding: 16px 16px 0
+}
+
+.fakeActivityTitle-3Yf28p {
+    font-weight: 700
+}
+
+.fakeActivityLayout-3f8wLm {
+    margin-top: 8px
+}
+
+.fakeActivityIcon-30ykyj,.fakeActivityLayout-3f8wLm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.fakeActivityIcon-30ykyj {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: var(--brand-experiment-600);
+    margin-right: 16px
+}
+
+.fakeActivityPencil-16MrMa {
+    display: block;
+    width: 48px;
+    height: 48px
+}
+
+.fakeActivityContent-3sb3Tg {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.fakeActivityTimeValues-1FwoxE {
+    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace
+}
+
 .profileBannerPreview-3_l0Wd {
     position: relative;
     width: 300px;
@@ -70635,6 +70686,7 @@ html .tabBadge-3smxHS {
 
 .avatarUploader-2UF9NL {
     position: absolute;
+    z-index: 1;
     left: 16px
 }
 
@@ -81227,4 +81279,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5cfbb5eac800f33c6b4a.css.map*/
+/*# sourceMappingURL=0.833cbe14cc119c45478f.css.map*/
