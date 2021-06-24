@@ -70625,6 +70625,13 @@ html .tabBadge-3smxHS {
     justify-content: space-between
 }
 
+.gifTag-1Jm8FJ {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    pointer-events: none
+}
+
 .bannerUploaderInnerSquare-1ddxpx {
     background-size: cover;
     height: 120px
@@ -81261,4 +81268,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.96705edccd2d5a790557.css.map*/
+/*# sourceMappingURL=0.94dc8929fc40e90eafac.css.map*/
