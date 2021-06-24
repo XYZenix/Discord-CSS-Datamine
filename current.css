@@ -52171,6 +52171,34 @@ strong {
     align-self: stretch
 }
 
+.emptyContainer-3igXli {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.emptyImage-3_Eu72 {
+    height: 96px
+}
+
+.emptyText-1yC1e0 {
+    margin: 24px 0
+}
+
 .header-lpMT0b {
     padding: 16px 24px 0;
     -webkit-box-flex: 0;
@@ -60168,7 +60196,7 @@ a.ctaAnchor-3-8I3v:hover {
     position: relative;
     display: block;
     overflow: visible;
-    margin-bottom: 32px
+    margin-bottom: 36px
 }
 
 .splash-1FJLsm {
@@ -60191,8 +60219,12 @@ a.ctaAnchor-3-8I3v:hover {
 
 .guildIcon-1AUMvx {
     position: absolute;
-    bottom: -21px;
+    top: 20px;
     left: 12px
+}
+
+.icon-36l7g2 {
+    background-color: var(--background-primary)
 }
 
 .overflowMenu-2UV1_r {
@@ -60213,7 +60245,7 @@ a.ctaAnchor-3-8I3v:hover {
 
 .iconMask-IeE9AR {
     padding: 4px;
-    background-color: var(--background-secondary-alt)
+    background-color: var(--background-secondary)
 }
 
 .avatar-2WIa21 {
@@ -60261,8 +60293,11 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .guildName-2Ipq5G {
+    white-space: nowrap
+}
+
+.description-1_YF9b,.guildName-2Ipq5G {
     overflow: hidden;
-    white-space: nowrap;
     text-overflow: ellipsis
 }
 
@@ -60270,10 +60305,9 @@ a.ctaAnchor-3-8I3v:hover {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    overflow: hidden;
     margin: 4px 0 16px;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical
 }
 
@@ -60353,7 +60387,8 @@ a.ctaAnchor-3-8I3v:hover {
 .header-1PwRG9 {
     position: relative;
     text-align: center;
-    min-width: 650px
+    min-width: 650px;
+    min-height: 200px
 }
 
 .headerImage-3pwkCG {
@@ -81226,4 +81261,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f1941d0d854c9db6f29b.css.map*/
+/*# sourceMappingURL=0.96705edccd2d5a790557.css.map*/
