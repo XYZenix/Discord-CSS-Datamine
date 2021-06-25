@@ -11846,7 +11846,7 @@ img[alt] {
     mask: url(/assets/7d65d61e6cd25bf1847ec2d3e4a0144d.svg) 0 0/100% 100%
 }
 
-.lottieCanvas-1W7L-f {
+.stickerAsset-13j1W0 {
     height: 100%;
     left: 0;
     position: absolute;
@@ -11854,20 +11854,21 @@ img[alt] {
     width: 100%
 }
 
+.lottieCanvas-1W7L-f,.pngImage-33yLRP {
+}
+
 .pngImage-33yLRP {
+    display: block;
     -o-object-fit: contain;
     object-fit: contain
 }
 
-.pngImage-33yLRP,.roundedMask-3rB_-f {
-    display: block;
-    height: 100%;
-    width: 100%
-}
-
 .roundedMask-3rB_-f {
+    display: block;
     position: absolute;
+    height: 100%;
     left: 0;
+    width: 100%;
     top: 0
 }
 
@@ -81729,4 +81730,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c284f36a8ef426a1ed9d.css.map*/
+/*# sourceMappingURL=0.15cc1a08349b179a25f2.css.map*/
