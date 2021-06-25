@@ -52309,6 +52309,50 @@ strong {
     margin: 24px 0
 }
 
+.header-2BScRX {
+    padding: 32px;
+    text-align: center
+}
+
+.closeButton-1CBhme {
+    position: absolute;
+    top: 12px;
+    right: 9px
+}
+
+.title-34N6Ti {
+    font-weight: 700;
+    margin-top: 24px
+}
+
+.subTitle-3SyDmm {
+    margin-top: 8px
+}
+
+.buttonRow-1nlKdZ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.addConfirmButton-3_2SPy {
+    width: 100%
+}
+
+.createConfirmButton-3njwP8,.createSecondaryButton-2oxrEp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.createSecondaryButton-2oxrEp {
+    margin-right: 8px
+}
+
 .header-lpMT0b {
     padding: 16px 24px 0;
     -webkit-box-flex: 0;
@@ -52342,6 +52386,14 @@ strong {
     margin-bottom: 8px;
     font-weight: 700;
     text-transform: uppercase
+}
+
+.footer-fKFJXi {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 24px 16px
 }
 
 .container-1O4ciH {
@@ -81658,4 +81710,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.969675f612eb0ab2eaa9.css.map*/
+/*# sourceMappingURL=0.a0dae1a355be2d622d01.css.map*/
