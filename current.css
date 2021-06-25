@@ -4819,6 +4819,20 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
     color: var(--brand-experiment)
 }
 
+.hub-3tYS7n,.partnered-3nJayh {
+}
+
+.hub-3tYS7n>.icon-1ihkOt>circle {
+    fill: var(--background-accent)
+}
+
+.verifiedHub-1GBeCT {
+}
+
+.verifiedHub-1GBeCT>.icon-1ihkOt>circle {
+    fill: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%)
+}
+
 .icon-1ihkOt {
     width: 100%;
     height: 100%;
@@ -81635,4 +81649,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.655a807eaf657d86d928.css.map*/
+/*# sourceMappingURL=0.3795f62a9e4e50c00251.css.map*/
