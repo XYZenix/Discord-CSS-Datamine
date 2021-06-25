@@ -70744,164 +70744,6 @@ html .tabBadge-3smxHS {
     text-align: center
 }
 
-.wrapper-2AQieU {
-    width: auto
-}
-
-.saturation-1FDvtn {
-    position: relative;
-    width: auto;
-    height: 150px
-}
-
-.saturation-1FDvtn>div,.saturation-1FDvtn>div>div {
-    border-radius: 3px
-}
-
-.hue-13HAGb {
-    height: 8px;
-    margin: 8px 0;
-    position: relative
-}
-
-.hue-13HAGb>div>div {
-    border-radius: 3px
-}
-
-.hue-13HAGb>div>div>div>div {
-    height: 16px!important;
-    width: 8px!important;
-    margin-top: -3px!important;
-    border-radius: 3px!important
-}
-
-.container-3sNMIc {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top: -10px;
-    margin-right: -10px
-}
-
-.customContainer-3fZxdw,.defaultContainer-Z8qCJn {
-    margin-top: 10px;
-    margin-right: 10px;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    min-width: 60px;
-    max-width: 70px
-}
-
-.custom-2SJn4n .preset-10Y8Fc {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    -ms-flex-direction: vertical;
-    flex-direction: vertical
-}
-
-.colorPickerCustom-2CWBn2,.custom-2SJn4n .preset-10Y8Fc {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal
-}
-
-.colorPickerCustom-2CWBn2 {
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding: 10px;
-    border: 1px solid transparent;
-    width: 220px
-}
-
-.colorPickerCustom-2CWBn2 .customColorPickerInput-14pB0r .input-GfazGc {
-    text-transform: uppercase;
-    height: 24px
-}
-
-.colorPickerRow-1LgLnl {
-    margin-top: 10px;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    overflow: hidden
-}
-
-.colorPickerRow-1LgLnl,.colorPickerSwatch-5GX3Ve {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 20px
-}
-
-.colorPickerSwatch-5GX3Ve {
-    background-color: transparent;
-    position: relative;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 20px;
-    border-radius: 3px;
-    margin-right: 10px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border: 1px solid transparent;
-    cursor: pointer;
-    padding: 0
-}
-
-.colorPickerSwatch-5GX3Ve.custom-2SJn4n,.colorPickerSwatch-5GX3Ve.default-cS_caM {
-    margin-right: 0;
-    width: 100%;
-    height: 50px;
-    border-radius: 4px
-}
-
-.colorPickerSwatch-5GX3Ve.disabled-1C4eHl {
-    opacity: .3;
-    cursor: not-allowed;
-    pointer-events: none
-}
-
-.colorPickerSwatch-5GX3Ve .colorPickerDropper-3c2mIf {
-    position: absolute;
-    top: 4px;
-    right: 4px
-}
-
-.theme-dark .colorPickerSwatch-5GX3Ve.noColor-1pdBDm {
-    border-color: hsla(0,0%,100%,.1)
-}
-
-.theme-dark .colorPickerSwatch-5GX3Ve.noColor-1pdBDm .colorPickerDropperFg-3jYKWI {
-    fill: #fff
-}
-
-.theme-dark .colorPickerCustom-2CWBn2 {
-    background: #36393f;
-    border-color: #202225
-}
-
-.theme-light .colorPickerSwatch-5GX3Ve.noColor-1pdBDm {
-    border-color: rgba(79,84,92,.1)
-}
-
-.theme-light .colorPickerSwatch-5GX3Ve.noColor-1pdBDm .colorPickerDropperFg-3jYKWI {
-    fill: #4f545c
-}
-
-.theme-light .colorPickerCustom-2CWBn2 {
-    background: #fff;
-    border-color: #dcddde
-}
-
 .modalContent-2ParpD {
     padding-top: 30px;
     text-align: center
@@ -71118,25 +70960,37 @@ html .tabBadge-3smxHS {
     box-sizing: content-box
 }
 
-.userProfileCustomizationSection-8Vpo48 {
-    position: relative
+.customizationSection-2ns2M6 {
+    margin-bottom: 40px
 }
 
-.userProfileCustomizationSection-8Vpo48 p {
-    margin-top: 0
+.sectionDescription-3KkObU {
+    margin-bottom: 16px
 }
 
-.baseLayout-2GkbfB {
-    position: relative
+.errorMessage-2cMV3U {
+    margin-top: 8px
 }
 
-.baseLayout-2GkbfB,.nitroUpsellButtonInner-1fdLoR {
+.aboutMeTextarea-2DKNIM {
+    margin-top: 8px
+}
+
+.buttonsContainer-2EXVdN {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    margin-top: 16px
 }
 
-.nitroUpsellButtonInner-1fdLoR {
+.removeButton-1skX4E {
+    margin-left: 4px
+}
+
+.nitroUpsellButtonInner-zjGzQV {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -71145,36 +70999,202 @@ html .tabBadge-3smxHS {
     justify-content: center
 }
 
-.nitroUpsellButtonWheel-1KmuD_ {
+.nitroUpsellButtonWheel-3DQNDA,.nitroWheel-3ABMax {
     margin-right: 4px
 }
 
-.preview-yzOwK1 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin-left: 16px
-}
-
-.nitroWheel-3YAg7O {
+.nitroWheel-3ABMax {
     width: 16px;
     height: 16px;
-    margin-right: 4px;
     vertical-align: sub
 }
 
-.profileBannerInfo-2Eof82 {
+.buttonsContainer-J9EyRh {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 16px
+}
+
+.removeButton-2AWwlf {
+    margin-left: 4px
+}
+
+.wrapper-2AQieU {
+    width: auto
+}
+
+.saturation-1FDvtn {
+    position: relative;
+    width: auto;
+    height: 150px
+}
+
+.saturation-1FDvtn>div,.saturation-1FDvtn>div>div {
+    border-radius: 3px
+}
+
+.hue-13HAGb {
+    height: 8px;
+    margin: 8px 0;
+    position: relative
+}
+
+.hue-13HAGb>div>div {
+    border-radius: 3px
+}
+
+.hue-13HAGb>div>div>div>div {
+    height: 16px!important;
+    width: 8px!important;
+    margin-top: -3px!important;
+    border-radius: 3px!important
+}
+
+.container-3sNMIc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    margin-right: -10px
+}
+
+.customContainer-3fZxdw,.defaultContainer-Z8qCJn {
+    margin-top: 10px;
+    margin-right: 10px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 60px;
+    max-width: 70px
+}
+
+.custom-2SJn4n .preset-10Y8Fc {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -ms-flex-direction: vertical;
+    flex-direction: vertical
+}
+
+.colorPickerCustom-2CWBn2,.custom-2SJn4n .preset-10Y8Fc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal
+}
+
+.colorPickerCustom-2CWBn2 {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 220px
+}
+
+.colorPickerCustom-2CWBn2 .customColorPickerInput-14pB0r .input-GfazGc {
+    text-transform: uppercase;
+    height: 24px
+}
+
+.colorPickerRow-1LgLnl {
+    margin-top: 10px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden
+}
+
+.colorPickerRow-1LgLnl,.colorPickerSwatch-5GX3Ve {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 20px
+}
+
+.colorPickerSwatch-5GX3Ve {
+    background-color: transparent;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 0
+}
+
+.colorPickerSwatch-5GX3Ve.custom-2SJn4n,.colorPickerSwatch-5GX3Ve.default-cS_caM {
+    margin-right: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px
+}
+
+.colorPickerSwatch-5GX3Ve.disabled-1C4eHl {
+    opacity: .3;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.colorPickerSwatch-5GX3Ve .colorPickerDropper-3c2mIf {
+    position: absolute;
+    top: 4px;
+    right: 4px
+}
+
+.theme-dark .colorPickerSwatch-5GX3Ve.noColor-1pdBDm {
+    border-color: hsla(0,0%,100%,.1)
+}
+
+.theme-dark .colorPickerSwatch-5GX3Ve.noColor-1pdBDm .colorPickerDropperFg-3jYKWI {
+    fill: #fff
+}
+
+.theme-dark .colorPickerCustom-2CWBn2 {
+    background: #36393f;
+    border-color: #202225
+}
+
+.theme-light .colorPickerSwatch-5GX3Ve.noColor-1pdBDm {
+    border-color: rgba(79,84,92,.1)
+}
+
+.theme-light .colorPickerSwatch-5GX3Ve.noColor-1pdBDm .colorPickerDropperFg-3jYKWI {
+    fill: #4f545c
+}
+
+.theme-light .colorPickerCustom-2CWBn2 {
+    background: #fff;
+    border-color: #dcddde
+}
+
+.buttonsContainer-1Stjd1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 16px
+}
+
+.colorSwatch-3g4qA8 {
+    text-align: center;
     margin-right: 16px
 }
 
-.swatchHoverOverlay-2-ZDwp {
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    background-color: rgba(0,0,0,.2);
-    border-radius: 4px;
-    text-transform: uppercase;
+.swatchDescription-1OGz4Y {
+    margin-top: 4px
+}
+
+.swatch-3mFIiP {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -71184,53 +71204,52 @@ html .tabBadge-3smxHS {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    text-align: center;
-    -webkit-transition: opacity .1s ease-in-out;
-    transition: opacity .1s ease-in-out
-}
-
-.swatch-2MbLjN {
     width: 69px;
     height: 50px;
     border-radius: 4px;
-    margin-right: 16px;
-    cursor: pointer
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
 }
 
-.defaultSwatch-2Pdy3x {
-}
-
-.defaultSwatch-2Pdy3x:hover .swatchHoverOverlay-2-ZDwp {
-    opacity: 1
-}
-
-.pendingSwatch-RLOZQV {
+.customSwatch-1axV7B {
     padding: 0;
     min-height: unset;
-    min-width: unset
+    min-width: unset;
+    position: relative;
+    border: 1px solid
 }
 
-.customizationSection-22ptlJ {
-    margin-bottom: 40px
+.defaultSwatch-2nDSvP {
+    border: 1px solid var(--background-modifier-accent)
 }
 
-.sectionDescription-PPOKwC {
-    margin-bottom: 16px
+.dropperIcon-3Cwhnk {
+    position: absolute;
+    top: 4px;
+    right: 4px
 }
 
-.buttonsContainer-24psPt {
+.userProfileCustomizationSection-8Vpo48 {
+    position: relative
+}
+
+.userProfileCustomizationSection-8Vpo48 p {
+    margin-top: 0
+}
+
+.baseLayout-2GkbfB {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    margin-top: 16px
+    display: flex
 }
 
-.removeButton-32cvY- {
-    margin-left: 4px
-}
-
-.aboutMeTextarea-1SN7SJ,.errorMessage-1C0lJo {
-    margin-top: 8px
+.preview-yzOwK1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: 20px
 }
 
 .info-1VyQPT {
@@ -81710,4 +81729,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a0dae1a355be2d622d01.css.map*/
+/*# sourceMappingURL=0.c284f36a8ef426a1ed9d.css.map*/
