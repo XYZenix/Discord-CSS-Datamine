@@ -19375,7 +19375,9 @@ img[alt] {
 }
 
 .assets-VMAukC {
-    position: relative
+    position: relative;
+    -ms-flex-item-align: start;
+    align-self: flex-start
 }
 
 .xboxAssets-aGhVw8 {
@@ -81656,4 +81658,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.63ce767c93d1e9163345.css.map*/
+/*# sourceMappingURL=0.9f1a9e0e5a432eec2836.css.map*/
