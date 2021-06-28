@@ -49863,6 +49863,43 @@ html .progress-GjyFoQ {
     justify-content: space-between
 }
 
+.container-3fU7kz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center
+}
+
+.banner-2G2Kv6 {
+    border-radius: 8px;
+    margin-bottom: 40px;
+    width: 440px
+}
+
+.body-2qxsf3 {
+    margin-top: 8px
+}
+
+.list-12ab-g {
+    list-style-type: disc;
+    margin-left: 24px
+}
+
+.button-3fGQs- {
+    margin: 8px auto 24px
+}
+
+.divider-28aV-g {
+    margin: 24px 0
+}
+
 .prefixInput-14nUik {
     padding: 11px;
     border-width: 1px;
@@ -50176,18 +50213,17 @@ html .progress-GjyFoQ {
 }
 
 .relationshipButtons-pUQVkf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center
 }
 
-.nameTag-ECvD8P,.relationshipButtons-pUQVkf {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
 .nameTag-ECvD8P {
+    position: relative;
+    display: block;
     -webkit-user-select: text;
     -moz-user-select: text;
     -ms-user-select: text;
@@ -50196,10 +50232,9 @@ html .progress-GjyFoQ {
     word-break: break-word;
     line-height: 24px;
     font-size: 20px;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     margin-top: 76px;
     margin-left: 16px;
+    margin-right: 16px;
     font-weight: 600;
     font-family: var(--font-display)
 }
@@ -50238,19 +50273,24 @@ html .progress-GjyFoQ {
 }
 
 .username-FvTBog {
+    display: inline;
+    vertical-align: top;
     color: var(--header-primary)
 }
 
 .discriminator-1swucG {
+    display: inline-block;
+    vertical-align: top;
     color: var(--header-secondary)
 }
 
 .botTag-U0I7-9 {
+    vertical-align: top;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     position: relative;
-    bottom: 1px
+    top: 4px
 }
 
 .nameTag-ECvD8P .botTag-U0I7-9,.nameTag-ECvD8P .discriminator-1swucG,.nameTag-ECvD8P .username-FvTBog {
@@ -81844,4 +81884,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f25bbba9efc81df4fe0b.css.map*/
+/*# sourceMappingURL=0.838936b8aa843dc05ea5.css.map*/
