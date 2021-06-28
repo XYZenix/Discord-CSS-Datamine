@@ -71381,6 +71381,22 @@ html .tabBadge-3smxHS {
     right: 4px
 }
 
+.profileColorTitle-1i-vxM {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.betaBadge-1VY8Cw {
+    margin-left: 8px;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0
+}
+
 .userProfileCustomizationSection-8Vpo48 {
     position: relative
 }
@@ -81880,4 +81896,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.808bc23e7396bba48363.css.map*/
+/*# sourceMappingURL=0.9b0da68ee5b563db84fe.css.map*/
