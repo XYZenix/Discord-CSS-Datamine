@@ -24691,6 +24691,10 @@ img[alt] {
     color: #ff73fa
 }
 
+.iconColorPurple-2SKo10 {
+    color: #d09aff
+}
+
 .iconColorDarkBlue-cmUd_u {
     color: #3e70dd
 }
@@ -24810,6 +24814,11 @@ img[alt] {
 
 .stickerNodeHidden-3kXD_k {
     visibility: hidden
+}
+
+.stickerUnsendable-2q_h2B {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
 }
 
 .header-1jwfHp {
@@ -25096,6 +25105,63 @@ img[alt] {
     width: 100%
 }
 
+.guildCategorySeparator-3IdPnM {
+    margin: 12px 0;
+    border: none;
+    border-bottom: 1px solid var(--background-modifier-accent)
+}
+
+.standardStickerShortcut-3iRT0y {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: inherit;
+    color: var(--interactive-normal);
+    cursor: pointer;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 48px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    -webkit-transition: opacity .1s,-webkit-transform .1s;
+    transition: opacity .1s,-webkit-transform .1s;
+    transition: opacity .1s,transform .1s;
+    transition: opacity .1s,transform .1s,-webkit-transform .1s;
+    width: 100%
+}
+
+.standardStickerShortcut-3iRT0y:hover {
+    color: var(--interactive-hover)
+}
+
+.invisibleShortcut-3ZMcFJ {
+    display: none;
+    opacity: 0
+}
+
+.premiumButtonNitroWheel-1VQbBx {
+    margin-right: 4px
+}
+
+.premiumButtonInner-2iZ72U {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.premiumButton-2FO5cR {
+    margin-top: 20px
+}
+
 .emptyState-39XDT6 {
     height: 100%;
     display: -webkit-box;
@@ -25131,23 +25197,6 @@ img[alt] {
 
 .stickersRow-22csIr .sticker-2Ef6Nj {
     margin: auto 2px
-}
-
-.premiumButtonNitroWheel-xbXxJM {
-    margin-right: 4px
-}
-
-.premiumButtonInner-1igzCP {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
-.premiumButton-1nvD-z {
-    margin-top: 20px
 }
 
 .wrapper-OxgYJ1 {
@@ -25235,6 +25284,67 @@ img[alt] {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1
+}
+
+.upsellWrapper-1utsSD {
+    z-index: 2
+}
+
+.upsellBackground-2Nr3j7,.upsellWrapper-1utsSD {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.upsellBackground-2Nr3j7 {
+    background: var(--background-secondary);
+    opacity: .98
+}
+
+.upsellContent-3fiGMr {
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.upsellImage-1uV3MA {
+    height: 80px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-bottom: 16px
+}
+
+.upsellTitle-CuDEpB {
+    margin-bottom: 8px
+}
+
+.upsellDescription-2Un0aB {
+    margin-bottom: 24px;
+    max-width: 400px
+}
+
+.upsellClose-3WlWDF {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: var(--interactive-normal)
 }
 
 .wrapper-2iFQJ9 {
@@ -81951,4 +82061,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.b96aeda2ce4f108484be.css.map*/
+/*# sourceMappingURL=0.69eee1e003b014f9e77e.css.map*/
