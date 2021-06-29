@@ -5695,6 +5695,19 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
     height: 16px
 }
 
+.hubContainer-2GsMAo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative
+}
+
 .verified-1eC5dy {
     color: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%)
 }
@@ -5703,7 +5716,7 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
     color: var(--brand-experiment)
 }
 
-.hub-3tYS7n,.partnered-3nJayh {
+.hub-3tYS7n {
 }
 
 .hub-3tYS7n>.icon-1ihkOt>circle {
@@ -81896,4 +81909,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9b0da68ee5b563db84fe.css.map*/
+/*# sourceMappingURL=0.3175904311c81a9fb39c.css.map*/
