@@ -32627,6 +32627,13 @@ html .progress-GjyFoQ {
     flex-grow: 1
 }
 
+.createButton-nlV8qH {
+    margin-right: 16px;
+    padding: 2px 8px;
+    height: 24px;
+    font-size: 16px
+}
+
 .theme-dark .header-1VS4tm .tabBar-31Wimb .tab-PQvTH4.active-30vPlA {
     background-color: var(--background-accent)
 }
@@ -81944,4 +81951,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.5710ba03e3d7011b8393.css.map*/
+/*# sourceMappingURL=0.b96aeda2ce4f108484be.css.map*/
