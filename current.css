@@ -40260,6 +40260,8 @@ html .progress-GjyFoQ {
     border-radius: 12px;
     background-color: var(--background-secondary);
     cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     padding: 16px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -40286,6 +40288,9 @@ html .progress-GjyFoQ {
 }
 
 .icon-188URH {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     padding: 6px;
     border-radius: 50%
 }
@@ -40502,6 +40507,71 @@ html .progress-GjyFoQ {
 
 .red-C3U0Zq {
     color: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%)
+}
+
+.iconBackground-31Th5v {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--background-primary);
+    border-radius: 50%;
+    height: 64px;
+    width: 64px
+}
+
+.icon-AuwN02 {
+    color: var(--interactive-active)
+}
+
+.headerContainer-8_4ujj {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center
+}
+
+.eventPrompt-3xGqWj,.subtitle-2DaQ64 {
+    margin-top: 8px
+}
+
+.separator-1FmzCh {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: var(--background-primary);
+    border: none;
+    height: 1px
+}
+
+.continueIcon-ll1SZP {
+    color: var(--interactive-normal)
+}
+
+.continueIconContainer-D8CGm_ {
+    background-color: var(--background-tertiary)
+}
+
+.audienceSummary-3Y_C4J {
+    margin-top: 24px;
+    max-width: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.summaryItem-3kLFyc {
+    margin-right: 8px
 }
 
 .container-pTf0Ly {
@@ -82137,4 +82207,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.af0b518d043623860753.css.map*/
+/*# sourceMappingURL=0.58eb4eff4550dc0b9ce9.css.map*/
