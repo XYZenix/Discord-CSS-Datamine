@@ -45527,6 +45527,10 @@ html .progress-GjyFoQ {
     background: url(/assets/53947b826826947323199b1a83733067.svg)
 }
 
+.themeOverrideLight-3bx_5B.icon-RTGJu3.targetSticker-2Z_JhN,.theme-light .icon-RTGJu3.targetSticker-2Z_JhN {
+    background: url(/assets/eaafe7d5337de08baa884b58958ad199.svg)
+}
+
 .themeOverrideLight-3bx_5B.icon-RTGJu3.targetIntegration-3rnyMN,.theme-light .icon-RTGJu3.targetIntegration-3rnyMN {
     background: url(/assets/ece3d003ce0ffb0cf09a0f7881873075.svg)
 }
@@ -45597,6 +45601,10 @@ html .progress-GjyFoQ {
 
 .themeOverrideDark-1u5Vo0.icon-RTGJu3.targetEmoji-3vhPhM,.theme-dark .icon-RTGJu3.targetEmoji-3vhPhM {
     background: url(/assets/7a9bf92329dad473ef0383ae75367215.svg)
+}
+
+.themeOverrideDark-1u5Vo0.icon-RTGJu3.targetSticker-2Z_JhN,.theme-dark .icon-RTGJu3.targetSticker-2Z_JhN {
+    background: url(/assets/a4e8185fe5f5aadd2f861bbc9c779298.svg)
 }
 
 .themeOverrideDark-1u5Vo0.icon-RTGJu3.targetIntegration-3rnyMN,.theme-dark .icon-RTGJu3.targetIntegration-3rnyMN {
@@ -82137,4 +82145,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.a6e60556f1ea26dc44d8.css.map*/
+/*# sourceMappingURL=0.d8adf4b5aa46f6f450d8.css.map*/
