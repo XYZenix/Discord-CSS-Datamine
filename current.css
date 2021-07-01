@@ -22745,114 +22745,6 @@ img[alt] {
     background-color: #f8f9f9
 }
 
-.container-5C6BQH {
-    position: absolute;
-    bottom: calc(100% + 5px);
-    left: 0
-}
-
-.tooltip-qt9bDB {
-    width: 268px;
-    padding: 16px;
-    max-width: 300px;
-    background-color: var(--background-floating);
-    -webkit-box-shadow: var(--elevation-high);
-    box-shadow: var(--elevation-high);
-    border-radius: 5px;
-    text-align: center
-}
-
-.keyboard-27dSZO {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex
-}
-
-@-webkit-keyframes bounce-1MS6Pd {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0)
-    }
-
-    50% {
-        -webkit-transform: translateY(5px);
-        transform: translateY(5px)
-    }
-
-    to {
-        -webkit-transform: translateY(0);
-        transform: translateY(0)
-    }
-}
-
-@keyframes bounce-1MS6Pd {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0)
-    }
-
-    50% {
-        -webkit-transform: translateY(5px);
-        transform: translateY(5px)
-    }
-
-    to {
-        -webkit-transform: translateY(0);
-        transform: translateY(0)
-    }
-}
-
-.tooltipImage-2J_7cv {
-    margin-top: -75px;
-    margin-bottom: 8px
-}
-
-.tooltipAnimatedImage-25vBa5 {
-    -webkit-animation: bounce-1MS6Pd;
-    animation: bounce-1MS6Pd;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite
-}
-
-.tooltipTextContainer-2rfSPo {
-    margin-bottom: 16px
-}
-
-.tooltipHeader-p3TKXb {
-    margin-bottom: 8px
-}
-
-.tooltipButtons-2k7AE4 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around
-}
-
-.tooltipBlankButton-2HQS-g {
-    color: var(--interactive-normal);
-    -webkit-transition: color .2s;
-    transition: color .2s
-}
-
-.tooltipBlankButton-2HQS-g:hover {
-    color: var(--interactive-active)
-}
-
-.tooltipPointer-l336oV {
-    width: 0;
-    height: 0;
-    pointer-events: none;
-    position: absolute;
-    top: 100%;
-    left: 52px;
-    border: 10px solid transparent;
-    border-top: 10px solid var(--background-floating)
-}
-
 .stickersHeaderWithEmojiResults-31W8SI {
     padding-top: 0
 }
@@ -61778,28 +61670,61 @@ a.ctaAnchor-3-8I3v:hover {
 
 .applicationCommandEducation-2jAJ0B {
     opacity: 0;
-    z-index: 1
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .applicationCommandEducationFadeIn-1g7fXy {
     opacity: 1
 }
 
+.applicationCommandEducationPrompt-1IxFoc {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
 .applicationCommandEducationArrow-1DVDdr {
-    background-repeat: no-repeat;
     background-size: 12px 10px;
-    display: inline-block;
     margin: 0 2px 0 58px;
     width: 15px;
     height: 15px
+}
+
+.applicationCommandEducationArrow-1DVDdr,.applicationCommandEducationInfo-2QWJXK {
+    background-repeat: no-repeat;
+    display: inline-block;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none
+}
+
+.applicationCommandEducationInfo-2QWJXK {
+    background-size: 13px;
+    margin-right: 2px;
+    width: 13px;
+    height: 13px
 }
 
 .theme-dark .applicationCommandEducationArrow-1DVDdr {
     background-image: url(/assets/ba018cf9baa19824316dc4c2beb080a4.svg)
 }
 
+.theme-dark .applicationCommandEducationInfo-2QWJXK {
+    background-image: url(/assets/15d29d2bd92671eb08d3c54a4b2fa0f1.svg)
+}
+
 .theme-light .applicationCommandEducationArrow-1DVDdr {
     background-image: url(/assets/4b89ef91230382c6b96b00748a084c75.svg)
+}
+
+.theme-light .applicationCommandEducationInfo-2QWJXK {
+    background-image: url(/assets/c50e2c5c57a6a8baf28a543c9dfbe52a.svg)
 }
 
 .chat-1cCjJ5 {
@@ -63276,7 +63201,7 @@ a.ctaAnchor-3-8I3v:hover {
     flex: 1
 }
 
-.nudgeBarText-H913yL {
+.narrow-1f-G-z .nudgeBarText-H913yL {
     max-width: 325px
 }
 
@@ -82145,4 +82070,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.d8adf4b5aa46f6f450d8.css.map*/
+/*# sourceMappingURL=0.0d44a0072c962785b7bd.css.map*/
