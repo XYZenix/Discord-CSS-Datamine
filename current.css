@@ -25098,9 +25098,13 @@ img[alt] {
     width: 32px
 }
 
-.stickerCategory-3Yz7vN:hover {
+.premiumCategory-2Kk8IQ:hover {
     background-color: var(--background-modifier-hover);
     color: var(--interactive-hover)
+}
+
+.premiumCategorySelected-23oFPJ,.premiumCategorySelected-23oFPJ:hover {
+    background-color: var(--background-primary)
 }
 
 .stickerCategoryRecent-1WVWrj {
@@ -25121,10 +25125,6 @@ img[alt] {
 .stickerCategoryRecentDisabled-5KTYkf.stickerCategory-3Yz7vN:hover {
     background-color: transparent;
     color: var(--interactive-muted)
-}
-
-.stickerCategorySelected-2uaMAG,.stickerCategorySelected-2uaMAG:hover {
-    background-color: var(--background-primary)
 }
 
 .stickerPackThumbnail-2yNuP6 {
@@ -82094,4 +82094,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.9294fd05297e3c43361a.css.map*/
+/*# sourceMappingURL=0.41121f9c82c8e278f12d.css.map*/
