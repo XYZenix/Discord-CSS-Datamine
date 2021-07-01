@@ -52144,10 +52144,34 @@ strong {
     right: 9px
 }
 
+.tabBar-3MtEvO {
+    width: calc(100% + 12px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-bottom: 2px solid var(--background-modifier-accent)
+}
+
+.tabBarItem-2sxElp {
+    padding: 0 0 12px;
+    margin: 0 16px -2px
+}
+
+.selectedTab-29dwYe {
+    font-weight: 600
+}
+
 .guildList-2TgSqd {
     margin-top: 20px;
     padding: 0 8px 8px 16px;
-    height: 300px
+    height: 276px
 }
 
 .title-1trl6A {
@@ -52177,15 +52201,18 @@ strong {
     border-radius: 8px;
     border: 1px solid var(--background-modifier-accent);
     background-color: var(--background-primary);
-    cursor: pointer;
     padding: 12px 16px 12px 12px
 }
 
-.guildRow-35jjhr:hover {
+.clickableGuildRow-31yQQo {
+    cursor: pointer
+}
+
+.clickableGuildRow-31yQQo:hover {
     background-color: var(--background-modifier-hover)
 }
 
-.guildRow-35jjhr:active {
+.clickableGuildRow-31yQQo:active {
     background-color: var(--background-modifier-active)
 }
 
@@ -52242,6 +52269,22 @@ strong {
 
 .emptyText-1yC1e0 {
     margin: 24px 0
+}
+
+.trashIcon-16rdgr {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: var(--interactive-normal)
+}
+
+.trashIcon-16rdgr:hover {
+    color: var(--interactive-hover)
+}
+
+.trashIcon-16rdgr:active {
+    color: var(--interactive-active)
 }
 
 .header-2BScRX {
@@ -82094,4 +82137,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.41121f9c82c8e278f12d.css.map*/
+/*# sourceMappingURL=0.a6e60556f1ea26dc44d8.css.map*/
