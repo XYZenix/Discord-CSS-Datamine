@@ -32321,7 +32321,7 @@ html .progress-GjyFoQ {
 .icon-3pEw1v {
     background-color: var(--background-primary);
     border-radius: 80px;
-    color: var(--text-muted);
+    color: var(--interactive-normal);
     display: inline-block;
     padding: 22px
 }
@@ -32454,6 +32454,7 @@ html .progress-GjyFoQ {
 }
 
 .bullet-1-Smkp {
+    color: var(--background-accent);
     padding: 0 8px
 }
 
@@ -32462,7 +32463,7 @@ html .progress-GjyFoQ {
 }
 
 .activeThreadsList-3f7l7U {
-    padding-top: 8px
+    padding-top: 16px
 }
 
 .sectionHeader-17Aate {
@@ -32590,7 +32591,11 @@ html .progress-GjyFoQ {
     flex-shrink: 0
 }
 
-.divider-mDc_D8,.tabBar-31Wimb .tab-PQvTH4,.threadIcon-3XJhLD,.title-wn-Ecb {
+.threadIcon-3XJhLD {
+    margin-right: 8px
+}
+
+.divider-mDc_D8,.tabBar-31Wimb .tab-PQvTH4,.title-wn-Ecb {
     margin-right: 16px
 }
 
@@ -53217,14 +53222,14 @@ strong {
     box-sizing: border-box;
     left: 16px;
     max-width: 300px;
-    min-width: 220px;
+    min-width: 272px;
     padding: 8px 8px 0;
     position: absolute;
     top: 0
 }
 
 .more-3VADkW,.row-1ImlrZ,.title-3JU2Q6 {
-    padding: 0 8px
+    padding: 0 12px
 }
 
 .title-3JU2Q6 {
@@ -53248,15 +53253,21 @@ strong {
 }
 
 .row-1ImlrZ:hover {
-    background-color: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    background-color: var(--brand-experiment);
     color: #fff;
     cursor: pointer
 }
 
 .avatar-3oP4LX {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
     height: 16px;
     margin-right: 8px;
     width: 16px
+}
+
+.bullet-_MbFpS {
+    margin: 0 8px
 }
 
 .timestamp-25yOdb {
@@ -82070,4 +82081,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0d44a0072c962785b7bd.css.map*/
+/*# sourceMappingURL=0.41511500fa9c9346b294.css.map*/
