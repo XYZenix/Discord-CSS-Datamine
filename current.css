@@ -25522,7 +25522,7 @@ img[alt] {
     color: var(--interactive-hover)
 }
 
-.premiumCategorySelected-23oFPJ,.premiumCategorySelected-23oFPJ:hover {
+.premiumCategorySelected-23oFPJ,.premiumCategorySelected-23oFPJ:hover,.stickerCategoryRecentSelected-2gbLs2,.stickerCategoryRecentSelected-2gbLs2:hover {
     background-color: var(--background-primary)
 }
 
@@ -25530,6 +25530,10 @@ img[alt] {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 4px
+}
+
+.stickerCategoryRecent-1WVWrj:hover {
+    background-color: var(--background-primary)
 }
 
 .stickerCategoryRecentDisabled-5KTYkf {
@@ -82157,4 +82161,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.84018038681326839e19.css.map*/
+/*# sourceMappingURL=0.9101655e82ea93181bab.css.map*/
