@@ -53649,6 +53649,21 @@ strong {
     margin-top: 16px
 }
 
+.status-uEYj9_ {
+    margin-bottom: 16px
+}
+
+.dot-3fs7sa {
+    border-radius: 50%;
+    background-color: hsl(359,calc(var(--saturation-factor, 1)*83%),67.6%);
+    width: 8px;
+    height: 8px
+}
+
+.description-2c1SWw {
+    margin-top: 8px
+}
+
 .header-2MrRa6 {
     background-color: var(--background-tertiary);
     -webkit-box-align: center;
@@ -53674,6 +53689,11 @@ strong {
 .icon-mQDO2w {
     color: var(--header-secondary);
     margin-right: 8px
+}
+
+.divider-2XFZvB {
+    margin: 0 16px;
+    color: var(--background-modifier-accent)
 }
 
 .container-1JlpAi {
@@ -82136,4 +82156,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e5c7a19221993381d64a.css.map*/
+/*# sourceMappingURL=0.eaaabe43b0d20bd19ff4.css.map*/
