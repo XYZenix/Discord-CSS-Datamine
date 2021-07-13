@@ -20517,12 +20517,19 @@ img[alt] {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+    height: 18px;
+    width: 18px;
     margin-left: 8px
 }
 
-.icon-LYJorE,.iconContainer-2-XQPY {
-    height: 18px;
-    width: 18px
+.iconContainerLeft-3SHzHp {
+    margin-left: 0;
+    margin-right: 8px
+}
+
+.icon-LYJorE {
+    width: 18px;
+    height: 18px
 }
 
 .hintContainer-Vai8dx,.imageContainer-2fGqYU {
@@ -20674,6 +20681,29 @@ img[alt] {
     font-size: 12px;
     padding-top: 4px;
     padding-bottom: 0
+}
+
+.listWrapper-21hRUc {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.listHeight-3jP-vC {
+    visibility: hidden
+}
+
+.listItems-1uJgMC {
+    contain: layout;
+    position: absolute
+}
+
+.scroller-3gAZLs {
+    height: 100%
 }
 
 .image-3wFWIj {
@@ -22570,6 +22600,86 @@ img[alt] {
 .spacing-2IUlSR {
 }
 
+.mask-2xtthE {
+    display: block
+}
+
+.icon-3Rn_DX {
+    width: 32px;
+    height: 32px
+}
+
+.icon-2VCx8O {
+    color: var(--interactive-normal)
+}
+
+.wrapper-2siovq {
+    border-radius: 8px;
+    -webkit-transition: background-color .1s ease-in-out;
+    transition: background-color .1s ease-in-out
+}
+
+.wrapper-2siovq:hover {
+    background-color: var(--background-modifier-hover)
+}
+
+.wrapper-2siovq:hover .icon-2VCx8O {
+    color: var(--interactive-hover)
+}
+
+.selected-3xBBKs,.selected-3xBBKs:hover {
+    background-color: var(--background-primary)
+}
+
+.selected-3xBBKs .icon-2VCx8O,.selected-3xBBKs:hover .icon-2VCx8O {
+    color: var(--interactive-active)
+}
+
+.theme-light .selected-3xBBKs .icon-2VCx8O,.theme-light .selected-3xBBKs:hover .icon-2VCx8O {
+    color: #4f5660
+}
+
+.wrapper-3N9-Kx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 8px 4px;
+    height: 16px;
+    border-radius: 2px;
+    margin: 2px 0
+}
+
+.loadingWrapper-3MIWTZ {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.disabled-2IGvcl {
+    cursor: pointer;
+    pointer-events: none;
+    opacity: .5
+}
+
+.focused-oQNxjC {
+    background-color: var(--brand-experiment-560)
+}
+
+.icon-1UBnv_ {
+    margin-right: 4px
+}
+
+.list-23PQQ_ {
+    max-height: 500px
+}
+
 .roleRow-1iQo_1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23216,45 +23326,6 @@ img[alt] {
     cursor: pointer
 }
 
-.mask-2xtthE {
-    display: block
-}
-
-.icon-3Rn_DX {
-    width: 32px;
-    height: 32px
-}
-
-.icon-2VCx8O {
-    color: var(--interactive-normal)
-}
-
-.wrapper-2siovq {
-    border-radius: 8px;
-    -webkit-transition: background-color .1s ease-in-out;
-    transition: background-color .1s ease-in-out
-}
-
-.wrapper-2siovq:hover {
-    background-color: var(--background-modifier-hover)
-}
-
-.wrapper-2siovq:hover .icon-2VCx8O {
-    color: var(--interactive-hover)
-}
-
-.selected-3xBBKs,.selected-3xBBKs:hover {
-    background-color: var(--background-primary)
-}
-
-.selected-3xBBKs .icon-2VCx8O,.selected-3xBBKs:hover .icon-2VCx8O {
-    color: var(--interactive-active)
-}
-
-.theme-light .selected-3xBBKs .icon-2VCx8O,.theme-light .selected-3xBBKs:hover .icon-2VCx8O {
-    color: #4f5660
-}
-
 .wrapper-2IKwZK {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23392,29 +23463,6 @@ img[alt] {
 .emoji-1KOonD {
     height: 16px;
     width: 16px
-}
-
-.listWrapper-21hRUc {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0
-}
-
-.listHeight-3jP-vC {
-    visibility: hidden
-}
-
-.listItems-1uJgMC {
-    contain: layout;
-    position: absolute
-}
-
-.scroller-3gAZLs {
-    height: 100%
 }
 
 .wrapper-2Gsate {
@@ -44088,15 +44136,18 @@ html .progress-GjyFoQ {
     position: relative
 }
 
+.clearButtonWrapper-1WPBSh {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    padding: 0
+}
+
 .clearButton-3wWY21 {
     font-weight: 600;
-    position: absolute;
-    margin-bottom: 20px;
-    top: 0;
-    right: 0;
-    padding: 0;
     -ms-flex-negative: 0;
-    flex-shrink: 0
+    flex-shrink: 0;
+    padding: 0
 }
 
 .noResultsContainer-1kVGAa {
@@ -82135,4 +82186,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.175c8d590d1820581ea0.css.map*/
+/*# sourceMappingURL=0.3228964e12f2d9cb9aa8.css.map*/
