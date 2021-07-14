@@ -29261,10 +29261,17 @@ html .progress-GjyFoQ {
 .select-z0PgeK {
     width: 90%;
     max-width: 400px;
-    margin-right: 16px
+    margin-right: 16px;
+    padding: 8px;
+    -webkit-transition: border .2s ease;
+    transition: border .2s ease
 }
 
-.select-z0PgeK,.selectOption-46tNpR {
+.select-z0PgeK:hover {
+    border-color: #040405
+}
+
+.selectOption-46tNpR {
     padding: 8px
 }
 
@@ -82186,4 +82193,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3228964e12f2d9cb9aa8.css.map*/
+/*# sourceMappingURL=0.030fdb5eb9f97a5b905e.css.map*/
