@@ -9410,7 +9410,10 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
 }
 
 .header-2lqoyd {
@@ -9432,7 +9435,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     display: -ms-flexbox;
     display: flex;
     gap: 12px;
-    margin-top: auto
+    margin-top: 24px
 }
 
 .downloadButton-2QokFP {
@@ -9459,6 +9462,22 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .linuxDownloadButton-3_MACn {
     width: 60px;
+    height: 40px
+}
+
+.desktopButtonContainer-1fgize {
+    display: grid;
+    gap: 12px;
+    margin-top: 24px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-row: auto auto;
+    grid-template-columns: 140px 140px
+}
+
+.desktopDownloadButtonFixed-2YZhzj {
+    min-width: 100px;
     height: 40px
 }
 
@@ -9567,7 +9586,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
         margin-top: 0
     }
 
-    .linuxDownloadButtonContainer-3nzYxz {
+    .desktopButtonContainer-1fgize,.linuxDownloadButtonContainer-3nzYxz {
         -webkit-box-pack: initial;
         -ms-flex-pack: initial;
         justify-content: normal
@@ -82281,4 +82300,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8c889662fe85794007c0.css.map*/
+/*# sourceMappingURL=0.e784efc9123c3f7f7b65.css.map*/
