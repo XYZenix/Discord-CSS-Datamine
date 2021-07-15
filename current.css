@@ -20523,6 +20523,7 @@ img[alt] {
 
 .menu-3sdvDG {
     position: relative;
+    z-index: 1;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: -webkit-box;
@@ -82341,4 +82342,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.7b9e8b6c78272544a915.css.map*/
+/*# sourceMappingURL=0.d1d660cbcbc30384891c.css.map*/
