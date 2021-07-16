@@ -9638,8 +9638,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     --brand-experiment-80a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.8);
     --brand-experiment-85a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.85);
     --brand-experiment-90a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.9);
-    --brand-experiment-95a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.95);
-    --control-brand-foreground: var(--control-brand-foreground-new)
+    --brand-experiment-95a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.95)
 }
 
 [data-popout-root].low-saturation,html.low-saturation {
@@ -10151,7 +10150,7 @@ code {
     --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
     --logo-primary: #fff;
-    --control-brand-foreground: hsl(227,calc(var(--saturation-factor, 1)*57.9%),77.6%);
+    --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
     --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
     --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
     --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
@@ -10231,8 +10230,8 @@ code {
     --elevation-low: 0 1px 0 rgba(6,6,7,0.1),0 1.5px 0 rgba(6,6,7,0.025),0 2px 0 rgba(6,6,7,0.025);
     --elevation-medium: 0 4px 4px rgba(0,0,0,0.08);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.16);
-    --logo-primary: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
-    --control-brand-foreground: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    --logo-primary: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+    --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
     --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
     --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
     --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.2);
@@ -50739,7 +50738,7 @@ html .progress-GjyFoQ {
 }
 
 .upsellButton-1QHAmZ {
-    color: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%)
+    color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%)
 }
 
 .uploadRequirementsList-2CtxQd {
@@ -53650,7 +53649,7 @@ strong {
     border-radius: 2px;
     width: 4px;
     height: 4px;
-    background-color: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    background-color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
     -ms-flex-negative: 0;
     flex-shrink: 0;
     position: relative;
@@ -60767,11 +60766,11 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .improved-1NJK-y {
-    color: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%)
+    color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%)
 }
 
 .improved-1NJK-y:after {
-    background-color: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%)
+    background-color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%)
 }
 
 .footer-SqIiQ_ {
@@ -60822,11 +60821,11 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .theme-dark .improved-1NJK-y {
-    color: hsl(227,calc(var(--saturation-factor, 1)*57.9%),77.6%)
+    color: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%)
 }
 
 .theme-dark .improved-1NJK-y:after {
-    background-color: hsl(227,calc(var(--saturation-factor, 1)*57.9%),77.6%)
+    background-color: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%)
 }
 
 .theme-light .date-1k6kG2 {
@@ -61543,8 +61542,8 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .headerContent-1HfSPQ .searchBox-2R4IbA:focus,.headerContent-1HfSPQ .searchBox-2R4IbA:focus-within {
-    -webkit-box-shadow: 0 0 0 1px hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%),0 0 0 2px hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%),0 0 0 3px hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
-    box-shadow: 0 0 0 1px hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%),0 0 0 2px hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%),0 0 0 3px hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    -webkit-box-shadow: 0 0 0 1px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%),0 0 0 2px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%),0 0 0 3px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+    box-shadow: 0 0 0 1px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%),0 0 0 2px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%),0 0 0 3px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
     border-color: transparent
 }
 
@@ -81343,7 +81342,7 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .buttonPrimary-3RahU_ {
-    background-color: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    background-color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
     color: #fff
 }
 
@@ -81353,7 +81352,7 @@ html .invoiceCancelRow-3mYhFX {
 
 .buttonBlurple-1kuusH {
     background: #fff;
-    color: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%)
+    color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%)
 }
 
 .footerBackgroundBlurple-3m2rFK {
@@ -81364,7 +81363,7 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .footerBlurple-1BSoUN {
-    background: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%)
+    background: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%)
 }
 
 @media screen and (max-width: 848px) {
@@ -81427,7 +81426,7 @@ html .invoiceCancelRow-3mYhFX {
     }
 
     .button-2A8AGi,.button-2A8AGi:hover {
-        color: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%)
+        color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%)
     }
 }
 
@@ -82392,4 +82391,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.cb993b4c0531687ff2a8.css.map*/
+/*# sourceMappingURL=0.40a32df7b85a1705e87d.css.map*/
