@@ -51620,11 +51620,14 @@ html .progress-GjyFoQ {
     -ms-flex-pack: center;
     justify-content: center;
     background-color: var(--background-tertiary);
-    overflow: hidden
+    padding: 4px
 }
 
 .videoFrame-2gHLyK {
-    position: absolute
+    position: absolute;
+    left: -35px;
+    top: -40px;
+    width: 510px
 }
 
 .content-gjD8J2 {
@@ -82303,4 +82306,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4379a32ce0c6203eb5c5.css.map*/
+/*# sourceMappingURL=0.c4a2ae51c3142bb51f6f.css.map*/
