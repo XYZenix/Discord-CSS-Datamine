@@ -22525,6 +22525,14 @@ img[alt] {
     padding-bottom: 12px
 }
 
+.warningCircleIcon-cBU5e2 {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    height: 20px;
+    width: 20px
+}
+
 .profileBadges-ohc0Vu {
     position: absolute;
     top: 16px;
@@ -25641,9 +25649,9 @@ img[alt] {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -51207,6 +51215,13 @@ html .progress-GjyFoQ {
     padding-right: 12px
 }
 
+.warningCircleIcon-3R0DLw {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    height: 20px;
+    width: 20px
+}
+
 .avatar-AvHqJA {
     position: absolute;
     top: -68px;
@@ -54127,6 +54142,23 @@ strong {
 
 .description-2c1SWw {
     margin-top: 8px
+}
+
+.count-1iwHIY {
+    margin-left: 16px
+}
+
+.button-3FivtD {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.buttonIcon-LSP8pU {
+    margin-right: 4px
 }
 
 .header-2MrRa6 {
@@ -82306,4 +82338,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.c4a2ae51c3142bb51f6f.css.map*/
+/*# sourceMappingURL=0.0435490fcecb327029bd.css.map*/
