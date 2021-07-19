@@ -13633,6 +13633,43 @@ img[alt] {
     width: 100%
 }
 
+.cardNumberWrapper-2D83Wo {
+    position: relative
+}
+
+.cardIcon-2MnSei {
+    position: absolute;
+    top: 12px;
+    left: 10px
+}
+
+.cardInput-1hh1N- {
+    padding: 10px 9px;
+    border-radius: 3px;
+    background-color: var(--deprecated-text-input-bg);
+    border: 1px solid var(--deprecated-text-input-border)
+}
+
+.hiddenDiv-3ywgLc {
+    visibility: hidden
+}
+
+.cardNumberInput-3an3uq {
+    padding-left: 55px
+}
+
+.cardInputFocused-19S1J3 {
+    border-color: var(--text-link)
+}
+
+.cardInputError-1GUPnt {
+    border-color: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%)
+}
+
+.theme-dark .inputPrefix-2iFFkc {
+    opacity: .5
+}
+
 .modal-1qeMox {
     overflow-x: hidden;
     min-height: 180px
@@ -82256,4 +82293,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f4257cd636b289395be8.css.map*/
+/*# sourceMappingURL=0.02fa8c83ccda307bdbf8.css.map*/
