@@ -5751,6 +5751,38 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
     font-weight: 500
 }
 
+.textArea-1Lj-Ns {
+    height: auto;
+    resize: none
+}
+
+.resizeable-3Dlqvo {
+    resize: auto
+}
+
+.inputMaxLength-1vRluy {
+    position: relative
+}
+
+.flex-2mWL14 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.maxLength-39QFBo {
+    position: absolute;
+    bottom: 12px;
+    right: 14px;
+    font-size: 12px;
+    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
+    pointer-events: none;
+    color: #72767d
+}
+
 .select-2fjwPw {
     border: 1px solid transparent;
     padding: 8px 8px 8px 12px;
@@ -6363,14 +6395,14 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
     align-self: stretch
 }
 
+.formItem-1B0brO {
+    width: 100%;
+    margin-top: 16px
+}
+
 .topicFormItem-32kwOR {
     width: 100%;
     margin-bottom: 16px
-}
-
-.privacyFormItem-3UPvxA {
-    width: 100%;
-    margin-top: 16px
 }
 
 .channelSelectionFormItem-AU-meU {
@@ -17010,38 +17042,6 @@ img[alt] {
     border-radius: 80px;
     height: 80px;
     width: 80px
-}
-
-.textArea-1Lj-Ns {
-    height: auto;
-    resize: none
-}
-
-.resizeable-3Dlqvo {
-    resize: auto
-}
-
-.inputMaxLength-1vRluy {
-    position: relative
-}
-
-.flex-2mWL14 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto
-}
-
-.maxLength-39QFBo {
-    position: absolute;
-    bottom: 12px;
-    right: 14px;
-    font-size: 12px;
-    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
-    pointer-events: none;
-    color: #72767d
 }
 
 .header-287ONi {
@@ -82303,4 +82303,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.be463c0d1b4fceaf8d6b.css.map*/
+/*# sourceMappingURL=0.4379a32ce0c6203eb5c5.css.map*/
