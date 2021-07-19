@@ -61481,14 +61481,19 @@ a.ctaAnchor-3-8I3v:hover {
 
 .pageContainer-1x6lGh {
     width: 100%;
+    min-width: minPageWidth;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: var(--background-primary)
+    background-color: var(--background-primary);
+    overflow: hidden
 }
 
 .scroller-1m6Rtg {
@@ -61496,6 +61501,7 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .cardsContainer-1FCJbh {
+    min-width: 320px;
     padding: 24px 0;
     display: grid;
     grid-gap: 16px;
@@ -61508,18 +61514,20 @@ a.ctaAnchor-3-8I3v:hover {
 
 .header-1PwRG9 {
     position: relative;
-    text-align: center;
-    min-width: 650px;
-    min-height: 200px
+    text-align: center
+}
+
+.header-1PwRG9,.headerImage-3pwkCG {
+    min-height: 200px;
+    min-width: 320px;
+    border-radius: 8px
 }
 
 .headerImage-3pwkCG {
     display: inherit;
-    border-radius: 8px;
     width: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
-    min-width: 650px
+    -o-object-fit: cover;
+    object-fit: cover
 }
 
 .searchTitle-3LfThw {
@@ -61527,9 +61535,8 @@ a.ctaAnchor-3-8I3v:hover {
 }
 
 .searchSubtitle-2qRUsG {
-    color: #fff;
-    margin-top: 8px;
-    margin-bottom: 8px
+    margin: 8px 0;
+    color: #fff
 }
 
 .headerContentWrapper-2kkRy- {
@@ -61551,9 +61558,12 @@ a.ctaAnchor-3-8I3v:hover {
 
 .headerContent-1HfSPQ {
     width: 100%;
-    min-width: 360px;
-    max-width: 720px;
-    margin: 0 240px
+    max-width: 700px;
+    margin: 0 60px
+}
+
+.headerContentSmall-2EvQEP {
+    margin: 0 36px
 }
 
 .headerContent-1HfSPQ .searchBox-2R4IbA {
@@ -82293,4 +82303,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.02fa8c83ccda307bdbf8.css.map*/
+/*# sourceMappingURL=0.be463c0d1b4fceaf8d6b.css.map*/
