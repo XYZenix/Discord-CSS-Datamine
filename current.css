@@ -51665,7 +51665,7 @@ html .progress-GjyFoQ {
 }
 
 .features-1tMYEH {
-    margin: 24px 0
+    margin-top: 24px
 }
 
 .features-1tMYEH>li {
@@ -51702,6 +51702,10 @@ html .progress-GjyFoQ {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin-right: 16px
+}
+
+.footer-2sB7av {
+    margin: 0 24px 24px
 }
 
 .page-10_ecs {
@@ -82338,4 +82342,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0435490fcecb327029bd.css.map*/
+/*# sourceMappingURL=0.6cb1bc13def8bcb5ca87.css.map*/
