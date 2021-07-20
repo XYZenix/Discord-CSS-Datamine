@@ -51640,9 +51640,9 @@ html .progress-GjyFoQ {
 
 .videoFrame-2gHLyK {
     position: absolute;
-    left: -35px;
-    top: -40px;
-    width: 510px
+    left: -40px;
+    top: -42px;
+    width: 567px
 }
 
 .content-gjD8J2 {
@@ -51656,7 +51656,11 @@ html .progress-GjyFoQ {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 24px;
+    width: 440px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     text-align: center
 }
 
@@ -82369,4 +82373,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ab8cb9773d06dd9466d2.css.map*/
+/*# sourceMappingURL=0.fd1c85edb38f3a35ab54.css.map*/
