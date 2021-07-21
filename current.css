@@ -29382,6 +29382,7 @@ html .progress-GjyFoQ {
 }
 
 .tag-1hplGn {
+    max-width: 230px;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     display: -webkit-box;
@@ -29408,7 +29409,8 @@ html .progress-GjyFoQ {
 
 .labelContainer-3UfOIp {
     font-size: 14px;
-    line-height: 18px
+    line-height: 18px;
+    overflow: hidden
 }
 
 .label-3fPy-x {
@@ -29417,8 +29419,14 @@ html .progress-GjyFoQ {
 }
 
 .description-nveHXT {
-    color: var(--interactive-normal);
-    display: block
+    color: var(--interactive-normal)
+}
+
+.description-nveHXT,.label-3fPy-x,.singleValueLabel-3Dsj9V,.tag-1hplGn {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
 }
 
 .option-19HP2B {
@@ -29431,7 +29439,8 @@ html .progress-GjyFoQ {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    overflow: hidden
 }
 
 .value-FbrxsN {
@@ -29442,6 +29451,12 @@ html .progress-GjyFoQ {
 .singleValue-3OF6b1 {
     font-size: 16px;
     gap: 0
+}
+
+.singleValueLabel-3Dsj9V {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
 }
 
 .indicator-3ZLjUU {
@@ -82343,4 +82358,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.df46760b16163398c446.css.map*/
+/*# sourceMappingURL=0.cc73261c15929d375904.css.map*/
