@@ -60955,7 +60955,10 @@ a.ctaAnchor-3-8I3v:hover {
 
 .header-3uLluP {
     font-weight: 700;
-    margin: 8px 0
+    margin: 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
 }
 
 .description-1sDbzZ {
@@ -82373,4 +82376,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.627c370d024c4cdc4ee7.css.map*/
+/*# sourceMappingURL=0.20a3f82293ff1b2a7da2.css.map*/
