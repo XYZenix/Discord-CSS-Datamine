@@ -9712,7 +9712,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
     pointer-events: all
 }
 
-.enter-1qIQaf,.exit-1xyzxd {
+.enter-1qIQaf,.enterReducedMotion-2NDBR-,.exit-1xyzxd,.exitReducedMotion-2v89YR {
     -webkit-transition-duration: .15s;
     transition-duration: .15s;
     -webkit-transition-property: opacity,-webkit-transform;
@@ -9724,21 +9724,41 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 }
 
 .enter-1qIQaf {
-    opacity: 0;
     -webkit-transform: scale(1.1);
     transform: scale(1.1)
 }
 
-.enterActive-14DLLh,.enterDone-2zvtsK,.exit-1xyzxd {
+.enter-1qIQaf,.enterReducedMotion-2NDBR- {
+    opacity: 0
+}
+
+.exit-1xyzxd {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.exit-1xyzxd,.exitReducedMotion-2v89YR {
+    opacity: 1
+}
+
+.enterActive-14DLLh,.enterDone-2zvtsK {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1)
+}
+
+.enterActiveReducedMotion-3ByHk9,.enterDoneReducedMotion-3BHxYR {
+    opacity: 1
 }
 
 .exitActive-JZFsGn,.exitDone-2Q591Q {
     opacity: 0;
     -webkit-transform: scale(1.1);
     transform: scale(1.1)
+}
+
+.exitActiveReducedMotion-1nh73q,.exitDoneReducedMotion-1cPV4D {
+    opacity: 0
 }
 
 .errorPage-u8SYh4 {
@@ -62501,7 +62521,17 @@ a.ctaAnchor-3-8I3v:hover {
     background-color: var(--deprecated-text-input-bg);
     border: 1px solid var(--deprecated-text-input-border);
     border-radius: 3px;
-    max-height: none
+    max-height: none;
+    -webkit-transition: border-color .2s ease-in-out;
+    transition: border-color .2s ease-in-out
+}
+
+.channelTextAreaInnerFocused-M_uztw {
+    border-color: var(--text-link)
+}
+
+.channelTextAreaInnerError-2ti7q6 {
+    border-color: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%)
 }
 
 .submitContainer-g72mF- {
@@ -82379,4 +82409,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.49da8ae753a6f64936a7.css.map*/
+/*# sourceMappingURL=0.56def0abf34ae6a42b71.css.map*/
