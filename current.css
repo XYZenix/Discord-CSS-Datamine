@@ -59880,7 +59880,10 @@ strong {
 
 .avatar-3FSiro {
     height: 20px!important;
-    width: 20px!important;
+    width: 20px!important
+}
+
+.avatar-3FSiro,.userSummary-8lVy4x {
     margin: 8px 8px 8px 16px
 }
 
@@ -82408,4 +82411,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.30b20d39e818bb556615.css.map*/
+/*# sourceMappingURL=0.08b41efd890df9e62587.css.map*/
