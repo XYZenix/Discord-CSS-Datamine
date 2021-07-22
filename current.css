@@ -6526,7 +6526,10 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
     text-transform: uppercase;
     font-weight: 600;
     background-color: var(--brand-experiment);
-    color: #fff
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
 }
 
 .channelName-1mXqh4 {
@@ -6567,6 +6570,24 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
 
 .notificationToggle-1eu5gG {
     margin-top: 24px
+}
+
+.notificationContent-1vzQme {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.tooltipIcon-1zizjW {
+    margin-left: 4px;
+    color: var(--interactive-active)
 }
 
 .container-3hMea0 {
@@ -82358,4 +82379,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.cc73261c15929d375904.css.map*/
+/*# sourceMappingURL=0.49da8ae753a6f64936a7.css.map*/
