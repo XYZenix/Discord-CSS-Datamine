@@ -4016,13 +4016,20 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
     align-items: flex-start
 }
 
+.speakers-itlihF {
+    margin-top: 16px
+}
+
 .topicText-2H6hYP {
-    margin: 8px 0 16px;
-    font-weight: 600;
+    font-weight: 600
+}
+
+.description-28SNtQ,.topicText-2H6hYP {
+    margin-top: 8px;
     -webkit-line-clamp: 2
 }
 
-.guildName-UP2boh,.topicText-2H6hYP {
+.description-28SNtQ,.guildName-UP2boh,.topicText-2H6hYP {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -40987,6 +40994,47 @@ html .progress-GjyFoQ {
     width: 100%
 }
 
+.content-36Rq38 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 24px 0;
+    padding: 0 16px;
+    text-align: center
+}
+
+.content-36Rq38,.inline-2FDRrE {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.spacing-7Pd5j4 {
+    margin-top: 8px
+}
+
+.channelName-1MpLaG {
+    margin: 0 4px
+}
+
+.icon-28-189 {
+    margin-right: 4px
+}
+
+.footer-yX-_ad {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.button-1OyFfo {
+    margin-right: 8px
+}
+
 .header-1VXc2C {
     padding: 24px
 }
@@ -41000,6 +41048,17 @@ html .progress-GjyFoQ {
     border-radius: 50%;
     background-color: var(--background-tertiary);
     color: var(--interactive-normal)
+}
+
+.slideContainer-3p7Sdi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-height: clamp(200px,calc(100vh - 80px),660px)
 }
 
 .container-O91r7V {
@@ -82397,4 +82456,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.e0276895b35d7b9df115.css.map*/
+/*# sourceMappingURL=0.11fb6e81daf84adadfcb.css.map*/
