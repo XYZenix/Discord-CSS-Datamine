@@ -35042,9 +35042,6 @@ html .progress-GjyFoQ {
 }
 
 .logo-38EFJz {
-    width: 48px;
-    height: 54px;
-    background-image: url(/assets/62e0b0536883668ec230d9d945ba9532.svg);
     -ms-flex-item-align: center;
     align-self: center
 }
@@ -41013,6 +41010,14 @@ html .progress-GjyFoQ {
     align-items: center
 }
 
+.inline-2FDRrE {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
 .spacing-7Pd5j4 {
     margin-top: 8px
 }
@@ -41036,7 +41041,7 @@ html .progress-GjyFoQ {
 }
 
 .header-1VXc2C {
-    padding: 24px
+    padding: 32px 24px 24px
 }
 
 .text-1-gY44 {
@@ -64978,15 +64983,6 @@ a.ctaAnchor-3-8I3v:hover {
     margin-right: 8px
 }
 
-.actionRed-gYn8D3 {
-    color: #fff;
-    background-color: hsl(359,calc(var(--saturation-factor, 1)*56.3%),40.4%)
-}
-
-.actionRed-gYn8D3:active,.actionRed-gYn8D3:hover {
-    background-color: null
-}
-
 .theme-light .image-2LqJex {
     background-image: url(/assets/c834f632477ae77b1e4b36c14e32c400.svg)
 }
@@ -82456,4 +82452,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.11fb6e81daf84adadfcb.css.map*/
+/*# sourceMappingURL=0.1a03cbccb8d0a96a866b.css.map*/
