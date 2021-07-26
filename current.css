@@ -29410,7 +29410,7 @@ html .progress-GjyFoQ {
 }
 
 .select-z0PgeK:hover {
-    border-color: #040405
+    border-color: var(--deprecated-text-input-border-hover)
 }
 
 .selectOption-46tNpR {
@@ -82635,4 +82635,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.56807ab21c1b310d82af.css.map*/
+/*# sourceMappingURL=0.f70b9e5affda758e4188.css.map*/
