@@ -54489,6 +54489,42 @@ strong {
     justify-content: space-between
 }
 
+.container-3AAEBU {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 300px
+}
+
+.circle-pwhgsv,.container-3AAEBU {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.circle-pwhgsv {
+    background-color: var(--background-tertiary);
+    border-radius: 50%;
+    height: 64px;
+    width: 64px
+}
+
+.icon-2tws8E {
+    color: var(--interactive-normal)
+}
+
+.title-1QR1sn {
+    margin: 32px 0 8px;
+    font-family: var(--font-display)
+}
+
 .header-2MrRa6 {
     background-color: var(--background-tertiary);
     -webkit-box-align: center;
@@ -82692,4 +82728,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.dbe0a01d7e78b7da6649.css.map*/
+/*# sourceMappingURL=0.e0a3f90063f629b24503.css.map*/
