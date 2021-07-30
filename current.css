@@ -40892,6 +40892,107 @@ html .progress-GjyFoQ {
     width: 100%
 }
 
+.content-1LZjhE {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 24px
+}
+
+.content-1LZjhE,.inline-KtQmM1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.header-1m9oLK {
+    margin-top: 8px
+}
+
+.icon-1T3uAr {
+    background-color: var(--background-tertiary);
+    color: var(--interactive-normal);
+    padding: 8px;
+    border-radius: 50%;
+    margin-bottom: 24px
+}
+
+.privacyLevel-hw_hE- {
+    margin: 0 4px
+}
+
+.buttons-1J7oBP {
+    -ms-flex-item-align: stretch;
+    align-self: stretch
+}
+
+.button-PssSCw {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.publicIcon-3aARgm {
+    margin-right: 4px
+}
+
+.spacing-1oSnpS {
+    margin-right: 8px
+}
+
+.verticalSpacing-3BS4nz {
+    margin-top: 24px
+}
+
+.container-O91r7V {
+    width: 400px;
+    border-radius: 12px;
+    background-color: var(--background-secondary);
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.container-O91r7V:hover {
+    background-color: var(--background-primary)
+}
+
+.textContainer-1kAhPI {
+    margin-left: 16px
+}
+
+.caret-3mpfk6 {
+    margin-left: auto
+}
+
+.icon-188URH {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 6px;
+    border-radius: 50%
+}
+
+.eventPrompt-2XeGI5 {
+    margin-top: 8px
+}
+
 .content-36Rq38 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -40965,46 +41066,6 @@ html .progress-GjyFoQ {
     -ms-flex-direction: column;
     flex-direction: column;
     max-height: calc(100vh - 80px)
-}
-
-.container-O91r7V {
-    width: 400px;
-    border-radius: 12px;
-    background-color: var(--background-secondary);
-    cursor: pointer;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 16px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.container-O91r7V:hover {
-    background-color: var(--background-primary)
-}
-
-.textContainer-1kAhPI {
-    margin-left: 16px
-}
-
-.caret-3mpfk6 {
-    margin-left: auto
-}
-
-.icon-188URH {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 6px;
-    border-radius: 50%
 }
 
 .containerColumn-1Wj-gZ {
@@ -41212,63 +41273,6 @@ html .progress-GjyFoQ {
 
 .red-C3U0Zq {
     color: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%)
-}
-
-.content-1LZjhE {
-    text-align: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding: 24px
-}
-
-.content-1LZjhE,.inline-KtQmM1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.header-1m9oLK {
-    margin-top: 8px
-}
-
-.icon-1T3uAr {
-    background-color: var(--background-tertiary);
-    color: var(--interactive-normal);
-    padding: 8px;
-    border-radius: 50%;
-    margin-bottom: 24px
-}
-
-.privacyLevel-hw_hE- {
-    margin: 0 4px
-}
-
-.buttons-1J7oBP {
-    -ms-flex-item-align: stretch;
-    align-self: stretch
-}
-
-.button-PssSCw {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1
-}
-
-.publicIcon-3aARgm {
-    margin-right: 4px
-}
-
-.spacing-1oSnpS {
-    margin-right: 8px
-}
-
-.verticalSpacing-3BS4nz {
-    margin-top: 24px
 }
 
 .iconBackground-31Th5v {
@@ -82586,4 +82590,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.0d2017afc9fc19082dd3.css.map*/
+/*# sourceMappingURL=0.7ef778e9dec067991a59.css.map*/
