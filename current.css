@@ -24101,11 +24101,19 @@ img[alt] {
     border-radius: 5px;
     -webkit-box-shadow: var(--elevation-stroke),var(--elevation-high);
     box-shadow: var(--elevation-stroke),var(--elevation-high);
+    overflow: hidden
+}
+
+.autocompleteAttached-2QfAgp {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: calc(100% + 8px);
-    overflow: hidden
+    bottom: calc(100% + 8px)
+}
+
+.autocompletePopout-3RFUaB {
+    max-width: 55ch;
+    pointer-events: all
 }
 
 .autocompleteInner-2mQ2AK {
@@ -24138,16 +24146,6 @@ img[alt] {
 .sticker-r2nFri {
     margin-top: 2px;
     margin-left: 2px
-}
-
-.autocompleteLayer-3dCCbQ {
-    position: absolute;
-    max-width: 55ch;
-    pointer-events: all
-}
-
-.autocompleteLayer-3dCCbQ .autocomplete-OOX59Q {
-    position: static
 }
 
 .container-3Fb-hU {
@@ -83108,4 +83106,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.ba8684672a54af0b1dfa.css.map*/
+/*# sourceMappingURL=0.fe0b183d9fc6d100c87f.css.map*/
