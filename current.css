@@ -23819,14 +23819,39 @@ img[alt] {
 
 .optionalHeader-mLQoIx {
     text-transform: uppercase;
-    margin-left: 8px;
-    border-left: 1px solid var(--background-modifier-accent);
-    padding-left: 8px;
     color: var(--text-muted)
+}
+
+.optionalCount-2EKzJp,.optionalHeader-mLQoIx {
+    padding-left: 8px
 }
 
 .disabled-2hyQpT {
     opacity: .3
+}
+
+.optionals-yC7FfY {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-left: 1px solid var(--background-modifier-accent);
+    margin-left: 8px
+}
+
+.optionalNames-3ce8hg,.optionals-yC7FfY {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal
+}
+
+.optionalNames-3ce8hg {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column
 }
 
 .upsell-3e4pPH {
@@ -83083,4 +83108,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.bf6e214e4bfb44f6d12b.css.map*/
+/*# sourceMappingURL=0.ba8684672a54af0b1dfa.css.map*/
