@@ -50885,7 +50885,7 @@ html .progress-GjyFoQ {
 
 .modal-12IIoS {
     width: 600px;
-    max-height: 704px
+    max-height: 100%
 }
 
 .modalHeader-2mNR1o {
@@ -51001,6 +51001,31 @@ html .progress-GjyFoQ {
 .emojiText-3SwGUS {
     padding-left: 42px;
     cursor: pointer
+}
+
+.form-TCqJDS {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%
+}
+
+.modalContent-1PaZ_S {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 0
+}
+
+.modalFooter-1kBXw2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    min-height: 0
 }
 
 .wrapper-18yWki {
@@ -83058,4 +83083,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.492e9141de427e2e9f30.css.map*/
+/*# sourceMappingURL=0.bf6e214e4bfb44f6d12b.css.map*/
