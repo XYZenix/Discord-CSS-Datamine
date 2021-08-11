@@ -39428,7 +39428,6 @@ html .progress-GjyFoQ {
 }
 
 .backgroundIconOptionIcon-3VYqrZ {
-    color: var(--interactive-normal);
     height: 24px;
     width: 24px
 }
@@ -39445,11 +39444,15 @@ html .progress-GjyFoQ {
     transition: transform .2s ease-out,-webkit-transform .2s ease-out
 }
 
+.backgroundOptionBlur-UnHC0H .backgroundOptionContent-3lAyb6 {
+    color: #fff
+}
+
 .backgroundOptionBlurBackground-Ctv9hd {
     position: absolute;
-    -webkit-filter: blur(4px);
-    filter: blur(4px);
-    background-image: url(/assets/51bda0c30d327d0607873e43b57cc63f.png)
+    -webkit-filter: blur(14px);
+    filter: blur(14px);
+    background-image: url(/assets/8fb53e999888053aa3d85d4c61e26959.png)
 }
 
 .slash-33-IMF {
@@ -53768,6 +53771,110 @@ html .progress-GjyFoQ {
     flex: 1
 }
 
+.headerContainer-2LeB2M {
+    width: 100%;
+    height: 146px;
+    position: relative
+}
+
+.headerImage-z5I9Ih {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.closeContainer-I_UCY1 {
+    width: 24px;
+    height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: rgba(0,0,0,.85);
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.closeIcon-FU2Lm_ {
+    width: 16px;
+    height: 16px;
+    color: var(--interactive-normal)
+}
+
+.tierImageContainer-1rnjo3 {
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+    background-color: var(--background-primary);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -48px;
+    left: calc(50% - 48px)
+}
+
+.tierImage-1VTuqK {
+    width: 100%;
+    border-radius: 50%
+}
+
+.confirmationContainer-3DfIt2 {
+    margin-top: 56px
+}
+
+.confirmationHeader-24hZJO {
+    text-align: center;
+    margin-bottom: 8px;
+    color: var(--header-secondary)
+}
+
+.confirmationHeader-24hZJO strong {
+    color: var(--header-primary)
+}
+
+.confirmationSubtitle-3F9U3t {
+    text-align: center;
+    margin-bottom: 32px
+}
+
+.confirmationSectionLabel-1N2inR {
+    font-family: var(--font-display);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .02em
+}
+
+.confirmationBenefits-1v6fzT {
+    gap: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 32px
+}
+
+.confirmationBenefitCard-12Eldr {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    padding: 16px
+}
+
+.confirmationButton-3Cph7I {
+    margin: auto
+}
+
 .container-ZWLsXL {
     width: 320px;
     margin-bottom: 100px
@@ -53872,7 +53979,9 @@ html .progress-GjyFoQ {
 .coverImage-lwz3GQ {
     width: 100%;
     height: 376px;
-    background-color: red
+    background-color: red;
+    -o-object-fit: cover;
+    object-fit: cover
 }
 
 .guildIconContainer--Z6Jgv {
@@ -84290,4 +84399,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.1ccd772ccfdb6b509148.css.map*/
+/*# sourceMappingURL=0.06910442bd766cb5eb18.css.map*/
