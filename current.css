@@ -39364,19 +39364,28 @@ html .progress-GjyFoQ {
     max-height: 70vh
 }
 
-.upsell-1FEWDr {
+.notice-ZSe05e {
     background-color: var(--background-tertiary);
     border-radius: 4px;
+    padding: 8px
+}
+
+.notice-ZSe05e,.noticeLeft-18mVYJ {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    padding: 8px
+    align-items: center
 }
 
-.icon-7ZKQ7Y {
+.noticeLeft-18mVYJ {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.icon-2-jrW5 {
     width: 24px;
     height: 24px;
     margin-right: 8px;
@@ -39384,14 +39393,11 @@ html .progress-GjyFoQ {
     flex-shrink: 0
 }
 
-.text-bmWeKd {
+.text-2Jge2Q {
     -webkit-box-flex: 1;
     -ms-flex: 1;
-    flex: 1
-}
-
-.cta-1x8uJt {
-    margin-left: 16px
+    flex: 1;
+    margin-right: 16px
 }
 
 .spacingTop24-2TKHkv {
@@ -74645,6 +74651,26 @@ html .tabBadge-3smxHS {
     margin-left: 20px
 }
 
+.shinyButton-1uRrvk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.shinyButtonIcon-2gAJS9 {
+    margin-right: 4px
+}
+
+.premiumInlineNotice-159eYs {
+    margin-bottom: 16px
+}
+
 .info-1VyQPT {
     padding: 8px 10px;
     text-transform: capitalize;
@@ -76968,6 +76994,12 @@ html .tabBadge-3smxHS {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
+}
+
+.marketingUnsubscribeButton-AVj4Xc {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    padding: 0
 }
 
 .notificationSound-3D6eyn {
@@ -84889,4 +84921,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.274f428d159d46a9395c.css.map*/
+/*# sourceMappingURL=0.849549cab81de7dd47fa.css.map*/
