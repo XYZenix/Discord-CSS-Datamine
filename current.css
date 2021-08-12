@@ -39949,6 +39949,11 @@ html .progress-GjyFoQ {
     margin: 0 2px
 }
 
+.button-2DY_JT {
+    margin-right: 16px;
+    border-radius: 16px
+}
+
 .pro-1T8RK7 {
     text-transform: uppercase
 }
@@ -56393,6 +56398,10 @@ strong {
 
 .actionIcon-PgcMM2:active {
     color: var(--interactive-active)
+}
+
+.iconLive-3cjv0g {
+    color: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%)!important
 }
 
 .container-3JKcAb {
@@ -84880,4 +84889,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.f1d4cf9a0a4e8a44698d.css.map*/
+/*# sourceMappingURL=0.274f428d159d46a9395c.css.map*/
