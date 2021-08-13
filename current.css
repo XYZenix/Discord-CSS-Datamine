@@ -33884,6 +33884,10 @@ html .progress-GjyFoQ {
     color: #86dcc5
 }
 
+.theme-dark .customRoleIcon-2ujuNP,.theme-light .customRoleIcon-2ujuNP {
+    color: #d09aff
+}
+
 .ctaBar-2UsjF2 {
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -55825,6 +55829,42 @@ strong {
 
 .errorText-2qrOUj {
     color: #fff
+}
+
+.container-2ZLNwx {
+    margin-bottom: 24px
+}
+
+.guildContainer-1_yUUm {
+    padding: 16px;
+    border: 1px solid var(--background-modifier-accent);
+    border-radius: 8px
+}
+
+.header-J9BK8w {
+    color: var(--header-secondary);
+    text-transform: uppercase
+}
+
+.header-J9BK8w,.hubInfo-3nfsnU {
+    margin-bottom: 8px
+}
+
+.hubInfo-3nfsnU {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.hubIcon-iaf-pB {
+    margin-right: 8px
+}
+
+.guildName-2jeHdI {
+    font-weight: 600
 }
 
 .headerContainer-1_v1NT {
@@ -85235,4 +85275,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.71b91d8df10cd82a8b44.css.map*/
+/*# sourceMappingURL=0.318436347b6adb18b86a.css.map*/
