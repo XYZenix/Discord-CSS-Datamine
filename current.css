@@ -35239,7 +35239,10 @@ html .progress-GjyFoQ {
 .command-2EsN1V {
     display: inline-block;
     color: var(--brand-experiment);
-    font-weight: 500;
+    font-weight: 500
+}
+
+.clickableCommand-1wpIdr {
     cursor: pointer
 }
 
@@ -39657,6 +39660,10 @@ html .progress-GjyFoQ {
     max-height: 70vh
 }
 
+.tag-2eAWqi {
+    text-transform: uppercase
+}
+
 .notice-ZSe05e {
     background-color: var(--background-tertiary);
     border-radius: 4px;
@@ -39707,12 +39714,22 @@ html .progress-GjyFoQ {
 }
 
 .backgroundHeader-1XLrO1 {
+}
+
+.backgroundHeader-1XLrO1,.backgroundHeaderLeft-1ABfi9 {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between
+    display: flex
+}
+
+.backgroundHeaderLeft-1ABfi9 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.betaTag-ECPmWf {
+    margin-left: 4px
 }
 
 .centerTooltip-1AwOoQ {
@@ -39888,7 +39905,7 @@ html .progress-GjyFoQ {
     align-items: center
 }
 
-.newBadge-6z-U9G {
+.badge-ylPMyP {
     margin-left: 4px;
     text-transform: uppercase
 }
@@ -85307,4 +85324,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.34deefbe8c6c6c4ac35d.css.map*/
+/*# sourceMappingURL=0.9e1feec796a815c80d0d.css.map*/
