@@ -22291,7 +22291,7 @@ img[alt] {
 
 .roleIcon-1_1CJy {
     display: inline-block;
-    vertical-align: text-bottom;
+    vertical-align: middle;
     overflow: hidden
 }
 
@@ -22304,8 +22304,11 @@ img[alt] {
     border-radius: 50%
 }
 
+.tooltip-22PiTb {
+    text-align: center
+}
+
 .tooltipName-3sS0ku {
-    text-align: center;
     margin-bottom: 2px
 }
 
@@ -85151,4 +85154,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.db21c81533496847c83b.css.map*/
+/*# sourceMappingURL=0.826aa0ff63ada703f10c.css.map*/
