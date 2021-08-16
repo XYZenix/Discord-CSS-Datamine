@@ -39738,23 +39738,51 @@ html .progress-GjyFoQ {
     margin-left: 4px
 }
 
-.centerTooltip-1AwOoQ {
+.tooltip-Vs2HJU {
+    max-width: 244px;
     text-align: center
 }
 
 .backgroundUploadClickArea-VIZvmA {
-    position: relative
-}
-
-.backgroundUploadIcon-1OuiDo {
-    height: 16px;
-    width: 16px;
-    color: var(--interactive-normal);
+    position: relative;
     cursor: pointer
 }
 
-.backgroundUploadIcon-1OuiDo:hover {
+.backgroundUploadClickArea-VIZvmA:hover .backgroundUploadIcon-1OuiDo {
     color: var(--interactive-active)
+}
+
+.backgroundUploadIconBase-3Y_gqP {
+    height: 16px;
+    width: 16px;
+    -webkit-transition: background-color .2s ease;
+    transition: background-color .2s ease
+}
+
+.backgroundUploadIcon-1OuiDo {
+    color: var(--interactive-normal)
+}
+
+.backgroundUploadIconDisabled-3IzDiu {
+    color: var(--interactive-muted)
+}
+
+.backgroundCustomUpsellTooltipInner-160RF- {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.backgroundCustomUpsellTooltipIcon-siX72v {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    color: var(--text-normal);
+    -ms-flex-negative: 0;
+    flex-shrink: 0
 }
 
 .backgroundUpsell-1mW4tw {
@@ -39838,15 +39866,39 @@ html .progress-GjyFoQ {
     transition: transform .2s ease-out,-webkit-transform .2s ease-out
 }
 
-.backgroundOptionBlur-1R86yP .backgroundOptionContent-24R4fn {
+.backgroundOptionBlurred-2TpdE8 .backgroundOptionContent-24R4fn {
     color: #fff
 }
 
-.backgroundOptionBlurBackground-3c3gSC {
+.backgroundOptionBackgroundBlurred-2J0z6O {
     position: absolute;
     -webkit-filter: blur(14px);
-    filter: blur(14px);
+    filter: blur(14px)
+}
+
+.backgroundOptionBlurBackground-3c3gSC {
     background-image: url(/assets/8fb53e999888053aa3d85d4c61e26959.png)
+}
+
+.backgroundCustomInlineUpsellBackground-1q8bd1 {
+    background-image: url(/assets/e841cc3a7606917217af4f904f49265f.png)
+}
+
+.backgroundCustomInlineUpsell-1aMMlC {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.backgroundCustomInlineUpsellIcon-GmWo_F {
+    width: 14px;
+    height: 14px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 4px
 }
 
 .content-3n1cMX {
@@ -44365,11 +44417,16 @@ html .progress-GjyFoQ {
     align-items: center
 }
 
-.iconContainer-2h8jYA {
-    height: 20px
+.nameContainer-2wY6sG {
+    min-width: 0
 }
 
-.icon-IkZExu,.overrideHeader-367JNH {
+.icon-IkZExu {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: 20px
 }
 
 .overrideHeader-367JNH {
@@ -44404,8 +44461,19 @@ html .progress-GjyFoQ {
     opacity: 0
 }
 
+.channelNameContainer-1PGmUU {
+    overflow: hidden;
+    padding: 0 10px
+}
+
 .channelName-28iMRJ {
     font-weight: 600
+}
+
+.channelName-28iMRJ,.channelNameByline-R73-tU {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
 }
 
 .channelNameByline-R73-tU {
@@ -85138,4 +85206,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.55238fea430d9a070662.css.map*/
+/*# sourceMappingURL=0.8632bbb07c6a83d07798.css.map*/
