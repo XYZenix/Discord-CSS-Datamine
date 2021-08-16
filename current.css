@@ -21999,7 +21999,8 @@ img[alt] {
 
 .avatarUploaderInner-KkYu-S {
     width: 80px;
-    height: 80px
+    height: 80px;
+    background-color: var(--background-secondary)
 }
 
 .disabled-1uvjrp {
@@ -85206,4 +85207,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8632bbb07c6a83d07798.css.map*/
+/*# sourceMappingURL=0.4163e6b51ca214a9753a.css.map*/
