@@ -17379,6 +17379,48 @@ img[alt] {
     color: var(--text-positive)
 }
 
+.notice-ZSe05e {
+    background-color: var(--background-tertiary);
+    border-radius: 4px;
+    padding: 8px
+}
+
+.notice-ZSe05e,.noticeLeft-18mVYJ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.noticeLeft-18mVYJ {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.icon-2-jrW5 {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.text-2Jge2Q {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-right: 16px
+}
+
+.nitroPreviewUpsell-3z-Yek {
+    border-radius: 5px 5px 0 0;
+    padding-right: 0;
+    padding-left: 12px
+}
+
 .modalContent-nFuWe- {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -39662,42 +39704,6 @@ html .progress-GjyFoQ {
 
 .tag-2eAWqi {
     text-transform: uppercase
-}
-
-.notice-ZSe05e {
-    background-color: var(--background-tertiary);
-    border-radius: 4px;
-    padding: 8px
-}
-
-.notice-ZSe05e,.noticeLeft-18mVYJ {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.noticeLeft-18mVYJ {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1
-}
-
-.icon-2-jrW5 {
-    width: 24px;
-    height: 24px;
-    margin-right: 8px;
-    -ms-flex-negative: 0;
-    flex-shrink: 0
-}
-
-.text-2Jge2Q {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-right: 16px
 }
 
 .spacingTop24-2TKHkv {
@@ -74256,8 +74262,12 @@ html .tabBadge-3smxHS {
 }
 
 .gifPicker-3KRGuU {
-    margin-top: 16px;
-    height: 600px
+    padding-top: 16px;
+    max-height: 560px;
+    height: 100%;
+    width: 440px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
 }
 
 .modalContent-x0Ifz- {
@@ -74278,7 +74288,7 @@ html .tabBadge-3smxHS {
     border-radius: 4px;
     border: 1px solid var(--interactive-muted);
     cursor: pointer;
-    padding: 16px 32px;
+    padding: 16px;
     width: 192px;
     height: 192px
 }
@@ -74303,10 +74313,14 @@ html .tabBadge-3smxHS {
     width: 128px;
     background-color: var(--brand-experiment);
     border-radius: 128px;
-    margin-bottom: 16px;
+    margin: 0 auto;
     border: 1px solid var(--brand-experiment);
     -webkit-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
+    overflow: hidden
+}
+
+.contentCircle-1F63FJ,.optionBoxText-1xEJV3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -74315,14 +74329,20 @@ html .tabBadge-3smxHS {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    overflow: hidden
+    align-items: center
 }
 
 .optionBoxText-1xEJV3 {
-    text-align: center;
+    margin-top: 16px;
     -webkit-transition: color .2s ease-in-out;
-    transition: color .2s ease-in-out
+    transition: color .2s ease-in-out;
+    line-height: 20px
+}
+
+.nitroWheel-3e6Emc {
+    margin-right: 6px;
+    width: 20px;
+    height: 20px
 }
 
 .uploadIcon-2eR-7r {
@@ -85118,4 +85138,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.3b247f47d043ed05eab8.css.map*/
+/*# sourceMappingURL=0.55238fea430d9a070662.css.map*/
