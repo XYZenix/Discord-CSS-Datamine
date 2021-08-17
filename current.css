@@ -39882,7 +39882,7 @@ html .progress-GjyFoQ {
 }
 
 .backgroundCustomInlineUpsellBackground-1q8bd1 {
-    background-image: url(/assets/e841cc3a7606917217af4f904f49265f.png)
+    background-image: url(/assets/9ebd0a2e1b3cd71bd39d13799b7af825.png)
 }
 
 .backgroundCustomInlineUpsell-1aMMlC {
@@ -43179,6 +43179,50 @@ html .progress-GjyFoQ {
     display: -ms-flexbox;
     display: flex;
     grid-gap: 8px
+}
+
+.content-3Fb-7l {
+    padding-top: 24px
+}
+
+.channelName-32U9u8,.inline-1cYkS5 {
+    display: inline
+}
+
+.channelName-32U9u8 {
+    color: var(--header-primary)
+}
+
+.icon-UHpqd_ {
+    margin: -4px 4px;
+    display: inline
+}
+
+.locationIcon-1GVB_X {
+    margin: -4px 4px -4px 2px;
+    color: var(--header-primary)
+}
+
+.textContainer-34_7tE {
+    padding-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.subheader-1G5jWY {
+    margin: 8px 0 16px;
+    text-align: center
 }
 
 .blockedUsersContainer-nHc9yx {
@@ -85207,4 +85251,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.4163e6b51ca214a9753a.css.map*/
+/*# sourceMappingURL=0.cf0196a37fa3f54071b2.css.map*/
