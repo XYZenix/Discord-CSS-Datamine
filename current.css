@@ -54518,91 +54518,6 @@ html .progress-GjyFoQ {
     background-image: url(/assets/6995a016684f7b81cea3f33964755942.svg)
 }
 
-.video-1j0A3v {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-color: var(--background-tertiary);
-    padding: 4px
-}
-
-.videoFrame-2gHLyK {
-    position: absolute;
-    left: -40px;
-    top: -42px;
-    width: 567px
-}
-
-.content-gjD8J2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 32px 24px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: center
-}
-
-.header-wUqZez {
-    margin-bottom: 8px
-}
-
-.features-1tMYEH {
-    margin-top: 24px
-}
-
-.features-1tMYEH>li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 320px;
-    text-align: left;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-bottom: 24px
-}
-
-.features-1tMYEH>li:last-child {
-    margin-bottom: 0
-}
-
-.icon-1HfuQI {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-color: var(--background-tertiary);
-    border-radius: 100%;
-    color: var(--header-secondary);
-    width: 40px;
-    height: 40px;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    margin-right: 16px
-}
-
-.footer-2sB7av {
-    margin: 0 24px 24px
-}
-
 .page-10_ecs {
     background-color: var(--background-floating);
     width: 100%;
@@ -56435,7 +56350,10 @@ strong {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    overflow: auto
+    overflow: auto;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
 }
 
 .container-2QXVMm,.header-2Lx45W {
@@ -85500,4 +85418,4 @@ html .invoiceCancelRow-3mYhFX {
     }
 }
 
-/*# sourceMappingURL=0.8f758d5b7b8e17d21cd4.css.map*/
+/*# sourceMappingURL=0.833db288464d6b292e15.css.map*/
